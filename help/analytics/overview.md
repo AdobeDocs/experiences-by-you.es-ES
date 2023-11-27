@@ -1,15 +1,15 @@
 ---
 title: Descubra Analytics usted
-description: Contenido generado por el cliente
+description: Analytics by You incluye contenido generado por los usuarios y creado por usuarios habituales que han adquirido un nivel de experiencia e influencia con sus conocimientos de Adobe Analytics.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
 solution: Analytics
 exl-id: a8dd4631-950b-4504-9af7-7953165ef175
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 25%
+source-wordcount: '213'
+ht-degree: 22%
 
 ---
 

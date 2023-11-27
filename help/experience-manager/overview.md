@@ -1,15 +1,15 @@
 ---
 title: Descubra Experience Manager usted
-description: Contenido generado por el cliente
+description: Experience Manager by You incluye contenido generado por los usuarios y creado por usuarios comunes que han adquirido un nivel de experiencia e influencia con sus conocimientos de Adobe Experience Manager.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
 solution: Experience Manager
 exl-id: f6aa9dbd-fb4f-40fa-b607-174755a1ca9f
-source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
+source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 22%
+source-wordcount: '204'
+ht-degree: 19%
 
 ---
 
