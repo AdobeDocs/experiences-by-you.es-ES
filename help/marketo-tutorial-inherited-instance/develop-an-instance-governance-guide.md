@@ -94,7 +94,7 @@ Programe revisiones periódicas de la documentación para asegurarse de que es p
 
 ## Novedades 
 
-Comience descargando esto [plantilla simple](/help/marketo-tutorial-inheritance-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx).
+Comience descargando esto [plantilla simple](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx).
 
 Siga los pasos anteriores para desarrollar la guía y la documentación de gobernanza. A medida que avance en el proceso, tenga en cuenta las siguientes reglas:
 
