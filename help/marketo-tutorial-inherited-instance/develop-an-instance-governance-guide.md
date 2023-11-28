@@ -52,7 +52,7 @@ Una guía de gobernanza sirve como fuente fiable para la configuración de la in
 
 ### Paso 2: Identificar los elementos que se incluirán en [!DNL [!DNL Marketo Engage]] Documentación &amp; [!DNL Changelogs]
 
-El formato varía de una plataforma basada en la nube a un documento compartido. Puede diseñar el formato que se adapte a las necesidades de su organización. [Esta es una sencilla documentación y plantilla de Excel changelog](/help/marketo-tutorial-inheritance-instance/_assets/downloads/[!DNL Adobe]_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx), que cubre los elementos importantes con los que puede empezar. Se incluyen:
+El formato varía de una plataforma basada en la nube a un documento compartido. Puede diseñar el formato que se adapte a las necesidades de su organización. [Esta es una sencilla documentación y plantilla de Excel changelog](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx), que cubre los elementos importantes con los que puede empezar. Se incluyen:
 
 * Documentación
    * Nombre de plantilla de programa
