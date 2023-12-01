@@ -1,11 +1,11 @@
 ---
 user-guide-title: Experiencias de su parte
-user-guide-description: Adobe del contenido generado por el cliente
+user-guide-description: Contenido generado por el cliente de Adobe
 breadcrumb-title: Experiencias de su parte
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 69%
+ht-degree: 75%
 
 ---
 
