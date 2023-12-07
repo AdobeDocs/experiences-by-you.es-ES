@@ -1,6 +1,6 @@
 ---
 title: Descubra Analytics usted
-description: Analytics by You incluye contenido generado por los usuarios y creado por usuarios habituales que han adquirido un nivel de experiencia e influencia con sus conocimientos de Adobe Analytics.
+description: Descubra Analytics usted incluye contenido generado por los usuarios y creado por usuarios habituales que han adquirido un nivel de experiencia e influencia con sus conocimientos de Adobe Analytics.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
@@ -8,8 +8,8 @@ solution: Analytics
 exl-id: a8dd4631-950b-4504-9af7-7953165ef175
 source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 22%
+source-wordcount: '196'
+ht-degree: 23%
 
 ---
 
@@ -36,7 +36,7 @@ Lo más poderoso de [!DNL Adobe Experience Cloud] soluciones? Tú. Los usuarios 
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-    <strong>[!DNL Adobe Analytics] Pestaña Sugerencias y trucos</strong>
+    <strong>[!DNL Adobe Analytics] Sugerencias y trucos</strong>
     </a>
     </div>
     <p>
@@ -62,7 +62,7 @@ Lo más poderoso de [!DNL Adobe Experience Cloud] soluciones? Tú. Los usuarios 
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-    <strong>Cree convenciones de nomenclatura estandarizada</strong>
+    <strong>Crear convenciones de nomenclatura estandarizada</strong>
     </a>
     </div>
     <p>

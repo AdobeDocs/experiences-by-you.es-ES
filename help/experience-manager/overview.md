@@ -1,6 +1,6 @@
 ---
 title: Descubra Experience Manager usted
-description: Experience Manager by You incluye contenido generado por los usuarios y creado por usuarios comunes que han adquirido un nivel de experiencia e influencia con sus conocimientos de Adobe Experience Manager.
+description: Descubra Experience Manager usted incluye contenido generado por los usuarios y creado por usuarios habituales que han adquirido un nivel de experiencia e influencia con sus conocimientos de Adobe Experience Manager.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
@@ -8,8 +8,8 @@ solution: Experience Manager
 exl-id: f6aa9dbd-fb4f-40fa-b607-174755a1ca9f
 source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 19%
+source-wordcount: '188'
+ht-degree: 23%
 
 ---
 
@@ -36,7 +36,7 @@ Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuario
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-1.md">
-    <strong>Pestaña Sugerencias y trucos</strong>
+    <strong>Sugerencias y trucos</strong>
     </a>
     </div>
     <p>
@@ -62,7 +62,7 @@ Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuario
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
-    <strong>Pestaña Sugerencias y trucos</strong>
+    <strong>Sugerencias y trucos</strong>
     </a>
     </div>
     <p>

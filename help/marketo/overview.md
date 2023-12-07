@@ -1,6 +1,6 @@
 ---
 title: Descubra Marketo usted
-description: Marketo by You incluye contenido generado por los usuarios y creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con sus conocimientos de Adobe Marketo.
+description: Descubra Marketo usted incluye contenido generado por los usuarios y creado por usuarios habituales que han alcanzado un nivel de experiencia e influencia con sus conocimientos de Adobe Marketo.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
@@ -8,8 +8,8 @@ solution: Marketo Engage
 exl-id: 5145c189-cc92-4472-bf99-981b43c2c5ba
 source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 25%
+source-wordcount: '205'
+ht-degree: 16%
 
 ---
 
@@ -40,16 +40,16 @@ Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuario
     </a>
     </div>
     <p>
-    <em>Aprenda a navegar por la interfaz de usuario y a familiarizarse con el modo de la plataforma de [!DNL Marketo Engage].</em>
+    <em>Aprenda a navegar por la interfaz de usuario y a familiarizarse con el modo de [!DNL Marketo Engage] plataforma.</em>
     <p>
   </td>
   <td>
     <a href="/help/marketo/reporting/reporting-and-analytics.md">
-      <img alt="Creación de informes y análisis" src="https://video.tv.adobe.com/v/3419295?format=jpeg" />
+      <img alt="Informes y análisis" src="https://video.tv.adobe.com/v/3419295?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/reporting/reporting-and-analytics.md">
-    <strong>Creación de informes y análisis</strong>
+    <strong>Informes y análisis</strong>
     </a>
     </div>
     <p>

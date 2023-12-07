@@ -1,6 +1,6 @@
 ---
 title: Descubra Campaign usted
-description: Campaign by You incluye contenido generado por los usuarios y creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con sus conocimientos de Adobe Campaign.
+description: Descubra Campaign usted incluye contenido generado por los usuarios y creado por usuarios habituales que han alcanzado un nivel de experiencia e influencia con sus conocimientos de Adobe Campaign.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
@@ -9,8 +9,8 @@ thumbnail: null
 exl-id: cb9a03bd-8ce1-4681-929f-68f6ff435f6c
 source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 32%
+source-wordcount: '195'
+ht-degree: 26%
 
 ---
 
@@ -63,7 +63,7 @@ Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuario
     </a>
     <div>
       <a href="/help/campaign/10-best-practices-for-marketers.md">
-    <strong>Diez prácticas recomendadas para el éxito de Adobe Campaign para expertos en marketing</strong>
+    <strong>Diez prácticas recomendadas para el éxito de Adobe Campaign para los especialistas en marketing</strong>
     </a>
     </div>
     <p>
