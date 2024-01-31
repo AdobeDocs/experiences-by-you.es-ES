@@ -11,9 +11,9 @@ jira: KT-14103
 thumbnail: KT-14103.jpeg
 hide: false
 exl-id: e127b84d-ef92-4527-a0e6-a36af35b7ee0
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: 26805f8f9edf3a3a3a38c4cb954e07378f13920d
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Una guía de gobernanza sirve como fuente fiable para la configuración de la in
 
 ### Paso 2: Identificar los elementos que se incluirán en [!DNL [!DNL Marketo Engage]] Documentación &amp; [!DNL Changelogs]
 
-El formato varía de una plataforma basada en la nube a un documento compartido. Puede diseñar el formato que se adapte a las necesidades de su organización. [Esta es una sencilla documentación y plantilla de Excel changelog](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx), que cubre los elementos importantes con los que puede empezar. Se incluyen:
+El formato varía de una plataforma basada en la nube a un documento compartido. Puede diseñar el formato que se adapte a las necesidades de su organización. [Esta es una sencilla documentación y plantilla de Excel changelog](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx) que cubren los elementos importantes con los que puede empezar. Se incluyen:
 
 * Documentación
    * Nombre de plantilla de programa
@@ -92,7 +92,7 @@ Establezca una ubicación o repositorio central para almacenar toda la documenta
 
 Programe revisiones periódicas de la documentación para asegurarse de que es precisa y está actualizada. Se puede pasar por alto fácilmente durante las horas de mayor afluencia. Configure recordatorios de forma proactiva en el calendario para asegurarse de que su equipo realiza actualizaciones con regularidad y reflejen los cambios o las optimizaciones en los programas operativos.
 
-## Novedades 
+## ¿Qué sigue?
 
 Comience descargando esto [plantilla simple](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx).
 
