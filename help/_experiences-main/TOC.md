@@ -2,10 +2,10 @@
 user-guide-title: Experiencias de su parte
 user-guide-description: Contenido generado por el cliente de Adobe
 breadcrumb-title: Experiencias de su parte
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: ab1af7dd740f61ba1c7bf8c2ad44826a3a013fc3
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 75%
+source-wordcount: '293'
+ht-degree: 64%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 75%
 
 + [!DNL Analytics] por usted {#analytics}
    + [Información general](/help/analytics/overview.md)
-   + Introducción a [!DNL Analytics]{#intro-to-analytics}
+   + Introducción a [!DNL Analytics] {#intro-to-analytics}
       + Transición desde otras plataformas {#transitioning-from-other-platforms}
          + [Transición desde [!DNL Google Analytics]](/help/analytics/intro-to-analytics/transitioning-from-other-platforms/transition-from-google-analytics.md)
    + Analysis Workspace {#analysis-workspace}
@@ -63,8 +63,8 @@ ht-degree: 75%
    + [!DNL Campaign Standard] {#campaign-standard}
       + [Solución de problemas para especialistas en marketing](/help/campaign/acs/troubleshooting-for-marketers.md)
    + Estrategia y liderazgo mental{#strategy}
-      + [Diez prácticas recomendadas para el éxito de  [!DNL Adobe Campaign]  de los expertos en marketing](/help/campaign/10-best-practices-for-marketers.md)
-+ Descubra Experience Manager usted {#experience-manager}
+      + [Diez prácticas recomendadas para [!DNL Adobe Campaign] éxito para los especialistas en marketing](/help/campaign/10-best-practices-for-marketers.md)
++ Experience Manager por usted {#experience-manager}
    + [Información general](/help/experience-manager/overview.md)
    + AEM Sites {#sites}
       + [Evaluación de madurez de AEM Sites](/help/experience-manager/sites/expert-resources/maturity-assessment.md)
@@ -73,8 +73,10 @@ ht-degree: 75%
          + [AEM Consejos y trucos para el campeón de la: Sesión 2](/help/experience-manager/sites/expert-resources/champion-tips-2.md)
    + AEM as a Cloud Service {#cloud-service}
       + [[!DNL Cloud Manager] Guía de incorporación](/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md)
-      + [[!DNL Cloud Manager] Tipos de entornos](/help/experience-manager/cloud-service/expert-resources/aem-champions/environment-types.md)
-      + [[!DNL Cloud Manager] IU](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-ui.md)
+      + [[!DNL Cloud Manager] Tipos de entorno](/help/experience-manager/cloud-service/expert-resources/aem-champions/environment-types.md)
+      + [IU de [!DNL Cloud Manager]](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-ui.md)
+      + Prácticas recomendadas {#cloud-manager-best-practices}
+         + [Uso de registros en Cloud Manager](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-using-logs.md)
 + [!DNL Marketo Engage] por usted {#marketo-engage}
    + [Información general](/help/marketo/overview.md)
    + Aspectos básicos {#fundamentals}
@@ -83,5 +85,5 @@ ht-degree: 75%
    + Programas y campañas {#programs-and-campaigns}
       + [Programas de correo electrónico](/help/marketo/programs/email-programs.md)
       + [Programas de participación](/help/marketo/programs/engagement-programs.md)
-   + Creación de informes y análisis {#reporting-and-analytics}
-      + [Creación de informes y análisis](/help/marketo/reporting/reporting-and-analytics.md)
+   + Informes y análisis {#reporting-and-analytics}
+      + [Informes y análisis](/help/marketo/reporting/reporting-and-analytics.md)
