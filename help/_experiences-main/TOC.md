@@ -2,10 +2,10 @@
 user-guide-title: Experiencias de su parte
 user-guide-description: Contenido generado por el cliente de Adobe
 breadcrumb-title: Experiencias de su parte
-source-git-commit: ab1af7dd740f61ba1c7bf8c2ad44826a3a013fc3
+source-git-commit: 90e94736bc5f29829211cb954f6b9d54684c8eb7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 64%
+source-wordcount: '297'
+ht-degree: 63%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 64%
          + [Desbloquear el poder del uso compartido de solo vista](/help/analytics/analysis-workspace/curate-and-share-projects/unlocking-the-power-of-view-only-sharing.md)
       + Pestaña Sugerencias y trucos {#tips-and-tricks}
          + [Sugerencias y trucos al hacer clic con el botón derecho para flujos de trabajo más eficientes](/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md)
+         + [#Tags: su asistente personal](/help/analytics/analysis-workspace/tips-and-tricks/tags-your-personal-assistant.md)
    + Administración {#administration}
       + Habilidades clave de administración {#key-admin-skills}
          + [Creación de una comunidad empoderada](/help/analytics/administration/key-admin-skills/empowered-community.md)
