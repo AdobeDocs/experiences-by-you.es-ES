@@ -9,9 +9,9 @@ duration: 36000
 last-substantial-update: 2024-02-22T00:00:00Z
 jira: KT-14963
 thumbnail: KT-14963.jpeg
-source-git-commit: ec969f6bf8d8fc3b2d60f9d30685646cc32dab95
+source-git-commit: 718a4fcd0ae06f544d1a78926b0c4d13cda8808a
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -23,29 +23,30 @@ _Descubra cómo #TAGS optimizar su análisis digital y actuar como asistente per
 
 Todo el mundo recuerda jugar un buen juego de etiqueta o incluso esconderse y buscar, cuando éramos niños, ¿verdad?
 
-![Niños jugando](assets/kids-playing.jpeg)
+![Niños jugando](assets/kids-playing2.jpeg)
 
 La mejor parte fue cuando fuimos nosotros los que volvimos a la base (tag) o nos quedamos escondidos durante más tiempo (ocultar y buscar) hasta que escuchamos a alguien gritar, &quot;¡Olly Olly bueyes libres!&quot; (&quot;Todos vosotros salid libres&quot;, derivado del alemán: &quot;alle alle auch sind frei!&quot;).  Lo que en última instancia significaba que todos los demás habían llegado a la base, habían sido encontrados, o alguien fue etiquetado como &quot;eso&quot;, y todavía estábamos libres para jugar otra ronda!
 
 La parte importante es si el juego era de etiqueta o esconderse y buscar, estábamos jugando una actividad divertida donde todos fueron encontrados una y otra vez.
 
-Cuando recurrimos a nuestros trabajos diarios, la búsqueda de cosas parece volverse mucho menos aventurera y mucho más tediosa. Sin embargo, no tiene por qué serlo si estamos dispuestos a poner un poco de trabajo en el front-end.  Una frase bien conocida por mi familia es, &quot;La mayor parte del dolor es autoinfligido&quot;, pero una frase más famosa, aunque puede parecer un poco anticuada en estos días que también es muy relevante aquí es, &quot;Una puntada en el tiempo ahorra nueve&quot;. - Benjamin Franklin
+Cuando recurrimos a nuestros trabajos diarios, la búsqueda de cosas parece volverse mucho menos aventurera y mucho más tediosa. Pero no tiene por qué serlo si estamos dispuestos a poner un poco de trabajo en el front-end.  Una frase bien conocida por mi familia es: &quot;La mayor parte del dolor es autoinfligido&quot;. Sin embargo, aunque puede parecer un poco anticuado en estos días, hay una frase más famosa que también es muy relevante en esta situación: &quot;Una puntada en el tiempo ahorra nueve&quot;. - Benjamin Franklin
 
-Ahora que tengo su atención, permítanme comenzar con una pregunta:
+Ahora que tengo su atención, permítanme comenzar haciendo una pregunta:
 
 
-![Contorno de mano](assets/hand-outline.png) ![¿Cuántos de ustedes](assets/how-many-of-you.png)
+![¿Cuántos de ustedes](assets/how-many-of-you.jpg)
 
-¿Cuántos de ustedes han hecho esto?  Ha empezado a buscar un elemento **dimensión**, **intervalo de fecha**, **segmento**, o **métrica calculada**, y te inundas con esta lista gigante (ver **Figura 1**) de todo lo que NO desea.  ***Análisis ****Workspace*** piensa que está tratando de ser útil, pero en realidad, solo ha tenido éxito en no ser útil en absoluto.  Bastante tonto, ¿estoy en lo cierto?
+¿Cuántos de ustedes han hecho esto?  Ha comenzado a buscar un **dimensión**, **intervalo de fecha**, **segmento**, o **métrica calculada**, y te inundas con esta lista gigante (ver **Figura 1**) de todo lo que NO desea.  ***Analysis Workspace*** piensa que está tratando de ser útil, pero en realidad, solo ha tenido éxito en no ser útil en absoluto.
 
-![figura 1 búsqueda del año](assets/figure-1-search-for-year.png)
+![figura 1 búsqueda del año](assets/tags-example-year.jpg)
 
 *Figura 1: Búsqueda de &quot;año&quot;*
 
 Mejor aún, has ido y creado algunos *nuevo* **intervalos de fechas** y **segmentos**, y como son &quot;tan nuevos&quot;, pensaría que al menos estos artículos deberían ser rápidos y fáciles de encontrar la próxima vez que entrara ***Adobe Workspace***. ¿Tengo razón?
 
-Odio reventar tu burbuja, pero intenta irte ***Adobe Analytics*** después de haber creado a todos sus nuevos &quot;amiguitos&quot;, y cuando regresa, la mayoría de ellos simplemente se han escapado.  Si tienes suerte, *quizás* uno de ellos se quedó atrás para esperarte, pero los demás ya se fueron hace mucho tiempo y juegan a las escondidas.
+Bueno, odio reventar tu burbuja, pero intenta irte ***Adobe Analytics*** después de crear a todos sus nuevos &quot;amiguitos&quot;, y cuando regresan, la mayoría simplemente se han escapado.  Si tienes suerte, *quizás* uno de ellos se quedó atrás para esperarte, pero los demás ya se fueron hace mucho tiempo y juegan a las escondidas.
 
+## Reescribir el libro de reglas
 
 Así que, ese ha sido el juego desde el primer día, pero ¿y si pudiéramos cambiar las reglas?
 
@@ -66,6 +67,7 @@ De todos modos, la razón por la que estamos hablando **#tags** Esto es porque s
 
 &quot;Oh, hey, pero eso es fácil.  Siempre puedo volver más tarde y actualizar esas cosas en un par de pausas para almorzar, o tal vez incluso mientras estoy sentado en una conferencia y... *ponlo todo al día*,&quot; dijo todo el que NUNCA LO HIZO.
 
+## Qué hay en la caja de herramientas
 
 **Adobe** incluso ha hecho a NOSOTROS EL PUEBLO el servicio de crear un selecto conjunto de #TAGS directamente de la caja, porque, bueno... tenían que comenzar en algún lugar.  Voy a proporcionar algunas advertencias adicionales en solo un poco, pero lo que estoy demostrando primero le dará el mayor golpe para su dinero!
 
@@ -75,25 +77,28 @@ Antes de crear uno propio, lo que primero debe saber es cómo buscar uno existen
 
 Tanto si se encuentra en un proyecto nuevo como si ya existe, solo necesita ir a la barra de búsqueda de componentes, escribir un #hashtag, junto con uno de estos términos principales (solo ver el vídeo) y pulsar INTRO; o bien, puede empezar a desplazarse hasta encontrar un término reconocible.
 
-PRIMERA ADVERTENCIA: Algo que hay que tener en cuenta es que, si se mantiene fiel a las convenciones de nomenclatura adecuadas al empezar a crear su *poseer* etiquetas, casi cada *con mayúsculas* etiqueta que ve *debería*, y tendré cuidado con la palabra &quot;debería&quot;, ser un **Adobe**, un elemento etiquetado predeterminado.  Esto significa que debe asegurarse de que todas las etiquetas que cree estén en MINÚSCULAS.
+PRIMERA ADVERTENCIA: Algo que hay que tener en cuenta es que, si se mantiene fiel a las convenciones de nomenclatura adecuadas al empezar a crear su *poseer* etiquetas, casi cada *con mayúsculas* etiqueta que ve *debería*, y tendré cuidado con la palabra &quot;debería&quot;, ser un **Adobe**, un elemento etiquetado predeterminado.  Esto significa que debe asegurarse de que todas las etiquetas que cree estén en **minúsculas**.
 
+## Creación de su propio asistente personal
 
 Ahora, volvamos a lo que dije antes sobre un &quot;asistente personal&quot;.  ¿Y si les dijera que podrían empezar a seleccionar algunos de sus componentes favoritos existentes y luego hacerlos los los ÚNICOS que ven?
 
-![Etiquetas en 3 pantallas](assets/3-screens-tags.png)
+![Etiquetas en 3 pantallas](assets/3-screens-tags.jpg)
 
 
 1. Si empieza a seleccionar varios componentes (CTRL+CLIC IZQUIERDO), verá que algunos iconos aparecen en la parte superior.  Uno de ellos será el icono de la ETIQUETA.
 1. Haga clic en él y, a continuación, se abrirá el cuadro de diálogo ETIQUETAS, donde podrá ver las etiquetas existentes asociadas con esos componentes.
-1. Es desde esta pantalla donde puede asignar cualquier **adicional/nuevo** etiquetas que desee en este momento.  (ejemplo: **test\_v1**)
+1. Es desde esta pantalla donde puede asignar cualquier **adicional/nuevo** etiquetas que desee en este momento.  (Ejemplo: **test\_v1**)
 1. Para añadir una etiqueta NEW a cualquier componente, simplemente pulse **INTRODUCIR** en el teclado antes de hacer clic en el botón SAVE.
 1. Luego, cuando haya asignado su nueva ETIQUETA, puede buscarla introduciendo hashtag(#), y su nueva ETIQUETA.
 
 Disculpa el juego de palabras, pero &quot;#tag, ¡lo eres!&quot;  ¡Acaba de ahorrarse muchas menos búsquedas en el futuro!  Ahora puede ver dónde entrarán en juego finalmente su diligencia debida y su arduo trabajo.
 
-Digamos que trabajamos en el... **Industria de viajes** y estamos armando un informe para su... **horario laboral principal**.  Si empezáramos a buscar solo el término &quot;VIAJAR&quot;, podríamos obtener muchos más resultados de los que podríamos necesitar.  De hecho, si acabamos de sacar un **Workspace** con la mitad de los resultados que necesitábamos, los componentes aún no estarían disponibles.
+## Poner a trabajar a su asistente personal
 
-![Etiquetas torcidas](assets/crooked-tags.png)
+Digamos que trabajamos en el... **Industria de viajes** y estamos armando un informe para su... **horario laboral principal**.  Si empezáramos a buscar solo el término &quot;VIAJAR&quot;, podríamos obtener muchos más resultados de los que podríamos necesitar.  De hecho, si acabamos de sacar un **Workspace** incluso con la mitad de los resultados que necesitábamos, los componentes aún no seguirían estando disponibles.
+
+![Etiquetas torcidas](assets/tags-example-travel.jpg)
 
 Sin embargo, si a lo largo de nuestro trabajo diario hemos estado etiquetando regularmente nuestros **segmentos**, **métricas**, y otros datos pertinentes **componentes** a medida que avanzamos, y tal vez crear solo unos pocos nuevos en el momento en que creamos nuestro nuevo **workspace** Sin embargo, hemos demostrado seriamente cómo podemos reescribir el libro de reglas a nuestro favor.
 
@@ -116,9 +121,11 @@ A medida que continúes haciendo de esto parte de tus hábitos de trabajo y mejo
 
 ![Mundo real 2](assets/real-world-2.png)
 
+## ¡Ahora sal ahí y juega!
+
 Claro, esconderse y buscar era divertido cuando era niño, pero ahora somos adultos.  No tenemos tiempo para buscar constantemente las cosas importantes, así que asegúrate de hacerte un favor y no pierdas más tiempo peleando con la herramienta.  Vuelva a escribir las reglas y haga que la herramienta funcione correctamente.
 
-## ¡Tag, lo eres!
+### ¡Tag, lo eres!
 
 
 ## Autor
