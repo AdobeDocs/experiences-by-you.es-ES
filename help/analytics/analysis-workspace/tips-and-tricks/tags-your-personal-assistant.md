@@ -9,7 +9,7 @@ duration: 36000
 last-substantial-update: 2024-02-22T00:00:00Z
 jira: KT-14963
 thumbnail: KT-14963.jpeg
-source-git-commit: 718a4fcd0ae06f544d1a78926b0c4d13cda8808a
+source-git-commit: e63d6cf68e70622ddcdbe92064d84ad72ca483c3
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Bueno, odio reventar tu burbuja, pero intenta irte ***Adobe Analytics*** despué
 
 Así que, ese ha sido el juego desde el primer día, pero ¿y si pudiéramos cambiar las reglas?
 
-De hecho, ¿qué pasaría si pudiéramos crear nuestro propio asistente personal para cambiar esos roles para siempre?
+De hecho, ¿y si pudiéramos crear nuestro propio asistente personal para cambiar esas reglas para siempre?
 
 En serio, de lo que estamos hablando aquí, ¡es de ETIQUETAS!  Eso es correcto!!  Es nuestro amigo el hashtag, antes conocido como &quot;número&quot; y &quot;signo de almohadilla&quot;, tal como lo hemos visto en nuestros teléfonos.  Los músicos de por ahí incluso lo llamamos &quot;agudo&quot;.
 
