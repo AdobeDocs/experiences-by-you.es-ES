@@ -7,11 +7,10 @@ role: User
 level: Beginner
 kt: 9830
 thumbnail: 34749.jpg
-exl-id: b2be6081-a1c0-4435-affb-454ed5a74662
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: c6c9e5b19c601592811151450aecd8dfdd084ff6
 workflow-type: tm+mt
-source-wordcount: '3290'
-ht-degree: 77%
+source-wordcount: '3323'
+ht-degree: 72%
 
 ---
 
@@ -43,7 +42,7 @@ Ambos [!DNL Adobe Analytics] y GOOGLE [!DNL Analytics] permite personalizar la p
 
 ##### 2.1.1.1. Espacio de trabajo/Pantalla de inicio personalizada ([!DNL Adobe Analytics])
 
-[!DNL Adobe Analytics] no presume de crear un informe generado previamente para que todos los usuarios lo vean en el inicio de sesión. La página principal predeterminada lleva al usuario a la pantalla de aterrizaje del Espacio de trabajo, que muestra a cada usuario todos los informes del espacio de trabajo que han creado o que se han compartido con él. Además, cada uno puede establecer cualquiera de estos informes como su pantalla de inicio si así lo desea.
+[!DNL Adobe Analytics] no presume de crear un informe generado previamente para que todos los usuarios lo vean al iniciar sesión. La página principal predeterminada lleva al usuario a la pantalla de aterrizaje del Espacio de trabajo, que muestra a cada usuario todos los informes del espacio de trabajo que han creado o que se han compartido con él. Además, cada uno puede establecer cualquiera de estos informes como su pantalla de inicio si así lo desea.
 
 ![workspace-create-project](assets/ga-to-aa_1.png)
 
@@ -55,7 +54,7 @@ Más adelante, en esta guía, hay más detalles sobre el espacio de trabajo. Con
 
 
 
-##### 2.1.1.2. Perspectivas de la pantalla de inicio (Google [!DNL Analytics])
+##### 2.1.1.2. Perspectivas de la pantalla de inicio (Google) [!DNL Analytics])
 
 * Google [!DNL Analytics] La pantalla de inicio tiene algunas visualizaciones creadas previamente para usted. Estas cubren cosas como las siguientes:
 * Usuarios, Sesiones, Tasa de salida hacia otro sitio y Duración de la sesión en los últimos siete días
@@ -71,7 +70,7 @@ Los usuarios de GA4 tienen más opciones para personalizar y añadir sus propios
 
 ![google-analytics-interfaces](assets/ga-to-aa_2.png)
 
-Probablemente, esto es lo que más se echa de menos en [!DNL Adobe Analytics]. No tiene una pantalla de inicio generada previamente. Sin embargo, puede configurar fácilmente un Espacio de trabajo personalizado para replicar lo que necesita de la lista anterior y establecerlo como su pantalla de aterrizaje. Hay más información más adelante (o consulte la sección 2.1.2.1 [!DNL Adobe] Workspace).
+Esto es probablemente lo que más se echa de menos en [!DNL Adobe Analytics]. No tiene una pantalla de inicio generada previamente. Sin embargo, puede configurar fácilmente un Espacio de trabajo personalizado para replicar lo que necesita de la lista anterior y establecerlo como su pantalla de aterrizaje. Hay más información más adelante (o consulte la sección 2.1.2.1 [!DNL Adobe] Workspace).
 
 #### 2.1.2. Report Builder en el sitio
 
@@ -158,7 +157,7 @@ Tanto Google como [!DNL Adobe] tienen algunos informes navegables que son tablas
 
 ##### 2.1.3.1. [!DNL Adobe Analytics] Informes
 
-[!DNL Adobe Analytics] también tiene una sección Informes, aunque se está eliminando gradualmente a favor de Analysis Workspace. De hecho, se ha anunciado el fin de la vida útil de esta interfaz, ya que Espacio de trabajo es una herramienta más potente. La mayoría de estas tablas se pueden crear y modificar con más facilidad. [!DNL Adobe]Las secciones de están mucho más divididas, y esto puede ser desalentador:
+[!DNL Adobe Analytics] también tiene una sección Informes, aunque se está eliminando gradualmente en favor de Analysis Workspace. De hecho, se ha anunciado el fin de la vida útil de esta interfaz, ya que Espacio de trabajo es una herramienta más potente. La mayoría de estas tablas se pueden crear y modificar con más facilidad. [!DNL Adobe]Las secciones de están mucho más divididas, y esto puede ser desalentador:
 
 ![analytics-site-metrics](assets/ga-to-aa_6.png)
 
@@ -268,10 +267,10 @@ Sin embargo, subrayaré que recomendaría utilizar ambos [!DNL Adobe Analytics] 
 
 Hay muchos recursos disponibles más allá de esta guía, que pueden ayudar a mejorar su estrategia:
 
-* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/?lang=es#home): contiene tutoriales, vídeos, documentación y foros de la comunidad
-* [[!DNL Adobe] Grupos de usuarios de ](https://analytics-augs.adobe.com/): un centro de eventos de la comunidad para ayudar a los usuarios a conectar entre sí y mejorar sus implementaciones.
+* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/?lang=es#home) : contiene tutoriales, vídeos, documentación y foros de la comunidad
+* [[!DNL Adobe] Grupos de usuarios](https://analytics-augs.adobe.com/) : un centro de eventos de la comunidad para ayudar a los usuarios a conectarse entre sí y mejorar sus implementaciones.
 * [[!DNL Adobe Analytics] Canal de YouTube de grupos de usuarios](https://www.youtube.com/channel/UCQOHnCs7KZgsuFHVzwboQuA) - No se pudo hacer un [!DNL Adobe Analytics] ¿Sesión de grupo de usuarios? Vuelva a ver las sesiones de grupos de usuarios anteriores en todo el mundo para obtener más información acerca de cómo utilizan la herramienta sus colegas.
-* [Canal de Slack de chat de Measure](https://www.measure.chat/)[!DNL Adobe Analytics]: conéctese con usuarios de de todo el mundo y comparta las lecciones aprendidas en la industria, haga preguntas de sus colegas y únase a grupos de interés centrados en la medición.
+* [Canal de Slack de chat de Measure](https://www.measure.chat/) - Conectar con [!DNL Adobe Analytics] usuarios de todo el mundo y compartan las lecciones aprendidas en el sector, pregunten a sus colegas y únase a grupos de interés centrados en la medición.
 * ¡y más!
 
 ## Autor
