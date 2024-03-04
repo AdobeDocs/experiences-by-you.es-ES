@@ -10,11 +10,10 @@ doc-type: Article
 last-substantial-update: 2023-05-18T00:00:00Z
 jira: KT-13256
 thumbnail: KT-13256.jpeg
-exl-id: 24a6815b-52d1-4bd6-9d27-522720a91f83
-source-git-commit: 35e62c4f1a093b4f755e175e9b553a43887e4292
+source-git-commit: a27a5538a7009d00d01227865ced4c5039147496
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 3%
+source-wordcount: '711'
+ht-degree: 2%
 
 ---
 
