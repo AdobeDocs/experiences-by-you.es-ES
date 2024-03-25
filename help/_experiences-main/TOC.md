@@ -2,10 +2,10 @@
 user-guide-title: Experiencias de su parte
 user-guide-description: Contenido generado por el cliente de Adobe
 breadcrumb-title: Experiencias de su parte
-source-git-commit: ba46ad10c20184083076950883f169df09ca7778
+source-git-commit: 1b241ca79816dde59641bbdfc05b35041862d145
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 59%
+source-wordcount: '323'
+ht-degree: 58%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 59%
          + [Creación de segmentos de recorrido del cliente: parte 2](/help/analytics/analysis-workspace/segmentation/building-customer-journey-segments-part-two.md)
          + [Diferencias entre el generador de segmentos y los segmentos rápidos](/help/analytics/analysis-workspace/segmentation/differences-between-the-segment-builder-and-quick-segments.md)
          + [Ahora espere un segmento... Use la segmentación para descubrir nuevos Insights](/help/analytics/analysis-workspace/segmentation/segmentation-to-discover-new-insights.md)
+         + [La magia detrás de la cortina - Segmentos complejos](/help/analytics/analysis-workspace/segmentation/the-magic-behind-the-curtain-complex-segments.md)
       + Métricas {#metrics}
          + [Adiós, Excel. Hola, métricas calculadas](/help/analytics/analysis-workspace/metrics/goodbye-excel-hello-calculated-metrics.md)
          + [Lleve su análisis de datos al siguiente nivel con las métricas calculadas](../analytics/analysis-workspace/metrics/take-your-data-analysis-to-the-next-level-with-calculated-metrics.md)
