@@ -2,10 +2,10 @@
 user-guide-title: Experiencias de su parte
 user-guide-description: Contenido generado por el cliente de Adobe
 breadcrumb-title: Experiencias de su parte
-source-git-commit: cdedf565731b423bdac6b48d207fac979d0b7459
+source-git-commit: 56f6d47f6176aaa01343e4f807afbd54b2d49e08
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 57%
+source-wordcount: '333'
+ht-degree: 56%
 
 ---
 
@@ -80,6 +80,7 @@ ht-degree: 57%
       + Prácticas recomendadas {#cloud-manager-best-practices}
          + [Uso de registros en Cloud Manager](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-using-logs.md)
          + [AEM Planificación de una migración a as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration.md)
+         + [Estrategias y sugerencias posteriores a la migración](/help/experience-manager/cloud-service/expert-resources/aem-champions/post-migration.md)
          + [Uso del Analizador de prácticas recomendadas](/help/experience-manager/cloud-service/expert-resources/aem-champions/best-practice-analyzer.md)
          + [AEM Afrontar los desafíos al migrar a las soluciones as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration-challenges.md)
 + [!DNL Marketo Engage] por usted {#marketo-engage}
