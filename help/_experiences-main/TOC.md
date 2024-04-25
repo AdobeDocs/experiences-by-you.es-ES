@@ -2,7 +2,7 @@
 user-guide-title: Experiencias de su parte
 user-guide-description: Contenido generado por el cliente de Adobe
 breadcrumb-title: Experiencias de su parte
-source-git-commit: d3772a4fd4e5e2d26bc637370c7ba7d29336ccb4
+source-git-commit: 07b28edade263aa3c85348716bd45df4a053e239
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 53%
@@ -95,4 +95,3 @@ ht-degree: 53%
       + [Programas de participación](/help/marketo/programs/engagement-programs.md)
    + Informes y análisis {#reporting-and-analytics}
       + [Informes y análisis](/help/marketo/reporting/reporting-and-analytics.md)
-
