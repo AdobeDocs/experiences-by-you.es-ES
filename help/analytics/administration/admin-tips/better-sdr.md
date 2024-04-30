@@ -10,13 +10,13 @@ duration: 72000
 last-substantial-update: 2024-04-25T00:00:00Z
 jira: KT-15338
 thumbnail: KT-15338.jpeg
-source-git-commit: 07b28edade263aa3c85348716bd45df4a053e239
+exl-id: 99fcf68f-5698-4270-9055-ab224e6323a1
+source-git-commit: b3b98aee5ee23e323a9bc762c673700b02366f4c
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 0%
 
 ---
-
 
 # Creación de una cultura de datos y una mejor referencia de diseño de soluciones
 
@@ -61,7 +61,7 @@ Empezaré por dejarte salir un poco de la trampa. Hay... *siempre* va a ser una 
 ***Los paneles de previsualización***
 
 1. Con el mapa de canal como guía, cree paneles de prueba.
-1. Debe haber una vista general, como un Tablero de resumen ejecutivo, y paneles para cada uno de los canales.
+1. Debe haber una vista general, como una [Tablero de resumen ejecutivo](driving-success-with-executive-summary-dashboards.md)y paneles para cada uno de los embudos.
 1. También habrá algunas más específicas para su sitio o aplicación, como el rendimiento del producto o el rendimiento del contenido.
 1. Distribuya estos elementos a las partes interesadas relevantes y obtenga comentarios sobre el diseño.
 1. Realice las actualizaciones solicitadas y, si se necesitan nuevas métricas o dimensiones, agréguelas a la SDR.
@@ -112,4 +112,3 @@ Este documento fue escrito por:
 Gitai Ben-Ammi, directora asociada de arquitectura empresarial en Accenture
 
 Campeona de Adobe Analytics
-
