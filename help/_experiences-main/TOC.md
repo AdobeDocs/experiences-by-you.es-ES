@@ -2,10 +2,10 @@
 user-guide-title: Experiencias de su parte
 user-guide-description: Contenido generado por el cliente de Adobe
 breadcrumb-title: Experiencias de su parte
-source-git-commit: 07b28edade263aa3c85348716bd45df4a053e239
+source-git-commit: 3e7b293813327b3aad362b0e05220a32aa65ea78
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 53%
+source-wordcount: '358'
+ht-degree: 52%
 
 ---
 
@@ -60,6 +60,8 @@ ht-degree: 53%
          + [Dirija el éxito con los paneles de resumen ejecutivo](../analytics/administration/admin-tips/driving-success-with-executive-summary-dashboards.md)
          + [Creación de paneles operativos](../analytics/administration/admin-tips/create-operational-dashboards.md)
          + [Creación de una cultura de datos y una mejor referencia de diseño de soluciones](../analytics/administration/admin-tips/better-sdr.md)
+   + Implementación {#implementation}
+      + [Una guía estratégica para implementar el SDK web](../analytics/implementation/strategic-guide-to-implementing-web-sdk.md)
 + [!DNL Campaign] por usted {#campaign}
    + [Información general](/help/campaign/overview.md)
    + [!DNL Campaign Classic v7] {#campaign-classic-v7}
