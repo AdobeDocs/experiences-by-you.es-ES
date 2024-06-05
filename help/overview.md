@@ -6,10 +6,10 @@ level: Beginner
 doc-type: overview
 solution: Experience Cloud
 exl-id: a3e976a1-8bf1-4c18-b5b5-831367a7e8a0
-source-git-commit: 10bf432c85cabe2f131aad05da42b5b1c0af467f
+source-git-commit: 24c2ee272ab1dcda53e5dfe918125e8542ecfe15
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 13%
+source-wordcount: '173'
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ Lo más poderoso de [!DNL Adobe] soluciones de experiencia digital (DX) Tú. Los
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Pestaña Sugerencias y trucos" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
+      <img alt="[!DNL Adobe Analytics] Sugerencias y trucos" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -77,5 +77,6 @@ Lo más poderoso de [!DNL Adobe] soluciones de experiencia digital (DX) Tú. Los
 
 * [Comunidades Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es)
 * [Documentación de Experience Cloud](https://experienceleague.adobe.com/docs/?lang=es)
-* [Tutoriales de Experience Cloud](https://experienceleague.adobe.com/?lang=esdocs/home-tutorials.html)
+* [Tutoriales de Experience Cloud](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=es)
 * [business.adobe.com](https://business.adobe.com)
+
