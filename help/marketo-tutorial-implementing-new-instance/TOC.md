@@ -2,13 +2,13 @@
 user-guide-title: 'Tutorial: Sugerencias y trucos para implementar un nuevo [!DNL Marketo Engage] instancia '
 user-guide-description: 'Tutorial: Sugerencias y trucos para implementar un nuevo [!DNL Marketo Engage] instancia '
 breadcrumb-title: 'Tutorial: Sugerencias y trucos para implementar un nuevo [!DNL Marketo Engage] instancia '
-breadcrumb-url: /docs/experiences-by-you/experiences-by-you/tutorial-tips-and-tricks-for-implementing-a-new-instance/overview.html
+breadcrumb-url: /docs/experiences-by-you/experiences-by-you/marketo-engage/tutorial-tips-and-tricks-for-implementing-a-new-instance/overview.html
 index: true
 role: Admin
 level: Beginner
 solution: Marketo Engage
 auto-video-transcripts: true
-source-git-commit: c4c4ff3c3456ea48fbd144ac8ef5d509a9bb0714
+source-git-commit: b73614be9351943bf89aba7e457edb4b3b456d40
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 2%
