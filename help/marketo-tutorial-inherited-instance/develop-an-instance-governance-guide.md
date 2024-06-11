@@ -11,29 +11,29 @@ jira: KT-14103
 thumbnail: KT-14103.jpeg
 hide: false
 exl-id: e127b84d-ef92-4527-a0e6-a36af35b7ee0
-source-git-commit: 26805f8f9edf3a3a3a38c4cb954e07378f13920d
+source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 1%
+source-wordcount: '895'
+ht-degree: 0%
 
 ---
 
 # Desarrollar una guía de gobernanza de instancias con documentación
 
-A medida que avanza hacia un [!DNL heredado [!DNL Marketo Engage]] por ejemplo, a menudo conlleva el desafío de carecer de documentación técnica y funcional actualizada. Como administrador, establecer directrices para garantizar un control adecuado de las instancias es una responsabilidad central que no se puede pasar por alto. Es una de las estrategias críticas para [aumente la eficacia mientras trabaja en un [!DNL Marketo Engage] instancia](https://nation.marketo.com/t5/champion-program-blogs/3-tips-to-increase-your-efficiency-in-an-inherited-instance/ba-p/247582).
+A medida que avanza hacia un legado [!DNL Marketo Engage] Por ejemplo, a menudo conlleva el desafío de carecer de documentación técnica y funcional actualizada. Como administrador, establecer directrices para garantizar un control adecuado de las instancias es una responsabilidad central que no se puede pasar por alto. Es una de las estrategias críticas para [aumente la eficacia mientras trabaja en un [!DNL Marketo Engage] instancia](https://nation.marketo.com/t5/champion-program-blogs/3-tips-to-increase-your-efficiency-in-an-inherited-instance/ba-p/247582).
 
 Este tutorial paso a paso procede de [!DNL [!DNL Adobe] Nick Hajdin, campeón de Marketo (2018), le guiará a través de este proceso para esbozar la configuración de la instancia, documentar los programas operativos principales y mantener un [!DNL changelog] para aplicar una política de gobernanza estricta.
 
 ## ¿Por qué desarrollar una guía y documentación de gobernanza de instancias para su instancia heredada?
 
-Documentación detallada y una [!DNL changelog] son vitales para una gestión eficiente y la transferencia de conocimientos dentro de su [!DNL [!DNL Marketo Engage]] instancia. Realizar un seguimiento de los cambios y las decisiones que ha realizado durante la configuración de la instancia puede ayudarle a lo siguiente:
+Documentación detallada y una [!DNL changelog] son vitales para una gestión eficiente y la transferencia de conocimientos dentro de su [!DNL Marketo Engage] ejemplo. Realizar un seguimiento de los cambios y las decisiones que ha realizado durante la configuración de la instancia puede ayudarle a lo siguiente:
 
 1. Capacite a los usuarios internos de forma más sencilla y escalable.
-2. Generar de forma más eficaz en [!DNL [!DNL Marketo Engage]] a largo plazo.
+2. Cree de forma más eficaz en [!DNL Marketo Engage] a largo plazo.
 3. Mantenga el estado y la higiene de su instancia en adelante para evitar que pase horas investigando correos electrónicos, [pista de auditoría](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html), y [registro de actividad](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html) para obtener el contexto.
-4. Ahorrar tiempo al transferir [!DNL [!DNL Marketo Engage]] conocimientos a un nuevo [!DNL [!DNL Marketo Engage]] administrador si su equipo experimenta algún cambio.
+4. Ahorre tiempo en la transferencia [!DNL Marketo Engage] conocimiento a un nuevo [!DNL Marketo Engage] administrador si su equipo experimenta algún cambio.
 
-## [!DNL [!DNL Marketo Engage]] guía de gobernanza 101
+## [!DNL Marketo Engage] guía de gobernanza 101
 
 Una guía de gobernanza sirve como fuente fiable para la configuración de la instancia y los requisitos de diseño del sistema. La información clave que se recomienda incluir en este documento es:
 
@@ -43,14 +43,14 @@ Una guía de gobernanza sirve como fuente fiable para la configuración de la in
 * Normas de gobernanza
 * Formación interna del usuario antes de concederle acceso a la plataforma
 
-## Cómo desarrollar y mantener una guía de gobernanza para su [!DNL [!DNL Marketo Engage]] instancia
+## Cómo desarrollar y mantener una guía de gobernanza para su [!DNL Marketo Engage] instancia
 
 ### Paso 1: Identifique el estado actual de la guía y documentación de gobernanza
 
 * **No puedo encontrar ninguna documentación para mi instancia heredada:** Si ha iniciado recientemente una función nueva y no puede encontrar ninguna documentación para la instancia heredada, **vaya al paso 2** y comience con una plantilla descargable que proporcionamos.
 * **Tengo la documentación registrada:** ¡Felicidades, es una buena señal! Asegúrese de revisar su relevancia para ver cuándo se realiza el último cambio. Si los integrantes del equipo no la mantienen activamente, se recomienda actualizarla e informar a los usuarios internos sobre cómo mantenerla actualizada.
 
-### Paso 2: Identificar los elementos que se incluirán en [!DNL [!DNL Marketo Engage]] Documentación &amp; [!DNL Changelogs]
+### Paso 2: Identificar los elementos que se van a incluir en la [!DNL Marketo Engage] Documentación y [!DNL Changelogs]
 
 El formato varía de una plataforma basada en la nube a un documento compartido. Puede diseñar el formato que se adapte a las necesidades de su organización. [Esta es una sencilla documentación y plantilla de Excel changelog](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx) que cubren los elementos importantes con los que puede empezar. Se incluyen:
 
@@ -80,13 +80,13 @@ Para cada programa operativo identificado, documente su estado actual. Esto incl
 
 ### Paso 4: Aplicar [!DNL Changelog] Mantenimiento
 
-El siguiente paso es establecer una directiva de gobernanza estricta para [!DNL [!DNL Marketo Engage]] instancia que exige &quot;[!DNL Changelog] mantenimiento&quot;. Esta política garantiza que cualquier actualización realizada en los programas operativos en toda la instancia esté documentada exhaustivamente.
+El siguiente paso es establecer una política de gobernanza estricta para su [!DNL Marketo Engage] instancia que ordena &quot;[!DNL Changelog] mantenimiento&quot;. Esta política garantiza que cualquier actualización realizada en los programas operativos en toda la instancia esté documentada exhaustivamente.
 
 Informe a su equipo de la importancia de estos documentos y de cómo acceder a ellos y actualizarlos correctamente. Podría resultar útil asignar responsabilidades para mantener el registro de cambios, por lo que algunos miembros o administradores designados del equipo de operaciones de marketing registran los cambios de forma coherente y proporcionan firmas.
 
 ### Paso 5: Centralización de la documentación
 
-Establezca una ubicación o repositorio central para almacenar toda la documentación relacionada con su [!DNL [!DNL Marketo Engage]] instancia. Podría ser una unidad compartida, una carpeta dedicada o un sistema basado en la nube.
+Establezca una ubicación o repositorio central para almacenar toda la documentación relacionada con su [!DNL Marketo Engage] ejemplo. Podría ser una unidad compartida, una carpeta dedicada o un sistema basado en la nube.
 
 ### Paso 6: Revisión y actualización periódicas
 
