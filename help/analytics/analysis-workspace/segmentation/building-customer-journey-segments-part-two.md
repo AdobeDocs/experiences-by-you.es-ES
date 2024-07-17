@@ -11,7 +11,7 @@ thumbnail: KT-13476.jpeg
 exl-id: 369c526d-8664-4771-81b6-24c9f50bc37e
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Podemos pensar en esto como en una tienda de comestibles. Si alguien recoge un p
 
 Sugiero utilizar las páginas visitadas u otras señales explícitas de intención de compra y evitar otras señales menos directas para identificar la intención de compra. Por ejemplo, no utilizaría el número de sesiones o el número de páginas en una sesión o similar. Estas señales indirectas indican Consideración, no intención de compra. Recuerde, el propósito de este segmento es deducir la intención del visitante para la visita, no su tendencia.
 
-### Uso de [!DNL Analytics] Espacio de trabajo para identificar señales de intención de compra
+### Uso de [!DNL Analytics] Workspace para identificar señales de intención de compra
 
 El informe Visitas en el orden previsto es muy útil para identificar una buena señal que indique la intención de compra. Busque un lugar que indique la intención de forma lógica. Puede confirmar que el paso indica intención cuando ve una visita en el orden previsto notable que va a ese paso, seguido a menudo de una visita en el orden previsto más pequeña para el paso inmediatamente después.
 
@@ -78,7 +78,7 @@ Recuerde de nuestro primer post que nuestros segmentos de Intención de visita d
 
 Asegúrese de que el segmento Intención de compra excluya el segmento Uno y Listo. Solo debe excluir el segmento Uno y Listo porque las señales que usamos para la intención de compra son muy específicas.
 
-Tenga en cuenta que al excluir los segmentos Uno y Listo, podría excluirse a alguien que vuelva a entrar al sitio en una página de cierre de compra. Esto es correcto. La definición misma de Uno y Listo es una vista de página, lo que significa que aunque un visitante entre o actualice en una página de cierre de compra, su visita no progresó, por lo que no hay expresión de intención de compra.
+Tenga en cuenta que al excluir los segmentos Uno y Listo, podría excluirse a alguien que vuelva a entrar al sitio en una página de cierre de compra. Esto está bien. La definición misma de Uno y Listo es una vista de página, lo que significa que aunque un visitante entre o actualice en una página de cierre de compra, su visita no progresó, por lo que no hay expresión de intención de compra.
 
 ### El segmento por intención de compra en el Generador de segmentos
 
@@ -92,7 +92,7 @@ Agregue un contenedor de exclusión al segmento unido por la condición &quot;An
 
 Se recomienda etiquetar los contenedores como práctica recomendada. Se alegrará de haberlo hecho, especialmente porque nuestras definiciones de segmentos se vuelven más complejas.
 
-Ahora que hemos creado el segmento Calidad de los datos por intención de compra, podemos usar el espacio de trabajo Calidad de los datos por intención de visita para ver que nuestro segmento Calidad de los datos por intención de compra es mutuamente excluyente con nuestro segmento Uno y Listo.
+Ahora que hemos creado el segmento Calidad de la compra, podemos usar la Workspace de calidad de datos por intención de visita para ver que nuestro segmento Calidad de la compra es mutuamente excluyente con nuestro segmento Uno y Listo.
 
 ![Imagen 5](assets/Image-5.png)
 
@@ -106,13 +106,13 @@ Al igual que con el segmento Intento de compra, buscamos indicaciones muy explí
 
 Debo señalar que &quot;Retención&quot; es un nombre un poco incómodo para esta intención de visita, ya que el visitante no está en nuestro sitio, &quot;por lo que puedo ser retenido como cliente&quot;. Retención es nuestra intención para esa visita. Solo recuerde ser empático con nuestros clientes y mantener un enfoque centrado en el cliente.
 
-### Uso de [!DNL Analytics] Espacio de trabajo para identificar señales de intención de retención
+### Uso de [!DNL Analytics] Workspace para identificar señales de intención de retención
 
 De nuevo, [!DNL Analytics] Workspace nos ayuda a identificar la intención de retención. Puede utilizar las dimensiones páginas, sección del sitio o segmento personalizado para categorizar las páginas. Busque páginas con tasas de conversión de compra bajas. En nuestro caso, encontramos que las páginas de Check-In Online y Shore Excursion (Shorex) tienen tasas de conversión relativamente más bajas que otras páginas que están asociadas más lógicamente con las compras y compras.
 
 ![Imagen 6](assets/Image-6.png)
 
-También es aconsejable buscar páginas de alto tráfico en Workspace. Analiza la lista de páginas con mucho tráfico y decide si indican una intención de retención.
+También es buena idea buscar páginas de alto tráfico en Workspace. Analiza la lista de páginas con mucho tráfico y decide si indican una intención de retención.
 
 ## Exclusión de otros segmentos
 
@@ -132,7 +132,7 @@ A continuación, añada contenedores de exclusión para sus visitas de Maravilla
 
 ![Imagen 7](assets/Image-7.png)
 
-Una vez más, observe el espacio de trabajo de calidad de datos por intención de visita para asegurarse de que los segmentos sean mutuamente excluyentes. ¡Nuestros segmentos por intención de visita están tomando forma muy bien!
+Una vez más, consulte la Workspace de calidad de datos por intención de visita para asegurarse de que los segmentos se excluyan mutuamente. ¡Nuestros segmentos por intención de visita están tomando forma muy bien!
 
 ![Imagen 8](assets/Image-8.png)
 
@@ -146,4 +146,4 @@ Este documento fue escrito por:
 
 **Aaron Fossum**, Director, Digital [!DNL Analytics]
 
-[!DNL Adobe Analytics] Campeona
+[!DNL Adobe Analytics] campeón

@@ -9,13 +9,13 @@ exl-id: f6aa9dbd-fb4f-40fa-b607-174755a1ca9f
 source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 23%
+ht-degree: 20%
 
 ---
 
 # Experience Manager por usted: Recursos por usuarios, para usuarios.
 
-Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuarios que toman los productos, profundizan en ellos y los aplican de formas increíbles e innovadoras para crear experiencias y resultados significativos. Experiencias por usted incluye contenido creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con su [!DNL Adobe] soluciones de Experience Cloud. Este conocimiento entre usuarios fomenta la colaboración y el descubrimiento, lo que le permite a usted y a cualquier otro usuario encontrar la inspiración necesaria para aumentar su experiencia con los productos.
+¿Lo más potente de [!DNL Adobe] soluciones de Experience Cloud? Tú. Los usuarios que toman los productos, profundizan en ellos y los aplican de formas increíbles e innovadoras para crear experiencias y resultados significativos. Experiencias por usted incluye contenido creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con sus soluciones de Experience Cloud de [!DNL Adobe]. Este conocimiento entre usuarios fomenta la colaboración y el descubrimiento, lo que le permite a usted y a cualquier otro usuario encontrar la inspiración necesaria para aumentar su experiencia con los productos.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -53,12 +53,12 @@ Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuario
     </a>
     </div>
     <p>
-    <em>AEM El manual de incorporación le ayudará a asumir el cargo de nuevo administrador y desarrollador de la aplicación de la gestión de proyectos de as a Cloud Service de la.</em>
+    <em>El manual de incorporación le ayudará a asumir el cargo de nuevo administrador y desarrollador de AEM as a Cloud Service.</em>
     <p>
   </td>
   <td>
     <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
-      <img alt="Pestaña Sugerencias y trucos" src="https://video.tv.adobe.com/v/3409427?format=jpeg" />
+      <img alt="Sugerencias y trucos" src="https://video.tv.adobe.com/v/3409427?format=jpeg" />
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
@@ -76,7 +76,7 @@ Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuario
 
 ## Recursos adicionales
 
-* [Comunidades Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=es)
-* [Documentación del Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=es)
-* [Tutorials Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-tutorials/overview.html?lang=es)
+* [Comunidades de Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=es)
+* [Documentación del Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
+* [Tutorials Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-tutorials/overview.html)
 * [Información del producto del Experience Manager](https://business.adobe.com/es/products/experience-manager/adobe-experience-manager.html)

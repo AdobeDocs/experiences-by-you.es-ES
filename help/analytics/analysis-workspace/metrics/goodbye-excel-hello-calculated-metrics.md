@@ -1,6 +1,6 @@
 ---
-title: Adiós, Excel. Hola, métricas calculadas
-description: Descubra las ventajas de utilizar métricas calculadas en [!DNL Adobe Analytics] y cómo pueden proporcionarle una vista continua y dinámica de sus datos en este artículo.
+title: Adiós Excel, hola métricas calculadas
+description: Conozca los beneficios de usar métricas calculadas en  [!DNL Adobe Analytics]  y cómo pueden proporcionarle una vista dinámica y continua de sus datos en este artículo.
 feature-set: Analytics
 feature: Calculated Metrics
 role: User
@@ -12,20 +12,20 @@ thumbnail: KT-13178.jpeg
 exl-id: b233d6d0-2e89-473e-b700-9977b402af39
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 1%
+source-wordcount: '1274'
+ht-degree: 0%
 
 ---
 
-# Adiós, Excel. Hola, métricas calculadas
+# Adiós Excel, hola métricas calculadas
 
-Descubra las ventajas de utilizar métricas calculadas en [!DNL Adobe Analytics] y cómo pueden proporcionarle una vista continua y dinámica de sus datos en este artículo.
+Conozca los beneficios de usar métricas calculadas en [!DNL Adobe Analytics] y cómo pueden proporcionarle una vista dinámica y continua de sus datos en este artículo.
 
-¡Eh! ¿Por qué está en Excel en este momento? Quiero decir, sé por qué. Tienes que informar para llegar a las personas adecuadas. Está ocupado introduciendo datos de [!DNL Adobe Analytics] y calcular las tasas de conversión, trazarlas y prepararlas para colocarlas en un PowerPoint que se dirija a los responsables de la toma de decisiones. Espero que al menos esté utilizando Report Builder para hacerlo, pero sé que algunos de ustedes están copiando y pegando manualmente datos de un espacio de trabajo a Excel.
+¡Oye! ¿Por qué está en Excel en este momento? Quiero decir, sé por qué. Tienes que informar para llegar a las personas adecuadas. Está ocupado introduciendo datos de [!DNL Adobe Analytics] y calculando las tasas de conversión, creando gráficos y preparándose para ponerlos a todos en un PowerPoint que se dirige a quienes toman decisiones. Espero que al menos esté usando Report Builder para hacerlo, pero sé que algunos de ustedes están copiando y pegando manualmente datos de un Workspace a Excel.
 
 ¿Por qué?
 
-¿Por qué pasar por un proceso manual todos los meses? ¿Por qué presentar una vista estática una vez al mes en lugar de una vista dinámica y continua? ¿Por qué copiar eso en PowerPoint? ¿Por qué no crear métricas calculadas en? [!DNL Adobe Analytics] directamente?
+¿Por qué pasar por un proceso manual todos los meses? ¿Por qué presentar una vista estática una vez al mes en lugar de una vista dinámica y continua? ¿Por qué copiar eso en PowerPoint? ¿Por qué no crear métricas calculadas directamente en [!DNL Adobe Analytics]?
 
 ## Las métricas calculadas son potentes
 
@@ -33,19 +33,19 @@ Las métricas calculadas son potentes, pero incluso las funciones matemáticas b
 
 1. **Las métricas calculadas son actuales y dinámicas**
 
-   Cuando exporta números desde [!DNL Adobe Analytics]No, están bloqueados en un momento dado. Es absolutamente necesario saber el rendimiento de su sitio o aplicación el mes anterior, pero ¿cómo realizan los responsables de la toma de decisiones el seguimiento de cómo van las cosas a mediados de mes? Si la tasa de conversión se desploma durante un día y luego vuelve a la media al final del mes, ¿lo sabrá? Esa caída podría ser datos valiosos que revelen un problema importante de telemetría, o incluso más vital, un cambio en el comportamiento de los visitantes. Con una métrica calculada, puede crear un gráfico de esto y verlo el día que sucede, lo que le permite estar listo para responder.
+   Cuando exporta números de [!DNL Adobe Analytics], están bloqueados en un momento dado. Es absolutamente necesario saber el rendimiento de su sitio o aplicación el mes anterior, pero ¿cómo realizan los responsables de la toma de decisiones el seguimiento de cómo van las cosas a mediados de mes? Si la tasa de conversión se desploma durante un día y luego vuelve a la media al final del mes, ¿lo sabrá? Esa caída podría ser datos valiosos que revelen un problema importante de telemetría, o incluso más vital, un cambio en el comportamiento de los visitantes. Con una métrica calculada, puede crear un gráfico de esto y verlo el día que sucede, lo que le permite estar listo para responder.
 
 1. **Las Métricas Calculadas Le Ahorran Tiempo**
 
    Yo he estado allí. Copie o pegue. Introduzca la fórmula o arrastre la celda sobre ella hacia abajo. Haga clic en el gráfico y cambie el rango para que tenga los últimos doce o trece meses. Ahora copie el gráfico. Ahora hazlo de nuevo. Y otra vez. Y otra vez. Envíe el PowerPoint. Es tedioso y lleva mucho tiempo y se siente como si tuvieras que hacerlo todos los meses para siempre.
 
-   En su lugar, puede crear un espacio de trabajo que utilice su métrica calculada, que tenga Doce o Trece últimos meses completos como intervalo de fechas y que los datos y el gráfico se actualicen automáticamente a medianoche del primer día de cada mes. Los destinatarios pueden tener acceso directo al espacio de trabajo. Pueden recibir una copia de un PDF por correo electrónico automáticamente el primer día del mes o después de usar Visualizaciones de texto para agregar su comentario sobre los datos (ya sabe, la parte divertida de los informes).
+   En su lugar, puede crear una Workspace que utilice su métrica calculada, que tenga Doce o Trece últimos meses completos como intervalo de fechas y que los datos y el gráfico se actualicen automáticamente a medianoche del primer día de cada mes. Los destinatarios pueden tener acceso directo a Workspace. Pueden recibir una copia de un PDF por correo electrónico automáticamente el primer día del mes o después de usar Visualizaciones de texto para agregar su comentario sobre los datos (ya sabe, la parte divertida de los informes).
 
 1. **Las métricas calculadas se pueden aplicar a grandes conjuntos de datos**
 
    Puede exportar todos los nombres de productos a Excel y empezar a calcular las tasas de conversión y los ingresos por visitante, pero esto se convierte en una molestia cuando tiene aproximadamente 100 000. No hay problema con las Métricas calculadas. Coloque la dimensión en una tabla como de costumbre y luego utilice las Métricas calculadas como métricas. Ahora tiene una tabla de ordenación dinámica que se actualizará automáticamente a medida que los productos o cualquier dimensión que esté utilizando se añadan al catálogo.
 
-1. **Las métricas calculadas evitan errores**
+1. **Las Métricas Calculadas Evitan Errores**
 
    Se producen errores de Excel. Todos hemos estado allí. Diablos, toda la economía de Grecia y la reputación de dos académicos estimados se arruinaron debido a un error de fórmula de Excel. Probablemente no tengas una economía europea basada en tus habilidades con Excel, pero definitivamente hay alguna decisión sobre los presupuestos que va a cambiar en función de tus números. Usar métricas calculadas significa que puede crear una métrica, hacer que realice un control de calidad y, después, no volver a preocuparse por ella.
 
@@ -55,7 +55,7 @@ Las métricas calculadas son potentes, pero incluso las funciones matemáticas b
 
 La mayoría de las tasas de conversión son solo una división simple. Divida el número de conversiones por el número de visitantes o visitas. Divida el número de vistas de página de la última página de un canal entre el número de vistas de páginas de la primera página de un canal. Divida el número de clics en campañas internas entre el número de impresiones. Todas estas acciones se pueden realizar fácilmente como métricas calculadas y colocadas en un panel que disfrute de una baja latencia de datos, visualizaciones de actualización y una mayor facilidad de uso compartido.
 
-**Caso de uso 2: Búsqueda interna**
+**Caso de uso 2: búsqueda interna**
 
 La búsqueda interna es una de las herramientas más importantes para comprender el sitio. Los resultados de la búsqueda del sitio le indican qué les interesa a los visitantes y si pueden encontrarlo fácilmente a través de la navegación o no. Usted tiene que ser capaz de decir si su búsqueda del sitio está funcionando bien y el uso de un poco de adición básica y división puede darle esa respuesta.
 
@@ -77,8 +77,8 @@ Espero que esto le haya mostrado algunas de las posibilidades de utilizar funcio
 
 Este documento fue escrito por:
 
-![Gittai headshot](assets/gittai.png)
+![Toma de Gittai](assets/gittai.png)
 
-**Gitai Ben-Ammi**, consultor principal en Concentrix Catalyst
+**Gitai Ben-Ammi**, consultora principal en Concentrix Catalyst
 
-[!DNL Adobe Analytics] Campeona
+[!DNL Adobe Analytics] campeón

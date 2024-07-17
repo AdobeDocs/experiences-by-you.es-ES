@@ -1,6 +1,6 @@
 ---
-title: Cómo auditar un archivo heredado [!DNL Marketo Engage] instancia
-description: Herencia de un [!DNL Marketo Engage] le recomendamos que dedique tiempo a comprender qué hay en la instancia y a crear un plan de acción para actualizar la configuración. Este tutorial cubre las secciones más importantes dentro de [!DNL Marketo Engage], que incluye Administración, Actividades de marketing, Design Studio y Base de datos, y le ofrece sugerencias para la auditoría y la optimización durante el proceso.
+title: Cómo auditar una instancia  [!DNL Marketo Engage] heredada
+description: Heredar una instancia  [!DNL Marketo Engage] le recomendamos que dedique tiempo a comprender qué hay en ella y a crear un plan de acción para actualizar la configuración. Este tutorial cubre las secciones más importantes de  [!DNL Marketo Engage], incluidas Administración, Actividades de marketing, Design Studio y Base de datos, y proporciona sugerencias para la auditoría y la optimización a lo largo del proceso.
 feature-set: Marketo Engage
 feature: Audit Trail, Administration, Design Studio, Marketing, Database
 role: Admin
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 ---
 
-# Cómo auditar un archivo heredado [!DNL Marketo Engage] instancia
+# Cómo auditar una instancia [!DNL Marketo Engage] heredada
 
-Herencia de un [!DNL Marketo Engage] Esta instancia puede ser un momento estresante, tanto si es un administrador experimentado como si es un administrador más reciente, puede ser difícil saber dónde empezar a limpiar. Para empezar, le recomendamos que dedique tiempo a comprender qué hay en la instancia que acaba de heredar hoy y a crear un plan de acción para actualizar la configuración.
+Heredar una instancia de [!DNL Marketo Engage] puede ser un momento estresante, tanto si tiene experiencia como si es un administrador más reciente, puede ser difícil saber dónde empezar a limpiar. Para empezar, le recomendamos que dedique tiempo a comprender qué hay en la instancia que acaba de heredar hoy y a crear un plan de acción para actualizar la configuración.
 
-En este tutorial, le guiaremos por las secciones más importantes de [!DNL Marketo Engage], que incluye Administración, Actividades de marketing, Design Studio y Base de datos, y le ofrece sugerencias para la auditoría y la optimización durante el proceso.
+En este tutorial, le guiaremos por las secciones más importantes de [!DNL Marketo Engage], incluidas Administración, Actividades de marketing, Design Studio y Base de datos, y le proporcionaremos sugerencias para la auditoría y la optimización a lo largo del camino.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3422473/?learn=on)

@@ -9,13 +9,13 @@ duration: 0
 last: substantial-update- 2024-05-01
 jira: KT-14808
 thumbnail: KT-14808.jpeg
-source-git-commit: 47ab8875bc4e41595cd40550330e43a88357b68d
+exl-id: 65119abd-6f13-4acc-9e99-09843369ad28
+source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 5%
 
 ---
-
 
 # Planificación de una nueva implementación de Marketo Engage
 
@@ -38,8 +38,8 @@ En este tutorial, profundizaremos en los hitos específicos, las participaciones
 
 ### Fase 3: Creación de la biblioteca de programas y configuración de la campaña
 
-- Desarrollo de plantillas de correo electrónico y páginas de aterrizaje. Primeros pasos con [importar programas de inicio](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) desde el [Biblioteca de importación de programas](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
-- Configuración de reglas de segmentación y personalización
+- Desarrollo de plantillas de correo electrónico y páginas de aterrizaje. Empezando por [importar programas iniciales](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) desde la [Biblioteca de importación de programas](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
+- Configuración de la segmentación y las reglas de Personalization
 - Creación de campañas iniciales para la generación de posibles clientes y su nutrición
 
 ### Fase 4: Formación y adopción de usuarios
@@ -88,7 +88,7 @@ La implementación de una nueva instancia requiere una planificación y ejecuci�
         <li>SPF/DKIM </li> 
         <li>Configuración del dominio web</li> 
         <li>CNAME</li> 
-        <li>Entrega de correo electrónico</li>
+        <li>Capacidad de entrega de correos electrónicos</li>
         </td>
     </tr>
     <tr>
@@ -134,7 +134,7 @@ Escuche al campeón Marketo Engage (2019), Kyle McCormick, sobre sus experiencia
 
 Cree un nuevo plan y una nueva cronología del proyecto de implementación. A continuación se muestra una cronología de ejemplo del proyecto que incluye secciones para hitos, tareas, equipos responsables, plazos y dependencias de ejemplo. Utilícelo para optimizar el recorrido de implementación de los Marketo Engage y garantizar un despliegue exitoso en toda la organización.
 
-También puede descargar el ejemplo para editar y rastrear tareas de hitos específicas [AQUÍ](/help/marketo-tutorial-implementing-new-instance/assets/adobe-marketo-engage-implementation-milestones-project-management-template.xlsx).
+También puede descargar el ejemplo para editar y rastrear tareas de hitos específicos [AQUÍ](/help/marketo-tutorial-implementing-new-instance/assets/adobe-marketo-engage-implementation-milestones-project-management-template.xlsx).
 
 <table>
  <thead>
@@ -158,7 +158,7 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
     </tr>
     <tr>
         <td rowspan="2">Configuración técnica</td>
-        <td><em>EJEMPLO -</em> Instalar MunchkinID en el sitio web de la empresa</td>
+        <td><em>EJEMPLO -</em> Instalar MunchkinID en el sitio web de la compañía</td>
         <td bgcolor="c6f0cf">Completar</td>
         <td>5/9/24</td>
         <td>12/09/24</td>
@@ -173,21 +173,21 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
     </tr>
     <tr>
         <td rowspan="4">Configuración de Adobe Admin Console y administración</td>
-        <td><em>EJEMPLO -</em> Creación de usuarios y funciones de Marketo Engage</td>
+        <td><em>EJEMPLO -</em> Crear usuarios y funciones de Marketo Engage</td>
         <td bgcolor="c6f0cf">Completar</td>
         <td>27/8/24</td>
         <td>15/9/24</td>
         <td>Información de los equipos de marketing sobre quién necesita acceder a Marketo Engage.</td>
     </tr>
     <tr>
-        <td><em>EJEMPLO -</em> Crear administrador de productos de Marketo Engage adicional en Adobe Admin Console</td>
+        <td><em>EJEMPLO -</em> Cree un administrador de productos de Marketo Engage adicional en Adobe Admin Console</td>
         <td bgcolor="c6f0cf">Completar</td>
         <td>27/8/24</td>
         <td>15/9/24</td>
         <td>Información del equipo de operaciones de marketing sobre quién necesita acceso de administrador al Marketo Engage.</td>
     </tr>
     <tr>
-        <td><em>EJEMPLO -</em> Configuración de administradores de asistencia</td>
+        <td><em>EJEMPLO -</em> Configuración de administradores de soporte</td>
         <td bgcolor="c6f0cf">Completar</td>
         <td>27/8/24</td>
         <td>15/9/24</td>
@@ -202,7 +202,7 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
     </tr>
     <tr>
         <td rowspan="2">Integración de CRM (si corresponde)</td>
-        <td><em>EJEMPLO -</em> Determinar la asignación de campos antes de la sincronización</td>
+        <td><em>EJEMPLO -</em> Determinar asignación de campos antes de la sincronización</td>
         <td bgcolor="ffeb9c">En curso</td>
         <td>22/10/24</td>
         <td>N/A</td>
@@ -217,28 +217,28 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
     </tr>
     <tr>
         <td rowspan="2">Compilación del programa operativo</td>
-        <td><em>EJEMPLO -</em> Crear un programa para estandarizar los datos entrantes</td>
+        <td><em>EJEMPLO -</em> Crear programa para estandarizar los datos entrantes</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>11/9/24</td>
         <td>N/A</td>
         <td>Asistencia de los equipos de operaciones de ventas y CRM para determinar una estrategia de administración de datos.</td>
     </tr>
     <tr>
-        <td><em>EJEMPLO -</em> Creación de un centro de suscripción de correo electrónico</td>
+        <td><em>EJEMPLO -</em> Crear un centro de suscripción de correo electrónico</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>11/19/24</td>
         <td>N/A</td>
         <td>Aportaciones de los equipos de marketing sobre los tipos de contenido y la segmentación para las listas de correo.</td>
     <tr>
         <td rowspan="2">Primera compilación de programa de marketing</td>
-        <td><em>EJEMPLO -</em> Configurar programa de correo electrónico básico</td>
+        <td><em>EJEMPLO -</em> Configuración del programa de correo electrónico básico</td>
         <td bgcolor="ffeb9c">En curso</td>
         <td>11/12/24</td>
         <td>N/A</td>
         <td>Recursos creativos del equipo digital para correos electrónicos y páginas de aterrizaje.</td>
     </tr>
     <tr>    
-        <td><em>EJEMPLO -</em> Crear programa para newsletter trimestral</td>
+        <td><em>EJEMPLO -</em> Crear programa para la newsletter trimestral</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>30/11/24</td>
         <td>N/A</td>
@@ -246,14 +246,14 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
     </tr>
     <tr>
         <td rowspan="2">Configuración de integración de LaunchPoint</td>
-        <td><em>EJEMPLO -</em> Crear usuario y función solo de API</td>
+        <td><em>EJEMPLO -</em> Crear usuario y rol solo de API</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>23/11/24</td>
         <td>   </td>
         <td>Defina el ámbito de los servicios necesarios para la nueva instancia con los equipos de marketing.</td>
     </tr>
     <tr>
-        <td><em>EJEMPLO -</em> Creación de un servicio personalizado para Google Ads</td>
+        <td><em>EJEMPLO -</em> Crear un servicio personalizado para Google Ads</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>12/7/24</td>
         <td>   </td>
@@ -262,20 +262,20 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
     </tr>
     <tr>
         <td rowspan="2">Formación y documentación para usuarios</td>
-        <td><em>EJEMPLO -</em> Creación de una guía de gobernanza para usuarios internos</td>
+        <td><em>EJEMPLO -</em> Cree una guía de gobernanza para usuarios internos</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>12/2/24</td>
         <td>N/A</td>
         <td>Cree un equipo de gobernanza de Marketo Engage para crear documentación de gobernanza de apoyo o un presupuesto para contratar el proyecto de gobernanza.</td>
     <tr>
-        <td><em>EJEMPLO -</em> Capacite a 4 usuarios y proporcione a ellos acceso de usuario de Marketo estándar</td>
+        <td><em>EJEMPLO -</em> Capacite a 4 usuarios y proporcione acceso de usuario de Marketo estándar</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>12/13/24</td>
         <td>N/A</td>
         <td>Asistencia del vicepresidente de marketing para que los cursos de formación sean obligatorios para el acceso al Marketo Engage.</td>
     <tr>
         <td rowspan="2">Go-Live</td>
-        <td><em>EJEMPLO -</em> Enviar primera newsletter</td>
+        <td><em>EJEMPLO -</em> Enviar la primera newsletter</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>12/9/24</td>
         <td>N/A</td>
@@ -294,7 +294,7 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
 >[!NOTE]
 >Los ejemplos proporcionados no se basan en una cronología de implementación real. No confíe en estos plazos como estándar para la incorporación de Marketo Engage, ya que cada implementación es única con diferentes hitos y requisitos según las necesidades de su organización.
 
-Para obtener ayuda práctica sobre la implementación y personalización de su Marketo Engage para su instancia, póngase en contacto con el equipo de cuenta de Adobe o póngase en contacto con [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
+Para obtener ayuda en la implementación y personalización de su Marketo Engage, póngase en contacto con el equipo de cuenta de Adobe o póngase en contacto con [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
 
 ### Autor
 

@@ -1,7 +1,7 @@
 ---
-user-guide-title: 'Tutorial: Sugerencias y trucos para auditar y heredar [!DNL Marketo Engage] instancia '
-user-guide-description: Sugerencias y trucos para auditar una actividad heredada [!DNL Marketo Engage] instancia
-breadcrumb-title: 'Tutorial: Sugerencias y trucos para auditar y heredar [!DNL Marketo Engage] instancia '
+user-guide-title: 'Tutorial: Sugerencias y trucos para auditar una instancia  [!DNL Marketo Engage] heredada '
+user-guide-description: Sugerencias y trucos para auditar una instancia de  [!DNL Marketo Engage] heredada
+breadcrumb-title: 'Tutorial: Sugerencias y trucos para auditar una instancia  [!DNL Marketo Engage] heredada '
 breadcrumb-url: /docs/experiences-by-you/experiences-by-you/marketo-tutorial-inherited-instance/overview.html
 index: false
 role: Admin
@@ -16,7 +16,7 @@ ht-degree: 2%
 ---
 
 
-# Tutorial: Sugerencias y trucos para auditar y heredar [!DNL Marketo Engage] instancia {#auditing-an-inherited-instance}
+# Tutorial: Sugerencias y trucos para auditar una instancia heredada de [!DNL Marketo Engage] {#auditing-an-inherited-instance}
 
 + [Tutorial: Información general](/help/marketo-tutorial-inherited-instance/overview.md)
 + [Auditoría de una instancia heredada](/help/marketo-tutorial-inherited-instance/audit-an-inherted-instance.md)

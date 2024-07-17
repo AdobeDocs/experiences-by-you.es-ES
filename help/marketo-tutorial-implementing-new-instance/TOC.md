@@ -1,7 +1,7 @@
 ---
-user-guide-title: 'Tutorial: Sugerencias y trucos para implementar un nuevo [!DNL Marketo Engage] instancia '
-user-guide-description: 'Tutorial: Sugerencias y trucos para implementar un nuevo [!DNL Marketo Engage] instancia '
-breadcrumb-title: Sugerencias y trucos para implementar un nuevo [!DNL Marketo Engage] instancia
+user-guide-title: 'Tutorial: Sugerencias y trucos para implementar una nueva instancia de  [!DNL Marketo Engage]  '
+user-guide-description: 'Tutorial: Sugerencias y trucos para implementar una nueva instancia de  [!DNL Marketo Engage]  '
+breadcrumb-title: Sugerencias y trucos para implementar una nueva instancia de  [!DNL Marketo Engage]
 breadcrumb-url: /docs/experiences-by-you/experiences-by-you/implementing-new-instance/overview
 index: true
 role: Admin
@@ -16,7 +16,7 @@ ht-degree: 2%
 ---
 
 
-# Sugerencias y trucos para implementar un nuevo [!DNL Marketo Engage] instancia {#implementing-new-instance}
+# Sugerencias y trucos para implementar una nueva instancia de [!DNL Marketo Engage] {#implementing-new-instance}
 
 + [Tutorial: Información general](./overview.md)
 + [Administración de partes interesadas para implementar Marketo Engage](./managing-stakeholder-communications.md)

@@ -13,17 +13,17 @@ exl-id: 1da85e88-64b3-49e5-9bf6-76126ac9f6ad
 source-git-commit: 69fa16c1bf38604e4dabc553baee71598be83db3
 workflow-type: tm+mt
 source-wordcount: '4102'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # La magia detrás de la cortina: Segmentos complejos: exclusiones, contenedores y atribución
 
-_Descubra las complejidades de la segmentación de datos compleja, explorando exclusiones, contenedores y modelos de atribución. Al igual que el juego de manos de un mago, dominar estas técnicas permite a los analistas realizar magia de datos, transformando las perspectivas con precisión y delicadeza._
+_Descubra las complejidades de la segmentación de datos compleja y explore las exclusiones, los contenedores y los modelos de atribución. Al igual que el juego de manos de un mago, el dominio de estas técnicas permite a los analistas realizar magia de datos, transformando las perspectivas con precisión y delicadeza._
 
 Las cortinas están abiertas, el escenario está listo... esto puede no ser un acto de magia de Las Vegas, pero podemos realizar algunos trucos bastante sorprendentes al construir nuestros segmentos.
 
-![Magician_hand](assets/magician-hands.jpeg)
+![Manos_Mágicas](assets/magician-hands.jpeg)
 
 Dentro de este módulo cubriremos:
 
@@ -33,60 +33,60 @@ Dentro de este módulo cubriremos:
 
 ## Incluir frente a excluir
 
-De forma predeterminada, todos los contenedores comienzan como **include** , lo que básicamente significa que devuelven datos que coinciden con los criterios. Sin embargo, también puede cambiar el segmento o los contenedores dentro de los segmentos para que **excluir** , lo que le permite rechazar determinados criterios.
+De manera predeterminada, todos los contenedores comienzan como tipo **include**, lo que básicamente significa que devuelven los datos que coinciden con los criterios. Sin embargo, también puede cambiar el segmento o los contenedores dentro de los segmentos para que sean del tipo **exclude**, lo que le permitirá rechazar determinados criterios.
 
 Si bien un mago puede encontrar tu carta en la baraja, es increíble cuando ese mago puede hacer que el resto de la baraja no exista. Del mismo modo, en los segmentos de exclusión, queremos que los datos no deseados simplemente desaparezcan de nuestro conjunto de datos.
 
 ![tarjetas en blanco](assets/blankcards.png)
 
-Podrían estar sentados pensando, &quot;Ok, pero ya tengo las opciones &#39;No es igual&#39; y &#39;No contiene&#39;, ¿no debería cubrirme?&quot; Desafortunadamente, la respuesta a eso es no... y no se trata solo de poder excluir grupos de lógica, sobre un solo elemento. Incluso cuando se trata de un solo componente, a menudo tendrá que utilizar *excluye* para lograr su objetivo.
+Podrían estar sentados pensando, &quot;Ok, pero ya tengo las opciones &#39;No es igual&#39; y &#39;No contiene&#39;, ¿no debería cubrirme?&quot; Desafortunadamente, la respuesta a eso es no... y no se trata solo de poder excluir grupos de lógica, sobre un solo elemento. Incluso cuando se trata de un solo componente, a menudo necesitará usar *excluye* para lograr su objetivo.
 
-- **No contiene / No es igual a** - Es exactamente lo que suena, que coincide con los elementos que no contienen una cadena específica
-- **Excluir: el valor contiene / es igual a** - Esto hará que *excluir* elementos que coinciden con la cadena
+- **No contiene / No es igual a** - Es exactamente como suena, coincide en elementos que no contienen una cadena específica
+- **Excluir: el valor contiene / es igual a** - Esto *excluirá* elementos que coincidan con la cadena
 
-A primera vista, ambos suenan igual... y así sucesivamente **Visita** Nivele los segmentos o contenedores, sería correcto, ya que realizarán la misma acción. Sin embargo, al utilizar **visita** o **visitante** alcance obtendrá resultados muy diferentes.
+A primera vista, ambos suenan igual... y en los contenedores/segmentos de nivel **hit**, usted estaría en lo correcto, ya que realizarán la misma acción. Sin embargo, al usar el ámbito **visita** o **visitante**, obtendrá resultados muy diferentes.
 
-**Figura 1: No contiene / no es igual a: ámbito de la visita**
+**Figura 1: No contiene / no es igual a - Ámbito de la visita**
 
-![Figure1-DnceVsExclude-Hit](assets/figure1-dnce-vs-exclude-hit.png)
+![Figura1-DnceVsExclude-Hit](assets/figure1-dnce-vs-exclude-hit.png)
 
-*Tenga en cuenta que cada visita individual devuelve un valor true o false y que esos valores se invierten entre no y excluye.*
+*Observe que cada visita devuelve un valor verdadero o falso y que esos valores se invierten entre no y excluir.*
 
 - No contiene &quot;Value&quot; (Sí), por lo tanto devuelve true e incluye esa visita; del mismo modo, no contiene &quot;Example&quot; (no, lo contiene), por lo tanto devuelve false y no incluye esa visita. Básicamente, devuelva cualquier dato que devuelva un resultado verdadero.
-- Si &quot;Value&quot; contiene &quot;Example&quot; (no) y, por lo tanto, devuelve false y no excluye esa visita; del mismo modo, si &quot;Example&quot; contiene &quot;Example&quot; (sí) y, por lo tanto, devuelve true y excluye esa visita. Básicamente, devuelve datos que sí lo hacen **no** tenga un resultado verdadero o devuelva datos que sean falsos según sus criterios.
-- Se puede ver en el **Visita** nivel, ambos conjuntos de lógica devolverán el mismo conjunto de datos.
+- Si &quot;Value&quot; contiene &quot;Example&quot; (no) y, por lo tanto, devuelve false y no excluye esa visita; del mismo modo, si &quot;Example&quot; contiene &quot;Example&quot; (sí) y, por lo tanto, devuelve true y excluye esa visita. Básicamente, devuelve datos que **no** tienen un resultado verdadero o devuelve datos que son falsos según tus criterios.
+- Puede ver que en el nivel de **visita individual**, ambos conjuntos de lógica devolverán el mismo conjunto de datos.
 
-**Figura 2: No contiene / no es igual a: ámbito de la visita**
+**Figura 2: No contiene / no es igual a - Ámbito de la visita**
 
-![Figure2-DnceVsExclude-Visit](assets/figure2-dnce-vs-exclude-visit.png)
+![Figura2-DnceVsExclude-Visit](assets/figure2-dnce-vs-exclude-visit.png)
 
-*Como arriba, cada visita individual dentro de **visita**se evaluarán con el mismo valor true / false. Sin embargo, el conjunto de datos que se devuelve es el de toda la visita.*
+*Como en el caso anterior, cada visita individual dentro de la **visita**se evaluará con el mismo valor verdadero/falso. Sin embargo, el conjunto de datos devuelto es el de toda la visita.*
 
 - En cada visita individual, &quot;Value&quot; no contiene &quot;Example&quot; (sí), por lo que devuelve el valor &quot;True&quot;; del mismo modo, no contiene &quot;Example&quot; (no, lo contiene), por lo que devuelve el valor &quot;False&quot;.
-   - If **cualquiera** la visita individual en la visita devuelve **true** y, a continuación, el **toda la visita** se devuelve.*
-   - Si la visita estaba compuesta únicamente por visitas que contenían &quot;Ejemplo&quot;, entonces ninguna visita devolvería el valor &quot;True&quot; y, por lo tanto, esa visita sí lo haría **no se puede devolver** en el conjunto de datos.
+   - Si la visita de **any** en la visita devuelve **true**, entonces se devuelve **toda la visita**.*
+   - Si la visita estaba compuesta totalmente por visitas que contenían &quot;Ejemplo&quot;, entonces ninguna visita devolverá un valor verdadero y, por lo tanto, esa visita **no se devolverá** en su conjunto de datos.
 - De nuevo, en cada visita individual el &quot;Ejemplo&quot; contiene &quot;Ejemplo&quot; (sí), por lo que devuelve el valor &quot;True&quot;
-   - If **cualquier visita** devoluciones **true**, toda la visita será **excluido**
-   - If **todas las visitas** en la devolución de la visita **false**, esa visita se devolverá en el conjunto de datos
+   - Si **cualquier visita** devuelve **true**, toda la visita se **excluirá**
+   - Si **todas las visitas** de la visita devuelven **falso**, se devolverá esa visita en el conjunto de datos
 - Ahora pueden ver dónde esta lógica empieza a divergir. En el ejemplo anterior hay tres visitas distintas:
-   - Cuando se utiliza &quot;No contiene / Igual a&quot; **dos de los tres** se devolverán las visitas.
-   - Cuando se utiliza &quot;Excluir contiene / es igual a&quot; **solo uno** de esas visitas se devolverán
+   - Si se usa &quot;No contiene/es igual que&quot; **se devolverán dos de las tres** visitas.
+   - Al usar &quot;Excluir contiene / es igual que&quot; **solo se devolverá una** de esas visitas
 
-**Figura 3: No contiene / no es igual a: ámbito de la visita**
+**Figura 3: No contiene / no es igual a - Ámbito de la visita**
 
-![Figure3-DnceVsExclude-Visitor](assets/figure3-dnce-vs-exclude-visitor.png)
+![Figura3-DnceVsExclude-Visitor](assets/figure3-dnce-vs-exclude-visitor.png)
 
-*Como en el caso anterior, cada visita realizada por el **visitante**se evaluarán con la misma lógica true / false. Pero ahora estamos viendo todas las visitas que este visitante ha realizado, en todas las visitas (dentro del intervalo de fechas seleccionado).*
+*Al igual que arriba, cada visita realizada por el **visitante**se evaluará con la misma lógica verdadero/falso. Pero ahora estamos viendo todas las visitas que este visitante ha realizado, en todas las visitas (dentro del intervalo de fechas seleccionado).*
 
 - En cada visita individual, &quot;Value&quot; no contiene &quot;Example&quot; (sí), por lo que devuelve el valor &quot;True&quot;; del mismo modo, no contiene &quot;Example&quot; (no, lo contiene), por lo que devuelve el valor &quot;False&quot;.
-   - If **cualquiera** la visita realizada por el visitante devuelve **true** y, a continuación, el **toda la visita** se devuelve.
-   - Si el visitante nunca realizó ninguna visita que contuviera &quot;Ejemplo&quot;, entonces ninguna visita devolvería el valor &quot;True&quot; y, por lo tanto, ese visitante sí lo haría **no se puede devolver** en el conjunto de datos.
+   - Si **cualquier** visita realizada por el visitante devuelve **verdadero**, entonces se devuelve **toda la visita**.
+   - Si el visitante nunca realizó ninguna visita que contuviera &quot;Ejemplo&quot;, entonces ninguna visita devolvería el valor &quot;True&quot; y, por lo tanto, ese visitante **no sería devuelto** en su conjunto de datos.
 - De nuevo, en cada visita individual el &quot;Ejemplo&quot; contiene &quot;Ejemplo&quot; (sí), por lo que devuelve el valor &quot;True&quot;.
-   - If **cualquier visita** devoluciones **true**, todo el visitante (y posteriormente todas sus visitas) se **excluido.**
-   - If **todas las visitas** en la devolución de la visita **false**, ese visitante se devolverá en el conjunto de datos, por lo que se devolverá con éxito a los visitantes que no hayan hecho &quot;X&quot;.
+   - Si **cualquier visita** devuelve **true**, se **excluirá a todo el visitante (y posteriormente a todas sus visitas).**
+   - Si **todas las visitas** de la visita devuelven **falso**, se devolverá ese visitante en el conjunto de datos y, por lo tanto, se devolverá con éxito a los visitantes que no hicieron &quot;X&quot;.
 - Esta es una extensión de la lógica de visita, donde hay incluso más consideraciones. En el ejemplo anterior hay dos visitantes diferentes, con 3 visitas cada uno:
-   - Cuando se utiliza &quot;No contiene / Igual a&quot; **ambos** se devolverán los visitantes, al igual que todos los **tres** de sus visitas (que representan 2 visitantes y 6 visitas totales en sus informes)
-   - Cuando se utiliza &quot;Excluir contiene / es igual a&quot; **solo uno** de esos visitantes se devolverán y solo se incluirán las tres visitas asociadas a ese visitante (que representan 1 visitante y 3 visitas totales en sus informes)
+   - Si se usa &quot;No contiene/es igual que&quot;, se devolverán **ambos** visitantes, al igual que las **tres** visitas (que representan 2 visitantes y 6 visitas totales en los informes)
+   - Al usar &quot;Excluir contiene / es igual a&quot; **solo se devolverá uno** de esos visitantes, y solo se incluirán las tres visitas asociadas a ese visitante (que representan 1 visitante y 3 visitas totales en sus informes)
 
 >[!TIP]
 >
@@ -94,13 +94,13 @@ A primera vista, ambos suenan igual... y así sucesivamente **Visita** Nivele lo
 
 ### Ejemplo de segmento 1: Excluir las visitas que realizan una compra
 
-En este ejemplo, quiero segmentar usuarios que llegaron a un sitio y lo hicieron *no* realizar una compra durante su visita (básicamente, quiero excluir las visitas que realizaron una transacción; por lo tanto, me quedaré con las visitas que no completaron una transacción)
+En este ejemplo, quiero segmentar usuarios que llegaron a un sitio y que *no* realizaron una compra durante su visita (básicamente, quiero excluir las visitas que realizaron una transacción; por lo tanto, me quedaré con las visitas que no completaron una transacción)
 
-![Segment1A-VisitLevelExclude](assets/segment-example-1/segment1a-visit-level-exclude.png)
+![Segmento1A-VisitLevelExclude](assets/segment-example-1/segment1a-visit-level-exclude.png)
 
 Para comparar, veamos un segmento que se ha creado con &quot;No existe&quot;:
 
-![Segment1B-VisitDoesNotExist](assets/segment-example-1/sement1b-visit-does-not-exist.png)
+![Segmento1B-VisitaNoExiste](assets/segment-example-1/sement1b-visit-does-not-exist.png)
 
 Observe cómo la vista previa muestra un resultado muy diferente. De hecho, este segmento devolverá el 100 % de mis visitas, ya que cada visita tiene al menos una visita que no incluye la métrica &quot;Pedido&quot;.
 
@@ -108,7 +108,7 @@ Para ilustrar esto más adelante, vamos a comparar los dos segmentos en paralelo
 
 ![Segment1C-ComparisonTable](assets/segment-example-1/sement1c-comparison-table.png)
 
-En primer lugar, se puede ver que a pesar de la *visita* A nivel de ámbito del segmento, podemos emparejarlo con otras métricas (como vistas de página o visitantes únicos). El primer conjunto de columnas está sin segmentar, para mostrar de un vistazo que un segmento (no existe) devuelve casi el 100 % de los datos, solo el segmento de exclusión hace lo que necesitamos que haga.
+Primero, puede ver que a pesar del ámbito de nivel del segmento de *visita*, podemos emparejar el segmento con otras métricas (como vistas de página o visitantes únicos). El primer conjunto de columnas está sin segmentar, para mostrar de un vistazo que un segmento (no existe) devuelve casi el 100 % de los datos, solo el segmento de exclusión hace lo que necesitamos que haga.
 
 La columna más destacable son los pedidos, que deberían ser inmediatamente obvios de que el contenedor &quot;No existe&quot; es incorrecto, ya que la mayoría de los pedidos aún se están devolviendo.
 
@@ -118,23 +118,23 @@ En este ejemplo, quiero utilizar las ideas de la muestra anterior (que miraba es
 
 Este segmento será muy similar al ejemplo anterior, casi idéntico, pero el ámbito del segmento va a marcar una gran diferencia.
 
-![Segment2A-VisitorLevelExclude](assets/segment-example-2/segment2a-visitor-level-exclude.png)
+![Segmento2A-VisitorLevelExclude](assets/segment-example-2/segment2a-visitor-level-exclude.png)
 
-Ahora, si comparamos el segmento con ámbito de visitante con el segmento con ámbito de visita anterior, verá que se excluyen muchos más datos y muchas más visitas, ya que *visitantes que han realizado compras* también tenía visitas en las que no se realizó ninguna compra y, por lo tanto, esas visitas también se excluyen, ya que forman parte del ciclo de vida del visitante.
+Ahora, si comparamos el segmento con alcance de visitante con el segmento con alcance de visita anterior, verá que se excluyen muchos más datos y muchas más visitas, ya que *los visitantes que realizaron compras* también tuvieron visitas en las que no se realizaron compras, y por lo tanto, esas visitas también se excluyen ya que forman parte del ciclo de vida del visitante.
 
 >[!IMPORTANT]
 >
 >Cuando se buscan datos con ámbito de visitante, cuanto más largo sea el lapso de tiempo del informe, mayor será la exclusión, ya que muchos visitantes serán visitantes fieles que regresan al sitio (por supuesto, algunos modelos comerciales verán un impacto mayor que otros)
 
-![Segment2B-ComparisonTable](assets/segment-example-2/sement2b-comparison-table.png)
+![Tabla de comparación de Segmento2B](assets/segment-example-2/sement2b-comparison-table.png)
 
 
 >[!IMPORTANT]
 >
->Aunque las diferencias entre la visita y el visitante pueden ser *sutil* (especialmente en estos datos de ejemplo), son lógicas únicas que deben tenerse en cuenta. Los datos pueden ser sorprendentemente diferentes según el sitio y los comportamientos de los usuarios.
+>Aunque las diferencias entre la visita y el visitante pueden ser *sutiles* (especialmente en estos datos de ejemplo), son una lógica única que se debe tener en cuenta. Los datos pueden ser sorprendentemente diferentes según el sitio y los comportamientos de los usuarios.
 
 
-Es importante saber exactamente qué datos o qué *historia*, está intentando decirlo con su informe. Garantizar que las tablas y visualizaciones indiquen claramente a la audiencia ***qué*** se está mostrando y el uso del modelo de segmento adecuado es fundamental para realizar el análisis adecuado. Las decisiones informadas solo se pueden tomar correctamente si todos entienden lo que están viendo.
+Es importante saber exactamente qué datos o qué *historia* intenta contar con su informe. Para realizar el análisis adecuado, es fundamental asegurarse de que las tablas y visualizaciones indiquen claramente a la audiencia ***qué*** se está mostrando, y utilizar el modelo de segmentos adecuado. Las decisiones informadas solo se pueden tomar correctamente si todos entienden lo que están viendo.
 
 ## Uso de contenedores
 
@@ -142,37 +142,37 @@ Los contenedores nos proporcionan la capacidad de crear &quot;sublógica&quot; d
 
 La mejor manera de pensar en los contenedores es imaginar que cada contenedor es una caja, y que podemos apilar cajas (de lógica) dentro de otra caja, dentro de otra caja... pero a diferencia de las cajas físicas donde cada caja debe ser más pequeña que la caja exterior, podemos poner algo más grande dentro si eso nos impulsa a recuperar los datos correctos. Piensen en ello como en un sombrero de mago, donde lo imposible cabe dentro y nosotros somos los magos de los datos...
 
-![Rabbit_in_hat](assets/rabbit-in-hat.jpeg)
+![Conejo_en_sombrero](assets/rabbit-in-hat.jpeg)
 
 ### Ámbito de los contenedores
 
-Primero vamos a hacer un desglose rápido de *contenedor* ámbito. Like *segmento s* hacer frente, usted tiene su básico **Visita**, **visita** y **visitante** opciones de ámbito, pero a veces también verá algo llamado **grupo lógico** en lugar de visitante (esto solo ocurrirá en segmentos secuenciales y se tratarán en el artículo siguiente).
+Primero hagamos un desglose rápido del ámbito *contenedor*. Al igual que *segmento s* cope, tiene las opciones de ámbito de **visita**, **visita** y **visitante** básicas, pero a veces también verá algo llamado **grupo lógico** en lugar de visitante (esto solo ocurrirá en segmentos secuenciales, y los explicaremos en el siguiente artículo).
 
-Puede añadir contenedores dentro de su segmento (o dentro de otros contenedores) accediendo al **opciones*** (cuando anide varios elementos, tenga cuidado de agregar al bloque correcto, aunque afortunadamente puede arrastrar y soltar contenedores dentro de la interfaz si lo agrega a la ubicación incorrecta)
+Se puede agregar contenedores dentro del segmento (o dentro de otros contenedores) si se accede al menú **options*** (cuando anide varios elementos, tenga cuidado de agregarlos al bloque correcto, aunque afortunadamente puede arrastrar y soltar contenedores dentro de la interfaz si no los agrega a la ubicación incorrecta)
 
-**Figura 1: Adición de un contenedor**
+**Figura 1: Agregando un contenedor**
 
-![Figura 1: Agregar contenedor](assets/figure1-adding-container.png)
+![Figura1-AgregandoContenedor](assets/figure1-adding-container.png)
 
-El alcance de un contenedor es independiente del padre, como mencioné anteriormente, estos *no* Tienes que coincidir, y dependiendo de lo que quieras devolver, es posible que tengas que dibujar el plan para visualizar completamente lo que necesitas, al menos hasta que te sientas cómodo visualizándolo en tu cabeza.
+El ámbito de un contenedor es independiente del principal, como mencioné anteriormente, estos *no* tienen que coincidir, y dependiendo de lo que quieras devolver, es posible que tengas que dibujar el plan para visualizar completamente lo que necesitas, al menos hasta que te sientas cómodo visualizándolo en tu cabeza.
 
 **Figura 2: Ámbito del segmento vs. ámbito del contenedor**
 
-![Figura 2-SegmentScopeVsContainerScope](assets/figure2-segment-scope-vs-container-scope.png)
+![Figura2-SegmentScopeVsContainerScope](assets/figure2-segment-scope-vs-container-scope.png)
 
 >[!NOTE]
 >
->El Adobe tiene lógica para comprender segmentos válidos y no válidos, no le proporcionarían opciones que podrían *nunca* funciona... por lo que si ve la opción de usar un contenedor con ámbito de visitante dentro de un segmento con ámbito de visita, significa que es una opción válida.
+>El Adobe tiene lógica para comprender los segmentos válidos y no válidos, no le proporcionarían opciones que *nunca* funcionarían... por lo que si ve la opción de usar un contenedor con ámbito de visitante dentro de un segmento con ámbito de visita, significa que es una opción válida.
 
-Al igual que para los segmentos básicos, cuando comienza a generar un segmento complejo con contenedores anidados, debe tener una idea clara sobre lo siguiente ***qué*** tipo de datos que desea que se devuelvan. ***Cómo*** ¿planea usar esos datos? ***Que*** métricas ¿planea emparejar con el segmento?
+Al igual que para los segmentos básicos, cuando empieza a generar un segmento complejo con contenedores anidados, necesita tener una idea clara sobre ***qué tipo de datos*** desea que se devuelvan. ***Cómo*** planea usar esos datos? ***¿Qué*** métricas planea emparejar con el segmento?
 
 Estas preguntas ayudarán a determinar cuál será el ámbito del segmento en su conjunto, este es el punto de partida para cualquier segmento.
 
-El hecho de que planee emparejar un segmento con su métrica de visitantes únicos no significa que el propio segmento deba ser de nivel de visitante... muy diferente. Un segmento de nivel de visitante devolverá todos los datos de un visitante... esto significa todas sus visitas, todas sus vistas de página, etc. Una vez que un visitante coincida con los criterios del segmento, el segmento podría empezar a devolver datos del *pasado* para este visitante (siempre que esté dentro del intervalo de fechas del espacio de trabajo).
+El hecho de que planee emparejar un segmento con su métrica de visitantes únicos no significa que el propio segmento deba ser de nivel de visitante... muy diferente. Un segmento de nivel de visitante devolverá todos los datos de un visitante... esto significa todas sus visitas, todas sus vistas de página, etc. Una vez que un visitante coincida con los criterios del segmento, el segmento podría empezar a devolver datos del *pasado* para este visitante (siempre y cuando esté dentro del intervalo de fechas de su área de trabajo).
 
 >[!IMPORTANT]
 >
->Incluso cuando planea emparejar un segmento con la métrica de visitantes únicos, esto *no significa* que el segmento debe estar automáticamente dentro del ámbito del visitante... Esta idea errónea *podría* crear resultados inflados e incorrectos.
+>Incluso cuando planea emparejar un segmento con la métrica de visitantes únicos, este *no significa* que el segmento deba ser automáticamente ámbito de visitante... Esta idea errónea *podría* crear resultados inflados e incorrectos.
 
 Por lo tanto, he hablado mucho sobre los conceptos de cómo seleccionar el ámbito adecuado, pero no he proporcionado ejemplos o detalles específicos que realmente le ayudarán... así que vamos a profundizar en eso ahora con algunos ejemplos de casos de uso reales. Dicen que un mago nunca revela sus secretos, pero eso no es del todo cierto. Dentro del mundo mágico, las técnicas y los trabajos &quot;detrás de la cortina&quot; a menudo se comparten con compañeros, permitiéndoles construir y mejorar la ilusión, y eso es lo que intento hacer... para abrir la puerta a las posibilidades que les esperan.
 
@@ -184,7 +184,7 @@ Este tipo de escenario es bueno para ver si tengo compradores que buscan página
 
 Mi ejemplo es ir a las páginas de &quot;Ofertas destacadas&quot; y &quot;Productos recomendados&quot;. Actualmente, vamos a mantener la lógica simple y no entrar en la segmentación secuencial (al menos aún no, pero abordaremos una lógica más compleja como esa en un artículo futuro).
 
-Otra pregunta es **por qué** ¿estamos retrocediendo por los golpes? Técnicamente, podría pasar por Visitas o Visitantes aquí, pero también puedo ver estas páginas específicas de la siguiente manera **vistas de página (para el conjunto de páginas específico) por visita** o **vistas de página (para el conjunto específico) por visitante** Sin embargo, este ámbito me da la flexibilidad para realizar esta matemática específica. Dado que estas visitas se pueden asociar fácilmente con visitas o visitantes únicos para determinar el número de visitas o visitantes que ven estas páginas, optaré por el segmento más flexible que pueda utilizar para todos los escenarios.
+Otra pregunta es **¿por qué** estamos retrocediendo con las visitas? Técnicamente podría extraer por Visitas o Visitantes aquí, pero también podría querer ver estas páginas específicas por **vistas de página (para el conjunto de páginas específico) por visita** o **vistas de página (para el conjunto específico) por visitante**, este ámbito me da la flexibilidad para realizar esta matemática específica. Dado que estas visitas se pueden asociar fácilmente con visitas o visitantes únicos para determinar el número de visitas o visitantes que ven estas páginas, optaré por el segmento más flexible que pueda utilizar para todos los escenarios.
 
 En primer lugar, para comparar, le presentamos un segmento simple basado en VISITAS para las páginas específicas.
 
@@ -192,11 +192,11 @@ En primer lugar, para comparar, le presentamos un segmento simple basado en VISI
 
 Ahora, vamos a construir en la complejidad:
 
-![Segment3B-MultipleContainersHitAndVisitor](assets/segment-example-3/segment3b-multiple-containers-hit-and-visitor.png)
+![Segmento3B-MultipleContainersHitAndVisitor](assets/segment-example-3/segment3b-multiple-containers-hit-and-visitor.png)
 
 Observarán que no sólo utilizo varios contenedores, sino que estoy mezclando el ámbito de esos contenedores. El segmento en su conjunto está en el nivel de VISITA INDIVIDUAL, pero también busco VISITANTES que hayan realizado un pedido.
 
-![Segment3C-ComparisonTable](assets/segment-example-3/segment3c-comparison-table.png)
+![Tabla de comparación de segmentos3C](assets/segment-example-3/segment3c-comparison-table.png)
 
 Vamos a pasar un poco de tiempo para desempaquetar esto, ya que hay mucho que hacer.
 
@@ -212,7 +212,7 @@ En primer lugar, en lugar de mostrar un desglose diario, estoy mostrando un desg
 
 <table style="border: 0;">
     <tr>
-        <td width="352" style="border: 0;">A continuación, se muestra el resultado del segmento simple, mirando únicamente <strong>visitas</strong> en las dos páginas especificadas. Observará que las demás páginas del desglose resultan en 0, tal como se espera.</td>
+        <td width="352" style="border: 0;">A continuación, se muestra el resultado del segmento simple, con solo <strong>visitas</strong> en las dos páginas especificadas. Observará que las demás páginas del desglose resultan en 0, tal como se espera.</td>
         <td style="border: 0;">&lt;img src="assets/segment-example-3/segment3c-comparison-table-detail2.png" width="352"
         </td>
     </tr>
@@ -243,7 +243,7 @@ Usando algunas de las mismas páginas que estábamos viendo anteriormente, ahora
 
 Este segmento combina los tres ámbitos. El nivel superior del segmento es visitante, por lo que se asegurará de que se devuelvan TODAS las visitas de todas las visitas del visitante coincidente. Dentro de él, hemos agregado un contenedor de ámbito de visita, que va a garantizar que el visitante debe haber tenido al menos una visita que coincida con los criterios específicos de hacer un pedido Y haber visitado páginas específicas. Hemos agregado un contenedor de ámbito de visita para las propias páginas, de modo que podemos utilizar la lógica OR para buscar la página de ofertas destacadas O la página de productos recomendados.
 
-La ventaja para este segmento con ámbito de visitante es que devolverá **TODO** las visitas de los visitantes que cumplan este criterio, por lo que este segmento será bueno si quiero ver los comportamientos de las visitas anteriores que preceden a esta combinación y las acciones de estos visitantes tras un escenario de este tipo.
+La ventaja de este segmento con ámbito de visitante es que devolverá **TODAS** las visitas de los visitantes que cumplan con este criterio, por lo que este segmento será bueno si quiero ver los comportamientos de las visitas anteriores que llevaron a esta combinación y las acciones de estos visitantes después de este escenario.
 
 ![Segment4B-ComparisonTable](assets/segment-example-4/segment4b-comparison-table.png)
 
@@ -260,30 +260,30 @@ Digamos que tenemos dos eVars, una de ellas está configurada para visitar la ca
 **Visita 1**
 
 - Página A
-   - **EVAR 1** no se ha establecido
-   - **EVAR 2** no se ha establecido
+   - **eVar 1** no está establecido
+   - **eVar 2** no está establecido
 - Haga clic en el banner de promoción con ?icid=promo-banner en la URL.
 - Página B
-   - **EVAR 1** y **EVAR 2** se establecen en &quot;promo-banner&quot;
-   - **Instancia de eVar 1** se activa
-   - **Instancia de eVar 2** se activa
+   - **eVar 1** y **eVar 2** se han configurado como &quot;promo-banner&quot;
+   - **Se ha activado la instancia de eVar 1**
+   - **Se ha activado la instancia de eVar 2**
 - Página C
-   - Ambos **EVAR 1** y **EVAR 2** mantenga el valor &quot;promo-banner&quot;.
+   - Tanto **eVar 1** como **eVar 2** mantienen el valor &quot;promo-banner&quot;
    - Ninguna de las métricas de instancia de las eVars se activa, ya que ambas eVars utilizan valores persistentes
 
 **Visita 2**
 
 - Página D
-   - **EVAR 1** no se ha establecido en ningún valor y no **Instancia de eVar 1** se activa
-   - **EVAR 2** mantiene el valor &quot;promo-banner&quot; debido a la caducidad de 30 días
-   - **Instancia de eVar 2** no se activa, ya que el valor es persistente y no se ha definido
+   - **eVar 1** no se ha establecido en ningún valor y no se ha activado **instancia de eVar 1**
+   - **eVar 2** mantiene el valor &quot;promo-banner&quot; debido a la caducidad de 30 días
+   - **La instancia de eVar2** no se ha activado porque el valor es persistente y no se ha establecido
 - Haga clic en Promoción de carril lateral con ?icid=promo-side-rail en la URL
 - Página E
-   - **EVAR 1** y **EVAR 2** están configuradas como &quot;promo-side-rail&quot;
-   - **Instancia de eVar 1** se activa
-   - **Instancia de eVar 2** se activa
+   - **eVar 1** y **eVar 2** están configurados en &quot;promo-side-rail&quot;
+   - **Se ha activado la instancia de eVar 1**
+   - **Se ha activado la instancia de eVar 2**
 - Página F
-   - Ambos **EVAR 1** y **EVAR 2** mantenga el valor &quot;promo-side-rail&quot;.
+   - Tanto **eVar 1** como **eVar 2** mantienen el valor &quot;promo-side-rail&quot;
    - Ninguna de las métricas de instancia de las eVars se activa, ya que ambas eVars utilizan valores persistentes
 
 Actualmente, aquí está el resultado esperado de estas dos visitas:
@@ -301,14 +301,14 @@ Actualmente, aquí está el resultado esperado de estas dos visitas:
 
 <table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Page Views</b></th><th colspan="1" valign="top"><b>Visitas</b></th><th colspan="1" valign="top"><b>Instancia de eVar 1</b></th></tr>
 <tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">eVar1</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">EVAR 1</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" valign="top">promo-banner</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 <tr><td colspan="1" valign="top">promo-side-rail</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 </table>
 
 <table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Page Views</b></th><th colspan="1" valign="top"><b>Visitas</b></th><th colspan="1" valign="top"><b>Instancia de eVar 2</b></th></tr>
 <tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">eVar2</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">EVAR 2</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" valign="top">promo-banner</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td></tr>
 <tr><td colspan="1" valign="top">promo-side-rail</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 </table>
@@ -319,7 +319,7 @@ Ahora, veamos dónde puede establecer la atribución en el segmento.
 
 ![Figura4-Modelo de atribución](assets/figure4-attribution-model.png)
 
-*El icono de engranaje de la dimensión es donde se puede establecer la atribución. Cada opción tiene información disponible al pasar el puntero sobre &quot;?&quot; icono. Básicamente:*
+*El icono de engranaje en su dimensión es donde puede establecer la atribución. Cada opción tiene información disponible al pasar el puntero sobre &quot;?&quot; icono. Básicamente:*
 
 - El comportamiento predeterminado devolverá todas las instancias del eVar en las que se haya establecido el valor (ya sea de forma específica o a través de la atribución set)
 - Instancia solo devolverá la dimensión donde el valor esté establecido explícitamente (es decir, en las visitas individuales donde se activa la &quot;Instancia de eVar&quot;)
@@ -327,7 +327,7 @@ Ahora, veamos dónde puede establecer la atribución en el segmento.
 
 ### Ejemplo de segmento 5: Canal de marketing &quot;Búsqueda de pago&quot; frente a las instancias directas de búsqueda de pago
 
-Como todos debemos saber, los canales de marketing tienen un modelo de atribución largo (30 días de forma predeterminada, pero esto podría personalizarse según sus propias necesidades), y una vez configurado, el canal de marketing no se sobrescribirá con las posteriores visitas &quot;directas&quot; al sitio, para que sus controladores específicos obtengan la atribución de conversión. Sin embargo, a veces es necesario ver específicamente la variable ***entradas*** a su sitio por un canal de marketing específico; y por entradas, quiero decir que necesita ver cuándo se establece específicamente el canal de marketing en función de sus reglas de procesamiento de marketing.
+Como todos debemos saber, los canales de marketing tienen un modelo de atribución largo (30 días de forma predeterminada, pero esto podría personalizarse según sus propias necesidades), y una vez configurado, el canal de marketing no se sobrescribirá con las posteriores visitas &quot;directas&quot; al sitio, para que sus controladores específicos obtengan la atribución de conversión. Sin embargo, a veces necesita ver específicamente las ***entradas*** en el sitio por un canal de marketing específico; y por entradas, quiero decir que necesita ver cuándo se establece específicamente el canal de marketing en función de sus reglas de procesamiento de marketing.
 
 Cambiemos las cosas y empecemos por ver las comparaciones, luego vamos a adentrarnos en los segmentos.
 
@@ -348,18 +348,18 @@ Cambiemos las cosas y empecemos por ver las comparaciones, luego vamos a adentra
 </table>
 
 
-![Segment5A-PaidSearchHit](assets/segment-example-5/segment5a-paid-search-hit.png)
+![Segmento5A-VisitaBúsquedaPagada](assets/segment-example-5/segment5a-paid-search-hit.png)
 
 <table style="border: 0;">
     <tr>
-        <td width="352" style="border: 0;">Ahora, los dos siguientes conjuntos de datos parecen idénticos y, de hecho, devuelven los mismos datos de dos formas diferentes. Pero ahora estoy buscando específicamente el <i>instances</i> donde estaba el canal de marketing <strong>set</strong> a "Búsqueda de pago".</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail3.png" width="352">
+        <td width="352" style="border: 0;">Ahora, los dos siguientes conjuntos de datos parecen idénticos y, de hecho, devuelven los mismos datos de dos formas diferentes. Pero ahora busco específicamente las <i>instancias</i> en las que el canal de marketing estaba <strong>establecido</strong> en "Búsqueda de pago".</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail3.png" width="352">
         </td>
     </tr>
 </table>
 
 Esto se puede hacer de dos maneras:
 
-En primer lugar, se utiliza la atribución de dimensión &quot;estándar&quot; y se empareja con la métrica específica &quot;Instancia del canal de marketing&quot; (como *existe* lógica):
+En primer lugar, se usa la atribución de dimensión &quot;estándar&quot; y se empareja con la métrica específica &quot;Instancia de canal de marketing&quot; (ya que *existe* lógica):
 
 ![Segment5A-PaidSearchHitANDInstanceExists](assets/segment-example-5/segment5a-paid-search-hit-and-instance-exists.png)
 
@@ -371,18 +371,18 @@ O segundo, para un segmento más sencillo, puede cambiar la atribución a Instan
 
 Como cualquier buen mago, podemos empezar con cada truco individual, construyendo la audiencia a medida que avanzamos, llevándolos al &quot;prestigio&quot; final. Aquí es donde realmente brillamos, tomando todos los pequeños trucos, y enrollarlos en un gran final. Tomando las partes aparentemente desconectadas del truco, y mostrando que de hecho, todas trabajan juntas para formar un todo cohesivo.
 
-![Fire_Bunny](assets/fire-bunny.jpeg)
+![Conejo_Fuego](assets/fire-bunny.jpeg)
 
 
 ### Ejemplo de segmento 6: Visitantes que han realizado un pedido durante una visita con una instancia social de pago y que excluyen a los visitantes que se han suscrito a cualquier newsletter
 
-![Segment6A-VisitorsPurchasingFromPaidSocialWithNoNewsletter](assets/segment-example-6/segment6a-visitors-purchasing-from-paid-social-with-no-newsletter.png)
+![Segmento6A-VisitantesComprandoDeSocialPagadoSinNewsletter](assets/segment-example-6/segment6a-visitors-purchasing-from-paid-social-with-no-newsletter.png)
 
 Esto me permite identificar a los visitantes que han realizado una compra de forma activa durante una visita en una campaña de medios sociales, pero que no se han registrado en nuestros boletines informativos. Esto permitirá a nuestro equipo de marketing ver el grupo potencial de usuarios que deben intentar realizar la conversión para boletines informativos y correos electrónicos de marketing.
 
 ## Final
 
-![Theater_Stage](assets/theater-stage.jpeg)
+![Escenario_Teatro](assets/theater-stage.jpeg)
 
 Hay tantas maneras de combinar la lógica para entrar en escenarios muy detallados, que solo puedo arañar la superficie de las posibilidades.
 

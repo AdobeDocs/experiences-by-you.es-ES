@@ -9,7 +9,8 @@ duration: 0
 last-substantial-update: 2024-05-03T00:00:00Z
 jira: KT-14813
 thumbnail: KT-14813.jpeg
-source-git-commit: 47ab8875bc4e41595cd40550330e43a88357b68d
+exl-id: 19b3de9e-53f3-4308-b46e-7b8f756c30a0
+source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 2%
@@ -18,11 +19,11 @@ ht-degree: 2%
 
 # Organización de una nueva instancia y establecimiento de convenciones de nomenclatura
 
-Como administrador que implementa una nueva instancia de Marketo Engage, está sentando las bases para permitir que los futuros especialistas en marketing de la organización puedan navegar fácilmente por ella. Familiarizarse con la estructura de carpetas de árbol y las convenciones de nomenclatura mantendrá la instancia ordenada y configurada para tener éxito a largo plazo. Este tutorial incluye ejemplos recomendados por la campeona de Adobe y Marketo Engage (2019-2020), Natalie Kremer, para ayudarle [organice las carpetas y asigne nombres a los recursos de forma coherente](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
+Como administrador que implementa una nueva instancia de Marketo Engage, está sentando las bases para permitir que los futuros especialistas en marketing de la organización puedan navegar fácilmente por ella. Familiarizarse con la estructura de carpetas de árbol y las convenciones de nomenclatura mantendrá la instancia ordenada y configurada para tener éxito a largo plazo. Este tutorial incluye ejemplos recomendados por la campeona de Adobe y Marketo Engage (2019-2020), Natalie Kremer, para ayudarle a [organizar las carpetas y asignar nombres a los recursos de forma coherente](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
 
 ## ¿Por qué es necesario estructurar carpetas y aplicar convenciones de nomenclatura?
 
-Mantenerse organizado en la instancia facilita al usuario y a los compañeros el seguimiento de las campañas, los programas y los recursos, así como la creación de informes sobre el rendimiento del programa. Para organizar el árbol de navegación en la instancia y crearlo a escala, se recomienda utilizar [carpetas](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [convenciones de nomenclatura estándar](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"}, y funciones como [clonación](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
+Mantenerse organizado en la instancia facilita al usuario y a los compañeros el seguimiento de las campañas, los programas y los recursos, así como la creación de informes sobre el rendimiento del programa. Para organizar el árbol de navegación en su instancia y compilarlo a escala, se recomienda usar [carpetas](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [convenciones de nomenclatura estándar](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} y características como [clonación](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
 
 ## Cómo organizar una instancia de Marketo Engage
 
@@ -30,7 +31,7 @@ Mantenerse organizado en la instancia facilita al usuario y a los compañeros el
 
 ### Paso 1: Configuración de una estructura de carpetas para ordenar los programas
 
-El primer paso para organizar la instancia es lo siguiente [configuración de una estructura de carpetas](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html) aloje su programa y sus activos de una manera fácil de encontrar y ordenada.
+El primer paso para organizar su instancia es [configurar una estructura de carpetas](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html) para alojar su programa y sus recursos de una manera fácil de encontrar y ordenada.
 
 A continuación se ofrecen algunas sugerencias rápidas para estructurar las carpetas en árbol:
 
@@ -47,13 +48,13 @@ A continuación se muestran ejemplos de carpetas de cómo poner en práctica est
 
 >[!TAB Actividades de marketing]
 
-![Carpetas y actividades de marketing](/help/marketo-tutorial-implementing-new-instance/assets/folders-marketing-activities.png)
+![Carpetas y actividades de mercadotecnia](/help/marketo-tutorial-implementing-new-instance/assets/folders-marketing-activities.png)
 
->[!TAB Design Studio]
+>[!TAB Estudio de diseño]
 
-![Folder Design Studio](/help/marketo-tutorial-implementing-new-instance/assets/folders-design-studio.png)
+![Estudio de diseño de carpetas](/help/marketo-tutorial-implementing-new-instance/assets/folders-design-studio.png)
 
->[!TAB Base de datos]
+>[!TAB Database]
 
 ![Base de datos de carpetas](/help/marketo-tutorial-implementing-new-instance/assets/folders-database.png)
 
@@ -65,13 +66,13 @@ Ahora, vamos a aplicar la estructura de carpetas en el nivel de programa. Como p
 
 **Nombre de carpeta dentro de programas**
 * Campañas: *Carpeta para todas las campañas que administran interacciones y seguimiento de estado.*
-* Recursos locales - *Carpeta para todos los recursos específicos de este programa.*
+* Assets local: *Carpeta para todos los recursos específicos de este programa.*
    * Correos electrónicos
-   * Página de destino
+   * Páginas de destino
    * Campañas inteligentes
-   * Listas - *Solo es necesario cuando hay Listas específicas de programas.*
-   * FORMS - *Solo es necesario cuando hay un Forms específico del programa; la mayoría de los Forms son Recursos globales.*
-   * Informes - *Solo es necesario cuando hay informes específicos del programa.*
+   * Listas: *Solo se necesitan cuando hay listas específicas del programa.*
+   * Forms - *Solo se necesita cuando hay Forms específicos del programa; la mayoría de Forms son Assets globales.*
+   * Informes - *Solo se necesitan cuando hay informes específicos del programa.*
 
 ### Paso 3: Creación de convenciones de nomenclatura para sus programas y recursos
 
@@ -86,7 +87,7 @@ Ahora, vamos a colocar los valores en la fórmula y generar los nombres de los p
 
 #### Fórmula de nomenclatura de programas
 
-| **Abreviatura de tipo de programa** | **AAAA** | **\-** | **MM** | **\-** | **DD (opcional)** | **Categoría** | **\-** | **Breve descripción del programa** |
+| **Abreviatura del tipo de programa** | **AAAA** | **\-** | **MM** | **\-** | **DD(Opcional)** | **Categoría** | **\-** | **Descripción breve del programa** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EM: envío de correo electrónico (programa de correo electrónico) | AAAA | \- | MM | \- | DD (opcional) | Categoría | \- | Breve descripción del programa |
 | NL - Newsletter | AAAA | \- | MM | \- | DD (opcional) | Categoría | \- | Breve descripción del programa |
@@ -99,7 +100,7 @@ Ahora, vamos a colocar los valores en la fórmula y generar los nombres de los p
 | WC - Contenido del sitio web | AAAA | \- | MM | \- | DD (opcional) | Categoría | \- | Breve descripción del programa |
 | CS: distribución de contenido | AAAA | \- | MM | \- | DD (opcional) | Categoría | \- | Breve descripción del programa |
 | LI - Importación de lista | AAAA | \- | MM | \- | DD (opcional) | Categoría | \- | Breve descripción del programa |
-| OA - Publicidad en línea | AAAA | \- | MM | \- | DD (opcional) | Categoría | \- | Breve descripción del programa |
+| OA - Advertising en línea | AAAA | \- | MM | \- | DD (opcional) | Categoría | \- | Breve descripción del programa |
 | PPC - Pago por clic | AAAA | \- | MM | \- | DD (opcional) | Categoría | \- | Breve descripción del programa |
 
 | **Ejemplos** |
@@ -137,7 +138,7 @@ Teniendo en cuenta esto, aplicaremos estas sugerencias a los siguientes recursos
 
 ##### Asigne un nombre a los recursos con la abreviatura de tipo de recurso
 
-| **Abreviatura de tipo de recurso** | **Tipo de recurso** | **\-** | **Descripción de la meta** |
+| **Abreviatura del tipo de recurso** | **Tipo de recurso** | **\-** | **Descripción de la meta** |
 | --- | --- | --- | --- |
 | LP - Página de aterrizaje | LP | \- | Descripción de la meta |
 | CORREO ELECTRÓNICO: correo electrónico (saliente) | EMAIL | \- | Descripción de la meta |
@@ -159,7 +160,7 @@ Teniendo en cuenta esto, aplicaremos estas sugerencias a los siguientes recursos
 
 ##### Asigne un nombre a los archivos descargables (.pdf) con la abreviatura de tipo de recurso
 
-| **Tipo de recurso** | **Descripción del contenido** | **\-** | **Abreviatura de tipo de recurso** | **.** | **PDF** |
+| **Tipo de recurso** | **Descripción del contenido** | **\-** | **Abreviatura del tipo de recurso** | **.** | **PDF** |
 | --- | --- | --- | --- | --- | --- |
 | WP - Libro blanco | Descripción del contenido | \- | WP | . | pdf |
 | CS: Caso práctico | Descripción del contenido | \- | CS | . | pdf |
@@ -177,9 +178,9 @@ Teniendo en cuenta esto, aplicaremos estas sugerencias a los siguientes recursos
 
 ## ¿Qué sigue?
 
-* Descargue la hoja de cálculo: [Organización de Marketo Engage y Convenciones de Nombres](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} para admitir la creación de la estructura de carpetas y las convenciones de nomenclatura.
+* Descargue la hoja de cálculo: [Convenciones de nomenclatura y organización de Marketo Engage](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} para admitir la creación de la estructura de carpetas y las convenciones de nomenclatura.
 * Una vez que haya determinado los componentes necesarios en la convención de nombres estándar, considere la posibilidad de crear fórmulas en una hoja de Google o en Microsoft Excel. Para su uso futuro, simplemente introduzca los valores en la hoja de cálculo para generar los nombres de los programas.
-* Una vez que se alinee en una estructura de carpetas general, es hora de pensar en las plantillas que necesita en función de los casos de uso más frecuentes y las solicitudes más comunes que recibe su equipo. A continuación, empiece a crear la primera plantilla de programa. Siga leyendo para empezar a usar [Plantillas de programa de Adobe Marketo Engage](https://business.adobe.com/blog/how-to/get-started-with-marketo-engage-program-templates){target="_blank"}.
+* Una vez que se alinee en una estructura de carpetas general, es hora de pensar en las plantillas que necesita en función de los casos de uso más frecuentes y las solicitudes más comunes que recibe su equipo. A continuación, empiece a crear la primera plantilla de programa. Siga leyendo para empezar a usar [plantillas de programa de Adobe Marketo Engage](https://business.adobe.com/blog/how-to/get-started-with-marketo-engage-program-templates){target="_blank"}.
 
 ### Autores
 

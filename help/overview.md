@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Experiencias por usted: Recursos por usuarios, para usuarios.
 
-Lo más poderoso de [!DNL Adobe] soluciones de experiencia digital (DX) Tú. Los usuarios que toman los productos, profundizan en ellos y los aplican de formas increíbles e innovadoras para crear experiencias y resultados significativos. _Experiencias de su parte_ incluye contenido creado por usuarios habituales que han alcanzado un nivel de experiencia e influencia con su [!DNL Adobe] Soluciones DX. Este conocimiento entre usuarios fomenta la colaboración y el descubrimiento, lo que le permite a usted y a cualquier otro usuario encontrar la inspiración necesaria para aumentar su experiencia con los productos.
+¿Lo más potente de las soluciones de experiencia digital (DX) de [!DNL Adobe]? Tú. Los usuarios que toman los productos, profundizan en ellos y los aplican de formas increíbles e innovadoras para crear experiencias y resultados significativos. _Experiencias de You_ incluye contenido creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con sus soluciones DX [!DNL Adobe]. Este conocimiento entre usuarios fomenta la colaboración y el descubrimiento, lo que le permite a usted y a cualquier otro usuario encontrar la inspiración necesaria para aumentar su experiencia con los productos.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -40,7 +40,7 @@ Lo más poderoso de [!DNL Adobe] soluciones de experiencia digital (DX) Tú. Los
     </a>
     </div>
     <p>
-    <em>Sugerencias que puede utilizar en [!DNL Analysis Workspace] para incrementar la eficacia de sus flujos de trabajo.</em>
+    <em>Sugerencias que puede usar en [!DNL Analysis Workspace] para aumentar la eficacia de sus flujos de trabajo.</em>
     <p>
   </td>
   <td>
@@ -58,7 +58,7 @@ Lo más poderoso de [!DNL Adobe] soluciones de experiencia digital (DX) Tú. Los
   </td>
   <td>
     <a href="/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md">
-      <img alt="AEM Guía de introducción as a Cloud Service" src="https://video.tv.adobe.com/v/3419299?format=jpeg" />
+      <img alt="Libro de estrategias de AEM as a Cloud Service Onboarding" src="https://video.tv.adobe.com/v/3419299?format=jpeg" />
     </a>
     <div>
       <a href="/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md">
@@ -75,7 +75,7 @@ Lo más poderoso de [!DNL Adobe] soluciones de experiencia digital (DX) Tú. Los
 
 ## Recursos adicionales
 
-* [Comunidades Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es)
+* [Comunidades de Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es)
 * [Documentación de Experience Cloud](https://experienceleague.adobe.com/docs/?lang=es)
 * [Tutoriales de Experience Cloud](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=es)
 * [business.adobe.com](https://business.adobe.com)

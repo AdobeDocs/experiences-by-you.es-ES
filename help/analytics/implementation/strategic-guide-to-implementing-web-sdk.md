@@ -10,13 +10,13 @@ duration: 72000
 last-substantial-update: 2024-05-14T00:00:00Z
 jira: KT-15488
 thumbnail: KT-15488.jpeg
-source-git-commit: 04367fcc60fae501422c8e9b1c70838c404d598b
+exl-id: b0719779-f260-45b7-bdd6-1a3145bcb251
+source-git-commit: 4340bd82fd13397762c5b1ebd17d5d03d8180c3e
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
-
 
 # Una guía estratégica para implementar el SDK web
 
@@ -33,9 +33,8 @@ Descargue la [guía estratégica para implementar el SDK web](https://www.adobe.
 
 Este documento fue escrito por:
 
-![meghan de cabeza](assets/meghan-head-shot.png)
+![meghan-head-shot](assets/meghan-head-shot.png)
 
-**Meghan Powers**
+**Potencias Meghan**
 
 Gerente sénior de gobernanza de datos, estrategia y análisis en CarMax y campeón de Adobe Analytics
-

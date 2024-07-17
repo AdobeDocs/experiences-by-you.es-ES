@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Creación de una cultura de datos y una mejor referencia de diseño de soluciones
 
-_Revolucione su estrategia de datos y permita a su equipo crear un documento sólido de referencia de diseño de la solución (DRS). Elimine las brechas de medición y fomente una cultura de datos colaborativa a través de metodologías paso a paso._
+_Revolucione su estrategia de datos y capacite a su equipo para crear un documento sólido de referencia de diseño de soluciones (SDR). Elimine las brechas de medición y fomente una cultura de datos de colaboración mediante metodologías paso a paso._
 
-Por fin es el momento. Usted armó un SDR sólido. Un SDR es la guía que se utiliza para implementar las métricas y dimensiones. Has definido cómo se llaman, cuándo se activan, y a tus desarrolladores les encanta. Pasaste por todo el proceso de implementación, escribiste criterios de aceptación, pasaste por tus sprints, lo probaste, ¡y está hecho! Su instancia de [!DNL Adobe Analytics] debería ser conseguir que los equipos de marketing y productos celebren a medida que profundizan en los datos, obtienen nuevas revelaciones sobre sus clientes y encuentran todas las áreas de éxito y, bueno, las áreas de menos éxito. Pero no estás escuchando los elogios que esperabas.
+Por fin es el momento. Usted armó un SDR sólido. Un SDR es la guía que se utiliza para implementar las métricas y dimensiones. Has definido cómo se llaman, cuándo se activan, y a tus desarrolladores les encanta. Pasaste por todo el proceso de implementación, escribiste criterios de aceptación, pasaste por tus sprints, lo probaste, ¡y está hecho! Su instancia de [!DNL Adobe Analytics] debería estar recibiendo a los equipos de mercadotecnia y productos celebrando mientras se adentran en los datos, obtienen nuevas revelaciones acerca de sus clientes y encuentran todas las áreas de éxito y, bueno, las de menor éxito. Pero no estás escuchando los elogios que esperabas.
 
 Desde un equipo, se escuchan quejas como:
 
@@ -36,19 +36,19 @@ Pero es el otro equipo el que es un motivo de preocupación aún mayor. De ellos
 
 _¿Qué ha fallado?_
 
-_¿Por qué hay lagunas en la medición?_
+_¿Por qué hay huecos en la medición?_
 
-_¿Por qué los miembros de su equipo no aceptan esto?_
+_¿Por qué los integrantes del equipo no aceptan esto?_
 
-Empezaré por dejarte salir un poco del anzuelo. Hay... _siempre_ va a ser una revisión. Si su sitio o aplicación es lo suficientemente complejo como para necesitar una solución de análisis empresarial, se garantiza que se perderá algo. Pero en este caso, no se perdió lo suficiente como para explicar los huecos de medición que estoy describiendo.
+Empezaré por dejarte salir un poco del anzuelo. _siempre_ va a haber alguna revisión. Si su sitio o aplicación es lo suficientemente complejo como para necesitar una solución de análisis empresarial, se garantiza que se perderá algo. Pero en este caso, no se perdió lo suficiente como para explicar los huecos de medición que estoy describiendo.
 
 Lo que salió mal es mucho más difícil de poner en una hoja de cálculo. Básicamente, se perdió su primera oportunidad de crear una cultura de datos colaborativa mientras creaba su SDR.
 
-Quiero guiarles a través de un método que mis colegas y yo desarrollamos tanto para construir un mejor SDR con menos brechas, como para hacer que los usuarios finales inviertan (y hasta ocasionalmente entusiasmen) acerca de su nueva instancia de [!DNL Adobe Analytics]. Veamos cómo y por qué debe considerar este método.
+Quiero guiarle a través de un método que mis colegas y yo desarrollamos tanto para construir un mejor SDR con menos brechas, como para hacer que los usuarios finales inviertan (e incluso, ocasionalmente, se entusiasmen) con su nueva instancia de [!DNL Adobe Analytics]. Veamos cómo y por qué debe considerar este método.
 
 ## El cómo
 
-_Obtenga información sobre la conferencia de medición. Utilice un mapa de embudo para visualizar cada paso del plan. Cree paneles ficticios para revisarlos como grupo. Cree un diccionario de datos para los usuarios._
+_Obtenga información acerca de la conferencia de medición. Utilice un mapa de embudo para visualizar cada paso del plan. Cree paneles ficticios para revisarlos como grupo. Crear un diccionario de datos para los usuarios._
 
 ### La conferencia de medición
 
@@ -65,13 +65,13 @@ _Obtenga información sobre la conferencia de medición. Utilice un mapa de embu
 1. Con los diseñadores y los gestores de producto, revise cada paso y hable de lo que todo el mundo considera éxito en ese canal. ¿Es la tasa de conversión? ¿Está eligiendo una ruta en particular? ¿Está usando ciertas características?
 1. Haga preguntas sobre qué métricas y dimensiones son necesarias para comprender el rendimiento del canal en cada paso del canal y en general.
 1. Por encima de cada paso del canal, añada las métricas y dimensiones que se miden en ese paso, incluidas las métricas calculadas.
-1. Al principio de cada canal, escriba los informes que van en el panel que el gestor de producto puede utilizar para rastrear el rendimiento. Estos informes incluyen un [informe de abandonos](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow), [mes actual](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges), [tasas de conversión de tendencias](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line), y cualquier cosa más específica de ese canal.
+1. Al principio de cada canal, escriba los informes que van en el panel que el gestor de producto puede utilizar para rastrear el rendimiento. Estos informes incluyen [informe de visitas en el orden previsto](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow), [mes actual](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges), [tasas de conversión de tendencias](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line) y cualquier dato más específico de ese canal.
 1. Añada las nuevas métricas y dimensiones que haya descubierto a la SDR y envíelas a las partes interesadas para una segunda revisión.
 
 ### Los paneles de previsualización
 
 1. Con el mapa del canal como guía, cree paneles de prueba.
-1. Debe haber una vista general, como una [Tablero de resumen ejecutivo](driving-success-with-executive-summary-dashboards.md)y paneles para cada uno de los embudos.
+1. Debe haber una vista general, como [Tablero de resumen ejecutivo](driving-success-with-executive-summary-dashboards.md), y tableros para cada uno de los embudos.
 1. También habrá algunas más específicas para su sitio o aplicación, como el rendimiento del producto o el rendimiento del contenido.
 1. Distribuya estos elementos a las partes interesadas relevantes y obtenga comentarios sobre el diseño.
 1. Realice las actualizaciones solicitadas y, si se necesitan nuevas métricas o dimensiones, agréguelas a la SDR.
@@ -85,13 +85,13 @@ _Obtenga información sobre la conferencia de medición. Utilice un mapa de embu
 
 ## El por qué
 
-_Aprenda a recopilar requisitos, crear una cultura de datos, generar una reflexión profunda sobre los datos, crear una sensación de propiedad sobre los datos y simplificar los datos._
+_Obtenga información acerca de los requisitos de recopilación, la creación de una cultura de datos, la creación de una reflexión profunda sobre los datos, la creación de un sentido de propiedad sobre los datos y la simplificación de los datos._
 
 ### Recopilar requisitos
 
 Reunir requisitos es obvio, pero hay varias formas efectivas de hacerlo. He utilizado entrevistas individuales, cuestionarios y revisiones de informes existentes. Esas estrategias funcionan, pero no tan bien como los métodos que acabo de describir. sin embargo, no creo que la diferencia entre los métodos para la recopilación de requisitos sea significativa. El método que he descrito te lleva al 95% de la manera, y estos otros métodos te llevan al 90% de la manera.
 
-Entonces, ¿cuál es el _por qué_?
+Entonces, ¿cuál es _por qué_?
 
 ### Generar referencia cultural de datos
 
@@ -103,19 +103,19 @@ Con este proceso, puede:
 
 ### Una reflexión profunda sobre los datos
 
-Para muchas de las personas de su compañía, los datos son algo que consumen. Lo usan. Lo analizan. Ellos no piensan profundamente en ello. Algunas personas heredaron informes y procesos de sus predecesores, pero no los han alterado por motivos de continuidad. Tal vez estas personas nunca tuvieron que pensar en la _por qué_ de los datos.
+Para muchas de las personas de su compañía, los datos son algo que consumen. Lo usan. Lo analizan. Ellos no piensan profundamente en ello. Algunas personas heredaron informes y procesos de sus predecesores, pero no los han alterado por motivos de continuidad. Tal vez estas personas nunca tuvieron que pensar en _por qué_ de los datos.
 
-Este proceso les da la oportunidad de _entender_ datos. Hacer preguntas como: ¿Qué es el éxito? ¿Cómo sabrías si tuvieras éxito? ¿Cómo sabrías qué cambiar si no tuvieras éxito? Estas preguntas deben responderse al principio de la creación de cada sitio, aplicación y producto, pero muy a menudo no lo son. Al hacer estas preguntas, usted ayuda a profundizar la comprensión de una persona no solo de los datos, sino también de su producto.
+Este proceso les da la oportunidad de _entender_ los datos. Hacer preguntas como: ¿Qué es el éxito? ¿Cómo sabrías si tuvieras éxito? ¿Cómo sabrías qué cambiar si no tuvieras éxito? Estas preguntas deben responderse al principio de la creación de cada sitio, aplicación y producto, pero muy a menudo no lo son. Al hacer estas preguntas, usted ayuda a profundizar la comprensión de una persona no solo de los datos, sino también de su producto.
 
 ### Crear un sentido de propiedad de los datos
 
 Un sentido de propiedad no es algo que una persona adquiera fácilmente. No se encuentra en esa reunión de treinta minutos a la que asistió hace tres meses. No es creado por que un cuestionario molesto que respondieron demasiado rápido debido a otros problemas de trabajo urgentes como demostraciones y fechas de lanzamiento de sprint.
 
-La propiedad es el producto del pensamiento profundo de alguien y de su trabajo con usted y sus colegas. Es lo que han revisado varias veces, proporcionado comentarios continuos para y lo que han aprobado después de incorporar dichos comentarios. ¡Es de ellos! El hecho de que sea útil se debe a ellos. Es... _sus_ y es ese proceso el que lo hizo suyo.
+La propiedad es el producto del pensamiento profundo de alguien y de su trabajo con usted y sus colegas. Es lo que han revisado varias veces, proporcionado comentarios continuos para y lo que han aprobado después de incorporar dichos comentarios. ¡Es de ellos! El hecho de que sea útil se debe a ellos. Son _sus_ datos y es ese proceso el que los hizo suyos.
 
 ### Simplificación de los datos
 
-También les ha mostrado cómo utilizarán el proceso y cómo se verá a través de la [previsualización de paneles](#the-preview-dashboards). Cualquier nueva solución es _difícil_. Hay mucho que aprender, y dada la tremenda capacidad de personalización de [!DNL Adobe Analytics], la curva de aprendizaje puede ser pronunciada. Pero has eliminado el 80% de eso. Incluso antes de que se haya escrito la primera línea de código, las partes interesadas saben cómo serán sus paneles. Ellos sabrán cómo leerlos y obtener significado de ellos. Sabrán cómo es el éxito literalmente porque le han dicho qué métricas y dimensiones definen el éxito. Y les has dicho cómo se visualizará ese éxito para ellos. La entrega de los paneles reales es un repaso, no una nueva tarea de aprendizaje que da miedo.
+También les has mostrado cómo usarán el proceso y cómo se verá a través de los [paneles de vista previa](#the-preview-dashboards). Cualquier nueva solución es _hard_. Hay mucho que aprender, y dada la tremenda capacidad de personalización de [!DNL Adobe Analytics], la curva de aprendizaje puede ser pronunciada. Pero has eliminado el 80% de eso. Incluso antes de que se haya escrito la primera línea de código, las partes interesadas saben cómo serán sus paneles. Ellos sabrán cómo leerlos y obtener significado de ellos. Sabrán cómo es el éxito literalmente porque le han dicho qué métricas y dimensiones definen el éxito. Y les has dicho cómo se visualizará ese éxito para ellos. La entrega de los paneles reales es un repaso, no una nueva tarea de aprendizaje que da miedo.
 
 Esta no es necesariamente la forma más rápida de reunir un SDR. Es mucho trabajo y requiere una gran coordinación de horarios, especialmente porque es vital que tengas algunos ejecutivos en la mezcla. Sin embargo, al final, una solución de análisis empresarial es una enorme inversión de tiempo y dinero, y desea asegurarse de que la adopción y la satisfacción sean altas. Este método es muy útil para que esto suceda.
 
@@ -123,8 +123,8 @@ Esta no es necesariamente la forma más rápida de reunir un SDR. Es mucho traba
 
 Este documento fue escrito por:
 
-![disparo en la cabeza de gitai](assets/gitai-headshot-150.jpg)
+![gitai-headshot](assets/gitai-headshot-150.jpg)
 
 Gitai Ben-Ammi, directora asociada de arquitectura empresarial en Accenture
 
-[!DNL Adobe Analytics] Campeona
+[!DNL Adobe Analytics] campeón

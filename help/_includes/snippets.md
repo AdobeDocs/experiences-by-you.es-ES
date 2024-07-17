@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ![Amy Chiu](/help/marketo-tutorial-implementing-new-instance/assets/amy-chiu.png){width="150"}
 
-**Amy Chiu**, Administrador de marketing de adopción y retención, Adobe
+**Amy Chiu**, directora de marketing de adopción y retención, Adobe
 
 ## Naomi Liu {#naomi-liu}
 
@@ -26,34 +26,38 @@ ht-degree: 0%
 
 ![Natalie Kremer](/help/marketo-tutorial-implementing-new-instance/assets/natalie-kremer.png){width="150"}
 
-**Natalie Kremer**, Director General, Servicios De Consultoría, Campeón De Etumos Adobe Marketo Engage (2019-2020)
+**Natalie Kremer**, directora gerente, servicios de consultoría, Etumos
+Campeona de Adobe Marketo Engage (2019-2020)
 
 ## Christina Zuniga {#christina-zuniga}
 
 ![Christina Zuniga](/help/marketo-tutorial-implementing-new-instance/assets/christina-zuniga.png){width="150"}
 
-**Christina Zuniga**, Administrador de operaciones de marketing, Emplear al campeón de Adobe Marketo Engage (2017, 2018, 2020, 2021)
+**Christina Zuniga**, directora de operaciones de marketing, empleada
+Campeona de Adobe Marketo Engage (2017, 2018, 2020, 2021)
 
 ## Katja Keesom {#katja-keesom}
 
 ![Katja Keesom](/help/marketo-tutorial-implementing-new-instance/assets/katja-keesom.png){width="150"}
 
-**Katja Keesom**, consultor principal de automatización de marketing B2B, campeón de Adobe Marketo Engage de Chapman Bright (2023)
+**Katja Keesom**, consultora principal de automatización de mercadotecnia B2B, Chapman Bright
+Campeona de Adobe Marketo Engage (2023)
 
 ## Julz James {#julz-james}
 
 ![Julz James](/help/marketo-tutorial-implementing-new-instance/assets/julz-james.png){width="150"}
 
-**Julz James**, Director de operaciones de marketing senior, 6sense Campeón de Adobe Marketo Engage (2015)
+**Julz James**, Director de Operaciones de Marketing Sr, 6sense
+Campeón de Adobe Marketo Engage (2015)
 
 ## Peter Livadas {#peter-livadas}
 
 ![Peter Livadas](/help/marketo-tutorial-implementing-new-instance/assets/peter_livadas.png){width="150"}
 
-**Peter Livadas**, Marketo Engage consultor técnico sénior en Adobe
+**Peter Livadas**, Marketo Engage consultor técnico sénior en el Adobe
 
 ## Sara Barriuso {#sara-barriuso}
 
 ![Sara Barriuso](/help/marketo-tutorial-implementing-new-instance/assets/sara_barriuso.png){width="150"}
 
-**Sara Barriuso**, Gerente de Operaciones de Marketing en Cornerstone OnDemand
+**Sara Barriuso**, directora de operaciones de marketing en Cornerstone OnDemand

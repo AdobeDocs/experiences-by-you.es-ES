@@ -26,7 +26,7 @@ Este tutorial describe el proceso de reflexión y los casos de uso principales q
 
 Los visitantes exploran el sitio web por un motivo. Es posible que busquen contenido en sus productos o servicios o que busquen información de contacto para hablar con sus representantes de ventas. También podrían ser sus clientes que buscan información adicional sobre el producto. El chat permite a los visitantes del sitio web autoabastecerse y autoclasificarse si están listos para hablar con su equipo de ventas.
 
-Cuando Sara Barriuso implementó Dynamic Chat, se sintió atraída por su perfecta integración con Marketo Engage y el [déclencheur de actividad creados previamente](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-activities){target="_blank"} que activan programas de Marketo Engage y viceversa. Desarrolló sus estrategias de interacción conversacional con tres segmentos de audiencia en mente:
+Cuando Sara Barriuso implementó Dynamic Chat, se sintió atraída por su perfecta integración con Marketo Engage y los [déclencheur de actividades pregenerados](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-activities){target="_blank"} que activan programas de Marketo Engage y viceversa. Desarrolló sus estrategias de interacción conversacional con tres segmentos de audiencia en mente:
 
 1. Perspectivas desconocidas: ofrezca llamadas de demostración de forma proactiva para generar nuevos posibles clientes.
 2. Clientes/posibles clientes conocidos: amplíe el tiempo que los visitantes dedican a la navegación por el contenido y ofrezca llamadas de demostración para generar oportunidades de ampliación de ventas y de venta cruzada.
@@ -65,7 +65,7 @@ Este cuadro de diálogo proporciona cinco opciones iniciales entre las que los v
 
 1. En &quot;Audiencia&quot;, añada una URL de página web en &quot;Destino&quot; para indicar dónde se mostrará el cuadro de diálogo.
 2. En &quot;Configuración&quot;, añada el nombre, la descripción, la prioridad y el idioma de la campaña.
-3. Haga clic en &quot;Publicar&quot;
+3. Haga clic en &quot;Publish&quot;
 
 >[!TAB Marketo Engage]
 
@@ -93,12 +93,12 @@ Puede mejorar aún más el cuadro de diálogo global predeterminado incorporando
 >[!TAB Dynamic Chat]
 
 1. Clone el &quot;Cuadro de diálogo predeterminado&quot; y renómbrelo.
-2. En &quot;Stream Designer&quot;, adapte los mensajes de diálogo al sector de destino (solo un flujo + la pregunta inicial).
+2. En &quot;Stream Designer&quot;, adapte los mensajes de diálogo al sector destinatario (solo un flujo + la pregunta inicial).
 3. Pida a 2-3 personas que prueben el cuadro de diálogo y recopilen comentarios.
 4. Cree un vínculo de prueba y compártalo.
 5. En &quot;Audiencia&quot;, añada una URL de página web en la que el cuadro de diálogo muestre y actualice el destinatario según el sector que desee.
 6. En &quot;Configuración&quot;, añada el nombre de la campaña, la prioridad de la descripción y el idioma.
-7. Haga clic en Publicar.
+7. Haga clic en Publish.
 
 >[!TAB Marketo Engage]
 
@@ -126,7 +126,7 @@ Los eventos y seminarios web son tácticas de marketing populares para que las e
 1. Clone la plantilla.
 2. Copiar y pegar texto en el mensaje de diálogo para un nuevo evento
 3. Actualice los parámetros de UTM utilizados en el vínculo de evento (por ejemplo, utm_medium=website&amp;utm_source=adobe).
-4. Cree un vínculo de prueba, haga clic en &quot;Publicar&quot; y compártalo con el solicitante.
+4. Cree un vínculo de prueba, haga clic en &quot;Publish&quot; y compártalo con el solicitante.
 5. Revisar por pares y aplicar comentarios.
 
 
@@ -160,8 +160,8 @@ Puede ofrecer una experiencia aún mejor a los visitantes del sitio web registr�
 2. En Stream Designer, después de que el usuario responda &quot;Sí&quot;, agrega una tarjeta de preguntas &quot;Anteriormente has compartido tu dirección de correo electrónico con nosotros. ¿Desea conservar esto para los detalles del evento?&quot;
 3. Si responden &quot;Sí&quot;, añada una tarjeta de mensaje &quot;Recibirá un correo electrónico de confirmación en su correo electrónico con los detalles del evento/seminario web&quot;.
 4. Si responden &quot;No&quot; - añada una tarjeta de mensaje &quot;Por favor, rellene el formulario en la página de registro&quot;.
-5. Cree un vínculo de prueba, haga clic en &quot;Publicar&quot; y compártalo con el solicitante.
-6. En la pestaña Audiencia, añada [el correo electrónico no está vacío].
+5. Cree un vínculo de prueba, haga clic en &quot;Publish&quot; y compártalo con el solicitante.
+6. En la pestaña Audiencia, agregue [el correo electrónico no está vacío].
 
 >[!TAB Marketo Engage]
 
@@ -193,7 +193,7 @@ Ampliación de la participación en el contenido de Campaign: configuración:
 
 ## ¿Qué sigue?
 
-* Mapa del flujo de conversación en [Diseñador de secuencias](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} o un diagrama de flujo sin conexión.
+* Mapa tu flujo de conversación en [Stream Designer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} o un diagrama de flujo sin conexión.
 * Cree un cuadro de diálogo global predeterminado en el Dynamic Chat.
 * Active las conversaciones posteriores a la campaña utilizando déclencheur de automatización en Marketo Engage.
 

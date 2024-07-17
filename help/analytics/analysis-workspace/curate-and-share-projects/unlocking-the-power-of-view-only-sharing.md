@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Desbloquear el poder del uso compartido de solo lectura en Analysis Workspace
 
-Descubra cómo compartir [!DNL Adobe] Los proyectos de Analysis Workspace como &quot;solo lectura&quot; pueden crear informes de tablero preparados para ejecutivos con una interfaz de usuario limpia y opciones de filtrado predefinidas, así como la forma en que el &quot;cuadro de resultados móvil&quot; puede simplificar el uso compartido de los KPI de la experiencia digital con ejecutivos sobre la marcha.
+Descubra cómo compartir [!DNL Adobe] proyectos de Analysis Workspace como &quot;solo lectura&quot; puede crear informes de tablero preparados para ejecutivos con una interfaz de usuario limpia y opciones de filtrado predefinidas, así como cómo el &quot;cuadro de resultados móvil&quot; puede simplificar el uso compartido de KPI de experiencias digitales con ejecutivos en sus desplazamientos.
 
-Uso compartido [!DNL Adobe Analytics] Los proyectos de Workspace con compañeros son un uso esencial de [!DNL Analytics] para tomar mejores decisiones comerciales. Podemos compartir proyectos con otros usuarios para los derechos de acceso de &quot;editar original&quot;, &quot;editar copia&quot; y &quot;solo lectura&quot;. La mayoría de las veces, es probable que compartamos proyectos con derechos de acceso de edición de originales o de edición de copias para que podamos actualizar de forma colaborativa el proyecto o que otros usuarios puedan duplicar el proyecto como propio para futuras actualizaciones. Sin embargo, a veces el uso compartido de solo lectura es una opción de uso compartido sorprendentemente buena más allá del control de acceso, como sugiere el nombre del derecho de acceso.
+Compartir [!DNL Adobe Analytics] proyectos de Workspace con compañeros es un uso esencial de [!DNL Analytics] para tomar mejores decisiones comerciales. Podemos compartir proyectos con otros usuarios para los derechos de acceso de &quot;editar original&quot;, &quot;editar copia&quot; y &quot;solo lectura&quot;. La mayoría de las veces, es probable que compartamos proyectos con derechos de acceso de edición de originales o de edición de copias para que podamos actualizar de forma colaborativa el proyecto o que otros usuarios puedan duplicar el proyecto como propio para futuras actualizaciones. Sin embargo, a veces el uso compartido de solo lectura es una opción de uso compartido sorprendentemente buena más allá del control de acceso, como sugiere el nombre del derecho de acceso.
 
 ## Por qué solo lectura
 
@@ -31,16 +31,16 @@ Además, como todos los componentes son de solo lectura si se utiliza algún seg
 
 Esto ayuda a que el proyecto de solo lectura se convierta en un informe de panel listo para el ejecutivo con una interfaz de usuario sencilla y limpia y opciones de filtrado predefinidas. Si se utiliza con un panel o un vínculo de visualización, también puede proporcionar una función de &quot;exploración en profundidad&quot; como solución de BI completa.
 
-El proyecto de solo lectura también es útil para compartir datos con usuarios que tienen poco [!DNL Adobe Analytics] la experiencia, como los compañeros de marketing de producto que impulsan las campañas de lanzamiento de productos y les proporcionan un panel de campañas con desgloses de conversión y canal de marketing predefinidos.
+El proyecto de solo lectura también es útil para compartir datos con usuarios que tienen poca experiencia de [!DNL Adobe Analytics], como colegas de marketing de productos que impulsan campañas de lanzamiento de productos y les proporcionan un panel de campañas con desgloses de canales de marketing y conversión predefinidos.
 
 ## Otra forma: el informe de valoración móvil
 
-Aparte del uso compartido de proyectos de solo lectura, [!DNL Analytics] El tablero es otro enfoque para compartir tableros listos para el ejecutivo con experiencia predefinida. Es el &quot;cuadro de resultados móvil&quot; al crear un nuevo proyecto en Analysis Workspace y el proyecto resultante estará disponible en la &quot;[!DNL Adobe Analytics]&quot; aplicación móvil. Esto nos permite compartir los KPI de la experiencia digital con ejecutivos en una aplicación móvil sencilla y fácil de usar, accesible en cualquier lugar y momento.
+Aparte del uso compartido de proyectos de solo lectura, el panel [!DNL Analytics] es otro enfoque para compartir paneles preparados para ejecutivos con experiencia predefinida. Es el &quot;cuadro de resultados móvil&quot; al crear un nuevo proyecto en Analysis Workspace y el proyecto resultante estará disponible en la aplicación móvil &quot;[!DNL Adobe Analytics]&quot;. Esto nos permite compartir los KPI de la experiencia digital con ejecutivos en una aplicación móvil sencilla y fácil de usar, accesible en cualquier lugar y momento.
 
-Un buen tablero ejecutivo debe ser sencillo y tener en cuenta puntos clave. Al agregar solo KPI a la primera pantalla de un [!DNL Analytics] Panel, con un desglose opcional de un nivel para desglosar un KPI por una dimensión a partir de un conjunto predefinido de opciones. El [!DNL Analytics] El panel nos permite contar una historia que queremos contar a los ejecutivos.
+Un buen tablero ejecutivo debe ser sencillo y tener en cuenta puntos clave. Agregando solo KPI a la primera pantalla de un panel de [!DNL Analytics], con un desglose de un nivel opcional para desglosar un KPI en una dimensión a partir de un conjunto predefinido de opciones. El panel [!DNL Analytics] nos permite contar una historia que queremos contar a los ejecutivos.
 
-Incluso si sus jefes no están usando el [!DNL Analytics] Panel directamente, prepare esos KPI en la [!DNL Analytics] Tablero y obtener la respuesta correcta en el camino cuando se le pregunta, solo se ve genial y bien preparado.
-Al adoptar [!DNL Adobe Analytics] dentro de una organización, probablemente queremos permitir que todos los usuarios con todas las capacidades creen o modifiquen proyectos de Workspace para su análisis. Sin embargo, hay usuarios con diferentes habilidades y enfoques, algunos de los cuales solo necesitan consumir datos en algunos proyectos de Workspace predefinidos y no van a hacer ningún análisis más con poca experiencia en [!DNL Adobe Analytics]. El proyecto de solo lectura o el panel de análisis proporcionan una interfaz sencilla con experiencias predefinidas para que accedan a los datos.
+Incluso si sus jefes no están usando el panel de [!DNL Analytics] directamente, prepare esos KPI en el panel de [!DNL Analytics] y obtenga la respuesta correcta cuando se le pregunte, simplemente se verá bien y bien preparado.
+Al adoptar [!DNL Adobe Analytics] dentro de una organización, probablemente queramos habilitar a todos los usuarios con todas las capacidades para crear o modificar proyectos de Workspace para su análisis. Sin embargo, hay usuarios con diferentes aptitudes y enfoques, algunos de los cuales solo necesitan consumir datos en algunos proyectos predefinidos de Workspace y no van a realizar ningún análisis más con poca experiencia en [!DNL Adobe Analytics]. El proyecto de solo lectura o el panel de análisis proporcionan una interfaz sencilla con experiencias predefinidas para que accedan a los datos.
 
 ## Autor
 
@@ -50,4 +50,4 @@ Este documento fue escrito por:
 
 **Leo Lau**, Director, MarTech Lead Asia
 
-[!DNL Adobe Analytics] Campeona
+[!DNL Adobe Analytics] campeón

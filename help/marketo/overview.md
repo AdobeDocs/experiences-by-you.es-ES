@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # Marketo by You: Recursos de los usuarios, para los usuarios.
 
-Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuarios que toman los productos, profundizan en ellos y los aplican de formas increíbles e innovadoras para crear experiencias y resultados significativos. Experiencias por usted incluye contenido creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con su [!DNL Adobe] soluciones de Experience Cloud. Este conocimiento entre usuarios fomenta la colaboración y el descubrimiento, lo que le permite a usted y a cualquier otro usuario encontrar la inspiración necesaria para aumentar su experiencia con los productos.
+¿Lo más potente de [!DNL Adobe] soluciones de Experience Cloud? Tú. Los usuarios que toman los productos, profundizan en ellos y los aplican de formas increíbles e innovadoras para crear experiencias y resultados significativos. Experiencias por usted incluye contenido creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con sus soluciones de Experience Cloud de [!DNL Adobe]. Este conocimiento entre usuarios fomenta la colaboración y el descubrimiento, lo que le permite a usted y a cualquier otro usuario encontrar la inspiración necesaria para aumentar su experiencia con los productos.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -32,15 +32,15 @@ Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuario
 <tr>
   <td>
     <a href="/help/marketo/fundamentals/ui-navigation.md">
-      <img alt="Vaya a [!DNL Marketo Engage] interfaz de usuario" src="https://video.tv.adobe.com/v/3419131?format=jpeg" />
+      <img alt="Navegar por la interfaz de usuario [!DNL Marketo Engage]" src="https://video.tv.adobe.com/v/3419131?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/fundamentals/ui-navigation.md">
-    <strong>Vaya a [!DNL Marketo Engage] interfaz de usuario</strong>
+    <strong>Vaya a la interfaz de usuario [!DNL Marketo Engage]</strong>
     </a>
     </div>
     <p>
-    <em>Aprenda a navegar por la interfaz de usuario y a familiarizarse con el modo de [!DNL Marketo Engage] plataforma.</em>
+    <em>Aprenda a navegar por la interfaz de usuario y a familiarizarse con la plataforma [!DNL Marketo Engage].</em>
     <p>
   </td>
   <td>
@@ -53,7 +53,7 @@ Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuario
     </a>
     </div>
     <p>
-    <em>Obtenga información sobre cómo navegar por la sección Analytics and Database para extraer diferentes informes predeterminados en [!DNL Marketo Engage].</em>
+    <em>Aprenda a navegar por la sección de Analytics y base de datos para extraer diferentes informes predeterminados en [!DNL Marketo Engage].</em>
     <p>
   </td>
   <td>
@@ -76,7 +76,7 @@ Lo más poderoso de [!DNL Adobe] ¿Soluciones Experience Cloud? Tú. Los usuario
 
 ## Recursos adicionales
 
-* [Marketo Nation (comunidades)](https://nation.marketo.com/)
+* [Nación Marketo (comunidades)](https://nation.marketo.com/)
 * [Documentación de Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-engage.html)
 * [Tutorials de Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)
-* [Información del producto de Adobe Marketo Engage](https://business.adobe.com/products/marketo/adobe-marketo.html)
+* [Información de producto de Adobe Marketo Engage](https://business.adobe.com/products/marketo/adobe-marketo.html)

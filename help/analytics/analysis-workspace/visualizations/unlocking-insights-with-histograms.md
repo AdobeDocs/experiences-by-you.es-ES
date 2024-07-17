@@ -1,6 +1,6 @@
 ---
-title: Desbloquear perspectivas con histogramas; más allá de los promedios en [!DNL Analytics]
-description: Descubra el impacto de los histogramas en Analytics para obtener información más allá de los promedios.
+title: Desbloquear perspectivas con histogramas; más allá de los promedios en  [!DNL Analytics]
+description: Descubra el impacto de los histogramas en Analytics para obtener perspectivas más allá de los promedios.
 feature-set: Analytics
 feature: Visualizations
 role: User
@@ -12,16 +12,16 @@ thumbnail: KT-13833.jpeg
 exl-id: 46a9dab2-17f8-435e-949c-45d4a60343f0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 4%
+source-wordcount: '1091'
+ht-degree: 0%
 
 ---
 
-# Desbloquear información con histogramas: más allá de los promedios en [!DNL Analytics]
+# Desbloquear perspectivas con histogramas: más allá de los promedios en [!DNL Analytics]
 
-_Descubra el impacto de los histogramas en Analytics para obtener información más allá de los promedios. Los histogramas revelan patrones de datos en el comportamiento de los clientes, la participación del visitante, el rendimiento técnico y los errores de formulario, lo que permite obtener perspectivas más profundas y tomar decisiones informadas en [!DNL Adobe] Workspace._
+_Descubra el impacto de los histogramas en Analytics para obtener perspectivas que superan los promedios. Los histogramas revelan patrones de datos en el comportamiento de los clientes, la participación del visitante, el rendimiento técnico y los errores de formulario, lo que permite obtener perspectivas más profundas y tomar decisiones informadas en [!DNL Adobe] Workspace._
 
-Vamos a saltar a la derecha en. Debería estar utilizando [histogramas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html?lang=es). Voy a explicar por qué, pero quiero responder a su primera pregunta: ¿Qué es un histograma? Lo entiendo. La mayoría de las veces, cuando ves un montón de barras subiendo, podrías pensar que es un gráfico de barras. Sí, los histogramas son similares, pero les aseguro que son diferentes. Un gráfico de barras compara las cosas, mientras que un histograma muestra la frecuencia con la que se produjo una variable. Eche un vistazo. Este es un gráfico de barras:
+Vamos a saltar a la derecha en. Debería estar usando [histogramas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html). Voy a explicar por qué, pero quiero responder a su primera pregunta: ¿Qué es un histograma? Lo entiendo. La mayoría de las veces, cuando ves un montón de barras subiendo, podrías pensar que es un gráfico de barras. Sí, los histogramas son similares, pero les aseguro que son diferentes. Un gráfico de barras compara las cosas, mientras que un histograma muestra la frecuencia con la que se produjo una variable. Eche un vistazo. Este es un gráfico de barras:
 
 ![Gráfico de barras 1](assets/bar-chart-1.png)
 
@@ -69,7 +69,7 @@ Puede preguntar: ¿en qué se diferencia esto de tener una métrica calculada? O
 
   ![Histograma 4](assets/histogram-4.png)
 
-Como puede ver, los histogramas no solo tienen sus propios usos, sino que también profundizan la perspectiva que se obtiene de un promedio. Es una visualización lista para usar en... [!DNL Adobe Analytics] y fácil de crear. Esperamos que estos casos de uso le sean útiles o le inspiren. ¡Feliz visualización!
+Como puede ver, los histogramas no solo tienen sus propios usos, sino que también profundizan la perspectiva que se obtiene de un promedio. Son una visualización lista para usar en [!DNL Adobe Analytics] y fáciles de crear. Esperamos que estos casos de uso le sean útiles o le inspiren. ¡Feliz visualización!
 
 ## Autor
 
@@ -77,6 +77,6 @@ Este documento fue escrito por:
 
 ![Gitai Ben-Ammi](assets/gitai-headshot.png)
 
-**Gitai Ben-Ammi**, consultor principal en Concentrix Catalyst
+**Gitai Ben-Ammi**, consultora principal en Concentrix Catalyst
 
-[!DNL Adobe Analytics] Campeona
+[!DNL Adobe Analytics] campeón
