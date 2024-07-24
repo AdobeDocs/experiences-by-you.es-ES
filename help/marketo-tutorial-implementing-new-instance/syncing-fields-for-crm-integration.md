@@ -10,7 +10,7 @@ last-substantial-update: 2024-05-04T00:00:00Z
 jira: KT-14811
 thumbnail: KT-14811.jpeg
 exl-id: 42b7ca3d-e445-4c11-ad3d-d4e70c101c8e
-source-git-commit: 4ea2f60e2bfa658add920c947f5455fe0572ce04
+source-git-commit: 195a1211b8b191032f4d37662b5beee9a0a54de4
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Por lo general, la práctica recomendada es sincronizar únicamente los campos C
 * Asegúrese de que el perfil de sincronización de Marketo tenga los privilegios adecuados para cada campo, tal como se indica en el diccionario de datos:
    * [Establecer permisos de perfil en Salesforce](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-2-of-3-create-a-salesforce-user-for-marketo-enterprise-unlimited#set-profile-permissions){target="_blank"}
    * [Establecer permisos de perfil en Microsoft Dynamics](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/microsoft-dynamics-365-with-s2s-connection/step-2-of-3-set-up#create-application-user-in-microsoft){target="_blank"}
-   * [Establecer permisos de perfil en Veeva](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/microsoft-dynamics-365-with-s2s-connection/step-2-of-3-set-up#create-application-user-in-microsoft){target="_blank"}
+   * [Establecer permisos de perfil en Veeva](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/veeva-crm-sync/setup/step-2-of-3-create-a-veeva-crm-user-for-marketo-engage#set-profile-permissions){target="_blank"}
 
 **Paso 6:** Realizar la sincronización inicial
 
