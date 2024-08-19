@@ -1,5 +1,5 @@
 ---
-title: Desarrollo de jornadas de incorporación y formación internas
+title: Desarrollo de jornadas de formación e incorporación internas
 description: Aprenda a establecer un procedimiento sólido para crear y mantener la documentación y el registro de cambios de su instancia de  [!DNL Marketo Engage] . Esto no solo ahorrará tiempo para el intercambio de conocimientos de su equipo, sino que también mejorará la salud y la eficacia de su instancia.
 role: Admin
 level: Beginner
@@ -10,7 +10,7 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-14809
 thumbnail: KT-14809.jpeg
 exl-id: bd5d102b-0810-43e1-baac-fbef43817d50
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Esta es una muestra del plan de estudios de formación sugerido por Naomi Liu pa
 | Informes y análisis | <ul><li>Tutorial de informes</li><li>Rendimiento de correo electrónico, página de aterrizaje y programa</li><li>Creación de sus propios informes</li><li>Perspectivas de correo electrónico y rendimiento</li></ul> | Formación continua, vídeos grabados para sesiones importantes y revisiones periódicas | 2 h |
 | Inteligencia artificial aplicada al contenido | <ul><li>Revisar la funcionalidad de Content AI</li><li>Revise los activos aptos para la inteligencia artificial aplicada al contenido (es decir, página de aterrizaje, correo electrónico y cuadro de diálogo)</li><li>Asignar proceso de salida (cuándo/dónde) a utilizar</li></ul> | Sesión en directo, tutorial para revisar y cómo funciona | 1 h |
 
-## ¿Qué sigue?
+## ¿Cuál es el siguiente paso?
 
 * Descargue la hoja de cálculo del [currículo de formación de ejemplo](assets/adobe-marketo-engage-internal-training-roadshows.xlsx){_target=&quot;blank&quot;} para desarrollar sus módulos de formación internos.
 * Rellene los equipos adecuados para el tema de la sesión.

@@ -1,5 +1,5 @@
 ---
-title: Cree un diagrama de flujo de datos visual para comprender la pila de tecnología de marketing
+title: Cree un diagrama de flujo de datos para comprender su pila de tecnología de marketing
 description: Aprenda a crear un diagrama de "Posibles clientes y fuentes de datos" para comprender el entorno de datos, auditar y ordenar la instancia de forma eficaz.
 feature-set: Marketo Engage
 feature: Administration
@@ -11,14 +11,14 @@ jira: KT-13877
 thumbnail: KT-13877.jpeg
 hide: false
 exl-id: 088bdcf1-4e49-44a7-ac78-a03742ff680b
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 2%
 
 ---
 
-# Cree un diagrama de flujo de datos visual para comprender la pila de tecnología de marketing
+# Cree un diagrama de flujo de datos para comprender su pila de tecnología de marketing
 
 Como administrador que se hace cargo de una instancia de [!DNL Marketo Engage] que ha estado activa durante años, es como una misión imposible de auditar y ordenar la instancia de manera eficiente. Cuando [!DNL Adobe] [!DNL Marketo Champion] (2019), Kelly Jo Horton, entró a una instancia establecida hace mucho tiempo, abordó este desafío [creando un diagrama de &quot;Posibles clientes y fuentes de datos&quot;](https://nation.marketo.com/t5/employee-blogs/understand-your-marketing-technology-and-data-create-this/ba-p/296774){target="_blank"} para familiarizarse con el universo de datos. En este tutorial, aprenderá a crear su propio diagrama de flujo de datos basándose en los ejemplos compartidos por Kelly Jo Horton. ¡Conozcamos el ecosistema de MarTech!
 
@@ -51,7 +51,7 @@ Cree una versión técnica que muestre detalles como el nombre de usuario de la 
 ![Versión técnica](/help/marketo-tutorial-inherited-instance/_assets/data-flow-diagram/Lead-Data-Source-Diagram-KellyJo-Horton.png){align="center"}
 
 
-## ¿Qué sigue?
+## ¿Cuál es el siguiente paso?
 
 **Introducción a los ejemplos:**
 Descargue uno de los diagramas de flujo de datos de ejemplo para asignar el estado actual de su pila de tecnología de marketing, persona y flujo de datos, o cree un diagrama para su entorno de datos desde cero mientras audita la instancia:

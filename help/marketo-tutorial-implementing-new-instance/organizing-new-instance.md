@@ -1,5 +1,5 @@
 ---
-title: Organización de una nueva instancia y establecimiento de convenciones de nomenclatura
+title: Organizar una nueva instancia y establecer convenciones de nomenclatura
 description: Aprenda a configurar una buena organización dentro de la instancia de Marketo Engage, lo que permite a los futuros especialistas en marketing de la organización navegar fácilmente por los programas, modificar los recursos y extraer informes.
 role: Admin
 level: Beginner
@@ -10,14 +10,14 @@ last-substantial-update: 2024-05-03T00:00:00Z
 jira: KT-14813
 thumbnail: KT-14813.jpeg
 exl-id: 19b3de9e-53f3-4308-b46e-7b8f756c30a0
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 2%
 
 ---
 
-# Organización de una nueva instancia y establecimiento de convenciones de nomenclatura
+# Organizar una nueva instancia y establecer convenciones de nomenclatura
 
 Como administrador que implementa una nueva instancia de Marketo Engage, está sentando las bases para permitir que los futuros especialistas en marketing de la organización puedan navegar fácilmente por ella. Familiarizarse con la estructura de carpetas de árbol y las convenciones de nomenclatura mantendrá la instancia ordenada y configurada para tener éxito a largo plazo. Este tutorial incluye ejemplos recomendados por la campeona de Adobe y Marketo Engage (2019-2020), Natalie Kremer, para ayudarle a [organizar las carpetas y asignar nombres a los recursos de forma coherente](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
 
@@ -176,7 +176,7 @@ Teniendo en cuenta esto, aplicaremos estas sugerencias a los siguientes recursos
 >
 >Al asignar nombres a los archivos en los ejemplos anteriores, no utilice espacios y evite el uso de guiones bajos &quot;\_&quot;
 
-## ¿Qué sigue?
+## ¿Cuál es el siguiente paso?
 
 * Descargue la hoja de cálculo: [Convenciones de nomenclatura y organización de Marketo Engage](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} para admitir la creación de la estructura de carpetas y las convenciones de nomenclatura.
 * Una vez que haya determinado los componentes necesarios en la convención de nombres estándar, considere la posibilidad de crear fórmulas en una hoja de Google o en Microsoft Excel. Para su uso futuro, simplemente introduzca los valores en la hoja de cálculo para generar los nombres de los programas.

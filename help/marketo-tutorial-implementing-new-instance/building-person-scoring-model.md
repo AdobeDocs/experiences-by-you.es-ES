@@ -1,6 +1,6 @@
 ---
 title: Creación de modelos de puntuación de persona para programas de Marketo Engage
-description: Adobe Marketo Engage le permite crear sus modelos de puntuación desde cero. Antes de saltar directamente a Marketo Engage para crear sus programas de puntuación, tendrá que configurar los campos de puntuación esenciales, como Puntuación demográfica, Puntuación conductual y Puntuación total de la persona. Obtenga más información sobre las estrategias que utilizan los Campeones Marketo Engage para desarrollar modelos de puntuación que satisfagan las necesidades de su empresa.
+description: Aprenda a crear sus modelos de puntuación desde cero.
 role: Admin
 level: Beginner
 doc-type: Article
@@ -10,9 +10,9 @@ last-substantial-update: 2024-05-04T00:00:00Z
 jira: KT-14810
 thumbnail: KT-14810.jpeg
 exl-id: 73976144-f02b-4423-9b4b-410330117ba9
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2055'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ La puntuación de comportamiento proporciona un valor numérico a las acciones r
 
 **Paso 5**: Recuerde que la puntuación es un proceso iterativo. Revise y ajuste continuamente las puntuaciones y los umbrales a medida que recopila más datos para su análisis.
 
-## Ejercicio 2: Identificación del ajuste perfecto con las puntuaciones demográficas
+## Ejercicio 2: identificar el ajuste perfecto con las puntuaciones demográficas
 
 Ahora que ha definido las actividades que indican intención de compra, debe completar el modelo de puntuación con los Perfiles del cliente potencial ideal. Para identificar si un cliente potencial es el adecuado para continuar la conversación de ventas, es importante asignar puntuaciones demográficas además de puntuaciones de comportamiento para que el modelo ayude a determinar los mejores posibles clientes en términos de ajuste e intención.
 
@@ -231,7 +231,7 @@ Con los modelos básicos de puntuación demográfica y de comportamiento que ha 
   </tr>
 </table>
 
-## ¿Qué sigue?
+## ¿Cuál es el siguiente paso?
 
 * Descargue la [hoja de ejercicios de puntuación de persona](./assets/build-person-scoring-model-and-local-flexibility-in-adobe-marketo-engage.docx){target="_blank} para desarrollar su modelo de puntuación sin conexión.
 * Genere la puntuación de su persona en Marketo Engage. Consulte este [tutorial](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-watch){target="_blank} y [demostración](https://experienceleague.adobe.com/en/docs/events/marketo-and-mochas-recordings/2023/lead-scoring){target="_blank} para comenzar. Puede importar un programa de puntuación de posible cliente/persona [template](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program){target="_blank} desde la Biblioteca de referencia de Marketo Engage para acelerar la compilación del programa.

@@ -1,6 +1,6 @@
 ---
-title: Desarrollar una guía de gobernanza de instancias con documentación
-description: Aprenda a establecer un procedimiento sólido para crear y mantener la documentación y el registro de cambios de su instancia de  [!DNL Marketo Engage] . Esto no solo ahorrará tiempo para el intercambio de conocimientos de su equipo, sino que también mejorará la salud y la eficacia de su instancia.
+title: Desarrollo de una guía de administración de instancias con documentación
+description: Aprenda a establecer un procedimiento sólido para crear y mantener la documentación y el registro de cambios de su instancia de  [!DNL Marketo Engage] .
 feature-set: Marketo Engage
 feature: Administration
 role: Admin
@@ -11,9 +11,9 @@ jira: KT-14103
 thumbnail: KT-14103.jpeg
 hide: false
 exl-id: e127b84d-ef92-4527-a0e6-a36af35b7ee0
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ A medida que avanza hacia una instancia heredada de [!DNL Marketo Engage], a men
 
 Este tutorial paso a paso procedente de [!DNL [!DNL Adobe] Marketo Champion] (2018), Nick Hajdin, le guiará a través de este proceso para esbozar la configuración de la instancia, documentar los programas operativos principales y mantener un [!DNL changelog] para aplicar una directiva de gobernanza estricta.
 
-## ¿Por qué desarrollar una guía y documentación de gobernanza de instancias para su instancia heredada?
+## Desarrollar una guía de gobernanza de instancias para la instancia heredada
 
-La documentación detallada y un [!DNL changelog] son vitales para una administración eficiente y la transferencia de conocimientos dentro de su instancia de [!DNL Marketo Engage]. Realizar un seguimiento de los cambios y las decisiones que ha realizado durante la configuración de la instancia puede ayudarle a lo siguiente:
+La documentación detallada y un [!UICONTROL Changelog] son vitales para una administración eficiente y una transferencia de conocimientos dentro de su instancia de [!DNL Marketo Engage]. Realizar un seguimiento de los cambios y las decisiones que ha realizado durante la configuración de la instancia puede ayudarle a lo siguiente:
 
 1. Capacite a los usuarios internos de forma más sencilla y escalable.
 2. Genere de manera más eficiente en [!DNL Marketo Engage] a largo plazo.
@@ -78,21 +78,21 @@ Comience por identificar los programas operativos clave con impactos en el nivel
 
 Para cada programa operativo identificado, documente su estado actual. Esto incluye detalles sobre el propósito del programa, la configuración, las campañas inteligentes asociadas y la integración con otras herramientas (si corresponde).
 
-### Paso 4: Aplicar mantenimiento de [!DNL Changelog]
+### Paso 4: Aplicar el mantenimiento de [!UICONTROL Changelog]
 
-El siguiente paso es establecer una directiva de gobernanza estricta para la instancia de [!DNL Marketo Engage] que requiera el mantenimiento de [!DNL Changelog]. Esta política garantiza que cualquier actualización realizada en los programas operativos en toda la instancia esté documentada exhaustivamente.
+El siguiente paso es establecer una directiva de gobernanza estricta para la instancia de [!DNL Marketo Engage] que requiera el mantenimiento de &quot;[!UICONTROL Changelog]&quot;. Esta política garantiza que cualquier actualización realizada en los programas operativos en toda la instancia esté documentada exhaustivamente.
 
-Informe a su equipo de la importancia de estos documentos y de cómo acceder a ellos y actualizarlos correctamente. Podría resultar útil asignar responsabilidades para mantener el registro de cambios, por lo que algunos miembros o administradores designados del equipo de operaciones de marketing registran los cambios de forma coherente y proporcionan firmas.
+Informe a su equipo de la importancia de estos documentos y de cómo acceder a ellos y actualizarlos correctamente. Podría resultar útil asignar responsabilidades para mantener el registro de cambios, por lo que algunos miembros o administradores designados del equipo de operaciones de marketing registran los cambios de forma coherente y proporcionan cierres de sesión.
 
 ### Paso 5: Centralización de la documentación
 
 Establezca una ubicación central o un repositorio para almacenar toda la documentación relacionada con su instancia de [!DNL Marketo Engage]. Podría ser una unidad compartida, una carpeta dedicada o un sistema basado en la nube.
 
-### Paso 6: Revisión y actualización periódicas
+### Paso 6: Revisar y actualizar
 
 Programe revisiones periódicas de la documentación para asegurarse de que es precisa y está actualizada. Se puede pasar por alto fácilmente durante las horas de mayor afluencia. Configure recordatorios de forma proactiva en el calendario para asegurarse de que su equipo realiza actualizaciones con regularidad y reflejen los cambios o las optimizaciones en los programas operativos.
 
-## ¿Qué sigue?
+## ¿Cuál es el siguiente paso?
 
 Empiece descargando esta [plantilla simple](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx).
 

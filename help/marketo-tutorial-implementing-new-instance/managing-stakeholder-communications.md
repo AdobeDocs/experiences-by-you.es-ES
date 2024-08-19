@@ -1,5 +1,5 @@
 ---
-title: Administración de partes interesadas para implementar Marketo Engage
+title: Administrar partes interesadas para implementar el Marketo Engage
 description: Conozca las estrategias para administrar las partes interesadas de forma eficaz durante la implementación de la instancia de Marketo Engage. Este tutorial proporciona consejos útiles para descubrir las necesidades de las partes interesadas, obtener la aceptación de liderazgo y comunicarse de forma interfuncional para buscar soporte de implementación.
 role: Admin
 level: Beginner
@@ -10,7 +10,7 @@ last-substantial-update: 2024-05-03T00:00:00Z
 jira: KT-13284
 thumbnail: KT-13284.jpeg
 exl-id: b5b8a5b6-83d4-48ae-ae83-32c9fbf64df8
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '1712'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Inicie la implementación alineándose con los líderes y las prioridades de las
 
 Tome la información que expuso en el ejercicio anterior y comunique específicamente cómo Marketo Engage impulsará el retorno de la inversión (ROI) y apoyará los objetivos estratégicos de las partes interesadas. Utilice la siguiente plantilla de alcance inicial para crear mensajes atractivos que resalten la propuesta de valor de los Marketo Engage para su organización.
 
-#### Plantilla: Divulgación inicial
+#### Plantilla: alcance inicial
 
 <table>
 <tr>
@@ -69,11 +69,11 @@ Mejor,
 </table>
 
 
-### Acción 3: mostrar las victorias tempranas
+### Acción 3: mostrar las victorias anticipadas
 
 Muestre las ganancias rápidas o los proyectos piloto para demostrar el impacto de Marketo Engage. Podría tratarse de una campaña de correo electrónico segmentada que genere una participación significativa o de un flujo de trabajo automatizado que optimice la nutrición de los posibles clientes. Comparta estos éxitos con las partes interesadas para reforzar su apoyo y entusiasmo.
 
-#### Plantilla: ganadores anticipados
+#### Plantilla: victorias tempranas
 
 <table>
 <tr>
@@ -137,7 +137,7 @@ Mejor,
 
 Mantenga canales de comunicación regulares con las partes interesadas a lo largo del proceso de implementación. Programe reuniones de facturación o envíe actualizaciones de progreso utilizando las plantillas de correo electrónico proporcionadas para mantenerlos informados e implicados. Esto también le permite abordar cualquier preocupación o pregunta con prontitud para garantizar la aceptación continua de esos equipos.
 
-#### Plantilla: Actualizaciones en curso
+#### Plantilla: actualizaciones en curso
 
 <table>
 <tr>
@@ -180,7 +180,7 @@ Mejor,
 
 Al seguir estas sugerencias procesables y hacer referencia a las plantillas, estará mejor equipado para implementar correctamente Marketo Engage y garantizar un fuerte apoyo de las partes interesadas a lo largo del proceso de incorporación.
 
-## ¿Qué sigue?
+## ¿Cuál es el siguiente paso?
 
 Descargue y use la [Plantilla y guía de comunicaciones internas de incorporación](/help/marketo-tutorial-implementing-new-instance/assets/marketo-engage-new-instance-onboarding-internal-communications-guide-template.xlsx){target="_blank} para crear actualizaciones regulares e informar sobre el progreso a las partes interesadas. Incluya métricas clave, logros y próximos hitos para mantenerlos informados y comprometidos.
 

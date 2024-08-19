@@ -1,6 +1,6 @@
 ---
-title: 'Sugerencias y trucos para implementar una nueva instancia de  [!DNL Marketo Engage] instance: Información general del tutorial'
-description: Aprenda a implementar una nueva instancia de  [!DNL Marketo Engage]  para aprovechar al máximo su potencia. Esta serie de consejos y trucos para implementar un nuevo Marketo Engage proporciona prácticas recomendadas comprobadas por el Adobe  [!DNL Marketo Engage] Champions. Los temas tratados incluyen administración de partes interesadas, administración del proyecto de implementación, formación interna, creación del modelo de puntuación de posible cliente/persona, configuración de la sincronización inicial de CRM y más.
+title: Sugerencias y trucos para implementar una nueva instancia
+description: Aprenda a implementar una nueva instancia de  [!DNL Marketo Engage]  para aprovechar al máximo su potencia.
 solution: Marketo Engage
 role: Admin
 level: Beginner
@@ -10,20 +10,20 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-13204
 thumbnail: KT-13204.jpeg
 exl-id: 58816df0-03d2-4d2f-a11b-8809c51d6e4f
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
-# Sugerencias y trucos para implementar una nueva instancia de [!DNL Marketo Engage]: información general del tutorial
+# Sugerencias y trucos para implementar una nueva instancia de [!DNL Marketo Engage]
 
 ¡Bienvenido al Adobe [!DNL Marketo Engage]! La configuración de una nueva instancia es el primer paso para mejorar su estrategia de marketing digital con la automatización de marketing. La clave para una implementación correcta de [!DNL Marketo Engage] es la documentación.
 
-Esta serie &quot;Implementación de nuevos consejos y trucos para instancias&quot; incluye a los campeones de Adobe [!DNL Marketo Engage] que ya han superado la implementación. El tutorial proporciona una guía paso a paso para que los nuevos administradores administren el proyecto de implementación de forma interfuncional y configuren la configuración técnica de forma independiente. Los temas selectivos también acompañan a las listas de comprobación y plantillas descargables para que los personalice según sus propias necesidades sin empezar desde cero. ¡Vamos a sumergirnos en la sabiduría de sus compañeros!
+Esta serie de _Consejos y trucos para implementar una instancia nueva_ proviene de [!DNL Marketo Engage] campeones de Adobe que ya han conquistado la implementación con anterioridad. El tutorial proporciona una guía paso a paso para que los nuevos administradores administren el proyecto de implementación de forma interfuncional y configuren la configuración técnica de forma independiente. Los temas selectivos también acompañan a las listas de comprobación y plantillas descargables para que los personalice según sus propias necesidades sin empezar desde cero. ¡Vamos a sumergirnos en la sabiduría de sus compañeros!
 
-## Temas y lo que aprenderá
+## Temas y lo que aprende
 
 * [Administrar interesados para implementar el Marketo Engage](/help/marketo-tutorial-implementing-new-instance/managing-stakeholder-communications.md)
   *Conozca estrategias para administrar de manera eficaz a las partes interesadas durante la implementación de la instancia de Marketo Engage. Este tutorial proporciona sugerencias útiles para descubrir las necesidades de las partes interesadas, obtener la aprobación del liderazgo y comunicarse de forma interfuncional para buscar soporte de implementación.*

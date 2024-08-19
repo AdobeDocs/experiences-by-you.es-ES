@@ -1,5 +1,5 @@
 ---
-title: Introducción a la gobernanza de instancias y documentación
+title: Introducción a la gobernanza y documentación de instancias
 description: Conozca las estrategias esenciales y las prácticas recomendadas para empezar a trabajar en la documentación y el control de Marketo Engage. Descubra cómo crear documentación escalable, optimizar la formación de los usuarios y garantizar la creación con una estructura en la instancia de Marketo Engage.
 role: Admin
 level: Beginner
@@ -10,7 +10,7 @@ last-substantial-update: 2024-05-08T00:00:00Z
 jira: KT-14815
 thumbnail: KT-14815.jpeg
 exl-id: b3dd05e1-c522-4631-a6b4-c0c6309f25d3
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Otra forma crítica de gobernanza de instancias es crear un Changelog y hacer cu
 1. Razón del cambio
 1. Quién hizo el cambio
 
-## ¿Qué sigue?
+## ¿Cuál es el siguiente paso?
 
 * Descargue la [documentación de muestra y el Changelog](/help/marketo-tutorial-implementing-new-instance/assets/template-adobe-marketo-engage-instance-documentation.xlsx) y adáptelos según las necesidades de su organización.
 * Almacene la documentación en una plataforma accesible en la que su organización prefiera hacer referencia y actualizar con regularidad. Por ejemplo, algunos Campeones Marketo Engage utilizan la hoja de cálculo de Confluencia (de Atlassian) o Excel.

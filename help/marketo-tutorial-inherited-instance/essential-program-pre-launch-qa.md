@@ -11,7 +11,7 @@ jira: KT-13888
 thumbnail: KT-13888.jpeg
 hide: false
 exl-id: c377fe5f-2d77-4fd0-9ac4-5ad65506f582
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '4903'
 ht-degree: 2%
@@ -199,9 +199,9 @@ Puede haber elementos que faltan o que no son aplicables, ya que su equipo ejecu
 
 >[!ENDTABS]
 
-## ¿Qué sigue?
+## ¿Cuál es el siguiente paso?
 
-Haga clic [aquí](/help/marketo-tutorial-inherited-instance/_assets/downloads/[!DNL Adobe]_Marketo_Engage_Inherited_Instance_Program_Prelaunch_QA_Checklist.xlsx) para descargar la lista de comprobación editable previa al inicio del programa que puede personalizar. Recuerde que esto debe adaptarse al flujo de trabajo de su organización. El desarrollo de un proceso de control de calidad efectivo le permite rendir cuentas y limitar los errores del cliente.
+Haga clic [aquí](/help/marketo-tutorial-inheritance-instance/_assets/downloads/[!DNL Adobe]_Marketo_Engage_Inherited_Instance_Program_Prelaunch_QA_Checklist.xlsx) para descargar la lista de comprobación editable previa al inicio del programa que puede personalizar. Recuerde que esto debe adaptarse al flujo de trabajo de su organización. El desarrollo de un proceso de control de calidad efectivo le permite rendir cuentas y limitar los errores del cliente.
 
 ### Autores
 

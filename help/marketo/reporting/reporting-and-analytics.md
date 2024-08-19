@@ -11,10 +11,10 @@ thumbnail: 3419295.jpeg
 feature-set: Marketo Engage
 feature: Reporting
 exl-id: d45b2757-bc7f-4085-b374-ea8c1caf1774
-source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 5%
+source-wordcount: '67'
+ht-degree: 2%
 
 ---
 
@@ -29,5 +29,5 @@ Obtenga información sobre cómo navegar por las secciones [!DNL Analytics] y Ba
 * **Documentación del producto**
 Obtenga información acerca de los diferentes informes que puede extraer: [Información general de informes](https://experienceleague.adobe.com/docs/marketo/using/product-docs/reporting/reporting-overview.html?lang=en&amp;sdid=M7K4SLTS&amp;mv=email&amp;mv2=instreml)
 
-* **Post del blog de expertos del cliente**
+* **Publicación de blog de cliente experto**
 Aprenda de la campeona Chelsea Kiko en la creación de varios informes: [Informes en varios [!DNL Marketo Engage] espacios](https://nation.marketo.com/t5/product-blogs/how-marketo-champion-chelsea-kiko-reports-in-various-marketo/ba-p/242627)
