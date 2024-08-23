@@ -10,10 +10,10 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-13204
 thumbnail: KT-13204.jpeg
 exl-id: 58816df0-03d2-4d2f-a11b-8809c51d6e4f
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: dd6b3d2ea080de27e6955d1538a9b29d4fbb281a
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 0%
+source-wordcount: '522'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ¡Bienvenido al Adobe [!DNL Marketo Engage]! La configuración de una nueva instancia es el primer paso para mejorar su estrategia de marketing digital con la automatización de marketing. La clave para una implementación correcta de [!DNL Marketo Engage] es la documentación.
 
-Esta serie de _Consejos y trucos para implementar una instancia nueva_ proviene de [!DNL Marketo Engage] campeones de Adobe que ya han conquistado la implementación con anterioridad. El tutorial proporciona una guía paso a paso para que los nuevos administradores administren el proyecto de implementación de forma interfuncional y configuren la configuración técnica de forma independiente. Los temas selectivos también acompañan a las listas de comprobación y plantillas descargables para que los personalice según sus propias necesidades sin empezar desde cero. ¡Vamos a sumergirnos en la sabiduría de sus compañeros!
+Esta serie titulada ‘Implementación de nuevos consejos y trucos para instancias’ proviene de los campeones del Adobe [!DNL Marketo Engage] que ya han superado la implementación. El tutorial proporciona una guía paso a paso para que los nuevos administradores administren el proyecto de implementación de forma interfuncional y configuren la configuración técnica de forma independiente. Los temas selectivos también acompañan a las listas de comprobación y plantillas descargables para que los personalice según sus propias necesidades sin empezar desde cero. ¡Sumerjámonos en la sabiduría de sus colegas!
 
 ## Temas y lo que aprende
 
