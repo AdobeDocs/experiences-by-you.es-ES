@@ -10,7 +10,7 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-13204
 thumbnail: KT-13204.jpeg
 exl-id: 58816df0-03d2-4d2f-a11b-8809c51d6e4f
-source-git-commit: dd6b3d2ea080de27e6955d1538a9b29d4fbb281a
+source-git-commit: 28036f785b1901088a9b5a04e88f43f031257161
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
@@ -61,3 +61,4 @@ Esta serie titulada ‘Implementación de nuevos consejos y trucos para instanci
 
 * [Implementación de una nueva instancia de Marketo Engage con listas de comprobación de prácticas recomendadas](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/implementing-a-new-marketo-engage-instance/where-to-start){target="_blank}
   *Cada lista de comprobación proporciona pasos valiosos para que realice un seguimiento del progreso de la configuración. Utilice las listas de comprobación descargables para documentar su trabajo en el camino para futuras auditorías de instancias e incorporación de usuarios.*
+
