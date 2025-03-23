@@ -1,7 +1,7 @@
 ---
-title: 'AEM Consejos y trucos para el campeón de la:  [!DNL Cloud Manager] Tipos de entornos'
-description: AEM Eche un vistazo a estas sugerencias sobre los tipos de entorno de  [!DNL Cloud Manager] de parte de Rakesh Pasupuleti, campeón y experto en la materia y experto en la materia, que también es el campeón de la industria de la.
-version: Cloud Service
+title: 'Sugerencias y trucos para el campeón de AEM:  [!DNL Cloud Manager] Tipos de entornos'
+description: Eche un vistazo a estas sugerencias sobre los tipos de entorno de  [!DNL Cloud Manager] del campeón y experto de AEM, Rakesh Pasupuleti.
+version: Experience Manager as a Cloud Service
 feature-set: Marketo Engage, Experience Manager, Experience Manager Cloud Manager
 solution: Experience Manager Cloud Manager, Marketo Engage, Experience Manager Cloud Manager
 feature: Cloud Manager
@@ -12,16 +12,16 @@ doc-type: Value Video
 last-substantial-update: 2023-05-11T00:00:00Z
 jira: KT-13229
 exl-id: 682c97c0-d563-4cfa-be6b-0eb22c675d21
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: 2a628f89f602371c02db5204956d9397f306bdb8
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 3%
 
 ---
 
-# AEM Consejos y trucos para el campeón de la: [!DNL Cloud Manager] tipos de entornos
+# Consejos y trucos para el campeón de AEM: [!DNL Cloud Manager] tipos de entornos
 
-Eche un vistazo a estos consejos de su compañero técnico, Rakesh Pasupuleti. Rakesh es un campeón Experience Manager de [!DNL Adobe], y explica cómo entender los tipos de entornos de [!DNL Cloud Manager].
+Eche un vistazo a estos consejos de su compañero técnico, Rakesh Pasupuleti. Rakesh es un [!DNL Adobe] campeón de Experience Manager, y explica cómo entender los tipos de entornos de [!DNL Cloud Manager].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419297?quality=12&learn=on)
 
