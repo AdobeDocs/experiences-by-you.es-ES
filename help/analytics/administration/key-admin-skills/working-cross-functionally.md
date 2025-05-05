@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Trabajar de forma interfuncional
 
->[!VIDEO](https://video.tv.adobe.com/v/342071/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/345451/?quality=12&learn=on&captions=spa)
 
 El recorrido de [!DNL Adobe Analytics] comienza con una buena implementación. Todos conocemos el dicho &quot;basura entra, basura sale&quot;. Para eliminar una implementación de &quot;basura sale&quot;, los administradores deben monitorizar cada detalle de los datos introducidos en el sistema. Dicho esto, la estrategia de recopilación de datos está influida por muchos interesados en la organización, con quienes un administrador tendrá que trabajar día a día.
 

@@ -24,4 +24,4 @@ Heredar una instancia de [!DNL Marketo Engage] puede ser un momento estresante, 
 
 En este tutorial, le guiaremos por las secciones más importantes de [!DNL Marketo Engage], incluidas Administración, Actividades de marketing, Design Studio y Base de datos, y le proporcionaremos sugerencias para la auditoría y la optimización a lo largo del camino.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422473/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453025/?learn=on&captions=spa)

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Sugerencias y trucos sobre cómo simplificar la formación de usuarios y dedicarle menos tiempo
 
->[!VIDEO](https://video.tv.adobe.com/v/340458/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341103/?quality=12&learn=on&captions=spa)
 
 Garantizar que los usuarios empresariales de su organización estén bien formados en [!DNL Adobe Analytics] es crucial para crear una cultura de toma de decisiones basada en datos. Los usuarios que pueden encontrar información fácilmente dentro de [!DNL Adobe Analytics] pueden responder preguntas comerciales sencillas por su cuenta, lo que les permite a los analistas tener más tiempo para responder preguntas comerciales difíciles. Compartir sus conocimientos ayuda a impulsar la democracia de los datos y permite a los usuarios empresariales ser más independientes a la hora de tomar decisiones basadas en el rendimiento.
 

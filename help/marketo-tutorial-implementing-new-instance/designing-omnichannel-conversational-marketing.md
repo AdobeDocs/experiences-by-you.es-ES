@@ -49,7 +49,7 @@ Veamos estos casos de uso en acción, ya que Sara muestra su proceso, desde la a
 
 Este cuadro de diálogo proporciona cinco opciones iniciales entre las que los visitantes del sitio pueden elegir, lo que crea una experiencia autoguiada que les ayuda a encontrar la información que necesitan en función de su personalidad. Para empezar, es posible que desee explorar la bandeja de entrada del correo electrónico &quot;Contáctenos&quot; para identificar temas comunes y categorizarlos en opciones de Cuadro de diálogo que se aplican a los visitantes del sitio. Vea la demostración y siga los pasos a continuación para crear su cuadro de diálogo global predeterminado:
 
->[!VIDEO](https://video.tv.adobe.com/v/3429194/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454850/?learn=on&captions=spa)
 
 >[!BEGINTABS]
 

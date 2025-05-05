@@ -27,7 +27,7 @@ Mantenerse organizado en la instancia facilita al usuario y a los compañeros el
 
 ## Cómo organizar una instancia de Marketo Engage
 
->[!VIDEO](https://video.tv.adobe.com/v/3421577/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422768/?quality=12&learn=on&captions=spa)
 
 ### Paso 1: Configuración de una estructura de carpetas para ordenar los programas
 

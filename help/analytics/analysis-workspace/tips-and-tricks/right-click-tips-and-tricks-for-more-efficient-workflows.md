@@ -20,7 +20,7 @@ ht-degree: 0%
 
 A continuación, se ofrecen siete sugerencias con el botón derecho que puede utilizar en Analysis Workspace para aumentar la eficacia de sus flujos de trabajo. Puede leerlos en el texto de abajo o ver el vídeo para verlos demostrados.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417736/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422277/?quality=12&learn=on&captions=spa)
 
 A continuación, se ofrecen siete sugerencias con el botón derecho que puede utilizar en Analysis Workspace para aumentar la eficacia de sus flujos de trabajo:
 

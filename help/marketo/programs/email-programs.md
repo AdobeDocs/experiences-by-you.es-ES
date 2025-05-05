@@ -22,7 +22,7 @@ ht-degree: 22%
 
 Vea este tutorial paso a paso para aprender a crear un programa de correo electrónico con una prueba A/B.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419440/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453370/?learn=on&captions=spa){transcript=true}
 
 
 ## Recursos adicionales:

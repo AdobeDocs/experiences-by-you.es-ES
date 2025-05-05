@@ -32,7 +32,7 @@ ht-degree: 19%
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Sugerencias y trucos" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
+      <img alt="[!DNL Adobe Analytics] Sugerencias y trucos" src="https://video.tv.adobe.com/v/3422277?format=jpeg&captions=spa" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -45,7 +45,7 @@ ht-degree: 19%
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="Traducir [!DNL Adobe Analytics] idioma técnico de forma no técnica" src="https://video.tv.adobe.com/v/342066?format=jpeg" />
+      <img alt="Traducir [!DNL Adobe Analytics] idioma técnico de forma no técnica" src="https://video.tv.adobe.com/v/345322?format=jpeg&captions=spa" />
     </a>
     <div>
       <a href="/help/analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md">

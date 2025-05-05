@@ -121,7 +121,7 @@ Con los modelos básicos de puntuación demográfica y de comportamiento que ha 
 
 ¿Prefiere una guía en vídeo para este ejercicio? La campeona Marketo Engage Katja Keesom muestra cómo incorporar la flexibilidad local en el modelo de puntuación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426914/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457442/?learn=on&captions=spa)
 
 **Paso 1**: tome las actividades y características de los ejercicios 1 y 2 y determine para cada elemento si varían según la ubicación o la línea de productos.
 

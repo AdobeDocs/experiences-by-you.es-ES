@@ -24,4 +24,4 @@ ht-degree: 81%
 
 Los flujos de trabajo, una potente capacidad de [!DNL Adobe] [!DNL Campaign], le ayudan a administrar campañas y a llegar a los clientes de la forma más sencilla. Conozca y aplique las cinco prácticas recomendadas esenciales de flujo de trabajo para especialistas en marketing de Adam Wilson, Associate Director of Marketing, en LoyaltyOne.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410837?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3448124?quality=12&learn=on&captions=spa){transcript=true}
