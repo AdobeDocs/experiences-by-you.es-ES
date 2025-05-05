@@ -138,7 +138,7 @@ Otra funcionalidad potente de los espacios de trabajo es la capacidad de aplicar
 
 >[!IMPORTANT]
 >
->Para obtener más información acerca del uso de desplegables y desgloses de forma libre, consulte <https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-power-of-dropdown-filters-and-dimension-breakdowns-in-adobe/td-p/434680>
+>Para obtener más información acerca del uso de desplegables y desgloses de forma libre, consulte <https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-power-of-dropdown-filters-and-dimension-breakdowns-in-adobe/td-p/434680?profile.language=es>
 
 ##### 2.1.2.2. Google [!DNL Analytics]: paneles e informes personalizados y guardados
 
@@ -268,7 +268,7 @@ Sin embargo, subrayaré que recomendaría utilizar tanto [!DNL Adobe Analytics] 
 
 Hay muchos recursos disponibles más allá de esta guía que pueden ayudar a mejorar su estrategia:
 
-* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/?lang=es#home): contiene tutoriales, vídeos, documentación y foros de la comunidad
+* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/es?lang=es#home): contiene tutoriales, vídeos, documentación y foros de la comunidad
 * [[!DNL Adobe] Grupos de usuarios](https://analytics-augs.adobe.com/): un centro de eventos de la comunidad para ayudar a los usuarios a conectar entre sí y mejorar sus implementaciones.
 * [[!DNL Adobe Analytics] Canal de YouTube de grupos de usuarios](https://www.youtube.com/channel/UCQOHnCs7KZgsuFHVzwboQuA) - ¿No pudo asistir a una sesión de grupo de usuarios de [!DNL Adobe Analytics]? Vuelva a ver las sesiones de grupos de usuarios anteriores en todo el mundo para obtener más información acerca de cómo utilizan la herramienta sus colegas.
 * [Canal de Slack de chat de Measure](https://www.measure.chat/): conéctese con usuarios de [!DNL Adobe Analytics] de todo el mundo y comparta las lecciones aprendidas en la industria, haga preguntas de sus colegas y únase a grupos de interés centrados en la medición.

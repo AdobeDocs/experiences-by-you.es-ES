@@ -44,7 +44,7 @@ Crear y editar anotaciones es intuitivo y casi autoexplicativo. Haga clic con el
 ![2ndimage](assets/2ndimage.png){width="70%"}![3rdimage](assets/3rdimage.png){width="30%"}
 
 
-Para ver todos los detalles de cómo funcionan las anotaciones, asegúrate de ver el [tutorial en vídeo sobre el Experience League](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/annotations-in-analysis-workspace).
+Para ver todos los detalles de cómo funcionan las anotaciones, asegúrate de ver el [tutorial en vídeo sobre el Experience League](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/annotations-in-analysis-workspace).
 
 ## Sugerencias y trucos para empezar
 
@@ -75,7 +75,7 @@ Por último, aquí hay algunos consejos útiles para empezar a utilizar las anot
 
 ![9thimage](assets/9thimage.png)
 
-Para obtener documentación detallada, visite [Información general sobre anotaciones](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/annotations/overview) y artículos relacionados.
+Para obtener documentación detallada, visite [Información general sobre anotaciones](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/components/annotations/overview) y artículos relacionados.
 
 ## Autor
 

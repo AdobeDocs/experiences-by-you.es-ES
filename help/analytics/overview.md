@@ -58,7 +58,7 @@ ht-degree: 19%
   </td>
   <td>
     <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-      <img alt="Crear convenciones de nomenclatura estandarizada" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg" />
+      <img alt="Crear convenciones de nomenclatura estandarizada" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg?lang=es" />
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">

@@ -42,8 +42,8 @@ Esta serie &quot;Implementación de nuevos consejos y trucos para instancias&quo
 
 * [Sincronizando campos para los conectores nativos de CRM](/help/marketo-tutorial-implementing-new-instance/syncing-fields-for-crm-integration.md)
   *Aprenda a optimizar su integración inicial de CRM seleccionando estratégicamente los campos de CRM esenciales que debe utilizar el Marketo Engage. Realice el ejercicio del diccionario de datos para identificar los campos que necesita para una sincronización de CRM sin problemas que ayude a los equipos de ventas y marketing a mantenerse alineados.*
-   * [Introducción a la sincronización de Salesforce](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/salesforce-sync-setup){target="_blank}
-   * [Introducción a la sincronización de Microsoft Dynamics](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/microsoft-dynamics-sync-setup){target="_blank}
+   * [Introducción a la sincronización de Salesforce](https://experienceleague.adobe.com/es/docs/marketo-learn/tutorials/lead-and-data-management/salesforce-sync-setup){target="_blank}
+   * [Introducción a la sincronización de Microsoft Dynamics](https://experienceleague.adobe.com/es/docs/marketo-learn/tutorials/lead-and-data-management/microsoft-dynamics-sync-setup){target="_blank}
 <br>
 
 * [Organizar una nueva instancia y establecer convenciones de nomenclatura](/help/marketo-tutorial-implementing-new-instance/organizing-new-instance.md)
@@ -59,6 +59,6 @@ Esta serie &quot;Implementación de nuevos consejos y trucos para instancias&quo
 
 ## Recursos adicionales
 
-* [Implementación de una nueva instancia de Marketo Engage con listas de comprobación de prácticas recomendadas](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/implementing-a-new-marketo-engage-instance/where-to-start){target="_blank}
+* [Implementación de una nueva instancia de Marketo Engage con listas de comprobación de prácticas recomendadas](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/implementing-a-new-marketo-engage-instance/where-to-start){target="_blank}
   *Cada lista de comprobación proporciona pasos valiosos para que realice un seguimiento del progreso de la configuración. Utilice las listas de comprobación descargables para documentar su trabajo en el camino para futuras auditorías de instancias e incorporación de usuarios.*
 

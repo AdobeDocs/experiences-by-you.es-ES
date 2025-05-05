@@ -27,7 +27,7 @@ Obtenga información sobre cómo navegar por las secciones [!DNL Analytics] y Ba
 ## Recursos adicionales
 
 * **Documentación del producto**
-Obtenga información acerca de los diferentes informes que puede extraer: [Información general de informes](https://experienceleague.adobe.com/docs/marketo/using/product-docs/reporting/reporting-overview.html?lang=en&amp;sdid=M7K4SLTS&amp;mv=email&amp;mv2=instreml)
+Obtenga información acerca de los diferentes informes que puede extraer: [Información general de informes](https://experienceleague.adobe.com/docs/marketo/using/product-docs/reporting/reporting-overview.html?lang=es&amp;sdid=M7K4SLTS&amp;mv=email&amp;mv2=instreml)
 
 * **Publicación de blog de cliente experto**
 Aprenda de la campeona Chelsea Kiko en la creación de varios informes: [Informes en varios [!DNL Marketo Engage] espacios](https://nation.marketo.com/t5/product-blogs/how-marketo-champion-chelsea-kiko-reports-in-various-marketo/ba-p/242627)

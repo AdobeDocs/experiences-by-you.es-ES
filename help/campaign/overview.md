@@ -46,7 +46,7 @@ ht-degree: 26%
   </td>
   <td>
     <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
-      <img alt="Solución de problemas para especialistas en marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
+      <img alt="Solución de problemas para especialistas en marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png?lang=es" />
     </a>
     <div>
       <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
@@ -59,7 +59,7 @@ ht-degree: 26%
   </td>
   <td>
     <a href="/help/campaign/10-best-practices-for-marketers.md">
-      <img alt="Diez prácticas recomendadas para el éxito de Adobe Campaign para expertos en marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
+      <img alt="Diez prácticas recomendadas para el éxito de Adobe Campaign para expertos en marketing" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png?lang=es" />
     </a>
     <div>
       <a href="/help/campaign/10-best-practices-for-marketers.md">

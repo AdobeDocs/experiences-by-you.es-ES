@@ -39,7 +39,7 @@ Puede crear una comunidad empoderada dentro de su organización. A continuación
 
 * Comprender la implementación:
 
-  Como práctica recomendada, los usuarios deben tener un conocimiento básico de los requisitos empresariales admitidos por su implementación, que generalmente se capturan mediante un [documento de requisitos empresariales](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en) (BRD) y [documento de referencia de diseño de solución](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html?lang=en) (SDR). Estos requisitos deben incluir lo que se ha implementado y definir los requisitos de la empresa, los informes, las eVars, los eventos, etc., por categoría.
+  Como práctica recomendada, los usuarios deben tener un conocimiento básico de los requisitos empresariales admitidos por su implementación, que generalmente se capturan mediante un [documento de requisitos empresariales](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=es) (BRD) y [documento de referencia de diseño de solución](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-and-maintaining-an-sdr.html?lang=es) (SDR). Estos requisitos deben incluir lo que se ha implementado y definir los requisitos de la empresa, los informes, las eVars, los eventos, etc., por categoría.
 
 * Usar plantillas de informe:
 
@@ -115,4 +115,4 @@ Establecer y mantener una comunidad empoderada es mucho trabajo. Es importante r
 
 * Desarrollo de las carreras: una comunidad empoderada cambia el foco de muchos equipos de analistas de ser reactivos y tácticos a ser prescriptivos y estratégicos. Esto abre oportunidades de desarrollo profesional para el equipo del proyecto de administración de su comunidad.
 
-Si tiene un grupo de usuarios interno de [!DNL Adobe Analytics] o una &quot;comunidad&quot; más formal, o está trabajando para formar uno, ¡nos encantaría escuchar su historia dentro del [[!DNL Adobe] Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/bd-p/adobe-analytics-discussions)!
+Si tiene un grupo de usuarios interno de [!DNL Adobe Analytics] o una &quot;comunidad&quot; más formal, o está trabajando para formar uno, ¡nos encantaría escuchar su historia dentro del [[!DNL Adobe] Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/bd-p/adobe-analytics-discussions?profile.language=es)!

@@ -30,7 +30,7 @@ La documentación detallada y un [!UICONTROL Changelog] son vitales para una adm
 
 1. Capacite a los usuarios internos de forma más sencilla y escalable.
 2. Genere de manera más eficiente en [!DNL Marketo Engage] a largo plazo.
-3. Mantenga el estado y la higiene de su instancia en adelante para evitar que dedique horas a explorar correos electrónicos, [pista de auditoría](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html) y [registro de actividad](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html) para obtener contexto.
+3. Mantenga el estado y la higiene de su instancia en adelante para evitar que dedique horas a explorar correos electrónicos, [pista de auditoría](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html?lang=es) y [registro de actividad](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html?lang=es) para obtener contexto.
 4. Ahorre tiempo al transferir conocimientos de [!DNL Marketo Engage] a un nuevo administrador de [!DNL Marketo Engage] si su equipo experimenta algún cambio.
 
 ## [!DNL Marketo Engage] guía de gobernanza 101

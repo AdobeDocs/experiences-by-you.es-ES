@@ -38,7 +38,7 @@ En este tutorial, profundizaremos en los hitos específicos, las participaciones
 
 ### Fase 3: Creación de la biblioteca de programas y configuración de la campaña
 
-- Desarrollo de plantillas de correo electrónico y páginas de aterrizaje. Empezando por [importar programas iniciales](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) desde la [Biblioteca de importación de programas](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
+- Desarrollo de plantillas de correo electrónico y páginas de aterrizaje. Empezando por [importar programas iniciales](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) desde la [Biblioteca de importación de programas](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
 - Configuración de la segmentación y las reglas de Personalization
 - Creación de campañas iniciales para la generación de posibles clientes y su nutrición
 
