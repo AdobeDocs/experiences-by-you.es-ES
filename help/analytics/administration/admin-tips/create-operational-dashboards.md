@@ -28,7 +28,7 @@ Como muchos administradores, ejecuto un centro de información interno (Confluen
 
 Observé que los usuarios a menudo ignoraban mis referencias al sitio de Confluencia, con razones como &quot;Mi VPN está desactivada&quot;, o &quot;No puedo leerla ahora&quot;, etc. Básicamente, &quot;leeré ese documento más tarde&quot; significa que nunca se leerá, y la misma pregunta se volverá a hacer la semana que viene.
 
-***El éxito de realización:**La versatilidad de Workspace podría cambiar las reglas del juego. Los usuarios prefieren respuestas rápidas y directas dentro de Workspace, así que mantengámoslas allí para evitar pasos adicionales.*
+***El éxito de realización:**&#x200B;La versatilidad de Workspace podría cambiar las reglas del juego. Los usuarios prefieren respuestas rápidas y directas dentro de Workspace, así que mantengámoslas allí para evitar pasos adicionales.*
 
 Seguí adelante y creé paneles operativos para compartir toda la compañía. Hasta ahora, han mantenido a los usuarios informados, han centralizado la información y han reducido la frustración. Este ha sido un proceso fácil y cambiante que aumenta la eficiencia con el tiempo.
 

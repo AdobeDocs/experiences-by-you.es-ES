@@ -65,7 +65,7 @@ Puede crear una comunidad empoderada dentro de su organización. A continuación
 
 ## 3. Use herramientas para empezar a crear su comunidad
 
-* [Crear una carta de proyecto](assets/[!DNL Adobe]-[!DNL Analytics]-Empowered-Community-Project-Charter-Template.pptx) (descarga de plantilla):
+* [Crear una carta de proyecto] (assets/[!DNL Adobe]-[!DNL Analytics]-Empowered-Community-Project-Charter-Template.pptx) (descarga de plantilla):
 
   Una carta de proyecto es a menudo una buena manera de alinear su negocio con la oportunidad de una comunidad interna empoderada. Al responder a las siguientes preguntas, tiene lo que necesita para redactar el borrador de la carta:
 
