@@ -79,4 +79,4 @@ ht-degree: 19%
 * [Comunidad Adobe Analytics de Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
 * [Documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=es)
 * [Tutoriales de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=es)
-* [Información de producto de Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html)
+* [Información de producto de Adobe Analytics](https://business.adobe.com/es/products/analytics/adobe-analytics.html)

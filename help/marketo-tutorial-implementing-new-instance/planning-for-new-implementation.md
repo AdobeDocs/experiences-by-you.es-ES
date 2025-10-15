@@ -294,7 +294,7 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
 >[!NOTE]
 >Los ejemplos proporcionados no se basan en una cronología de implementación real. No confíe en estos plazos como estándar para la incorporación de Marketo Engage, ya que cada implementación es única con diferentes hitos y requisitos según las necesidades de su organización.
 
-Para obtener ayuda en la implementación y personalización de su Marketo Engage, póngase en contacto con el equipo de cuenta de Adobe o póngase en contacto con [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
+Para obtener ayuda en la implementación y personalización de su Marketo Engage, póngase en contacto con el equipo de cuenta de Adobe o póngase en contacto con [Adobe Professional Services](https://business.adobe.com/es/customers/consulting-services/main.html){target="_blank"}.
 
 ### Autor
 

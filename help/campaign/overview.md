@@ -81,4 +81,4 @@ ht-degree: 26%
 * Adobe Campaign v8: [Documentación](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=es) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=es)
 * Adobe Campaign Classic v7 - [Documentación](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=es) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es)
 * Adobe Campaign Standard - [Documentación](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=es) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es)
-* [Información de producto de Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html)
+* [Información de producto de Adobe Campaign](https://business.adobe.com/es/products/campaign/adobe-campaign.html)

@@ -79,4 +79,4 @@ ht-degree: 16%
 * [Nación Marketo (comunidades)](https://nation.marketo.com/)
 * [Documentación de Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-engage.html?lang=es)
 * [Tutorials de Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=es)
-* [Información de producto de Adobe Marketo Engage](https://business.adobe.com/products/marketo/adobe-marketo.html)
+* [Información de producto de Adobe Marketo Engage](https://business.adobe.com/es/products/marketo/adobe-marketo.html)
