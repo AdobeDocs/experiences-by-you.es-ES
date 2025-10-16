@@ -23,7 +23,7 @@ Como administrador que implementa una nueva instancia de Marketo Engage, está s
 
 ## ¿Por qué es necesario estructurar carpetas y aplicar convenciones de nomenclatura?
 
-Mantenerse organizado en la instancia facilita al usuario y a los compañeros el seguimiento de las campañas, los programas y los recursos, así como la creación de informes sobre el rendimiento del programa. Para organizar el árbol de navegación en su instancia y compilarlo a escala, se recomienda usar [carpetas](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [convenciones de nomenclatura estándar](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} y características como [clonación](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
+Mantenerse organizado en la instancia facilita al usuario y a los compañeros el seguimiento de las campañas, los programas y los recursos, así como la creación de informes sobre el rendimiento del programa. Para organizar el árbol de navegación en su instancia y compilarlo a escala, se recomienda usar [carpetas](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [convenciones de nomenclatura estándar](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} y características como [clonación](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
 
 ## Cómo organizar una instancia de Marketo Engage
 
@@ -31,7 +31,7 @@ Mantenerse organizado en la instancia facilita al usuario y a los compañeros el
 
 ### Paso 1: Configuración de una estructura de carpetas para ordenar los programas
 
-El primer paso para organizar su instancia es [configurar una estructura de carpetas](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html) para alojar su programa y sus recursos de una manera fácil de encontrar y ordenada.
+El primer paso para organizar su instancia es [configurar una estructura de carpetas](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html?lang=es) para alojar su programa y sus recursos de una manera fácil de encontrar y ordenada.
 
 A continuación se ofrecen algunas sugerencias rápidas para estructurar las carpetas en árbol:
 

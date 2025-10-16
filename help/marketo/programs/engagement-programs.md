@@ -28,7 +28,7 @@ Siga este tutorial paso a paso para crear su primer programa de participación.
 
 Consulte las guías del producto relacionadas para obtener más información:
 
-* [Explicación de la documentación de programas de participación](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/drip-nurturing/creating-an-engagement-program/understanding-engagement-programs.html?lang=en)
+* [Explicación de la documentación de programas de participación](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/drip-nurturing/creating-an-engagement-program/understanding-engagement-programs.html?lang=es)
 
 Aprenda de sus compañeros a utilizar los programas de participación:
 

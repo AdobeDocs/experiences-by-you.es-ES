@@ -77,6 +77,6 @@ ht-degree: 20%
 ## Recursos adicionales
 
 * [Comunidades de Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=es)
-* [Documentación de Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
-* [Tutoriales de Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-tutorials/overview.html)
+* [Documentación de Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=es)
+* [Tutoriales de Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-tutorials/overview.html?lang=es)
 * [Información de producto de Experience Manager](https://business.adobe.com/es/products/experience-manager/adobe-experience-manager.html)
