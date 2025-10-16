@@ -1,21 +1,21 @@
 ---
 title: Descubra Experience Manager usted
 description: Descubra Experience Manager usted incluye contenido generado por los usuarios y creado por usuarios habituales que han adquirido un nivel de experiencia e influencia con sus conocimientos de Adobe Experience Manager.
-role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
+role: User, Developer, Admin, Leader
 level: Beginner
 doc-type: overview
 solution: Experience Manager
 exl-id: f6aa9dbd-fb4f-40fa-b607-174755a1ca9f
-source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 20%
 
 ---
 
-# Experience Manager por usted: Recursos por usuarios, para usuarios.
+# Experience Manager by You: Recursos de los usuarios, para los usuarios.
 
-¿Lo más potente de [!DNL Adobe] soluciones de Experience Cloud? Tú. Los usuarios que toman los productos, profundizan en ellos y los aplican de formas increíbles e innovadoras para crear experiencias y resultados significativos. Experiencias por usted incluye contenido creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con sus soluciones de Experience Cloud de [!DNL Adobe]. Este conocimiento entre usuarios fomenta la colaboración y el descubrimiento, lo que le permite a usted y a cualquier otro usuario encontrar la inspiración necesaria para aumentar su experiencia con los productos.
+¿Lo más potente de [!DNL Adobe] soluciones de Experience Cloud? Tú. Los usuarios que toman los productos, profundizan en ellos y los aplican de formas increíbles e innovadoras para crear experiencias y resultados significativos. Experiencias por usted incluye contenido creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con sus soluciones de Experience Cloud [!DNL Adobe]. Este conocimiento entre usuarios fomenta la colaboración y el descubrimiento, lo que le permite a usted y a cualquier otro usuario encontrar la inspiración necesaria para aumentar su experiencia con los productos.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -58,7 +58,7 @@ ht-degree: 20%
   </td>
   <td>
     <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
-      <img alt="Sugerencias y trucos" src="https://video.tv.adobe.com/v/3439840?format=jpeg&captions=spa" />
+      <img alt="Sugerencias y trucos" src="https://video.tv.adobe.com/v/3409427?format=jpeg" />
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
@@ -77,6 +77,6 @@ ht-degree: 20%
 ## Recursos adicionales
 
 * [Comunidades de Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=es)
-* [Documentación del Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=es)
-* [Tutorials Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-tutorials/overview.html?lang=es)
-* [Información del producto del Experience Manager](https://business.adobe.com/es/products/experience-manager/adobe-experience-manager.html)
+* [Documentación de Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
+* [Tutoriales de Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-tutorials/overview.html)
+* [Información de producto de Experience Manager](https://business.adobe.com/es/products/experience-manager/adobe-experience-manager.html)

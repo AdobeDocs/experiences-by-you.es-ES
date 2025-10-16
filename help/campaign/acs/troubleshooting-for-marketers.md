@@ -11,7 +11,7 @@ last-substantial-update: 2023-05-18T00:00:00Z
 jira: KT-13256
 thumbnail: KT-13256.jpeg
 exl-id: 1f27e284-73e3-4f28-988e-51163775eec8
-source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # Solución de problemas para los especialistas en marketing: 5 errores comunes de flujo de trabajo y envío
 
-Por: [Suraj Patra](https://www.linkedin.com/in/suraj-p-51612053/){target="_blank"}, Consultor Senior, Meijer
+Por: [Suraj Patra](https://www.linkedin.com/in/suraj-p-51612053/){target="_blank"}, consultor senior, Meijer
 
-Como ingeniero sénior y experto en [!DNL Adobe] productos de Experience Cloud durante los últimos cinco años, permito a los usuarios empresariales de [Meijer](https://www.meijer.com/){target="_blank"}, una cadena de supercentros estadounidense fundada en 1934, ejecutar campañas complejas de marketing y transacciones con ACS. Algunos proyectos en los que he trabajado incluyen campañas personalizadas para almacenar ofertas y detalles de pedidos para personalización, integradas con el Audience Manager [!DNL Adobe], y conocimiento del cliente para la ingesta de segmentos.
+Como ingeniero sénior y experto en [!DNL Adobe] productos de Experience Cloud durante los últimos cinco años, permito a los usuarios empresariales de [Meijer](https://www.meijer.com/){target="_blank"}, una cadena de supercentros estadounidense fundada en 1934, ejecutar complejas campañas transaccionales y de marketing con ACS. Algunos proyectos en los que he trabajado incluyen campañas personalizadas para almacenar ofertas y detalles de pedidos para personalización, integradas con [!DNL Adobe] Audience Manager, y insight de cliente para la ingesta de segmentos.
 
 En mi tiempo usando ACS, me he encontrado con errores que pueden consumir tiempo y ser frustrantes de resolver. Conocer los errores más comunes puede ayudar a resolver problemas más rápido y aumentar su productividad. A continuación se muestran mis sugerencias de solución de problemas para ayudarle a resolver de forma eficaz errores similares a medida que se producen.
 
@@ -59,16 +59,17 @@ Consulte la captura de pantalla de la actividad de reconciliación como se muest
 
 ![flujo de trabajo con detalles de reconciliación](/help/_assets/kt-13256/del-persn-error-wf-solution.png)
 
-Más información sobre [reconciliación](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=es).
+Más información sobre [reconciliación](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=en).
 
 ## Error de conjunto de datos de campo común
 
 **Código de error:**
-`The document types of inbound events (''and'') are incompatible (step 'Exclusion'). Unable to perform the operation. `
+
+`The document types of inbound events (''and'') are incompatible (step 'Exclusion'). Unable to perform the operation.`
 
 **Causa:**
-Este problema se produce al usar la **actividad de exclusión** en flujos de trabajo de ACS, al realizar una exclusión basada en el ID, cuando el conjunto principal y el conjunto excluido no tienen los mismos nombres de campo.
 
+Este problema se produce al usar la **actividad de exclusión** en flujos de trabajo de ACS, al realizar una exclusión basada en el ID, cuando el conjunto principal y el conjunto excluido no tienen los mismos nombres de campo.
 
 ![Error de conjunto de datos de campo común](/help/_assets/kt-13256/dataset-error.png)
 
@@ -82,7 +83,7 @@ Existen dos formas de resolver este error:
 
 2. Utilice el método de exclusión JOINS para seleccionar el campo en función del cual desea excluir los registros.
 
-![Error en conjunto de datos de campo común - Solución &#x200B;](/help/_assets/kt-13256/dataset-error-solution.png)
+![Error en conjunto de datos de campo común - Solución ](/help/_assets/kt-13256/dataset-error-solution.png)
 
 ## Error al soltar nombre de campo
 
@@ -95,7 +96,7 @@ Pueden producirse puntos de error en una **actividad de enriquecimiento**. A con
 
 ![Error al soltar el nombre del campo](/help/_assets/kt-13256/field-name-dropped-error.png)
 
-Esto sucede cuando se edita manualmente un nombre de expresión en la actividad. La imagen muestra que la expresión se modificó de `name ` a `i__name`.
+Esto sucede cuando se edita manualmente un nombre de expresión en la actividad. La imagen muestra que la expresión se modificó de `name` a `i__name`.
 
 **Solución:**
 
@@ -115,7 +116,7 @@ Este error se puede resolver de tres formas:
 **Causa:**
 Este es un error común en flujos de trabajo complicados que implican enriquecimiento u otra actividad. Probablemente signifique que algunos de los flujos de trabajo de actividad no se guardan correctamente durante varios cambios en el flujo de trabajo.
 
-![Error temporal descartado de tabla &#x200B;](/help/_assets/kt-13256/temp-table-dropped-error.png)
+![Error temporal descartado de tabla ](/help/_assets/kt-13256/temp-table-dropped-error.png)
 
 **Solución:**
 Existen muchas maneras de que se produzca este error, por lo que no hay una solución simple. Si se trata de un flujo de trabajo simple, sería mejor reconfigurar la actividad. En un flujo de trabajo complicado, es mejor copiar las actividades de flujo de trabajo en un nuevo flujo de trabajo, guardarlo y volver a ejecutarlo.

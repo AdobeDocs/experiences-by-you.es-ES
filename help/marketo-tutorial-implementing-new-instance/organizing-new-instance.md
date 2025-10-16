@@ -10,7 +10,7 @@ last-substantial-update: 2024-05-03T00:00:00Z
 jira: KT-14813
 thumbnail: KT-14813.jpeg
 exl-id: 19b3de9e-53f3-4308-b46e-7b8f756c30a0
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 2%
@@ -19,19 +19,19 @@ ht-degree: 2%
 
 # Organizar una nueva instancia y establecer convenciones de nomenclatura
 
-Como administrador que implementa una nueva instancia de Marketo Engage, está sentando las bases para permitir que los futuros especialistas en marketing de la organización puedan navegar fácilmente por ella. Familiarizarse con la estructura de carpetas de árbol y las convenciones de nomenclatura mantendrá la instancia ordenada y configurada para tener éxito a largo plazo. Este tutorial incluye ejemplos recomendados por la campeona de Adobe y Marketo Engage (2019-2020), Natalie Kremer, para ayudarle a [organizar las carpetas y asignar nombres a los recursos de forma coherente](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
+Como administrador que implementa una nueva instancia de Marketo Engage, está sentando las bases para permitir que los futuros especialistas en marketing de la organización puedan navegar fácilmente por ella. Familiarizarse con la estructura de carpetas de árbol y las convenciones de nomenclatura mantendrá la instancia ordenada y configurada para tener éxito a largo plazo. Este tutorial incluye ejemplos recomendados por Adobe y la campeona de Marketo Engage (2019-2020), Natalie Kremer, para ayudarle a [organizar las carpetas y asignar nombres a los recursos de forma coherente](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
 
 ## ¿Por qué es necesario estructurar carpetas y aplicar convenciones de nomenclatura?
 
-Mantenerse organizado en la instancia facilita al usuario y a los compañeros el seguimiento de las campañas, los programas y los recursos, así como la creación de informes sobre el rendimiento del programa. Para organizar el árbol de navegación en su instancia y compilarlo a escala, se recomienda usar [carpetas](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [convenciones de nomenclatura estándar](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} y características como [clonación](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
+Mantenerse organizado en la instancia facilita al usuario y a los compañeros el seguimiento de las campañas, los programas y los recursos, así como la creación de informes sobre el rendimiento del programa. Para organizar el árbol de navegación en su instancia y compilarlo a escala, se recomienda usar [carpetas](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [convenciones de nomenclatura estándar](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} y características como [clonación](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
 
 ## Cómo organizar una instancia de Marketo Engage
 
->[!VIDEO](https://video.tv.adobe.com/v/3422768/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3421577/?quality=12&learn=on)
 
 ### Paso 1: Configuración de una estructura de carpetas para ordenar los programas
 
-El primer paso para organizar su instancia es [configurar una estructura de carpetas](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html?lang=es) para alojar su programa y sus recursos de una manera fácil de encontrar y ordenada.
+El primer paso para organizar su instancia es [configurar una estructura de carpetas](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html) para alojar su programa y sus recursos de una manera fácil de encontrar y ordenada.
 
 A continuación se ofrecen algunas sugerencias rápidas para estructurar las carpetas en árbol:
 
@@ -65,8 +65,10 @@ A continuación se muestran ejemplos de carpetas de cómo poner en práctica est
 Ahora, vamos a aplicar la estructura de carpetas en el nivel de programa. Como práctica recomendada, alojar los recursos locales en subcarpetas le ayudará a mantener los programas ordenados y permitirá a los usuarios internos modificar o informar sobre los programas de forma eficaz. Las subcarpetas comunes incluyen correos electrónicos, páginas de aterrizaje, campañas inteligentes, listas, informes, etc.
 
 **Nombre de carpeta dentro de programas**
+
 * Campañas: *Carpeta para todas las campañas que administran interacciones y seguimiento de estado.*
 * Assets local: *Carpeta para todos los recursos específicos de este programa.*
+
    * Correos electrónicos
    * Páginas de destino
    * Campañas inteligentes
@@ -114,7 +116,7 @@ Un nivel por debajo de la asignación de nombres a los recursos, es mejor que no
 
 * Numerar los recursos en función de su secuencia en el proceso del programa.
 * Utilice &quot;-&quot; (guión) para separar los componentes de nomenclatura en lugar de &quot;&quot;.(punto) o &quot;\_&quot;(guion bajo).
-   * ¿Por qué? El Marketo Engage utiliza un punto para separar el Nombre del programa del Nombre de la campaña. Usar &quot;\_&quot; evitará que lo vea cuando el recurso tenga un hipervínculo.
+   * ¿Por qué? Marketo Engage utiliza un punto para separar el Nombre del programa del Nombre de la campaña. Usar &quot;\_&quot; evitará que lo vea cuando el recurso tenga un hipervínculo.
 * Utilice acrónimos estándar en los nombres de los recursos para acortar la referencia y facilitar el reconocimiento.
 
 Teniendo en cuenta esto, aplicaremos estas sugerencias a los siguientes recursos y crearemos fórmulas para generar nombres:
@@ -166,7 +168,7 @@ Teniendo en cuenta esto, aplicaremos estas sugerencias a los siguientes recursos
 | CS: Caso práctico | Descripción del contenido | \- | CS | . | pdf |
 | DS: hoja de datos | Descripción del contenido | \- | DS | . | pdf |
 
-| **Ejemplos: Archivos de PDF descargables** |
+| **Ejemplos: archivos descargables de PDF** |
 | --- |
 | XYZ-Gadget-DS.pdf |
 | Acme-Company-CS.pdf |

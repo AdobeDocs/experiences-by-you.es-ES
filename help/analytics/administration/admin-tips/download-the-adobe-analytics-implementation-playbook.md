@@ -1,5 +1,5 @@
 ---
-title: Descargar el libro de estrategias de implementación  [!DNL Adobe Analytics]
+title: 'Descargar el libro de estrategias de implementación  [!DNL Adobe Analytics] '
 description: Un Documento de requisitos empresariales (denominado comúnmente BRD) es una documentación muy importante en la que los principales actores, los usuarios empresariales y los usuarios tecnológicos querrán colaborar. Es un sitio para documentar todos los KPI deseados, los requisitos de creación de informes y cualquier punto de datos que desee ver cuando se complete la implementación de AA.
 solution: Analytics
 feature-set: Analytics
@@ -11,7 +11,7 @@ doc-type: article
 thumbnail: 10530.jpg
 kt: 10530
 exl-id: 42679c86-e08f-4dda-8e47-f9880409bad6
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Antes de comenzar, [descargue el manual](assets/aa-implementation-playbook.xlsx)
 
 **QUÉ:** Un Documento de requisitos empresariales (denominado comúnmente BRD) es una documentación muy importante en la que los principales actores, los usuarios empresariales y los usuarios tecnológicos querrán colaborar. Es un sitio para documentar todos los KPI deseados, los requisitos de informes y cualquier punto de datos que desee ver cuando se complete la implementación de [!DNL Adobe Analytics] (AA).
 
-**POR QUÉ:** Esto sirve como punto de partida para la siguiente documentación (SDR, especificaciones técnicas, etc.) y es una fuente fiable común para un estado final de AA acordado. Este documento organiza las ideas entre los equipos de la organización para formar una guía que le lleve a avanzar en la creación o mejora de su implementación.
+**POR QUÉ:** Esto sirve como punto de partida para la documentación siguiente (SDR, especificaciones técnicas, etc.) y es una fuente fiable común para un estado final de AA acordado. Este documento organiza las ideas entre los equipos de la organización para formar una guía que le lleve a avanzar en la creación o mejora de su implementación.
 
 **CÓMO:** La documentación de los requisitos empresariales la suelen elaborar los usuarios empresariales finales de AA, pero es importante recibir comentarios de los usuarios tecnológicos, ya que puede haber desafíos técnicos que tener en cuenta y algunos puntos de datos pueden requerir más esfuerzo que otros, lo que influye en la priorización.
 
@@ -34,7 +34,7 @@ Pregúntese &quot;qué cosas queremos rastrear en nuestro sitio&quot;, &quot;qu�
 
 Comience por rellenar la columna C en la captura de pantalla siguiente (Requisito empresarial). Esto debería ser algo como &quot;Cuántas búsquedas internas se completan en nuestro sitio&quot; o &quot;Qué campaña interna es más efectiva en términos de impresiones&quot;. Después de completar este nivel de detalle, puede volver atrás y rellenar la columna B (Categoría) y agrupar los requisitos en categorías como &quot;Búsqueda&quot; o &quot;Promoción interna&quot;, que deben corresponder bien con sus secciones de especificaciones técnicas.
 
-También indicará si cree que el uso de un eVar, evento, propiedad o combinación logrará lo que busca rastrear.
+También indicará si cree que el uso de una eVar, evento, propiedad o combinación logrará lo que busca rastrear.
 
 Y, por último, la columna Estado de implementación servirá como una comprobación de estado cuando comience a añadir cosas al sitio.
 
@@ -51,6 +51,7 @@ Y, por último, la columna Estado de implementación servirá como una comprobac
 
 **CÓMO:** Comience enumerando todas las [!DNL Adobe] variables predeterminadas (página, producto, ubicación geográfica, etc.), así como eVars, props, eventos y variables de lista en un documento de Excel. Debe tener una pestaña por sitio o grupo de informes.
 Para cada una de estas dimensiones, añado las siguientes columnas:
+
 * **Nombre:** Proporcione un nombre sencillo y corto que la mayoría pueda entender. Debería ser lo suficientemente intuitivo como para que un nuevo usuario pueda leerlo y comprender qué es lo que pretende capturar la variable.
 * **Descripción:** más información sobre para qué se utiliza la variable y qué datos rastrea. Lo dejo corto y simple y hago que coincida con la descripción utilizada en la interfaz. Lo ideal es que mis usuarios no necesiten consultar el documento de etiquetado. Por lo tanto, cuando se configura una nueva dimensión en el servidor de administración, añado la misma descripción allí. De este modo, el usuario puede pulsar el icono de información directamente en Workspace para comprender qué es una dimensión: no es necesario ir a un documento de Excel.
 
@@ -70,7 +71,7 @@ También se recomienda utilizar este documento de etiquetado para realizar un se
    * Si la dimensión tiene valores no deseados en los últimos 90 días, está &quot;en proceso de eliminación&quot;
    * Si la dimensión está libre y limpia durante al menos los últimos 90 días, está &quot;libre&quot;
    * Márquelas como tal en &quot;Nombre&quot;, en el documento de etiquetado, para que pueda filtrarlas fácilmente. Yo tengo estas etiquetas desmarcadas en el documento de etiquetado (filtro de datos de Excel) para que los usuarios no las vean
-   * Márquelas como el nombre del eVar en la interfaz para que los usuarios no las encuentren en una búsqueda (como &quot;(v6)&quot;) y elimine la descripción
+   * Márquelas como el nombre de eVar en la interfaz para que los usuarios no las encuentren en una búsqueda (como &quot;(v6)&quot;) y elimine la descripción
 * Al hacer esto, cuando se necesita una nueva dimensión, se puede filtrar fácilmente por &quot;libre&quot; en la columna Nombre para encontrar una limpia que utilizar
 * Para las dimensiones y eventos &quot;en proceso de eliminación&quot;, recomiendo que realice un seguimiento de estos eventos mediante Workspace:
    * Cree un proyecto visible para los administradores solo con 3 tablas: eVars, props y eventos. Utilizo &quot;instancias&quot; para eVars específicos y, para las props, creo segmentos VISITA con &quot;prop5 existe&quot;, por ejemplo.
@@ -90,6 +91,7 @@ De este modo, los datos siempre están limpios y tiene una idea clara de qué es
 
 **CÓMO:** Identifique a un propietario del documento para proporcionar el control y una única fuente de responsabilidad para administrar las actualizaciones.
 Enumere lo siguiente en la pestaña Propiedades:
+
 * **Nombre de propiedad:** Puede ser un dominio, subdominio, nombre de aplicación, etc. Incluso dentro del mismo dominio, si algunas partes se administran por separado (como, por ejemplo, por un equipo o una tecnología diferentes), deberían separarse.
 * **Vínculo (URL)** a la propiedad donde esté disponible
 * **Propietario y contactos:** Enumerar el propietario principal o los contactos de la propiedad
@@ -103,7 +105,7 @@ Se recomienda mantener este documento lo más simple posible y no saturarlo con 
 >
 >Cree una dimensión de nombre/propiedad de sitio en [!DNL Adobe Analytics]. Tener una dimensión específica (normalmente un eVar) en [!DNL Adobe Analytics] que identifique el nombre del sitio o la aplicación permitirá la segmentación, la resolución de problemas, la creación de grupos de informes virtuales, etc. Las ventajas son infinitas, especialmente cuando se combinan varios sitios en un grupo de informes (global). La clave es garantizar que los equipos de desarrollo siempre fijen este valor en la dimensión de propiedades, incluidas todas las cargas de página (llamadas s.t/trackState) y todos los eventos personalizados (llamadas s.tl/trackAction). Las reglas de procesamiento pueden ser una herramienta útil para configurar estos valores de forma correcta y coherente.
 
-[Vea este vídeo de Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=es){target="_blank"} para obtener más información sobre cómo rellenar el manual de implementación.
+[Vea este vídeo de Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html){target="_blank"} para obtener más información sobre cómo rellenar el manual de implementación.
 
 ## Autores
 

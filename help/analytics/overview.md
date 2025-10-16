@@ -1,12 +1,12 @@
 ---
 title: Descubra Analytics usted
 description: Descubra Analytics usted incluye contenido generado por los usuarios y creado por usuarios habituales que han adquirido un nivel de experiencia e influencia con sus conocimientos de Adobe Analytics.
-role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
+role: User, Developer, Admin, Leader
 level: Beginner
 doc-type: overview
 solution: Analytics
 exl-id: a8dd4631-950b-4504-9af7-7953165ef175
-source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 19%
@@ -32,7 +32,7 @@ ht-degree: 19%
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Sugerencias y trucos" src="https://video.tv.adobe.com/v/3422277?format=jpeg&captions=spa" />
+      <img alt="[!DNL Adobe Analytics] Sugerencias y trucos" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -45,7 +45,7 @@ ht-degree: 19%
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="Traducir [!DNL Adobe Analytics] idioma técnico de forma no técnica" src="https://video.tv.adobe.com/v/345322?format=jpeg&captions=spa" />
+      <img alt="Traducir [!DNL Adobe Analytics] idioma técnico de forma no técnica" src="https://video.tv.adobe.com/v/342066?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md">
@@ -58,7 +58,7 @@ ht-degree: 19%
   </td>
   <td>
     <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-      <img alt="Crear convenciones de nomenclatura estandarizada" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg?lang=es" />
+      <img alt="Crear convenciones de nomenclatura estandarizada" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg" />
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
@@ -76,7 +76,7 @@ ht-degree: 19%
 
 ## Recursos adicionales
 
-* [Comunidad Adobe Analytics de Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
+* [Comunidad de Adobe Analytics de Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
 * [Documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=es)
 * [Tutoriales de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=es)
-* [Información de producto de Adobe Analytics](https://business.adobe.com/es/products/analytics/adobe-analytics.html)
+* [Información de producto de Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html)
