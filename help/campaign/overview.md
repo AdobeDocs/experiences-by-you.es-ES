@@ -33,7 +33,7 @@ ht-degree: 26%
 <tr>
   <td>
     <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">
-      <img alt="Prácticas recomendadas principales 5 sobre flujos de trabajo para especialistas en marketing" src="https://video.tv.adobe.com/v/3410837?format=jpeg" />
+      <img alt="Prácticas recomendadas principales 5 sobre flujos de trabajo para especialistas en marketing" src="https://video.tv.adobe.com/v/3448124?captions=spa&format=jpeg" />
     </a>
     <div>
       <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">
