@@ -32,7 +32,7 @@ ht-degree: 12%
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Pestaña Sugerencias y trucos" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
+      <img alt="[!DNL Adobe Analytics] Pestaña Sugerencias y trucos" src="https://video.tv.adobe.com/v/3422277?captions=spa&format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -45,7 +45,7 @@ ht-degree: 12%
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="[!DNL Marketo Engage] Programas de correo electrónico" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
+      <img alt="[!DNL Marketo Engage] Programas de correo electrónico" src="https://video.tv.adobe.com/v/3453370?captions=spa&format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/programs/email-programs.md">
