@@ -6,15 +6,15 @@ solution: Experience Manager Cloud Manager, Marketo Engage, Experience Manager
 feature-set: Marketo Engage, Experience Manager, Experience Manager Cloud Manager
 feature: Cloud Manager
 topic: Administration
-role: Admin, Architect
+role: Admin, Developer
 level: Beginner
 doc-type: Value Video
 last-substantial-update: 2023-05-11T00:00:00Z
 jira: KT-13228
 exl-id: 3ee98846-35ff-4de1-af4b-b65376572dfe
-source-git-commit: 2a628f89f602371c02db5204956d9397f306bdb8
+source-git-commit: 81b3c04ef2daedb5ddb796c5cf74da6dca85dd21
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '174'
 ht-degree: 1%
 
 ---
@@ -33,4 +33,4 @@ Eche un vistazo a estos consejos de su compañero técnico, Rakesh Pasupuleti. R
 
 ## Recursos adicionales {#additional-resources}
 
-* [Recorrido de incorporación de AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/overview.html?lang=es): una guía paso a paso para que un nuevo administrador del sistema aprovisione inicialmente recursos en la nube y asigne usuarios a roles en función de sus responsabilidades laborales, de modo que cada miembro del equipo pueda iniciar sesión y acceder a sus nuevos recursos de AEM as a Cloud Service
+* [Recorrido de incorporación de AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/overview.html): una guía paso a paso para que un nuevo administrador del sistema aprovisione inicialmente recursos en la nube y asigne usuarios a roles en función de sus responsabilidades laborales, de modo que cada miembro del equipo pueda iniciar sesión y acceder a sus nuevos recursos de AEM as a Cloud Service
