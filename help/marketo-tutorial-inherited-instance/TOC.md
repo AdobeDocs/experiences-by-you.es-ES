@@ -8,10 +8,10 @@ role: Admin
 level: Beginner
 solution: Marketo Engage
 auto-video-transcripts: true
-source-git-commit: e5e1b9a1b14c24c62fb492c79b8717edf1ba286a
+source-git-commit: 81b3c04ef2daedb5ddb796c5cf74da6dca85dd21
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 8%
 
 ---
 
@@ -24,5 +24,5 @@ ht-degree: 0%
 + [Desarrollar una guía de gobernanza de instancias](/help/marketo-tutorial-inherited-instance/develop-an-instance-governance-guide.md)
 + [Asignar visualmente su pila de tecnología de marketing](/help/marketo-tutorial-inherited-instance/create-a-visual-data-flow-diagram.md)
 + [Proceso de garantía de calidad del programa previo al lanzamiento](/help/marketo-tutorial-inherited-instance/essential-program-pre-launch-qa.md)
-+ [[!DNL Marketo Engage] tutoriales](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=es)
-+ [Volver a las perspectivas](https://experienceleague.adobe.com/es/perspectives#f-el_product=Marketo%20Engage&amp;aq=((%40el_contenttype%20NOT%20%22Community%7CUser%22)%20AND%20(%40el_contenttype%3D%22perspective%22)))
++ [[!DNL Marketo Engage] tutoriales](https://experienceleague.adobe.com/es/docs/marketo-learn/tutorials/overview)
++ [Volver a las perspectivas](https://experienceleague.adobe.com/es/perspectives)

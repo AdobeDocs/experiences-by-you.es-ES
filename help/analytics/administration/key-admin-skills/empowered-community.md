@@ -12,22 +12,22 @@ level: Experienced
 thumbnail: 340457.jpg
 kt: 9780
 exl-id: 0e45d8ba-a08d-4b5d-8a12-326e01c29505
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: efd84b4fa04ca4d7bd8f4b8b5ad69b6a24f5e8c6
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 0%
+source-wordcount: '1574'
+ht-degree: 2%
 
 ---
 
 # Creación de una comunidad empoderada
 
->[!VIDEO](https://video.tv.adobe.com/v/341112/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/341112/?captions=spa&quality=12&learn=on)
 
 Una comunidad empoderada es una que tiene algunas características notables. En primer lugar, es compatible con los administradores de [!DNL Adobe Analytics]. Tiene conocimientos sobre cómo se representan los requisitos comerciales dentro de su implementación. Por último, pero no menos importante, tiene los medios para utilizar el análisis de forma segura para la toma de decisiones basada en datos. Muchas empresas se están beneficiando de la estructura que proporciona un grupo de usuarios interno de [!DNL Adobe Analytics] o una comunidad más formal.
 
 Puede crear una comunidad empoderada dentro de su organización. A continuación se muestra cómo:
 
-## 1. Cree una infraestructura sólida, la base de su comunidad empoderada
+## &#x200B;1. Cree una infraestructura sólida, la base de su comunidad empoderada
 
 * Cree un proceso de incorporación de usuario:
 
@@ -45,7 +45,7 @@ Puede crear una comunidad empoderada dentro de su organización. A continuación
 
   [!DNL Adobe Analytics] Las plantillas de informes y los proyectos son recursos clave para permitir a los usuarios de herramientas conocer la implementación de su empresa, los casos de uso de los informes y las prácticas recomendadas. Estos recursos deben abordar preguntas comerciales comunes y cómo se pueden responder mejor dentro de la herramienta.
 
-## 2. Cree un plan para quién lo ejecuta y quién debe participar
+## &#x200B;2. Cree un plan para quién lo ejecuta y quién debe participar
 
 * Decida quién dirigirá la comunidad:
 
@@ -61,17 +61,17 @@ Puede crear una comunidad empoderada dentro de su organización. A continuación
 
    * **Usuarios de herramientas:** Cualquier persona que tenga el potencial de afectar a los datos alineados con la implementación de [!DNL Adobe Analytics] de su empresa podrá participar, independientemente del título o la función que tenga.
 
-* Recuerde: &quot;¿Qué les interesa?&quot; Mantener a su comunidad centrada en casos de uso empresarial y prioridades ayuda a garantizar la participación y el éxito.
+* Recuerda: &quot;¿Qué les interesa?&quot; Mantener a su comunidad centrada en casos de uso empresarial y prioridades ayuda a garantizar la participación y el éxito.
 
-## 3. Use herramientas para empezar a crear su comunidad
+## &#x200B;3. Use herramientas para empezar a crear su comunidad
 
-* [Crear una carta de proyecto] (assets/[!DNL Adobe]-[!DNL Analytics]-Empowered-Community-Project-Charter-Template.pptx) (descarga de plantilla):
+* [Crear una carta de proyecto](assets/Adobe-Analytics-Empowered-Community-Project-Charter-Template.pptx) (descarga de plantilla):
 
   Una carta de proyecto es a menudo una buena manera de alinear su negocio con la oportunidad de una comunidad interna empoderada. Al responder a las siguientes preguntas, tiene lo que necesita para redactar el borrador de la carta:
 
    * ¿Cuál es la afirmación del problema que está intentando resolver? ¿Cuál es el objetivo de su comunidad y qué prevé que esté dentro o fuera de ámbito?
    * &quot;¿Qué hay para mí?&quot; ¿Cuáles son los beneficios o costos potenciales, cómo medir el éxito y cuáles son los riesgos?
-   * ¿Cuál es la cronología para poner en marcha una comunidad? Qué trabajo de configuración se necesita de una habilitación, herramienta, grupos de usuarios administradores, etc. ¿perspectiva? Por lo general, es mejor contar con recursos de habilitación de referencia desarrollados antes de lanzar una iniciativa más amplia.
+   * ¿Cuál es la cronología para poner en marcha una comunidad? ¿Qué trabajo de configuración se necesita desde una perspectiva de habilitación, herramienta, grupos de usuarios administradores, etc.? Por lo general, es mejor contar con recursos de habilitación de referencia desarrollados antes de lanzar una iniciativa más amplia.
    * ¿Qué tan efectivos serán los miembros del equipo principal para el éxito de la comunidad y quién será apoyado dentro de la iniciativa?
    * Por último, ¿quién es su patrocinador ejecutivo? No podemos enfatizar lo suficiente el valor de un fuerte patrocinador ejecutivo, alguien que firme en apoyar el trabajo y su valor.
 
@@ -89,9 +89,9 @@ Puede crear una comunidad empoderada dentro de su organización. A continuación
    * ¿Quién enviará la comunicación?
    * ¿Cuándo? Clave para considerar tanto las comunicaciones antes del lanzamiento de la comunidad, como las que deben proporcionarse de forma continua después del lanzamiento.
 
-* ¡Use su vehículo comunitario para salir en vivo! Dependiendo de la pila tecnológica de su empresa, también querrá elegir una herramienta o vehículo para su comunidad. Esto será personalizado para su organización, pero muchos a menudo encuentran Microsofts Teams para funcionar bien.
+* ¡Use su vehículo comunitario para salir en vivo! Dependiendo de la pila tecnológica de su empresa, también querrá elegir una herramienta o vehículo para su comunidad. Esto será personalizado para su organización, pero muchos a menudo encuentran que Microsoft Teams funciona bien.
 
-## 4. Mantener su comunidad, asegurando su éxito sostenido
+## &#x200B;4. Mantener su comunidad, asegurando su éxito sostenido
 
 * Reservar tiempo: agregue reuniones de la comunidad a los calendarios para reservar el tiempo con antelación, las reuniones recurrentes son una buena idea siempre que sean posibles y ayudarán a dar vida a su plan de contenido. Para ayudarle a empezar, aquí hay algunas ideas de la agenda:
 
@@ -115,4 +115,4 @@ Establecer y mantener una comunidad empoderada es mucho trabajo. Es importante r
 
 * Desarrollo de las carreras: una comunidad empoderada cambia el foco de muchos equipos de analistas de ser reactivos y tácticos a ser prescriptivos y estratégicos. Esto abre oportunidades de desarrollo profesional para el equipo del proyecto de administración de su comunidad.
 
-Si tiene un grupo de usuarios interno de [!DNL Adobe Analytics] o una &quot;comunidad&quot; más formal, o está trabajando para formar uno, ¡nos encantaría escuchar su historia dentro del [[!DNL Adobe] Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/bd-p/adobe-analytics-discussions?profile.language=es)!
+Si tiene un grupo de usuarios interno de [!DNL Adobe Analytics] o una &quot;comunidad&quot; más formal, o está trabajando para formar uno, ¡nos encantaría escuchar su historia dentro de [[!DNL Adobe] Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/bd-p/adobe-analytics-discussions?profile.language=es)!
