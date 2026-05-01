@@ -9,9 +9,8 @@ doc-type: Feature Video
 last-substantial-update: 2023-10-16T00:00:00Z
 jira: KT-13762
 thumbnail: 3422473.jpeg
-hide: false
 exl-id: e691d38f-34c2-4e46-908e-c96f82eb1399
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -24,4 +23,4 @@ Heredar una instancia de [!DNL Marketo Engage] puede ser un momento estresante, 
 
 En este tutorial, le guiaremos por las secciones más importantes de [!DNL Marketo Engage], incluidas Administración, Actividades de marketing, Design Studio y Base de datos, y le proporcionaremos sugerencias para la auditoría y la optimización a lo largo del camino.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453025/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3453025/?captions=spa&learn=on)
