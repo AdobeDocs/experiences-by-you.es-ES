@@ -9,9 +9,8 @@ doc-type: Tutorial
 last-substantial-update: 2023-10-16T00:00:00Z
 jira: KT-13877
 thumbnail: KT-13877.jpeg
-hide: false
 exl-id: 088bdcf1-4e49-44a7-ac78-a03742ff680b
-source-git-commit: efd84b4fa04ca4d7bd8f4b8b5ad69b6a24f5e8c6
+source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 1%
@@ -26,7 +25,7 @@ Como administrador que se hace cargo de una instancia de [!DNL Marketo Engage] q
 
 1. **Familiarícese con la pila de tecnología de marketing que heredó de una instancia activa.** Se recomienda a todos los responsables de operaciones de marketing/administradores de operaciones de plataforma que realicen este ejercicio al empezar en una empresa nueva. Este proceso de creación permite a los usuarios administradores ver una imagen completa de los datos y las actividades enviados desde integraciones externas a [!DNL Marketo Engage] y solucionar fácilmente los errores de la API.
 2. **Familiarícese con las partes interesadas clave que administran las integraciones externas.** Una sugerencia que Kelly Jo Horton utiliza para identificar rápidamente a las partes interesadas es hacer referencia a la lista de usuarios de API.
-   1. **Vaya a la ficha &#39;Integración>LaunchPoint&#39; en la sección &#39;Administración&#39;.** Obtenga más información acerca de cómo ir a la ficha &quot;LaunchPoint&quot;: [Crear un servicio personalizado para utilizarlo con la API de REST](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api.html?lang=es){target="_blank"}.
+   1. **Vaya a la ficha &#39;Integración>LaunchPoint&#39; en la sección &#39;Administración&#39;.** Obtenga más información acerca de cómo ir a la ficha &quot;LaunchPoint&quot;: [Crear un servicio personalizado para utilizarlo con la API de REST](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api.html){target="_blank"}.
    2. Busque estadísticas de uso de API por usuario de API en la pestaña Integración > Servicios web de la sección Información de llamada de API. Al hacer clic en el número de llamada de la API, puede ver las llamadas individuales específicas realizadas por cada usuario.
 
 ## Cómo realizar este ejercicio de diagrama de flujo de datos visuales

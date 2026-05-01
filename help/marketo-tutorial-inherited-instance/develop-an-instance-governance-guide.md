@@ -9,12 +9,11 @@ doc-type: Tutorial
 last-substantial-update: 2023-10-16T00:00:00Z
 jira: KT-14103
 thumbnail: KT-14103.jpeg
-hide: false
 exl-id: e127b84d-ef92-4527-a0e6-a36af35b7ee0
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 0%
+source-wordcount: '936'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +29,7 @@ La documentación detallada y un [!UICONTROL Changelog] son vitales para una adm
 
 1. Capacite a los usuarios internos de forma más sencilla y escalable.
 2. Genere de manera más eficiente en [!DNL Marketo Engage] a largo plazo.
-3. Mantenga el estado y la higiene de su instancia en adelante para evitar que dedique horas a explorar correos electrónicos, [pista de auditoría](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html?lang=es) y [registro de actividad](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html?lang=es) para obtener contexto.
+3. Mantenga el estado y la higiene de su instancia en adelante para evitar que dedique horas a explorar correos electrónicos, [pista de auditoría](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html) y [registro de actividad](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html) para obtener contexto.
 4. Ahorre tiempo al transferir conocimientos de [!DNL Marketo Engage] a un nuevo administrador de [!DNL Marketo Engage] si su equipo experimenta algún cambio.
 
 ## [!DNL Marketo Engage] guía de gobernanza 101
