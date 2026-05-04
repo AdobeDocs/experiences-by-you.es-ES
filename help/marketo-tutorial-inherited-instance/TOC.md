@@ -7,10 +7,11 @@ index: false
 role: Admin
 level: Beginner
 solution: Marketo Engage
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615
 auto-video-transcripts: true
-source-git-commit: 81b3c04ef2daedb5ddb796c5cf74da6dca85dd21
+source-git-commit: cddb05edf1f607bc1e695dcf593364958f21320b
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: 79
 ht-degree: 8%
 
 ---
@@ -24,5 +25,5 @@ ht-degree: 8%
 + [Desarrollar una guía de gobernanza de instancias](/help/marketo-tutorial-inherited-instance/develop-an-instance-governance-guide.md)
 + [Asignar visualmente su pila de tecnología de marketing](/help/marketo-tutorial-inherited-instance/create-a-visual-data-flow-diagram.md)
 + [Proceso de garantía de calidad del programa previo al lanzamiento](/help/marketo-tutorial-inherited-instance/essential-program-pre-launch-qa.md)
-+ [[!DNL Marketo Engage] tutoriales](https://experienceleague.adobe.com/es/docs/marketo-learn/tutorials/overview)
++ [[!DNL Marketo Engage] tutoriales](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/overview)
 + [Volver a las perspectivas](https://experienceleague.adobe.com/es/perspectives)
