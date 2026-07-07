@@ -12,7 +12,7 @@ thumbnail: KT-13266.jpeg
 exl-id: 301ee179-b154-4cf2-b27e-77f38a8945a0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Como característica avanzada de [!DNL Adobe Analytics], las métricas calculada
 
 Para empezar a usar las métricas calculadas, veamos un ejemplo sencillo. Imagine que desea saber si los usuarios de autoservicio en línea tienen un valor de pedido promedio (AOV) mayor que los usuarios con asistencia por llamada. Para crear una métrica calculada que responda a esta pregunta, haga lo siguiente:
 
-Para abrir el Creador de métricas calculadas, use la barra de navegación superior para hacer clic en → **Componentes** → **Métricas calculadas** → **o más Agregar.** O bien, puede hacer clic en el signo **+** situado encima de **Métricas** en el panel Componentes.
+Para abrir el Generador de métricas calculadas, use la barra de navegación superior para hacer clic en → **Componentes** → **Métricas calculadas** → **o más Agregar.** O bien, puede hacer clic en el signo **+** situado encima de **Métricas** en el panel Componentes.
 
 
 ![Calc 01](assets/calc01.png) ![Calc 02](assets/calc03.png) ![Calc 03](assets/calc02.png)
@@ -38,9 +38,9 @@ Para abrir el Creador de métricas calculadas, use la barra de navegación super
 
 Una vez que se abra el Creador de métricas calculadas, agregue o haga lo siguiente:
 
-**A.** Un nombre para la métrica calculada. Este nombre se muestra en la lista de componentes de métricas, por lo que debe ser claro para usted y para los demás, como *Call Center AOV*.
+**A.** Nombre de la métrica calculada. Este nombre se muestra en la lista de componentes de métricas, por lo que debe ser claro para usted y para los demás, como *Call Center AOV*.
 
-**B.** Descripción de la métrica calculada. Esta descripción aparece cuando los usuarios hacen clic en &#39;**i**&#39; junto a la métrica en la lista de componentes, por lo que asegúrese de que sea informativa. Por ejemplo, para Call Center AOV, podríamos agregar *Calcula AOV para pedidos asistidos por Call Center*.
+**B.** Una descripción de la métrica calculada. Esta descripción aparece cuando los usuarios hacen clic en &#39;**i**&#39; junto a la métrica en la lista de componentes, por lo que asegúrese de que sea informativa. Por ejemplo, para Call Center AOV, podríamos agregar *Calcula AOV para pedidos asistidos por Call Center*.
 
 **C.** Formato de métrica: elija decimal, tiempo, porcentaje o moneda, y agregue lugares decimales y polaridad. Aquí elegiremos *Moneda para el formato, 0 para el número de decimales y* ⬆ *Buena (verde) para la polaridad.*
 
@@ -64,7 +64,7 @@ En nuestro ejemplo, vemos un alza significativa cuando los compradores utilizan 
 
 ## Uso de segmentos en métricas calculadas
 
-Ahora, veamos cómo podemos usar segmentos en métricas calculadas para obtener más información sobre el comportamiento, las preferencias y las motivaciones de los clientes. Con los segmentos y las métricas calculadas, podemos aprender lo suficiente sobre los clientes para mejorar su experiencia, aumentar los ingresos y mejorar la satisfacción y lealtad de los clientes.
+Ahora, veamos cómo podemos usar segmentos en métricas calculadas para obtener más insight en el comportamiento, las preferencias y las motivaciones de los clientes. Con los segmentos y las métricas calculadas, podemos aprender lo suficiente sobre los clientes para mejorar su experiencia, aumentar los ingresos y mejorar la satisfacción y lealtad de los clientes.
 
 Ya sabemos, a partir de los ejemplos de AOV anteriores, que las compras asistidas por el centro de llamadas suelen tener un AOV más alto. Sin embargo, otras métricas indican que la mayoría de los usuarios no utiliza el centro de llamadas para realizar compras.
 
@@ -104,7 +104,7 @@ Sin embargo, estas métricas no están disponibles en todas las áreas de [!DNL 
 
 - Secuelas en Analysis Workspace
 - Análisis de cohorte en Analysis Workspace
-- Data Warehouse 
+- Data Warehouse
 - Informes en tiempo real
 - Informes de datos actuales
 - [!DNL Analytics] para Target
@@ -114,10 +114,10 @@ Sin embargo, estas métricas no están disponibles en todas las áreas de [!DNL 
 
 Ahora que sabe lo valiosas que pueden ser las métricas calculadas, veamos algunas prácticas recomendadas para crearlas.
 
-1. **Compruebe la sintaxis de la fórmula.** Asegúrese de que la sintaxis de la fórmula es correcta y sigue la sintaxis [!DNL Adobe Analytics] para asegurarse de obtener información significativa.
-1. **Compruebe el orden de las operaciones.** Asegúrese de utilizar los contenedores con cuidado y de poner las cosas en el orden matemático adecuado de las operaciones.
+1. **Compruebe la sintaxis de la fórmula.** Asegúrese de que la sintaxis de la fórmula es correcta y sigue la sintaxis de [!DNL Adobe Analytics] para asegurarse de obtener información significativa.
+1. **Compruebe el orden de las operaciones.** Asegúrese de utilizar los contenedores con cuidado y poner las cosas en el orden matemático adecuado de las operaciones.
 1. **No cuente dos veces los datos**. Puede evitar el recuento doble de datos asegurándose de que la fórmula utilizada en la métrica calculada no cuente los mismos datos varias veces. Esto se logra a menudo combinando las condiciones *Include* y *Exclude* en la métrica calculada o mediante el uso de segmentos.
-1. **Comprobar la granularidad de tiempo.** Asegúrese de que la métrica calculada tenga la misma granularidad de tiempo que la métrica de origen utilizada en la fórmula.
+1. **Comprobar la granularidad de tiempo.** Asegúrese de que la métrica calculada tiene la misma granularidad de tiempo que las métricas de origen utilizadas en la fórmula.
 1. **Use datos precisos:** Sólo obtendrá resultados valiosos si usa datos precisos y confiables en el cálculo.
 
 ## Prácticas recomendadas de segmentos personalizados
@@ -129,10 +129,10 @@ Cuando cree segmentos en [!DNL Adobe Analytics], tenga en cuenta estas práctica
 1. **No cuente dos veces los datos**. Al igual que con las métricas calculadas, asegúrese de que el segmento no cuente los mismos datos varias veces. Los contenedores Incluir y Excluir pueden ayudar.
    1. Cuando se usa un contenedor de inclusión, *incluye* *todo el contenido de la visita* si alguna visita individual coincide con la condición dentro de la visita.
    1. Cuando se usa un contenedor de exclusión, se *excluye todo el contenido de la visita* si alguna visita individual coincide con la condición dentro de la visita.
-1. **Anide los contenedores correctamente**. Determine qué datos se incluyen utilizando el contenedor exterior y, a continuación, aplique reglas anidadas a los datos restantes. A medida que se aplican reglas anidadas, el flujo del segmento actúa como un canal y las reglas subsiguientes no se aplican a ninguna visita individual que haya sido excluida por la primera regla.
+1. **Anide los contenedores correctamente**. Determine qué datos se incluyen utilizando el contenedor exterior y, a continuación, aplique reglas anidadas a los datos restantes. A medida que se aplican reglas anidadas, el flujo del segmento actúa como una funnel y las reglas subsiguientes no se aplican a ninguna visita individual que haya sido excluida por la primera regla.
 1. **Asegúrese de que los datos estén actualizados.** Asegúrese de utilizar datos precisos y actualizados en la definición del segmento para obtener resultados precisos.
-1. **Probar el segmento.** Pruebe siempre el segmento para asegurarse de que funciona según lo previsto antes de publicarlo a otros usuarios.
-1. **Considerar el rendimiento.** segmentos pueden ralentizar el procesamiento del informe, por lo que tenga en cuenta ese impacto al crearlos.
+1. **Probar el segmento.** Pruebe siempre el segmento para asegurarse de que funciona según lo previsto antes de lanzarlo a otros usuarios.
+1. **Considerar el rendimiento.** Los segmentos pueden ralentizar el procesamiento de los informes, por lo que tenga en cuenta ese impacto al crearlos.
 
 ## Principales conclusiones
 

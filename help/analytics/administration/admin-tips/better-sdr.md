@@ -13,7 +13,7 @@ thumbnail: KT-15338.jpeg
 exl-id: 99fcf68f-5698-4270-9055-ab224e6323a1
 source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Por fin es el momento. Usted armó un SDR sólido. Un SDR es la guía que se uti
 
 Desde un equipo, se escuchan quejas como:
 
-&quot;¿Por qué no puedo averiguar la tasa de conversión en este canal?&quot;
+&quot;¿Por qué no puedo averiguar la tasa de conversión en este funnel?&quot;
 
 &quot;¿Por qué no hay una métrica para esto?&quot;
 
@@ -48,7 +48,7 @@ Quiero guiarle a través de un método que mis colegas y yo desarrollamos tanto 
 
 ## El cómo
 
-_Obtenga información acerca de la conferencia de medición. Utilice un mapa de embudo para visualizar cada paso del plan. Cree paneles ficticios para revisarlos como grupo. Crear un diccionario de datos para los usuarios._
+_Obtenga información acerca de la conferencia de medición. Utilice un mapa de funnel para visualizar cada paso de su plan. Cree paneles ficticios para revisarlos como grupo. Crear un diccionario de datos para los usuarios._
 
 ### La conferencia de medición
 
@@ -59,18 +59,18 @@ _Obtenga información acerca de la conferencia de medición. Utilice un mapa de 
 1. Para cualquier métrica y dimensión que tenga votos bajos, pida a las partes interesadas que lo solicitaron que expliquen por qué se utilizarían estos componentes. Si hay un buen caso de uso, conserve estos componentes. Si hay una mejor manera de obtener esos datos, o nadie puede explicar cómo se pueden llevar a cabo acciones con esos datos, o si hay otra buena razón para eliminar las métricas y dimensiones, hágalo.
 1. Añada estas métricas y dimensiones a la SDR para una revisión inicial por parte de las partes interesadas presentes.
 
-### El mapa del canal
+### El mapa de funnel
 
 1. Obtenga una visualización de todos los canales, paso a paso con cada estado incluido.
-1. Con los diseñadores y los gestores de producto, revise cada paso y hable de lo que todo el mundo considera éxito en ese canal. ¿Es la tasa de conversión? ¿Está eligiendo una ruta en particular? ¿Está usando ciertas características?
-1. Haga preguntas sobre qué métricas y dimensiones son necesarias para comprender el rendimiento del canal en cada paso del canal y en general.
-1. Por encima de cada paso del canal, añada las métricas y dimensiones que se miden en ese paso, incluidas las métricas calculadas.
-1. Al principio de cada canal, escriba los informes que van en el panel que el gestor de producto puede utilizar para rastrear el rendimiento. Estos informes incluyen [informe de visitas en el orden previsto](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow), [mes actual](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges), [tasas de conversión de tendencias](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/line) y cualquier dato más específico de ese canal.
+1. Con los diseñadores y los gestores de producto, revise cada paso y hable de lo que todo el mundo considera éxito en ese funnel. ¿Es la tasa de conversión? ¿Está eligiendo una ruta en particular? ¿Está usando ciertas características?
+1. Haga preguntas sobre qué métricas y dimensiones son necesarias para comprender el rendimiento de funnel en cada paso de funnel y en general.
+1. Sobre cada paso de funnel, añada las métricas y dimensiones que se miden en ese paso, incluidas las métricas calculadas.
+1. Al principio de cada funnel, escriba los informes que van en el panel que el administrador de productos puede utilizar para realizar un seguimiento del rendimiento. Estos informes incluyen [informe de visitas en el orden previsto](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow), [mes actual](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges), [tasas de conversión de tendencias](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line) y cualquier dato más específico de ese funnel.
 1. Añada las nuevas métricas y dimensiones que haya descubierto a la SDR y envíelas a las partes interesadas para una segunda revisión.
 
 ### Los paneles de previsualización
 
-1. Con el mapa del canal como guía, cree paneles de prueba.
+1. Con el mapa de funnel como guía, cree paneles de prueba.
 1. Debe haber una vista general, como [Tablero de resumen ejecutivo](driving-success-with-executive-summary-dashboards.md), y tableros para cada uno de los embudos.
 1. También habrá algunas más específicas para su sitio o aplicación, como el rendimiento del producto o el rendimiento del contenido.
 1. Distribuya estos elementos a las partes interesadas relevantes y obtenga comentarios sobre el diseño.

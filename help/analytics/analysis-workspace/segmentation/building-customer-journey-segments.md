@@ -12,20 +12,20 @@ thumbnail: KT-13180.jpeg
 exl-id: 34f42d7e-e849-420e-9b3d-f3dcc1882b23
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # Generación de segmentos de Customer Recorrido
 
-Aprenda a crear segmentos de recorrido de clientes basados en el comportamiento en [!DNL Adobe Analytics] y a mejorar la experiencia de sus clientes con el Experience Cloud de [!DNL Adobe] siguiendo esta guía paso a paso.
+Aprenda a crear segmentos de recorrido de clientes basados en el comportamiento en [!DNL Adobe Analytics] y a mejorar la experiencia de sus clientes con [!DNL Adobe] Experience Cloud siguiendo esta guía paso a paso.
 
-Vamos a crear mejores segmentos de recorrido del cliente. En esta serie, usaremos [!DNL Adobe Analytics] para definir segmentos basados en el comportamiento, estimar el tamaño de la audiencia y rastrear el movimiento del usuario. Al final, podrás personalizar el contenido y mejorar la experiencia de tus clientes con el Experience Cloud [!DNL Adobe]. Tenga en cuenta que estos segmentos están activos y deben actualizarse a medida que obtenga más información sobre sus clientes. Aunque los informes pueden presentar algunos desafíos, no se preocupe, ¡le guiaré a través de ellos! Empecemos creando nuestro primer conjunto de segmentos de Recorrido del cliente, empezando por el segmento &quot;One Hit Wonders&quot;.
+Vamos a crear mejores segmentos de recorrido del cliente. En esta serie, usaremos [!DNL Adobe Analytics] para definir segmentos basados en el comportamiento, estimar el tamaño de la audiencia y rastrear el movimiento del usuario. Al final, podrás personalizar el contenido y mejorar la experiencia de tus clientes con [!DNL Adobe] Experience Cloud. Tenga en cuenta que estos segmentos están activos y deben actualizarse a medida que obtenga más información sobre sus clientes. Aunque los informes pueden presentar algunos desafíos, no se preocupe, ¡le guiaré a través de ellos! Empecemos creando nuestro primer conjunto de segmentos de Recorrido del cliente, empezando por el segmento &quot;One Hit Wonders&quot;.
 
 Hoy crearemos marcadores de posición para nuestro primer conjunto de segmentos de Recorrido de clientes, crearemos un Workspace de [!DNL Adobe Analytics] que nos ayudará a definir nuestros segmentos y nuestro primer segmento, &quot;One Hit Wonders&quot;.
 
-Al final de esta serie, podrá crear segmentos de recorrido de clientes en [!DNL Adobe Analytics] basados en señales de comportamiento. Podrá estimar el tamaño de cada audiencia en cada fase del recorrido y comprender a qué velocidad se mueven los usuarios entre esas fases. Y podrá exportar esas audiencias de recorrido del cliente al Experience Cloud [!DNL Adobe] para habilitar la personalización y la segmentación de medios.
+Al final de esta serie, podrá crear segmentos de recorrido de clientes en [!DNL Adobe Analytics] basados en señales de comportamiento. Podrá estimar el tamaño de cada audiencia en cada fase del recorrido y comprender a qué velocidad se mueven los usuarios entre esas fases. Además, podrá exportar esas audiencias de recorrido del cliente a [!DNL Adobe] Experience Cloud para habilitar la personalización y la segmentación de medios.
 
 Cada negocio es diferente, lo que significa que los segmentos de recorrido de los clientes se verán diferentes a los míos. Por lo tanto, en lugar de prescribir fórmulas específicas para sus segmentos, sugiera algunas cosas que ver y un proceso general para crearlas.
 
@@ -59,7 +59,7 @@ Como veremos, la creación de estos segmentos es un proceso iterativo e intercon
 
 Utilicé un espacio de trabajo sencillo para asegurarme de estar definiendo bien los segmentos por intención de visita. Recuerde, cada visita debe pertenecer a un segmento, y solo a uno, de intención de visita. El espacio de trabajo que configuré garantiza que todas las visitas se contabilicen y que no haya superposición entre los segmentos.
 
-He denominado este espacio de trabajo &quot;CALIDAD DE LOS DATOS: Segmentos por intención de visita&quot; con las etiquetas &quot;calidad de los datos&quot;, &quot;intención de visita&quot; y &quot;recorrido del cliente&quot;. Más adelante, crearemos un &quot;Tablero de visitas por intención&quot;, de modo que el prefijo &quot;CALIDAD DE LOS DATOS&quot; indique que este espacio de trabajo se utiliza para configurar y mantener los segmentos. Es un tablero administrativo que tiene bastante poco conocimiento del negocio, pero es importante para garantizar que los segmentos se mantengan. Es aconsejable volver a este panel o configurar alertas de forma rutinaria para asegurarse de que los segmentos se definen correctamente.
+He denominado este espacio de trabajo &quot;CALIDAD DE LOS DATOS: Segmentos por intención de visita&quot; con las etiquetas &quot;calidad de los datos&quot;, &quot;intención de visita&quot; y &quot;recorrido del cliente&quot;. Más adelante, crearemos un &quot;Tablero de visitas por intención&quot;, de modo que el prefijo &quot;CALIDAD DE LOS DATOS&quot; indique que este espacio de trabajo se utiliza para configurar y mantener los segmentos. Es un tablero administrativo que tiene bastante poco insight empresarial, pero es importante para garantizar que los segmentos se mantengan. Es aconsejable volver a este panel o configurar alertas de forma rutinaria para asegurarse de que los segmentos se definen correctamente.
 
 La visualización más importante en este espacio de trabajo es la Visualización de forma libre de superposición de segmentos en el centro izquierdo. Con la métrica Visitas, cree filtros de columna para cada uno de los segmentos por intención de visita, además del segmento Todas las visitas en la columna más a la derecha. Cree filas para cada segmento de intención de visita a la izquierda. Ahora tendrá una visualización entre pestañas. Cuando los segmentos están correctamente configurados, solo habrá datos en una columna y una fila en la intersección de cada segmento de intención de visita consigo mismo.
 

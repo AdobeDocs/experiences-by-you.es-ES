@@ -13,14 +13,14 @@ thumbnail: KT-13216.jpeg
 exl-id: ea446e58-d9f2-4a21-aa9b-71aa548016e2
 source-git-commit: 07b28edade263aa3c85348716bd45df4a053e239
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
 
 # Mejore el éxito con los paneles de resumen ejecutivo
 
-_Los ejecutivos a menudo carecen de información oportuna y relevante para sus sitios y aplicaciones, ya que dependen de gráficos mensuales de Excel o se ahogan en datos granulares. La solución: Experience Manager Cloud ManagerPanel de resumen ejecutivo de Marketo Engage._
+_Los ejecutivos a menudo carecen de información oportuna y relevante para sus sitios y aplicaciones, ya que dependen de gráficos mensuales de Excel o se ahogan en datos granulares. La solución: Panel de resumen ejecutivo de Experience Manager Cloud Manager Marketo Engage._
 
 Quiero que te imagines conduciendo de Seattle a San Francisco. En dirección, es bastante fácil. Sube a la I-5 Sur por 12 a 16 horas y estarás allí. Simple, ¿verdad? Ahora, quiero que imaginen que he puesto un pedazo de cartón sobre su tablero, y les digo que al final
 Durante el viaje, recibirás un tablero que te indicará la velocidad, los niveles de combustible y la distancia recorrida:
