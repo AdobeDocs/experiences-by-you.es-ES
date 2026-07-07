@@ -14,7 +14,7 @@ thumbnail: KT-13829.jpeg
 exl-id: 8df9e88f-e564-4a8e-b624-026c873d3f19
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Observé que los usuarios a menudo ignoraban mis referencias al sitio de Conflue
 
 Seguí adelante y creé paneles operativos para compartir toda la compañía. Hasta ahora, han mantenido a los usuarios informados, han centralizado la información y han reducido la frustración. Este ha sido un proceso fácil y cambiante que aumenta la eficiencia con el tiempo.
 
-La gente ha podido obtener mucha información buena sin mí, entender las áreas del sitio, ver lo genial que es [!DNL Adobe Analytics] y (importante para mí ??) hacerme menos preguntas y dedicar menos tiempo.
+La gente ha podido obtener mucha información buena sin mí, entender las áreas del sitio, ver lo genial que es [!DNL Adobe Analytics] y (importante para mí 😊) hacerme menos preguntas y dedicar menos tiempo.
 
-**Recomiendo encarecidamente que cree paneles para todas las propiedades o áreas principales del sitio.**: deben proporcionar una descripción general de la propiedad, el sitio, la aplicación o el flujo, así como información básica y rápida. Deben compartirse con toda la compañía, lo que permite a todos los usuarios comprender la propiedad sin ningún tipo de sujeción. Para mí, estos paneles suelen responder al 80% de las preguntas que recibo y me ahorran un tiempo valioso.
+**Recomiendo encarecidamente que cree paneles para todas las propiedades o áreas principales del sitio.** Deben proporcionar una visión general de la propiedad, el sitio, la aplicación o el flujo, así como información básica y perspectivas rápidas. Deben compartirse con toda la compañía, lo que permite a todos los usuarios comprender la propiedad sin ningún tipo de sujeción. Para mí, estos paneles suelen responder al 80% de las preguntas que recibo y me ahorran un tiempo valioso.
 
 Nada de esto le impide mantener su sitio de Confluencia, que sigue siendo muy útil tener. Incluso lo menciono en la parte superior de cada panel operativo. Pero me encantan los métodos abreviados, tanto para mí como para mis usuarios.
 

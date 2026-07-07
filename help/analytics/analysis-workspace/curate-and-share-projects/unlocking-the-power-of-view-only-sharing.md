@@ -12,7 +12,7 @@ thumbnail: KT-13179.jpeg
 exl-id: 99729c18-9f0d-4bbb-be99-01ddd0d2dcb0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,7 @@ Aparte del uso compartido de proyectos de solo lectura, el panel [!DNL Analytics
 
 Un buen tablero ejecutivo debe ser sencillo y tener en cuenta puntos clave. Agregando solo KPI a la primera pantalla de un panel de [!DNL Analytics], con un desglose de un nivel opcional para desglosar un KPI en una dimensión a partir de un conjunto predefinido de opciones. El panel [!DNL Analytics] nos permite contar una historia que queremos contar a los ejecutivos.
 
-Incluso si sus jefes no están usando el panel de [!DNL Analytics] directamente, prepare esos KPI en el panel de [!DNL Analytics] y obtenga la respuesta correcta cuando se le pregunte, simplemente se verá bien y bien preparado.
-Al adoptar [!DNL Adobe Analytics] dentro de una organización, probablemente queramos habilitar a todos los usuarios con todas las capacidades para crear o modificar proyectos de Workspace para su análisis. Sin embargo, hay usuarios con diferentes aptitudes y enfoques, algunos de los cuales solo necesitan consumir datos en algunos proyectos predefinidos de Workspace y no van a realizar ningún análisis más con poca experiencia en [!DNL Adobe Analytics]. El proyecto de solo lectura o el panel de análisis proporcionan una interfaz sencilla con experiencias predefinidas para que accedan a los datos.
+Incluso si sus jefes no están usando el panel de [!DNL Analytics] directamente, prepare esos KPI en el panel de [!DNL Analytics] y obtenga la respuesta correcta cuando se le pregunte, simplemente se verá bien y bien preparado.Al adoptar [!DNL Adobe Analytics] dentro de una organización, probablemente queramos habilitar a todos los usuarios con todas las capacidades para crear o modificar proyectos de Workspace para su análisis. Sin embargo, hay usuarios con diferentes aptitudes y enfoques, algunos de los cuales solo necesitan consumir datos en algunos proyectos predefinidos de Workspace y no van a realizar ningún análisis más con poca experiencia en [!DNL Adobe Analytics]. El proyecto de solo lectura o el panel de análisis proporcionan una interfaz sencilla con experiencias predefinidas para que accedan a los datos.
 
 ## Autor
 
@@ -48,6 +47,6 @@ Este documento fue escrito por:
 
 ![Leo Lau](assets/leo_headshot.png)
 
-**Leo Lau**, Director, MarTech Lead Asia
+**Leo Lau**, director de MarTech Lead Asia
 
 [!DNL Adobe Analytics] campeón
