@@ -10,14 +10,14 @@ thumbnail: 34749.jpg
 exl-id: 646bdc8f-c95e-40be-b2f7-8e4ba5653d91
 source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
 workflow-type: tm+mt
-source-wordcount: '3323'
-ht-degree: 0%
+source-wordcount: '3362'
+ht-degree: 1%
 
 ---
 
 # Guía completa para la transición a [!DNL Adobe Analytics] desde Google [!DNL Analytics]{#comprehensive-guide-for-transitioning-to-adobe-analytics}
 
-## 1. Introducción
+## &#x200B;1. Introducción
 
 Uno de los mayores desafíos en la transición entre cualquier herramienta es aprender dónde encontrar una funcionalidad equivalente y utilizarla de manera eficiente. Esta discusión forma parte de una guía más amplia para ayudar a los usuarios a realizar la transición a [!DNL Adobe Analytics] (como nuevo usuario o como proveniente de Google [!DNL Analytics]) con mayor facilidad. Se proporciona una comparación detallada con GA, como herramienta con la que es más probable que la mayoría de los usuarios estén familiarizados, para ayudarlos a correlacionar los conocimientos existentes con el nuevo conjunto de herramientas. Cuando no haya sustituto en la práctica, esto le ayuda a empezar y a reducir las frustraciones que puedan afectarle.
 
@@ -29,25 +29,25 @@ Deberíamos hacer una comparación terminológica rápida:
 | Una métrica que representa un grupo de interacciones en su sitio web o aplicación que se producen en el mismo lapso de tiempo | Visita | Session |
 | Una métrica que define un dispositivo identificado (según varios criterios, incluidas las cookies y otros patrones de comportamiento, para unir información del usuario) | Visitante único | Usuario |
 
-## 2. Las interfaces
+## &#x200B;2. Las interfaces
 
 Cuando la gente compara [!DNL Adobe Analytics] y Google [!DNL Analytics], comentan que la interfaz de [!DNL Adobe] es desalentadora al principio. Esto es cierto, pero también lo es; créanlo o no; una fortaleza, no una debilidad. [!DNL Adobe] proporciona una amplia gama de herramientas y flexibilidades en la visualización de datos, lo que le permite tener mucha más libertad para construir lo que necesita.
 
 Empecemos por ver los informes &quot;en el sitio&quot;.
 
-### 2.1. Creación de informes en el sitio
+### 2.1. Informes en el sitio
 
-#### 2.1.1. Pantalla de inicio
+#### 2.1.1. Pantalla principal
 
 Tanto [!DNL Adobe Analytics] como Google [!DNL Analytics] ofrecen una forma de personalizar la primera vista que ve un usuario cuando inicia sesión.
 
-##### 2.1.1.1. Pantalla de inicio de Workspace/conjunto personalizado ([!DNL Adobe Analytics])
+##### 2.1.1.1. Workspace / Pantalla de inicio personalizada ([!DNL Adobe Analytics])
 
 [!DNL Adobe Analytics] no presume de crear un informe generado previamente para que todos los usuarios lo vean al iniciar sesión. La página de inicio predeterminada lleva al usuario a la pantalla de aterrizaje de Workspace, que muestra a cada usuario todos los informes de espacio de trabajo que han creado o que se han compartido con él. Además, cada uno puede establecer cualquiera de estos informes como su pantalla de inicio si así lo desea.
 
 ![workspace-create-project](assets/ga-to-aa_1.png)
 
-Más adelante, en esta guía, hay más detalles sobre el espacio de trabajo. Consulte la sección 2.1.2.1
+Más adelante, en esta guía, hay más detalles sobre el espacio de trabajo. Ver sección 2.1.2.1
 
 >[!TIP]
 >
@@ -55,7 +55,7 @@ Más adelante, en esta guía, hay más detalles sobre el espacio de trabajo. Con
 
 
 
-##### 2.1.1.2. Perspectivas de la pantalla de inicio (Google [!DNL Analytics])
+##### 2.1.1.2. Información de pantalla de inicio (Google [!DNL Analytics])
 
 * La pantalla de inicio de Google [!DNL Analytics] tiene algunas visualizaciones generadas previamente para usted. Estas cubren cosas como:
 * Usuarios, Sesiones, Tasa de salida hacia otro sitio y Duración de la sesión en los últimos siete días
@@ -73,11 +73,11 @@ Los usuarios de GA4 tienen más opciones para personalizar y añadir sus propios
 
 Probablemente, esto es lo que más se echa de menos en [!DNL Adobe Analytics]. No hay una pantalla de inicio prediseñada para usted. Sin embargo, puede configurar fácilmente un Workspace personalizado para replicar lo que necesita de la lista anterior y establecerlo como su pantalla de aterrizaje. Hay más información más adelante (o consulte la sección 2.1.2.1 [!DNL Adobe] de Workspace).
 
-#### 2.1.2. Report Builder in situ
+#### 2.1.2. Report Builder en el sitio
 
 Además de los informes simples que proporcionan las herramientas de análisis, cada una de ellas también ofrece herramientas más potentes para crear sus propios informes personalizados.
 
-##### 2.1.2.1. [!DNL Adobe Analytics] Workspace
+##### 2.1.2.1. [!DNL Adobe Analytics] Espacio de trabajo
 
 Este es el centro de [!DNL Adobe Analytics], ya que se introdujo en 2017 y se ha convertido en el lugar de referencia para el análisis de [!DNL Analytics], y la razón principal por la que la sección Informes pronto dejará de funcionar.
 
@@ -91,7 +91,7 @@ Los usuarios tienen a su disposición una gran variedad de visualizaciones:
 
 * Tabla de forma libre
 * Tabla de cohortes
-* Abandonos
+* Visita en orden previsto
 * Flujo
 * Gráficos
    * Área (apilada y sin apilar)
@@ -109,8 +109,7 @@ Los usuarios tienen a su disposición una gran variedad de visualizaciones:
    * Texto (campo de texto libre para introducir información adicional que proporcione contexto)
 * Venn
 
-Cada panel y visualización puede tener título y se le puede aplicar una descripción para ayudar a contextualizar lo que muestra la información.
-En [!DNL Adobe], los segmentos (sobre todo los filtros de datos) se aplican de forma retroactiva, y se pueden extraer en columnas de tablas de forma libre para comparar los datos en paralelo. Por ejemplo, si un usuario quisiera comparar dos categorías en el sitio para el tráfico, podría crear un segmento para la categoría A y otro para la B.
+Cada panel y visualización puede tener título y se le puede aplicar una descripción para ayudar a contextualizar lo que muestra la información.En [!DNL Adobe], los segmentos (sobre todo los filtros de datos) se aplican de forma retroactiva, y se pueden extraer en columnas de tablas de forma libre para comparar los datos en paralelo. Por ejemplo, si un usuario quisiera comparar dos categorías en el sitio para el tráfico, podría crear un segmento para la categoría A y otro para la B.
 
 ![analytics-page-views-report](assets/ga-to-aa_3.png)
 
@@ -134,7 +133,7 @@ Esta discusión es solo una introducción a esta herramienta, hay otras guías c
 
 Los espacios de trabajo no se guardan automáticamente, por lo que es más fácil hacer un único informe ad hoc sin saturar el repositorio de informes.
 
-Otra funcionalidad potente de los espacios de trabajo es la capacidad de aplicar modificadores interactivos a los informes en forma de desplegables. Estos desplegables no funcionan en archivos CSV o de PDF exportados de los informes. Sin embargo, en el informe en directo, le permiten actualizar todas las visualizaciones de un panel para mostrar el mismo informe en condiciones diferentes. Se pueden utilizar varios desplegables y, siempre que las opciones no sean mutuamente excluyentes, los elementos seleccionados se apilarán para permitir presentar de forma limpia la información.
+Otra funcionalidad potente de los espacios de trabajo es la capacidad de aplicar modificadores interactivos a los informes en forma de desplegables. Estos desplegables no funcionan en archivos CSV o PDF exportados de los informes. Sin embargo, en el informe en directo, le permiten actualizar todas las visualizaciones de un panel para mostrar el mismo informe en condiciones diferentes. Se pueden utilizar varios desplegables y, siempre que las opciones no sean mutuamente excluyentes, los elementos seleccionados se apilarán para permitir presentar de forma limpia la información.
 
 >[!IMPORTANT]
 >
@@ -156,7 +155,7 @@ Para las comparaciones superficiales, cumple su función. Todos son similares a 
 
 Tanto Google como [!DNL Adobe] tienen algunos informes navegables que son tablas creadas previamente y gráficos básicos de cronología basados en una dimensión.
 
-##### 2.1.3.1. [!DNL Adobe Analytics] informes
+##### 2.1.3.1. [!DNL Adobe Analytics] Informes
 
 [!DNL Adobe Analytics] también tiene una sección Informes, aunque se está eliminando gradualmente en favor de Analysis Workspace. De hecho, se ha anunciado el fin de la vida útil de esta interfaz, ya que Workspace es una herramienta más potente. La mayoría de estas tablas se pueden crear y modificar con mayor facilidad. Las secciones de [!DNL Adobe] están mucho más divididas, y esto puede ser desalentador:
 
@@ -166,7 +165,7 @@ Como la mayoría de lo anterior es accesible a través de los espacios de trabaj
 
 Las métricas del sitio son lo que cabría esperar: abarcan las métricas estándar (vistas de página, visitantes únicos, visitas y eventos personalizados que haya configurado). Esto es similar al informe de comportamiento de GA, pero también incluye algo de lo que encontraría en la audiencia (ya que [!DNL Adobe] no divide los tipos de métricas).
 
-Aquí, encontrará los informes de &quot;bots&quot;. El tráfico de bots se excluye de todos los informes estándar. Sin embargo, hay dos que ofrecen una perspectiva de lo que está sucediendo y de los bots que llegan al sitio. Esto es especialmente bueno si configura reglas de bots personalizadas para excluir los bots de spam conocidos que visitan con frecuencia el sitio. Puede obtener información sobre lo que están haciendo esos bots sin que los informes principales se inunden de ese tráfico. Actualmente, los informes de bots no están disponibles a través de Workspace (pero las nuevas funciones de creación de informes que se lanzarán próximamente también permitirán a los usuarios obtener esta información).
+Aquí, encontrará los informes de &quot;bots&quot;. El tráfico de bots se excluye de todos los informes estándar. Sin embargo, hay dos que proporcionan a insight información sobre lo que está sucediendo y los bots que llegan al sitio. Esto es especialmente bueno si configura reglas de bots personalizadas para excluir los bots de spam conocidos que visitan con frecuencia el sitio. Puede introducir insight en lo que están haciendo esos bots sin que los informes principales se inunden de ese tráfico. Actualmente, los informes de bots no están disponibles a través de Workspace (pero las nuevas funciones de creación de informes que se lanzarán próximamente también permitirán a los usuarios obtener esta información).
 
 Contenido del sitio es una agrupación de [!DNL Adobe] dimensiones estándar: Nombre de página, Secciones de sitio, Jerarquías, Servidores y más. Todas estas dimensiones están disponibles en Workspace.
 
@@ -192,7 +191,7 @@ Los objetivos permiten a las personas crear un informe basado en un objetivo den
 
 Todos los informes aquí permiten varias columnas de métricas y desgloses de dimensiones. Sin embargo, la simplicidad de las visualizaciones y parte de la lógica detrás de qué elementos podrían correlacionarse pueden ser frustrantes a veces.
 
-##### 2.1.3.2. Informes [!DNL Analytics] de Google
+##### 2.1.3.2. Informes de Google [!DNL Analytics]
 
 Google [!DNL Analytics] divide estos informes en las siguientes secciones: Tiempo real, Audiencia, Adquisición, Comportamiento y Conversaciones (en GA3) y en Ciclo vital (con las subsecciones Adquisición, Participación, Monetización y Retención) y Usuario (con las subsecciones Demografía y Tecnología).
 
@@ -204,11 +203,11 @@ Proporcionan una visión rápida y sencilla de sus datos. Sin embargo, no puede 
 
 Son buenos para obtener datos analíticos rápidos, pero si realmente necesita profundizar, sufren de limitaciones.
 
-### 2.2. Acceso ampliado a los informes
+### 2.2. Acceso ampliado a informes
 
 Además de la Creación de informes en el sitio, la mayoría de las herramientas ofrecen una funcionalidad ampliada que le permite sacar el análisis de las herramientas y crear algo un poco más personalizado.
 
-#### 2.2.1. Report Builder [!DNL Adobe Analytics] (extensión de Microsoft® Excel)
+#### 2.2.1. [!DNL Adobe Analytics] Report Builder (extensión de Microsoft® Excel)
 
 Workspace es una buena herramienta, pero a veces es necesario poner los datos en una hoja de cálculo personalizada, posiblemente para poder unir varias fuentes de datos. Aquí es donde Report Builder entra en juego.
 
@@ -216,15 +215,15 @@ Report Builder es un complemento para Microsoft® Excel que le permite crear con
 
 >[!NOTE]
 >
->El Report Builder tiene un permiso especial que debe aplicarse a los usuarios para acceder a este complemento. Debería concederse a los usuarios que hayan aprendido a utilizar bien la herramienta.
+>Report Builder tiene un permiso especial que debe aplicarse a los usuarios para acceder a este complemento. Debería concederse a los usuarios que hayan aprendido a utilizar bien la herramienta.
 
-#### 2.2.2. Conexión de la API [!DNL Adobe Analytics]
+#### 2.2.2. [!DNL Adobe Analytics] Conexión de API
 
 Si necesita que los datos de [!DNL Adobe Analytics] se digieran con algo distinto a Excel y quiere los datos procesados, incluidas las exclusiones de reglas de bots, use la API de [!DNL Adobe] para extraer los datos directamente. A continuación, procese los datos mediante una secuencia de comandos o agréguelos a una base de datos para su uso con otro sistema.
 
 Debe tenerse en cuenta que la API sigue extrayendo datos de correlación aplicando los desgloses y segmentos según se especifican en la solicitud de extracción.
 
-El Workspace de [!DNL Adobe] (sección 2.1.2.1) utiliza la API para generar los informes y, si activa el modo de depuración en Workspace, le mostrará las llamadas de API exactas que se han usado. Esta es una forma rápida de crear sus llamadas a la API. Al utilizar Workspace para generar y validar los datos que desea extraer, utilizará esas llamadas de API para sacar los datos a su propio procesamiento.
+El Workspace de [!DNL Adobe] (sección 2.1.2.1) utiliza la API para generar los informes y, si habilita el modo de depuración en Workspace, le mostrará las llamadas de API exactas que se han usado. Esta es una forma rápida de crear sus llamadas a la API. Al utilizar Workspace para generar y validar los datos que desea extraer, utilizará esas llamadas de API para sacar los datos a su propio procesamiento.
 
 
 #### 2.2.3. Google [!DNL Analytics] Data Studio
@@ -234,16 +233,16 @@ Si ha estado leyendo, ya sabe que he mencionado Data Studio como el equivalente 
 Sigue siendo una herramienta poderosa, y no disuadiría a la gente de usarla de ninguna manera. Mi experiencia personal es que el comportamiento rígido me parece bastante restrictivo.
 
 
-#### 2.2.4. Extensión de hoja de cálculo de Google
+#### 2.2.4. Extensión de hoja de cálculo Google
 
 Para mis propios usos, cuando necesito extraer datos de forma extendida de Google [!DNL Analytics], la herramienta de mi elección es la extensión de hoja de cálculo de Google. Aunque necesito hacer múltiples conexiones a mis tablas de GA, puedo hacer referencia a las celdas desde los datos sin procesar y elaborar los informes que necesito. A continuación, los visualizo utilizando las funciones gráficas de la hoja de cálculo de Google.
 
 
-## 3. Exportaciones de datos sin procesar
+## &#x200B;3. Exportaciones de datos sin procesar
 
 Cuando realmente necesita datos sin procesar, tanto [!DNL Adobe] como Google ofrecen funcionalidades para extraer información de esta manera.
 
-### 3.1. Fuente de datos [!DNL Adobe]
+### 3.1. [!DNL Adobe] Fuente de datos
 
 En la sección 2.2.2, mencioné que la API [!DNL Adobe Analytics] extraía &quot;datos procesados&quot;. La fuente de datos sin procesar extrae datos procesados por las &quot;reglas de procesamiento&quot; que se han configurado en el panel de administración, pero estos datos sin procesar incluyen todos los datos que se excluyen en cualquier otra parte.
 
@@ -260,7 +259,7 @@ Desafortunadamente, esta es una herramienta de Google con la que no he tenido ni
 
 Sin embargo, en lugar de proporcionar un volcado de datos sin procesar completo, permite a los ingenieros acceder a los datos a través de consultas SQL para extraer datos sin procesar concretos o todas las columnas.
 
-## 4. Conclusión
+## &#x200B;4. Conclusión
 
 Como cualquier sistema, se necesita práctica para sentirse cómodo con la herramienta. Esperamos que esta guía le ayude a empezar o le proporcione sugerencias para mejorar el uso de [!DNL Adobe Analytics].
 

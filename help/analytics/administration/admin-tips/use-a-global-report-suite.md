@@ -13,7 +13,7 @@ kt: 10536
 exl-id: f133d049-9a24-4153-88c5-40ec480d1e4e
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,13 @@ Estas son las ventajas y desventajas de tener un único grupo de informes para a
 * CONTRAS:
    * Si tiene propiedades muy separadas y los usuarios no pasan de una a otra ni se espera que lo hagan, es posible que desee mantener grupos de informes separados.
    * Si las propiedades tienen necesidades de etiquetado y creación de informes muy diferentes, puede ser recomendable configurar grupos de informes separados en aras de la eficiencia de las variables. Tener grupos de informes separados le dará más flexibilidad para usar variables personalizadas (más eVars).
-   * Excesos en la cantidad de valores exclusivos: la interfaz [!DNL Adobe Analytics] solo le permite ver 500 000 valores únicos dentro de una sola dimensión durante un período de tiempo determinado. Una vez superada esta cifra, los valores se agrupan como &quot;excesos en la cantidad de valores exclusivos&quot; o &quot;bajo tráfico&quot; en la interfaz. Estos valores permanecen disponibles en el servidor (es decir, la Data Warehouse y las fuentes de datos), pero no se pueden visualizar en la interfaz. Si tiene datos muy granulares (como ID de usuario, PSN, etc.), es fácil alcanzar este nivel. Tener grupos de informes separados puede ayudar con este problema.
+   * Excesos en la cantidad de valores exclusivos: la interfaz [!DNL Adobe Analytics] solo le permite ver 500 000 valores únicos dentro de una sola dimensión durante un período de tiempo determinado. Una vez superada esta cifra, los valores se agrupan como &quot;excesos en la cantidad de valores exclusivos&quot; o &quot;bajo tráfico&quot; en la interfaz. Estos valores permanecen disponibles en el servidor (es decir, Data Warehouse, fuentes de datos), pero no se pueden visualizar en la interfaz. Si tiene datos muy granulares (como ID de usuario, PSN, etc.), es fácil alcanzar este nivel. Tener grupos de informes separados puede ayudar con este problema.
 
 **CÓMO:** Comenzar con una nueva implementación de AA y usar un grupo de informes globales es sencillo y directo. Solo necesita crear el grupo de informes globales (uno para Desarrollo y otro para Producción) en la IU de administración de AA y aplicar los mismos valores de ID del grupo de informes (RSID) en todas sus propiedades.
 
 La migración desde una estrategia de etiquetado múltiple con un grupo de informes único por propiedad requiere más estrategia y planificación. Algunas de las consideraciones que debe tener en cuenta:
 
-* Alinee las variables (es decir, el eVar 1 en la Propiedad A debe capturar el mismo punto de datos que el eVar 1 en la Propiedad B)
+* Alinee las variables (es decir, eVar1 en la Propiedad A debe capturar el mismo punto de datos que eVar1 en la Propiedad B)
 * Consolidar cualquier regla de procesamiento, regla de canal de marketing o clasificación (SAINT y Generador de reglas).
 * Migración de fuentes de datos
 * Elija una fecha de corte y comuníquela a todos los usuarios empresariales
