@@ -49,7 +49,7 @@ Permítanme guiarles a través de los tres paneles operativos que creé para mi 
 
 ¿Cansado del bucle interminable de respuestas repetidas? ¡Detente! Ahorre tiempo creando un panel de preguntas frecuentes. Los usuarios pueden consultarlo antes de preguntar o puede vincularlo rápidamente en sus respuestas.
 
-Basta con crear [visualizaciones de texto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html) con preguntas formateadas como títulos y respuestas/explicaciones como contenido, todo contraído para mostrar únicamente la pregunta. Agrúpelas por relevancia (p. ej., páginas o productos) o utilice paneles. Simplifique y priorice las consultas comunes en la parte superior.
+Basta con crear [visualizaciones de texto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=es) con preguntas formateadas como títulos y respuestas/explicaciones como contenido, todo contraído para mostrar únicamente la pregunta. Agrúpelas por relevancia (p. ej., páginas o productos) o utilice paneles. Simplifique y priorice las consultas comunes en la parte superior.
 
 En lugar de escribir correos electrónicos largos o redescubrir explicaciones antiguas, actualice el panel de preguntas frecuentes. Empiece ahora y amplíe con el tiempo. Use hipervínculos para hacer referencia a otros tableros o preguntas más frecuentes relacionadas dentro de los informes. Proporcione un contexto complejo cuando sea necesario vinculando desde otros paneles a las preguntas frecuentes.
 
