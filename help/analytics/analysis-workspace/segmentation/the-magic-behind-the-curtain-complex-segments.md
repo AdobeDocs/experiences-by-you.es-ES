@@ -60,7 +60,7 @@ A primera vista, ambos suenan igual... y en los contenedores/segmentos de nivel 
 
 ![Figura2-DnceVsExclude-Visit](assets/figure2-dnce-vs-exclude-visit.png)
 
-*Como en el caso anterior, cada visita individual dentro de la **visita**se evaluará con el mismo valor verdadero/falso. Sin embargo, el conjunto de datos devuelto es el de toda la visita.*
+*Como en el caso anterior, cada visita individual dentro de la **visita**&#x200B;se evaluará con el mismo valor verdadero/falso. Sin embargo, el conjunto de datos devuelto es el de toda la visita.*
 
 - En cada visita individual, &quot;Value&quot; no contiene &quot;Example&quot; (sí), por lo que devuelve el valor &quot;True&quot;; del mismo modo, no contiene &quot;Example&quot; (no, lo contiene), por lo que devuelve el valor &quot;False&quot;.
    - Si la visita de **any** en la visita devuelve **true**, entonces se devuelve **toda la visita**.*
@@ -76,7 +76,7 @@ A primera vista, ambos suenan igual... y en los contenedores/segmentos de nivel 
 
 ![Figura3-DnceVsExclude-Visitor](assets/figure3-dnce-vs-exclude-visitor.png)
 
-*Al igual que arriba, cada visita realizada por el **visitante**se evaluará con la misma lógica verdadero/falso. Pero ahora estamos viendo todas las visitas que este visitante ha realizado, en todas las visitas (dentro del intervalo de fechas seleccionado).*
+*Al igual que arriba, cada visita realizada por el **visitante**&#x200B;se evaluará con la misma lógica verdadero/falso. Pero ahora estamos viendo todas las visitas que este visitante ha realizado, en todas las visitas (dentro del intervalo de fechas seleccionado).*
 
 - En cada visita individual, &quot;Value&quot; no contiene &quot;Example&quot; (sí), por lo que devuelve el valor &quot;True&quot;; del mismo modo, no contiene &quot;Example&quot; (no, lo contiene), por lo que devuelve el valor &quot;False&quot;.
    - Si **cualquier** visita realizada por el visitante devuelve **verdadero**, entonces se devuelve **toda la visita**.
