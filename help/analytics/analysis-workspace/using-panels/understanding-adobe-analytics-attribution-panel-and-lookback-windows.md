@@ -12,14 +12,14 @@ thumbnail: KT-13181.jpeg
 exl-id: 2a62e563-bad9-424f-94ca-2af68d4a83b5
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
 
 # Descripción del panel de atribución [!DNL Adobe Analytics] y las ventanas retroactivas
 
-Cuando pensé por primera vez en el [panel de atribución](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/attribution.html?lang=es) y en la **ventana retrospectiva**, inmediatamente me recordaron el concepto de &quot;*viaje en el tiempo&#39;*; entonces, por supuesto, también me recordaron que nuestra respuesta típica a muchas herramientas nuevas como estas es simplemente dejar de intentar usarlo, porque se ven muy complicadas.
+Cuando pensé por primera vez en el [panel de atribución](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/attribution.html?lang=en) y en la **ventana retrospectiva**, inmediatamente me recordaron el concepto de &quot;*viaje en el tiempo&#39;*; entonces, por supuesto, también me recordaron que nuestra respuesta típica a muchas herramientas nuevas como estas es simplemente dejar de intentar usarlo, porque se ven muy complicadas.
 
 Honestamente, miren todas esas opciones, interruptores, paneles, lecturas y botones.  Y en serio, hablemos de esas complicadas luces parpadeantes, mangueras, medidores... ESPERA!!  No es el momento de distraernos hablando de máquinas del tiempo, simplemente no tenemos tiempo... ¿o sí?
 
@@ -44,12 +44,12 @@ Ahora que todos estamos entusiasmados con el viaje en el tiempo, respiremos prof
 
 En **Attribution**, considere simplemente cómo los eventos o las acciones pueden ser causados por un individuo, varios individuos o uno de cualquier número de eventos diferentes a lo largo del tiempo.
 
-Según [[!DNL Adobe]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/overview.html?lang=es), *attribution* permite a los analistas personalizar la forma en que *los elementos de Dimension* reciben crédito por *eventos de éxito*.
+Según [[!DNL Adobe]](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/overview.html?lang=en), *attribution* permite a los analistas personalizar la forma en que *Dimension* elementos reciben crédito por *eventos de éxito*.
 
 
 >[!WARNING]
 >
->Solo una nota rápida para destacar que los **modelos de atribución** están tan frecuentemente asociados con **canales de mercadotecnia** que *taché* ❷ CANAL en la imagen de arriba para ilustrar que es posible realizar análisis de **atribución** en casi cualquier otra ***dimensión***.
+>Solo una nota rápida para destacar que los **modelos de atribución** están tan frecuentemente asociados con **canales de mercadotecnia** que *taché* el CANAL ❷ en la imagen de arriba para ilustrar que es posible realizar análisis de **atribución** en casi cualquier otra ***dimensión***.
 
 
 De hecho, rara vez un recorrido determinado del cliente es verdaderamente lineal y con menor frecuencia aún predecible.  Además, cada cliente seguirá su propio ritmo; a menudo, puede duplicarse, paralizarse, abandonarse o participar en otro comportamiento no lineal. Estas acciones orgánicas hacen que sea difícil o prácticamente imposible conocer el impacto de los esfuerzos de marketing en todo el recorrido del cliente. También obstaculiza los esfuerzos por unir múltiples canales de datos.
@@ -86,7 +86,7 @@ Con esto en mente, aquí hay algunos ejemplos de cómo los ❸ **modelos de atri
 
 - **Personalizado**: Usted elige y elige quién va a obtener crédito.  ¡Es tu campaña!
 
-Para obtener más información sobre estos y otros modelos de atribución, [haga clic aquí](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es)
+Para obtener más información sobre estos y otros modelos de atribución, [haga clic aquí](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en)
 
 Para hacer esto aún más interesante, ¡hablemos de volver atrás el reloj!
 
@@ -113,14 +113,14 @@ Entonces, ¿qué significa todo esto para nosotros como analistas?
 
 El **panel de atribución** y la **ventana retrospectiva** nos permiten ver más allá de los datos mundanos de nivel de superficie y profundizar en el recorrido del cliente. Si entendemos qué puntos de contacto tuvieron el mayor impacto en *conversiones*, podemos tomar decisiones informadas sobre nuestras estrategias de marketing y asignar recursos de manera más eficaz.
 
-Recuerde, después de seleccionar los **modelos de atribución** y **ventanas retroactivas**, podrá manipular aún más los datos filtrándolos con un ❺ **segmento,** o cualquier otro componente que desee en este momento.  Además, una vez procesado el panel, tendrá a su disposición todas las funciones de un Workspace tradicional.
+Recuerde, después de haber seleccionado los **modelos de atribución** y **ventanas retroactivas**, aún puede manipular más los datos filtrándolos con un ❺ **segmento,** o cualquier otro componente que desee en este momento.  Además, una vez procesado el panel, tendrá a su disposición todas las funciones de un Workspace tradicional.
 
 ## **Por último, poniéndolo en práctica**
 
 Ahora que tiene los conceptos básicos, imagine que está ejecutando una campaña de marketing y trata de determinar qué canal es el *más efectivo* para generar conversiones. Con la ayuda del **panel de atribución**, no solo puedes ver el **último contacto**, sino también el **primer contacto**, **mismo contacto** y cualquier otro **modelo** que elijas para determinar qué **canales** son los *más efectivos* para dirigir tus *conversiones*. Entonces, esta información se puede usar para *optimizar* tus campañas y mejorar el rendimiento general simplemente devolviendo el reloj con la **ventana retrospectiva** de tu elección.
 
 Ahora que ha visto lo que puede hacer, no se deje engañar ni intimidar por las características aparentemente complejas del panel de atribución.  **Acéptalo**.  *Abrazarlo*.  **Comprenderlo**.
-PERO SOBRE TODO - *Úsalo a tu favor.* El **panel de atribución** y la **ventana retrospectiva** son claves para desbloquear una comprensión más profunda de sus clientes y su recorrido con su marca.
+PERO SOBRE TODO - *Úselo en su beneficio.* El **panel de atribución** y la **ventana retrospectiva** son claves para desbloquear una comprensión más profunda de sus clientes y su recorrido con su marca.
 
 Ahora, podemos viajar &quot;[atrás en el tiempo](https://youtu.be/gVryJmZNFdU)&quot; con confianza y usar la potencia de nuestra confiable máquina del tiempo (también conocida como ***[!DNL Adobe Analytics]***) para tomar decisiones basadas en datos.
 

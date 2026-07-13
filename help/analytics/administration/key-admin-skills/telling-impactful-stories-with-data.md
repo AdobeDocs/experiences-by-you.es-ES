@@ -1,6 +1,6 @@
 ---
 title: Contar historias impactantes con datos
-description: La narración de datos es donde el arte y la ciencia se juntan usando datos, visualizaciones y narrativa.  Al aprovechar estos componentes, hay tres cosas clave para crear una historia de datos impactante. Al contar una historia con datos de manera efectiva, [!DNL Analytics] puede llegar a ser más accesible para una audiencia más amplia y puede aumentar el valor que aporta a su organización mediante la toma de decisiones basada en datos.
+description: La narración de datos es el lugar en el que el arte y la ciencia se juntan usando datos, visualización y narrativa.  Al aprovechar estos componentes, hay tres cosas clave para crear una historia de datos impactante. Al contar una historia con datos de manera efectiva, [!DNL Analytics] puede llegar a ser más accesible para una audiencia más amplia y puede aumentar el valor que aporta a su organización mediante la toma de decisiones basada en datos.
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -12,18 +12,18 @@ kt: 10157
 exl-id: bbbe8514-95d2-4e18-aaa2-6c3bd94816a1
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 0%
+source-wordcount: '450'
+ht-degree: 6%
 
 ---
 
 # Contar historias impactantes con datos
 
-La narración de datos es donde el arte y la ciencia se juntan usando datos, visualizaciones y narrativa.  Al aprovechar estos componentes, hay tres cosas clave para crear una historia de datos impactante. Al contar una historia con datos de forma eficaz, [!DNL Analytics] puede llegar a ser más accesible para una audiencia más amplia y puede aumentar el valor que aporta a su organización mediante la toma de decisiones basada en datos.
+La narración de datos es el lugar en el que el arte y la ciencia se juntan usando datos, visualización y narrativa.  Al aprovechar estos componentes, hay tres cosas clave para crear una historia de datos impactante. Al contar una historia con datos de forma eficaz, [!DNL Analytics] puede llegar a ser más accesible para una audiencia más amplia y puede aumentar el valor que aporta a su organización mediante la toma de decisiones basada en datos.
 
 ## Identificación de la oportunidad o el problema
 
-Comience por definir la situación actual y establecer el problema o la oportunidad. Aquí configurará el escenario y proporcionará suficiente información como para cautivar a su audiencia, pero no revelará completamente la solución. Esta introducción es crítica (y puede ser difícil), pero es toda la motivación de su análisis.  El valor de la narración de datos es solicitar una acción que resulte en **comportamiento modificado**. Por lo demás, los datos, la perspectiva y el análisis no tienen fuerza.
+Comience por definir la situación actual y establecer el problema o la oportunidad. Aquí configurará el escenario y proporcionará suficiente información como para cautivar a su audiencia, pero no revelará completamente la solución. Esta introducción es crítica (y puede ser difícil), pero es toda la motivación de su análisis.  El valor de la narración de datos es solicitar una acción que resulte en **comportamiento modificado**. Por lo demás, Data, Insight y Analysis no tienen potencia.
 
 **[!DNL Adobe]Sugerencia de Workspace:** Asigne un título a las visualizaciones en forma de pregunta para mostrar exactamente qué problema o situación actual se está resaltando.
 
@@ -50,6 +50,6 @@ Este documento fue escrito por:
 
 ![Amy Ard](assets/amy-ard-headshot-small.png)
 
-Amy Ard, Director de [!DNL Analytics] en Levelwing
+Amy Ard, directora de [!DNL Analytics] en Levelwing
 
 [!DNL Adobe Analytics] campeón
