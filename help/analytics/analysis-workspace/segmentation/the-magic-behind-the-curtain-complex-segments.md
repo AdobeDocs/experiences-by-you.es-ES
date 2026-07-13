@@ -12,7 +12,7 @@ thumbnail: KT-15200.jpeg
 exl-id: 1da85e88-64b3-49e5-9bf6-76126ac9f6ad
 source-git-commit: 69fa16c1bf38604e4dabc553baee71598be83db3
 workflow-type: tm+mt
-source-wordcount: '4102'
+source-wordcount: '4166'
 ht-degree: 1%
 
 ---
@@ -162,7 +162,7 @@ El ámbito de un contenedor es independiente del principal, como mencioné anter
 
 >[!NOTE]
 >
->El Adobe tiene lógica para comprender los segmentos válidos y no válidos, no le proporcionarían opciones que *nunca* funcionarían... por lo que si ve la opción de usar un contenedor con ámbito de visitante dentro de un segmento con ámbito de visita, significa que es una opción válida.
+>Adobe tiene lógica para comprender los segmentos válidos y no válidos, no le proporcionarían opciones que *nunca* funcionarían... por lo que si ve la opción de usar un contenedor con ámbito de visitante dentro de un segmento con ámbito de visita, significa que es una opción válida.
 
 Al igual que para los segmentos básicos, cuando empieza a generar un segmento complejo con contenedores anidados, necesita tener una idea clara sobre ***qué tipo de datos*** desea que se devuelvan. ***Cómo*** planea usar esos datos? ***¿Qué*** métricas planea emparejar con el segmento?
 
@@ -251,44 +251,44 @@ Aquí estoy comparando las visitas en ofertas destacadas/contenido recomendado, 
 
 ## Modelo de atribución
 
-El modelado de atribución dentro de una definición de segmento pertenece principalmente a dimensiones que tienen una caducidad que no es de visita, por lo que las props (que siempre son de nivel de visita) no son realmente una buena candidata. Sus eVars, canales de marketing, etc. sin embargo, son para los que están diseñados estos ajustes.
+El modelado de atribución dentro de una definición de segmento pertenece principalmente a dimensiones que tienen una caducidad que no es de visita, por lo que las props (que siempre son de nivel de visita) no son realmente una buena candidata. Sin embargo, sus eVars, canales de marketing, etc. son para los que realmente están diseñadas estas configuraciones.
 
 Antes de mirar el segmento, deberíamos hacer una revisión rápida de cómo funciona el modelado de atribución en un ejemplo sencillo.
 
-Digamos que tenemos dos eVars, una de ellas está configurada para visitar la caducidad (eVar 1) y una de ellas está configurada para una caducidad de 30 días (eVar 2). Para simplificar, se va a realizar el seguimiento de una campaña interna (icid).
+Supongamos que tenemos dos eVars, una de ellas está configurada para visitar la caducidad (eVar1) y otra está configurada para una caducidad de 30 días (eVar2). Para simplificar, se va a realizar el seguimiento de una campaña interna (icid).
 
 **Visita 1**
 
 - Página A
-   - **eVar 1** no está establecido
-   - **eVar 2** no está establecido
+   - **eVar1** no está establecido
+   - **eVar2** no está establecido
 - Haga clic en el banner de promoción con ?icid=promo-banner en la URL.
 - Página B
-   - **eVar 1** y **eVar 2** se han configurado como &quot;promo-banner&quot;
-   - **Se ha activado la instancia de eVar 1**
-   - **Se ha activado la instancia de eVar 2**
+   - **eVar1** y **eVar2** se han configurado como &quot;promo-banner&quot;
+   - Se ha activado la **instancia de eVar1**
+   - Se ha activado la **instancia de eVar2**
 - Página C
-   - Tanto **eVar 1** como **eVar 2** mantienen el valor &quot;promo-banner&quot;
+   - Tanto **eVar1** como **eVar2** mantienen el valor &quot;promo-banner&quot;
    - Ninguna de las métricas de instancia de las eVars se activa, ya que ambas eVars utilizan valores persistentes
 
 **Visita 2**
 
 - Página D
-   - **eVar 1** no se ha establecido en ningún valor y no se ha activado **instancia de eVar 1**
-   - **eVar 2** mantiene el valor &quot;promo-banner&quot; debido a la caducidad de 30 días
+   - **eVar1** no se ha establecido en ningún valor y no se ha activado **instancia de eVar1**
+   - **eVar2** mantiene el valor &quot;promo-banner&quot; debido a la caducidad de 30 días
    - **La instancia de eVar2** no se ha activado porque el valor es persistente y no se ha establecido
 - Haga clic en Promoción de carril lateral con ?icid=promo-side-rail en la URL
 - Página E
-   - **eVar 1** y **eVar 2** están configurados en &quot;promo-side-rail&quot;
-   - **Se ha activado la instancia de eVar 1**
-   - **Se ha activado la instancia de eVar 2**
+   - **eVar1** y **eVar2** están configurados en &quot;promo-side-rail&quot;
+   - Se ha activado la **instancia de eVar1**
+   - Se ha activado la **instancia de eVar2**
 - Página F
-   - Tanto **eVar 1** como **eVar 2** mantienen el valor &quot;promo-side-rail&quot;
+   - Tanto **eVar1** como **eVar2** mantienen el valor &quot;promo-side-rail&quot;
    - Ninguna de las métricas de instancia de las eVars se activa, ya que ambas eVars utilizan valores persistentes
 
 Actualmente, aquí está el resultado esperado de estas dos visitas:
 
-<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Page Views</b></th><th colspan="1" valign="top"><b>Visitas</b></th><th colspan="1" valign="top"><b>Instancia de eVar 1</b></th><th colspan="1" valign="top"><b>Instancia de eVar 2</b></th></tr>
+<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Page Views</b></th><th colspan="1" valign="top"><b>Visitas</b></th><th colspan="1" valign="top"><b>Instancia de eVar1</b></th><th colspan="1" valign="top"><b>Instancia de eVar2</b></th></tr>
 <tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">6</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" rowspan="7" valign="top">Página</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">6</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" valign="top">Página A</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">0</td><td colspan="1" valign="top">0</td></tr>
@@ -299,16 +299,16 @@ Actualmente, aquí está el resultado esperado de estas dos visitas:
 <tr><td colspan="1" valign="top">Página F</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">0</td><td colspan="1" valign="top">0</td></tr>
 </table>
 
-<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Page Views</b></th><th colspan="1" valign="top"><b>Visitas</b></th><th colspan="1" valign="top"><b>Instancia de eVar 1</b></th></tr>
+<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Page Views</b></th><th colspan="1" valign="top"><b>Visitas</b></th><th colspan="1" valign="top"><b>Instancia de eVar1</b></th></tr>
 <tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">EVAR 1</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">EVAR1</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" valign="top">promo-banner</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 <tr><td colspan="1" valign="top">promo-side-rail</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 </table>
 
-<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Page Views</b></th><th colspan="1" valign="top"><b>Visitas</b></th><th colspan="1" valign="top"><b>Instancia de eVar 2</b></th></tr>
+<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Page Views</b></th><th colspan="1" valign="top"><b>Visitas</b></th><th colspan="1" valign="top"><b>Instancia de eVar2</b></th></tr>
 <tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">EVAR 2</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">EVAR2</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" valign="top">promo-banner</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td></tr>
 <tr><td colspan="1" valign="top">promo-side-rail</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 </table>
@@ -321,7 +321,7 @@ Ahora, veamos dónde puede establecer la atribución en el segmento.
 
 *El icono de engranaje en su dimensión es donde puede establecer la atribución. Cada opción tiene información disponible al pasar el puntero sobre &quot;?&quot; icono. Básicamente:*
 
-- El comportamiento predeterminado devolverá todas las instancias del eVar en las que se haya establecido el valor (ya sea de forma específica o a través de la atribución set)
+- El comportamiento predeterminado devolverá todas las instancias de eVar en las que el valor esté establecido (ya sea específicamente o a través de la atribución set)
 - Instancia solo devolverá la dimensión donde el valor esté establecido explícitamente (es decir, en las visitas individuales donde se activa la &quot;Instancia de eVar&quot;)
 - La instancia no repetida solo devolverá la primera vez que se establezca el valor de la dimensión (es decir, aunque no se trata en el ejemplo anterior, imagine que el usuario ha hecho clic en el banner de promoción varias veces, esto también incrementaría la &quot;Instancia de eVar&quot; cada vez que se hace clic en el banner; esta configuración solo tomaría la primera instancia única de &quot;promo-banner&quot; e ignoraría los recuentos posteriores de este banner)
 
@@ -335,7 +335,7 @@ Cambiemos las cosas y empecemos por ver las comparaciones, luego vamos a adentra
 
 <table style="border: 0;">
     <tr>
-        <td width="352" style="border: 0;">Las primeras 4 columnas no están segmentadas y deberían ser fáciles de entender. Tenga en cuenta que *"Entradas"* es básicamente un valor calculado basado en el lugar donde los visitantes inician la sesión. Lo he agregado aquí para mostrar que esto no devuelve la información que estamos buscando, ya que los usuarios pueden entrar al sitio a través de múltiples canales de marketing (mirando las redes sociales, haciendo búsquedas, haciendo clic en correos electrónicos de marketing, etc.). todos dentro de la misma visita/sesión).</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail1.png" width="352">
+        <td width="352" style="border: 0;">Las primeras 4 columnas no están segmentadas y deberían ser fáciles de entender. Tenga en cuenta que *"Entradas"* es básicamente un valor calculado basado en el lugar donde los visitantes inician la sesión. Lo he agregado aquí para mostrar que esto no devuelve la información que estamos buscando, ya que los usuarios pueden entrar al sitio a través de múltiples canales de marketing (mirando las redes sociales, haciendo búsquedas, haciendo clic en correos electrónicos de marketing, etc. todo dentro de la misma visita / sesión).</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail1.png" width="352">
         </td>
     </tr>
 </table>

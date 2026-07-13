@@ -12,7 +12,7 @@ thumbnail: KT-14963.jpeg
 exl-id: 563941cc-30a2-45d2-8634-0bde3b539ffd
 source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1404'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Ahora que tengo su atención, permítanme comenzar haciendo una pregunta:
 
 *Figura 1 - Buscar &quot;año&quot;*
 
-Mejor aún, has creado *nuevos* **intervalos de fechas** y **segmentos**, y como son &quot;muy nuevos&quot;, pensarías que al menos estos artículos deberían ser rápidos y fáciles de encontrar la próxima vez que entres en ***Adobe Workspace***. ¿Tengo razón?
+Mejor aún, has creado *nuevos* **intervalos de fechas** y **segmentos**, y como son &quot;muy nuevos&quot;, pensarías que al menos estos elementos deberían ser rápidos y fáciles de encontrar la próxima vez que entraras en ***Adobe Workspace***. ¿Tengo razón?
 
 Bueno, odio estallar tu burbuja, pero trata de dejar ***Adobe Analytics*** después de que hayas creado a todos tus nuevos &quot;amiguitos&quot;, y cuando regreses, la mayoría simplemente se han escapado.  Si tienes suerte, *tal vez* uno de ellos se quedó esperando por ti, pero el resto ya se fueron hace tiempo y juegan a las escondidas.
 
@@ -69,7 +69,7 @@ De todos modos, la razón por la que estamos hablando de **#tags** es porque se 
 
 ## Qué hay en la caja de herramientas
 
-**Adobe** incluso ha hecho a WE THE PEOPLE el servicio de crear un conjunto selecto de #TAGS directamente de la caja, porque, bueno... tuvieron que comenzar con nosotros en algún lugar.  Voy a proporcionar algunas advertencias adicionales en solo un poco, pero lo que estoy demostrando primero le dará el mayor golpe para su dinero!
+**Adobe** incluso ha hecho a WE THE PEOPLE el servicio de crear un selecto conjunto de #TAGS directamente de la caja, porque, bueno... tuvieron que comenzar con nosotros en algún lugar.  Voy a proporcionar algunas advertencias adicionales en solo un poco, pero lo que estoy demostrando primero le dará el mayor golpe para su dinero!
 
 Antes de crear cualquiera propio, lo que primero necesita saber es cómo buscar **etiquetas** existentes:
 
@@ -77,7 +77,7 @@ Antes de crear cualquiera propio, lo que primero necesita saber es cómo buscar 
 
 Tanto si se encuentra en un proyecto nuevo como si ya existe, solo necesita ir a la barra de búsqueda de componentes, escribir un #hashtag, junto con uno de estos términos principales (solo ver el vídeo) y pulsar INTRO; o bien, puede empezar a desplazarse hasta encontrar un término reconocible.
 
-PRIMERA ADVERTENCIA: Algo que hay que tener en cuenta es que, si se mantiene fiel a las convenciones de nomenclatura correctas cuando empiece a crear las etiquetas *own*, con casi todas las etiquetas *con mayúsculas* que vea *should*, y yo tendré cuidado con la palabra &quot;should&quot; (debería), ser un **Adobe**, elemento etiquetado listo para usar.  Eso significa que debe asegurarse de que todas las etiquetas que cree estén en **minúsculas**.
+PRIMERA ADVERTENCIA: Algo que hay que tener en cuenta es que, si se mantiene fiel a las convenciones de nomenclatura adecuadas cuando empiece a crear las etiquetas *own*, con casi todas las etiquetas *con mayúsculas* que vea *should*, y tendré cuidado con la palabra &quot;should&quot; (debería), ser un elemento etiquetado de **Adobe**, listo para usar.  Eso significa que debe asegurarse de que todas las etiquetas que cree estén en **minúsculas**.
 
 ## Creación de su propio asistente personal
 

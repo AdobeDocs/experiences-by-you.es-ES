@@ -1,5 +1,5 @@
 ---
-title: Desbloquear la perspectiva analítica; aprovechar el poder de las anotaciones
+title: Desbloquear insight analítico; aprovechar el poder de las anotaciones
 description: Descubra la función crucial que desempeñan las anotaciones en Adobe Analysis Workspace y obtenga sugerencias prácticas para maximizar su uso. Aumente la comprensión y la colaboración de sus datos a nuevas alturas y obtenga perspectivas analíticas más enriquecidas a lo largo del camino.
 feature: Annotations
 role: User
@@ -12,12 +12,12 @@ thumbnail: KT-15331.jpeg
 exl-id: a7e06ac7-cc06-47e5-a4d7-834a5a7f8351
 source-git-commit: 41e1153f92ceed71831cb89c9619c375f2304194
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '716'
 ht-degree: 3%
 
 ---
 
-# Desbloquear la perspectiva analítica; aprovechar el poder de las anotaciones
+# Desbloquear insight analítico; aprovechar el poder de las anotaciones
 
 El componente de datos Anotaciones es uno de los más sencillos, pero a largo plazo, una de las funcionalidades que más tiempo ahorran en Adobe Analysis Workspace. A diferencia de cualquier otra funcionalidad de Workspace, sirve como memoria histórica narrativa para usted y los demás usuarios de Workspace.
 
@@ -44,7 +44,7 @@ Crear y editar anotaciones es intuitivo y casi autoexplicativo. Haga clic con el
 ![2ndimage](assets/2ndimage.png){width="70%"}![3rdimage](assets/3rdimage.png){width="30%"}
 
 
-Para ver todos los detalles de cómo funcionan las anotaciones, asegúrate de ver el [tutorial en vídeo sobre el Experience League](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/annotations-in-analysis-workspace).
+Para ver todos los detalles de cómo funcionan las anotaciones, asegúrate de ver el [tutorial de vídeo en Experience League](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/annotations-in-analysis-workspace).
 
 ## Sugerencias y trucos para empezar
 
@@ -71,7 +71,7 @@ Por último, aquí hay algunos consejos útiles para empezar a utilizar las anot
 ![8thimage](assets/8thimage.png)
 
 
-- **Permisos -** Si no tiene la capacidad de crear anotaciones, póngase en contacto con el administrador que puede permitir la &quot;Creación de anotaciones&quot; en el Admin Console.
+- **Permisos -** Si no tiene la capacidad de crear anotaciones, póngase en contacto con el administrador que puede permitir la &quot;Creación de anotaciones&quot; en Admin Console.
 
 ![9thimage](assets/9thimage.png)
 
@@ -83,4 +83,4 @@ Este documento fue escrito por:
 
 ![thomas-headshot](assets/thomas-headshot.png)
 
-Thomas Edward Buckley, Data Warehouse y Business Intelligence de Miles &amp; More (Grupo Lufthansa)
+Thomas Edward Buckley, responsable de Data Warehouse &amp; Business Intelligence en Miles &amp; More (Grupo Lufthansa)
