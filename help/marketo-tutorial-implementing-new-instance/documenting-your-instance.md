@@ -23,7 +23,7 @@ Una buena documentación puede ser casi tan importante como la propia implementa
 
 Pero no se detiene ahí. Su equipo puede requerir documentos de habilitación o materiales de formación suplementarios para mejorar su competencia con Marketo Engage. Estos recursos pueden incluir ejercicios interactivos, pruebas de acceso o directrices sobre las acciones permitidas en Marketo Engage, lo que beneficia a todos los usuarios de Marketo Engage de su organización. Tanto si crea una guía de gobernanza completa como si documenta inicialmente los aspectos clave de la configuración, el registro de las decisiones tomadas durante la incorporación es clave para garantizar el éxito con Marketo Engage para su equipo actual y las generaciones futuras de nuevas contrataciones.
 
-Al comprender la importancia de la documentación y el control, este tutorial profundiza en las prácticas recomendadas obtenidas de compañeros expertos [Introducción a la documentación de formación y control de Marketo Engage](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target=&quot;_blank} y [Cómo documenta su instancia?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target=&quot;_blank} para ayudarle a poner en marcha un proceso y mantener la documentación relevante para los usuarios internos.
+Al comprender la importancia de la documentación y el control, este tutorial profundiza en las prácticas recomendadas obtenidas de compañeros expertos [Introducción a la documentación de formación y control de Marketo Engage](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target=_blank} y [Cómo documenta su instancia?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target=_blank} para ayudarle a poner en marcha un proceso y mantener la documentación relevante para los usuarios internos.
 
 ## Por qué es esencial documentar los cambios y las decisiones durante la implementación de instancias
 
@@ -68,7 +68,7 @@ Guíe su plan de gobernanza y documentación empezando con la descripción de ej
    * Ciclo de persona
    * Administración de datos
 1. Creación De Una Instancia De Marketo Engage
-   * [Centro de excelencia (COE)](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target=&quot;_blank}
+   * [Centro de excelencia (COE)](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target=_blank}
    * Estructura de carpetas
    * Convenciones de nomenclatura
    * Organización del programa
