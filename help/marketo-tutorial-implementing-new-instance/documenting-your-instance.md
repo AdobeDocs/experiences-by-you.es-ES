@@ -1,6 +1,6 @@
 ---
 title: Introducción a la gobernanza y documentación de instancias
-description: Conozca las estrategias esenciales y las prácticas recomendadas para empezar a trabajar en la documentación y el control de Marketo Engage. Descubra cómo crear documentación escalable, optimizar la formación de los usuarios y garantizar la creación con una estructura en la instancia de Marketo Engage.
+description: Conozca las estrategias esenciales y las prácticas recomendadas para empezar a usar la administración y la documentación de Marketo Engage. Descubra cómo crear documentación escalable, optimizar la formación de los usuarios y garantizar la creación con una estructura en su instancia de Marketo Engage.
 role: Admin
 level: Beginner
 doc-type: Article
@@ -12,31 +12,31 @@ thumbnail: KT-14815.jpeg
 exl-id: b3dd05e1-c522-4631-a6b4-c0c6309f25d3
 source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
 
 # Introducción a la gobernanza de instancias y documentación
 
-Una buena documentación puede ser casi tan importante como la propia implementación de la instancia. Una guía de gobernanza es un recurso crucial que describe los detalles de configuración de la instancia de Marketo Engage, y abarca temas como estructuras de programas/carpetas, límites de comunicación y mucho más. Este documento es una referencia para el administrador de Marketo Engage o los usuarios avanzados, y muestra prácticas recomendadas específicas y estándares de administración adaptados a su instancia y organización de Marketo Engage.
+Una buena documentación puede ser casi tan importante como la propia implementación de la instancia. Una guía de gobernanza es un recurso crucial que describe los detalles de configuración de la instancia de Marketo Engage, y abarca temas como estructuras de programas/carpetas, límites de comunicación y más. Este documento es una referencia para el administrador de Marketo Engage o los usuarios avanzados, y muestra prácticas recomendadas específicas y estándares de administración adaptados a su instancia y organización de Marketo Engage.
 
-Pero no se detiene ahí. Su equipo puede requerir documentos de habilitación suplementarios o materiales de capacitación para mejorar su competencia con Marketo Engage. Estos recursos pueden incluir ejercicios interactivos, pruebas de acceso o directrices sobre acciones permisibles dentro de Marketo Engage, lo que beneficia a todos los usuarios de Marketo Engage de su organización. Tanto si crea una guía de gobernanza completa como si documenta inicialmente los aspectos clave de la configuración, el registro de las decisiones tomadas durante la incorporación es clave para garantizar el éxito con Marketo Engage para su equipo actual y las generaciones futuras de nuevas contrataciones.
+Pero no se detiene ahí. Su equipo puede requerir documentos de habilitación o materiales de formación suplementarios para mejorar su competencia con Marketo Engage. Estos recursos pueden incluir ejercicios interactivos, pruebas de acceso o directrices sobre las acciones permitidas en Marketo Engage, lo que beneficia a todos los usuarios de Marketo Engage de su organización. Tanto si crea una guía de gobernanza completa como si documenta inicialmente los aspectos clave de la configuración, el registro de las decisiones tomadas durante la incorporación es clave para garantizar el éxito con Marketo Engage para su equipo actual y las generaciones futuras de nuevas contrataciones.
 
-Al comprender la importancia de la documentación y el control, este tutorial profundiza en las prácticas recomendadas obtenidas de compañeros expertos [Introducción a la documentación de formación y control de Marketo Engage](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target="_blank} y [¿Cómo documenta su instancia?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target="_blank} para ayudarle a implementar un proceso y mantener la documentación relevante para los usuarios internos.
+Al comprender la importancia de la documentación y el control, este tutorial profundiza en las prácticas recomendadas obtenidas de compañeros expertos [Introducción a la documentación de formación y control de Marketo Engage](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target=_blank} y [Cómo documenta su instancia?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target=_blank} para ayudarle a poner en marcha un proceso y mantener la documentación relevante para los usuarios internos.
 
 ## Por qué es esencial documentar los cambios y las decisiones durante la implementación de instancias
 
-Póngase en contacto con la documentación de su Marketo Engage como si estuviera guiando a un nuevo empleado que no esté familiarizado con la tecnología para que la incorpore. Es fácil pasar por alto el conocimiento fundamental una vez que haya adquirido experiencia con Marketo Engage. Como administrador, debe asegurarse de que los documentos de habilitación y control se adapten a los principiantes. Para facilitar el aprendizaje de nuevos usuarios, un método práctico consiste en incorporar definiciones y prácticas recomendadas directamente en los materiales de formación.
+Acérquese a la documentación de Marketo Engage como si estuviera guiando a un nuevo empleado que no está familiarizado con la tecnología para que la incorpore. Es fácil pasar por alto los conocimientos fundamentales una vez que ha adquirido experiencia con Marketo Engage. Como administrador, debe asegurarse de que los documentos de habilitación y control se adapten a los principiantes. Para facilitar el aprendizaje de nuevos usuarios, un método práctico consiste en incorporar definiciones y prácticas recomendadas directamente en los materiales de formación.
 
 La creación de documentación de instancias durante la configuración de instancias ofrece varias ventajas:
 
 * Optimice el proceso de formación para nuevos usuarios de forma escalable.
-* Facilitar el desarrollo de programas a largo plazo en Marketo Engage basándose en una base documentaria sólida.
+* Facilitar el desarrollo de programas a largo plazo en Marketo Engage basándose en una base de documentación sólida.
 * Mantenga el estado y la organización de la instancia a lo largo del tiempo.
-* Suavizar la transición para los nuevos Marketo Engage en caso de rotación del equipo.
+* Facilitar la transición de nuevos administradores de Marketo Engage en caso de rotación del equipo.
 
-En última instancia, anotar las decisiones que toma durante la implementación le ayudará a usted y a su equipo a tener éxito con Marketo Engage sin depender de una o un puñado de personas para aplicar los procesos.
+En última instancia, anotar las decisiones que toma durante la implementación le ayudará a usted y a su equipo a tener éxito con Marketo Engage sin depender de una persona o de un puñado de ellas para hacer cumplir los procesos.
 
 ## Cómo crear la documentación y el control de las instancias de Marketo Engage
 
@@ -68,7 +68,7 @@ Guíe su plan de gobernanza y documentación empezando con la descripción de ej
    * Ciclo de persona
    * Administración de datos
 1. Creación De Una Instancia De Marketo Engage
-   * [Centro de excelencia (COE)](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target="_blank}
+   * [Centro de excelencia (COE)](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target=_blank}
    * Estructura de carpetas
    * Convenciones de nomenclatura
    * Organización del programa
@@ -104,7 +104,7 @@ Otra forma crítica de gobernanza de instancias es crear un Changelog y hacer cu
 ## ¿Cuál es el siguiente paso?
 
 * Descargue la [documentación de muestra y el Changelog](/help/marketo-tutorial-implementing-new-instance/assets/template-adobe-marketo-engage-instance-documentation.xlsx) y adáptelos según las necesidades de su organización.
-* Almacene la documentación en una plataforma accesible en la que su organización prefiera hacer referencia y actualizar con regularidad. Por ejemplo, algunos Campeones Marketo Engage utilizan la hoja de cálculo de Confluencia (de Atlassian) o Excel.
+* Almacene la documentación en una plataforma accesible en la que su organización prefiera hacer referencia y actualizar con regularidad. Por ejemplo, algunos Campeones de Marketo Engage utilizan Confluencia (de Atlassian) o Hoja de cálculo de Excel.
 * Asegúrese de que cada regla que cree para la gobernanza tenga un propietario que la aplique y adapte la documentación, manteniéndola actualizada a lo largo del tiempo.
 
 ### Autor
