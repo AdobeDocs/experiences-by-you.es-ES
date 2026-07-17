@@ -12,7 +12,7 @@ thumbnail: KT-13213.jpeg
 exl-id: 79392eea-a8b6-4ae2-98ef-6ebbd11d88a0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -135,9 +135,9 @@ Investigue la experiencia del usuario del sitio para hacer que los usuarios cree
 
 ## Parte 4: Cohorte de Dimension personalizada
 
-Cohorte de Dimension personalizada: cree cohortes basadas en la dimensión seleccionada, no en el tiempo (opción predeterminada). Muchos clientes desean analizar sus cohortes en función de un criterio distinto del tiempo. La nueva función de cohorte de Dimension personalizada ofrece la flexibilidad para generar cohortes basadas en dimensiones de su elección. Utilice dimensiones como canal de marketing, campaña, producto, página, región o cualquier otra dimensión de [!DNL Adobe Analytics] para mostrar cómo cambia la retención en función de los distintos valores que adoptan. Las
+Cohorte de Dimension personalizada: cree cohortes basadas en la dimensión seleccionada, no en el tiempo (opción predeterminada). Muchos clientes desean analizar sus cohortes en función de un criterio distinto del tiempo. La nueva función de cohortes personalizadas de Dimension ofrece la flexibilidad para generar cohortes basadas en dimensiones de su elección. Utilice dimensiones como canal de marketing, campaña, producto, página, región o cualquier otra dimensión de [!DNL Adobe Analytics] para mostrar cómo cambia la retención en función de los distintos valores que adoptan. Las
 
-La definición del segmento de la cohorte de Dimension personalizada aplica el elemento de dimensión solo como parte del periodo de inclusión, y no como parte de la definición de regreso.
+La definición del segmento de cohorte de Dimension personalizada aplica el elemento de dimensión solo como parte del periodo de inclusión, y no como parte de la definición de regreso.
 
 Después de elegir la opción Cohorte de Dimension personalizada, puede arrastrar y soltar cualquier dimensión que desee en la zona de colocación. Esto le permite comparar elementos de dimensión similares durante el mismo periodo de tiempo. Por ejemplo, puede comparar el rendimiento de las ciudades en paralelo con
 
@@ -145,7 +145,7 @@ productos, campañas, etc. Devuelve sus 14 elementos de dimensión principales. 
 
 ### ¿Qué productos están impulsando la adherencia del sitio?
 
-La tabla de cohorte de Dimension personalizados resalta los productos que generan tasas de retención más altas que la media.  Esta tabla ayuda a identificar los productos principales para impulsar campañas de marketing internas y externas con los productos más destacados.
+La tabla de cohorte de Dimension personalizada resalta los productos que están impulsando tasas de retención más altas que la media.  Esta tabla ayuda a identificar los productos principales para impulsar campañas de marketing internas y externas con los productos más destacados.
 
 **En febrero:** 3 productos se destacan con tasas de retención más altas
 
@@ -163,7 +163,7 @@ La tabla de cohorte de Dimension personalizados resalta los productos que genera
 
 ## Conclusión
 
-El análisis de cohorte y la cohorte de Dimension personalizada son herramientas potentes para comprender el comportamiento de los clientes y mejorar el rendimiento digital. Al analizar las tasas de retención, las tasas de inicio de sesión y el impacto de productos específicos, las empresas pueden tomar decisiones basadas en datos para mejorar la experiencia del cliente e impulsar el crecimiento.
+El análisis de cohorte y la cohorte personalizada de Dimension son herramientas potentes para comprender el comportamiento de los clientes y mejorar el rendimiento digital. Al analizar las tasas de retención, las tasas de inicio de sesión y el impacto de productos específicos, las empresas pueden tomar decisiones basadas en datos para mejorar la experiencia del cliente e impulsar el crecimiento.
 
 ## Autor
 
@@ -171,6 +171,6 @@ Este documento fue escrito por:
 
 ![Jennifer Yacenda](assets/jennifer-yacenda.png)
 
-**Jennifer Yacenda**, Director sénior en Marriott
+**Jennifer Yacenda**, directora sénior de Marriott
 
 [!DNL Adobe Analytics] campeón
