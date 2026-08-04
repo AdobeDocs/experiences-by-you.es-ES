@@ -19,4 +19,4 @@ ht-degree: 0%
 
 # Consejos y trucos para el campeón de AEM: Sesión 2
 
->[!VIDEO](https://video.tv.adobe.com/v/3409427?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3439474?captions=spa&quality=12&learn=on)

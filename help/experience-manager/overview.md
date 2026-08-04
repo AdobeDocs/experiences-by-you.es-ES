@@ -32,7 +32,7 @@ ht-degree: 27%
 <tr>
   <td>
     <a href="/help/experience-manager/sites/expert-resources/champion-tips-1.md">
-      <img alt="Sugerencias y trucos: plantillas editables" src="https://video.tv.adobe.com/v/3409424?format=jpeg" />
+      <img alt="Sugerencias y trucos: plantillas editables" src="https://video.tv.adobe.com/v/3439840?captions=spa&format=jpeg" />
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-1.md">
@@ -58,7 +58,7 @@ ht-degree: 27%
   </td>
   <td>
     <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
-      <img alt="Pestaña Sugerencias y trucos" src="https://video.tv.adobe.com/v/3409427?format=jpeg" />
+      <img alt="Pestaña Sugerencias y trucos" src="https://video.tv.adobe.com/v/3439474?captions=spa&format=jpeg" />
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">

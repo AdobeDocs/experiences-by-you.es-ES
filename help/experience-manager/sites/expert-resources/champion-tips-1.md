@@ -20,4 +20,4 @@ ht-degree: 0%
 
 # Consejos y trucos para el campeón de AEM: plantillas editables
 
->[!VIDEO](https://video.tv.adobe.com/v/3409424?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3439840?captions=spa&quality=12&learn=on)

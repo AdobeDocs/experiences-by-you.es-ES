@@ -128,7 +128,7 @@ La implementación de una nueva instancia requiere una planificación y ejecuci�
 
 Escuche al campeón de Marketo Engage (2019), Kyle McCormick, sobre sus experiencias de incorporación e implementación en Palotos Networks. Aprenderá sobre los desafíos a los que se enfrentó y sus consejos sobre cómo dirigir con éxito y eficiencia su proceso de incorporación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428771/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447933/?captions=spa&quality=12&learn=on)
 
 ## ¿Cuál es el siguiente paso?
 
