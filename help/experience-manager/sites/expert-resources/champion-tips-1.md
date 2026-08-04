@@ -1,7 +1,7 @@
 ---
-title: AEM Consejos y trucos para el campeón de la - Plantillas editables 1
+title: 'Consejos y trucos para el campeón de AEM: plantillas editables 1'
 seo-title: AEM Champion Tips and Tricks - Editable Templates 1
-description: Eche un vistazo a estos consejos rápidos para plantillas editables en AEM Sites AEM del campeón y experto de la industria de la, Greg Dimeris. Pruébelos en su instancia hoy mismo.
+description: Eche un vistazo a estos consejos rápidos para plantillas editables en AEM Sites del campeón y experto de AEM, Greg Dimeris. Pruébelos en su instancia hoy mismo.
 seo-description: Check out these quick tips for Editable Templates in AEM Sites by AEM Champion and expert, Greg Dimeris. Try them out in your instance today.
 solution: Experience Manager Cloud Manager, Marketo Engage, Experience Manager Sites
 feature-set: Marketo Engage, Experience Manager Sites
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 ---
 
-# AEM Consejos y trucos para el campeón de la: Plantillas editables
+# Consejos y trucos para el campeón de AEM: plantillas editables
 
 >[!VIDEO](https://video.tv.adobe.com/v/3409424?quality=12&learn=on)
