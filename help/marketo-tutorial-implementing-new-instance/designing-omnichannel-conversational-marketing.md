@@ -49,7 +49,7 @@ Veamos estos casos de uso en acción, ya que Sara muestra su proceso, desde la a
 
 Este cuadro de diálogo proporciona cinco opciones iniciales entre las que los visitantes del sitio pueden elegir, lo que crea una experiencia autoguiada que les ayuda a encontrar la información que necesitan en función de su personalidad. Para empezar, es posible que desee explorar la bandeja de entrada del correo electrónico &quot;Contáctenos&quot; para identificar temas comunes y categorizarlos en opciones de Cuadro de diálogo que se aplican a los visitantes del sitio. Vea la demostración y siga los pasos a continuación para crear su cuadro de diálogo global predeterminado:
 
->[!VIDEO](https://video.tv.adobe.com/v/3454850/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446478/?captions=spa&learn=on)
 
 >[!BEGINTABS]
 
@@ -86,7 +86,7 @@ Este cuadro de diálogo proporciona cinco opciones iniciales entre las que los v
 
 Puede mejorar aún más el cuadro de diálogo global predeterminado incorporando contenido orientado al sector, lo que hace que las conversaciones sean aún más útiles para los visitantes. Por ejemplo, puede sugerir documentos técnicos o casos prácticos específicos del sector para que los descarguen sus visitantes. Vea la demostración y siga los pasos a continuación para crear un cuadro de diálogo global predeterminado para el marketing basado en cuentas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3429195/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3441388/?captions=spa&learn=on)
 
 >[!BEGINTABS]
 
@@ -111,7 +111,7 @@ Puede mejorar aún más el cuadro de diálogo global predeterminado incorporando
 
 Los eventos y seminarios web son tácticas de marketing populares para que las empresas B2B generen demanda. Ofrecen experiencias atractivas e información enriquecida que atraen a clientes potenciales. La conexión de los visitantes de su sitio web a los próximos eventos y seminarios web le permite calificar a los clientes potenciales aún más rápido. La creación de este cuadro de diálogo supone un esfuerzo reducido y un coste bajo. Puede demostrar su éxito rápidamente, ya que le ayuda a obtener el apoyo de las partes interesadas en el marketing para añadir participación conversacional a su plan de automatización omnicanal. Vea la demostración y siga los pasos a continuación para crear su cuadro de diálogo de promoción de evento/seminario web:
 
->[!VIDEO](https://video.tv.adobe.com/v/3429196/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3445093/?captions=spa&learn=on)
 
 >[!BEGINTABS]
 
@@ -150,7 +150,7 @@ Puede ofrecer una experiencia aún mejor a los visitantes del sitio web registr�
 >[!NOTE]
 >Tenga en cuenta el posible riesgo de seguridad que implican ciertos estados o países de protección e implemente esta personalización cuidadosamente consultando con su equipo legal.
 
->[!VIDEO](https://video.tv.adobe.com/v/3429197/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3437092/?captions=spa&learn=on)
 
 >[!BEGINTABS]
 
@@ -173,11 +173,11 @@ Puede ofrecer una experiencia aún mejor a los visitantes del sitio web registr�
 
 Imagina que una pantalla de ventana cautivadora llama la atención y te atrae a una tienda. Si un recepcionista le ayuda a seleccionar productos o responde a sus preguntas, es posible que se sienta más cómodo haciendo una compra. Para replicar esta experiencia en línea, puede hacer que el cuadro de diálogo de Dynamic Chat aparezca en las páginas web a las que las campañas de marketing dirigen a los visitantes. A medida que los usuarios interactúan con el contenido web, Dynamic Chat muestra inmediatamente conversaciones relevantes, sugiriendo contenido adicional o abordando posibles preguntas. Esto se logra aprovechando los déclencheur de automatización para activar campañas de Dynamic Chat basadas en la participación del usuario dentro de los programas de Marketo Engage. Ahora, veamos cómo dar vida a este caso de uso.
 
->[!VIDEO](https://video.tv.adobe.com/v/3429199/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3437582/?captions=spa&learn=on)
 
 Ampliación de la participación en el contenido de Campaign: configuración:
 
->[!VIDEO](https://video.tv.adobe.com/v/3429200/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3439496/?captions=spa&learn=on)
 
 >[!BEGINTABS]
 

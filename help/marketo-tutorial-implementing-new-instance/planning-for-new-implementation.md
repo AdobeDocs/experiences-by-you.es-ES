@@ -1,6 +1,6 @@
 ---
-title: Plan para una nueva implementación de Marketo Engage
-description: Obtenga más información sobre la planificación esencial y la colaboración en equipo interfuncional para implementar correctamente una nueva instancia de Marketo Engage. Este tutorial proporciona hitos de ejemplo, participaciones en equipos y asignaciones de recursos para una implementación perfecta de Marketo Engage.
+title: Planificar una nueva implementación de Marketo Engage
+description: Obtenga más información sobre la planificación esencial y la colaboración en equipo interfuncional para implementar correctamente una nueva instancia de Marketo Engage. Este tutorial proporciona hitos de ejemplo, participaciones en equipos y asignaciones de recursos para una implementación de Marketo Engage sin problemas.
 role: Admin
 level: Beginner
 doc-type: Article
@@ -12,16 +12,16 @@ thumbnail: KT-14808.jpeg
 exl-id: 65119abd-6f13-4acc-9e99-09843369ad28
 source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 5%
+source-wordcount: '1194'
+ht-degree: 9%
 
 ---
 
-# Plan para una nueva implementación de Marketo Engage
+# Planificar una nueva implementación de Marketo Engage
 
-La implementación de una nueva instancia de Marketo Engage implica una planificación meticulosa, colaboración entre equipos y optimización continua. Aunque no hay una fórmula perfecta para implementar una nueva instancia, la mayoría de los administradores de Marketo Engage que la han pasado pueden estar de acuerdo en que la planificación anticipada hará que el proceso sea mucho más fluido.
+La implementación de una nueva instancia de Marketo Engage implica una planificación meticulosa, colaboración entre equipos y optimización continua. Aunque no hay una fórmula perfecta para implementar una nueva instancia, la mayoría de los administradores de Marketo Engage que la han pasado pueden estar de acuerdo en que planificar con anticipación hará que el proceso sea mucho más fluido.
 
-En este tutorial, profundizaremos en los hitos específicos, las participaciones de equipo y las asignaciones de recursos cruciales para un despliegue de Marketo Engage exitoso.
+En este tutorial, profundizaremos en los hitos específicos, las participaciones en equipos y las asignaciones de recursos cruciales para un despliegue exitoso de Marketo Engage.
 
 ## Hitos clave durante la nueva implementación de Marketo Engage
 
@@ -32,7 +32,7 @@ En este tutorial, profundizaremos en los hitos específicos, las participaciones
 
 ### Fase 2: Configuración técnica
 
-- Configuración de la administración, incluidos los CNAME y el código de Munchkin.
+- Configuración de la administración, incluidos los CNAME y el código Munchkin.
 - Configuración de procesos de administración de posibles clientes
 - Prueba de flujos de trabajo de automatización y sincronización de datos
 
@@ -56,7 +56,7 @@ En este tutorial, profundizaremos en los hitos específicos, las participaciones
 
 ## Participación de las partes interesadas y recursos necesarios
 
-La implementación de una nueva instancia requiere una planificación y ejecución cuidadosas para maximizar sus beneficios. Incluir a las partes interesadas adecuadas al principio ayudará a adaptar la implementación a las necesidades generales de su organización. Consulte la muestra de partes interesadas clave y sus roles potenciales en el proyecto a continuación para ayudarle a encontrar los socios internos adecuados para implementar Marketo Engage.
+La implementación de una nueva instancia requiere una planificación y ejecución cuidadosas para maximizar sus beneficios. Incluir a las partes interesadas adecuadas al principio ayudará a adaptar la implementación a las necesidades generales de su organización. Consulte la muestra de partes interesadas clave y sus funciones potenciales en el proyecto a continuación para ayudarle a encontrar los socios internos adecuados para implementar Marketo Engage.
 
 <table>
  <thead>
@@ -67,7 +67,7 @@ La implementación de una nueva instancia requiere una planificación y ejecuci�
  </thead>    
  <tbody>
     <tr>
-        <td>Operaciones de marketing Director/Manager</td>
+        <td>Director/responsable de operaciones de marketing</td>
         <td>
         <li>Punto de contacto principal del proyecto</li>
         <li>Reglas de gobernanza de instancia</li> 
@@ -124,15 +124,15 @@ La implementación de una nueva instancia requiere una planificación y ejecuci�
     </tr>
 </table>
 
-## Perspectiva de igual a igual: implementación del Marketo Engage
+## Perspectiva de igual a igual: implementación de Marketo Engage
 
-Escuche al campeón Marketo Engage (2019), Kyle McCormick, sobre sus experiencias de incorporación e implementación en Palotos Networks. Aprenderá sobre los desafíos a los que se enfrentó y sus consejos sobre cómo dirigir con éxito y eficiencia su proceso de incorporación.
+Escuche al campeón de Marketo Engage (2019), Kyle McCormick, sobre sus experiencias de incorporación e implementación en Palotos Networks. Aprenderá sobre los desafíos a los que se enfrentó y sus consejos sobre cómo dirigir con éxito y eficiencia su proceso de incorporación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428771/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447933/?captions=spa&quality=12&learn=on)
 
 ## ¿Cuál es el siguiente paso?
 
-Cree un nuevo plan y una nueva cronología del proyecto de implementación. A continuación se muestra una cronología de ejemplo del proyecto que incluye secciones para hitos, tareas, equipos responsables, plazos y dependencias de ejemplo. Utilícelo para optimizar el recorrido de implementación de los Marketo Engage y garantizar un despliegue exitoso en toda la organización.
+Cree un nuevo plan y una nueva cronología del proyecto de implementación. A continuación se muestra una cronología de ejemplo del proyecto que incluye secciones para hitos, tareas, equipos responsables, plazos y dependencias de ejemplo. Utilícelo para optimizar el recorrido de implementación de Marketo Engage y garantizar un despliegue exitoso en toda la organización.
 
 También puede descargar el ejemplo para editar y rastrear tareas de hitos específicos [AQUÍ](/help/marketo-tutorial-implementing-new-instance/assets/adobe-marketo-engage-implementation-milestones-project-management-template.xlsx).
 
@@ -159,60 +159,60 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
     <tr>
         <td rowspan="2">Configuración técnica</td>
         <td><em>EJEMPLO -</em> Instalar MunchkinID en el sitio web de la compañía</td>
-        <td bgcolor="c6f0cf">Completar</td>
-        <td>5/9/24</td>
-        <td>12/09/24</td>
+        <td bgcolor="c6f0cf">Completado</td>
+        <td>9/5/24</td>
+        <td>9/12/24</td>
         <td>equipo de desarrollo web</td>
     </tr>
     <tr>
-        <td><em>EJEMPLO -</em> Configure el correo identificado por claves de dominio (DKIM) y 2 CNAME independientes para los vínculos de envío y seguimiento de correo electrónico.</td>
-        <td bgcolor="c6f0cf">Completar</td>
-        <td>15/9/24</td>
-        <td>18/9/24</td>
+        <td><em>EJEMPLO -</em> Configure Domain Keys Identified Mail (DKIM) y 2 CNAME independientes para los vínculos de envío y seguimiento de correo electrónico.</td>
+        <td bgcolor="c6f0cf">Completado</td>
+        <td>9/15/24</td>
+        <td>9/18/24</td>
         <td>Asistencia y configuración del equipo de TI</td>
     </tr>
     <tr>
         <td rowspan="4">Configuración de Adobe Admin Console y administración</td>
         <td><em>EJEMPLO -</em> Crear usuarios y funciones de Marketo Engage</td>
-        <td bgcolor="c6f0cf">Completar</td>
-        <td>27/8/24</td>
-        <td>15/9/24</td>
+        <td bgcolor="c6f0cf">Completado</td>
+        <td>8/27/24</td>
+        <td>9/15/24</td>
         <td>Información de los equipos de marketing sobre quién necesita acceder a Marketo Engage.</td>
     </tr>
     <tr>
         <td><em>EJEMPLO -</em> Cree un administrador de productos de Marketo Engage adicional en Adobe Admin Console</td>
-        <td bgcolor="c6f0cf">Completar</td>
-        <td>27/8/24</td>
-        <td>15/9/24</td>
-        <td>Información del equipo de operaciones de marketing sobre quién necesita acceso de administrador al Marketo Engage.</td>
+        <td bgcolor="c6f0cf">Completado</td>
+        <td>8/27/24</td>
+        <td>9/15/24</td>
+        <td>Información del equipo de operaciones de marketing sobre quién necesita acceso de administrador a Marketo Engage.</td>
     </tr>
     <tr>
         <td><em>EJEMPLO -</em> Configuración de administradores de soporte</td>
-        <td bgcolor="c6f0cf">Completar</td>
-        <td>27/8/24</td>
-        <td>15/9/24</td>
+        <td bgcolor="c6f0cf">Completado</td>
+        <td>8/27/24</td>
+        <td>9/15/24</td>
         <td>Información del equipo de operación de marketing para confirmar los contactos principales para la asistencia. Asistencia del administrador del sistema para asignar usuarios del administrador de asistencia.</td>
     </tr>
     <tr>
         <td><em>EJEMPLO -</em> Definir la estructura de carpetas y las convenciones de nomenclatura</td>
-        <td bgcolor="c6f0cf">Completar</td>
-        <td>7/9/24</td>
-        <td>12/09/24</td>
-        <td>Aportaciones de cada equipo con Marketo Engage sobre los tipos de programas y las necesidades de la organización.</td>
+        <td bgcolor="c6f0cf">Completado</td>
+        <td>9/7/24</td>
+        <td>9/12/24</td>
+        <td>Información de cada equipo que utiliza Marketo Engage sobre los tipos de programas y las necesidades de la organización.</td>
     </tr>
     <tr>
         <td rowspan="2">Integración de CRM (si corresponde)</td>
         <td><em>EJEMPLO -</em> Determinar asignación de campos antes de la sincronización</td>
         <td bgcolor="ffeb9c">En curso</td>
-        <td>22/10/24</td>
-        <td>N/A</td>
+        <td>10/22/24</td>
+        <td>N/D</td>
         <td>Asistencia del administrador de CRM para comprender los campos disponibles.</td>
     </tr>
     <tr>
         <td><em>EJEMPLO -</em> Realizar una auditoría de datos</td>
         <td bgcolor="ffeb9c">En curso</td>
-        <td>26/10/24</td>
-        <td>N/A</td>
+        <td>10/26/24</td>
+        <td>N/D</td>
         <td>Asistencia del administrador o presupuesto de CRM.</td>
     </tr>
     <tr>
@@ -220,35 +220,35 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
         <td><em>EJEMPLO -</em> Crear programa para estandarizar los datos entrantes</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>11/9/24</td>
-        <td>N/A</td>
+        <td>N/D</td>
         <td>Asistencia de los equipos de operaciones de ventas y CRM para determinar una estrategia de administración de datos.</td>
     </tr>
     <tr>
         <td><em>EJEMPLO -</em> Crear un centro de suscripción de correo electrónico</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>11/19/24</td>
-        <td>N/A</td>
+        <td>N/D</td>
         <td>Aportaciones de los equipos de marketing sobre los tipos de contenido y la segmentación para las listas de correo.</td>
     <tr>
         <td rowspan="2">Primera compilación de programa de marketing</td>
         <td><em>EJEMPLO -</em> Configuración del programa de correo electrónico básico</td>
         <td bgcolor="ffeb9c">En curso</td>
         <td>11/12/24</td>
-        <td>N/A</td>
-        <td>Recursos creativos del equipo digital para correos electrónicos y páginas de aterrizaje.</td>
+        <td>N/D</td>
+        <td>Recursos de Creative del equipo digital para correos electrónicos y páginas de aterrizaje.</td>
     </tr>
     <tr>    
         <td><em>EJEMPLO -</em> Crear programa para la newsletter trimestral</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
-        <td>30/11/24</td>
-        <td>N/A</td>
+        <td>11/30/24</td>
+        <td>N/D</td>
         <td>Contenido del equipo de marketing para correo electrónico de newsletter y recursos/contenido creativo del equipo de diseño.</td>
     </tr>
     <tr>
         <td rowspan="2">Configuración de integración de LaunchPoint</td>
         <td><em>EJEMPLO -</em> Crear usuario y rol solo de API</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
-        <td>23/11/24</td>
+        <td>11/23/24</td>
         <td>   </td>
         <td>Defina el ámbito de los servicios necesarios para la nueva instancia con los equipos de marketing.</td>
     </tr>
@@ -257,7 +257,7 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>12/7/24</td>
         <td>   </td>
-        <td>Asistencia de equipos de medios web y de pago para autenticar al Marketo Engage y acceder a Google Ads.</td>
+        <td>Asistencia de equipos de medios web y de pago para autenticar Marketo Engage y acceder a Google Ads.</td>
         <td>
     </tr>
     <tr>
@@ -265,36 +265,36 @@ También puede descargar el ejemplo para editar y rastrear tareas de hitos espec
         <td><em>EJEMPLO -</em> Cree una guía de gobernanza para usuarios internos</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>12/2/24</td>
-        <td>N/A</td>
-        <td>Cree un equipo de gobernanza de Marketo Engage para crear documentación de gobernanza de apoyo o un presupuesto para contratar el proyecto de gobernanza.</td>
+        <td>N/D</td>
+        <td>Cree un equipo de administración de Marketo Engage para crear documentación de administración de soporte o presupuesto para contratar el proyecto de administración.</td>
     <tr>
         <td><em>EJEMPLO -</em> Capacite a 4 usuarios y proporcione acceso de usuario de Marketo estándar</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>12/13/24</td>
-        <td>N/A</td>
-        <td>Asistencia del vicepresidente de marketing para que los cursos de formación sean obligatorios para el acceso al Marketo Engage.</td>
+        <td>N/D</td>
+        <td>Asistencia del vicepresidente de marketing para que los cursos de formación sean obligatorios para acceder a Marketo Engage.</td>
     <tr>
         <td rowspan="2">Go-Live</td>
         <td><em>EJEMPLO -</em> Enviar la primera newsletter</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>12/9/24</td>
-        <td>N/A</td>
+        <td>N/D</td>
         <td>Equipo de operaciones de marketing para realizar controles de calidad, programar y enviar.</td>
     </tr>
     <tr>
         <td><em>EJEMPLO -</em> Extraer el primer informe de rendimiento de correo electrónico.</td>
         <td bgcolor="ffc7cf">Sin iniciar</td>
         <td>12/16/24</td>
-        <td>N/A</td>
+        <td>N/D</td>
         <td>Equipo de operaciones de marketing para realizar controles de calidad, programar y enviar.</td>
     </tr>
  </tbody>    
 </table>
 
 >[!NOTE]
->Los ejemplos proporcionados no se basan en una cronología de implementación real. No confíe en estos plazos como estándar para la incorporación de Marketo Engage, ya que cada implementación es única con diferentes hitos y requisitos según las necesidades de su organización.
+>Los ejemplos proporcionados no se basan en una cronología de implementación real. No confíe en estos plazos como estándar para la incorporación a Marketo Engage, ya que cada implementación es única con diferentes hitos y requisitos según las necesidades de su organización.
 
-Para obtener ayuda en la implementación y personalización de su Marketo Engage, póngase en contacto con el equipo de cuenta de Adobe o póngase en contacto con [Adobe Professional Services](https://business.adobe.com/es/customers/consulting-services/main.html){target="_blank"}.
+Para obtener ayuda en la implementación y personalización de Marketo Engage para su instancia, póngase en contacto con el equipo de cuenta de Adobe o comuníquese con [Adobe Professional Services](https://business.adobe.com/es/customers/consulting-services/main.html){target="_blank"}.
 
 ### Autor
 
