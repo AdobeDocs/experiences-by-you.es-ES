@@ -13,7 +13,7 @@ kt: 10530
 exl-id: 42679c86-e08f-4dda-8e47-f9880409bad6
 source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Antes de comenzar, [descargue el manual](assets/aa-implementation-playbook.xlsx)
 
 **QUÉ:** Un Documento de requisitos empresariales (denominado comúnmente BRD) es una documentación muy importante en la que los principales actores, los usuarios empresariales y los usuarios tecnológicos querrán colaborar. Es un sitio para documentar todos los KPI deseados, los requisitos de informes y cualquier punto de datos que desee ver cuando se complete la implementación de [!DNL Adobe Analytics] (AA).
 
-**POR QUÉ:** Esto sirve como punto de partida para la documentación siguiente (SDR, especificaciones técnicas, etc.) y es una fuente fiable común para un estado final de AA acordado. Este documento organiza las ideas entre los equipos de la organización para formar una guía que le lleve a avanzar en la creación o mejora de su implementación.
+**POR QUÉ:** Esto sirve como punto de partida para la siguiente documentación (SDR, especificaciones técnicas, etc.) y es una fuente fiable común para un estado final de AA acordado. Este documento organiza las ideas entre los equipos de la organización para formar una guía que le lleve a avanzar en la creación o mejora de su implementación.
 
 **CÓMO:** La documentación de los requisitos empresariales la suelen elaborar los usuarios empresariales finales de AA, pero es importante recibir comentarios de los usuarios tecnológicos, ya que puede haber desafíos técnicos que tener en cuenta y algunos puntos de datos pueden requerir más esfuerzo que otros, lo que influye en la priorización.
 
@@ -68,16 +68,16 @@ Captura de pantalla de la muestra de SDR:
 También se recomienda utilizar este documento de etiquetado para realizar un seguimiento de cualquier variable gratuita y cualquiera &quot;no deseada&quot;. Cuando una dimensión ya no es útil, el desarrollador suele necesitar un tiempo para eliminarla. Incluso después de eso, puede almacenarse en caché, o puede que se dé cuenta de que la dimensión también se estaba configurando en otra parte. Limpiar las dimensiones no es fácil y, a menudo, requiere paciencia. Aquí hay algunos consejos para mantener la basura oculta bajo la alfombra para que los usuarios no se confundan y, al mismo tiempo, realizar un seguimiento de ella.
 
 * Todas las dimensiones/eventos que no se utilizan están &quot;libres&quot; o &quot;en proceso de eliminación&quot;
-   * Si la dimensión tiene valores no deseados en los últimos 90 días, está &quot;en proceso de eliminación&quot;
-   * Si la dimensión está libre y limpia durante al menos los últimos 90 días, está &quot;libre&quot;
-   * Márquelas como tal en &quot;Nombre&quot;, en el documento de etiquetado, para que pueda filtrarlas fácilmente. Yo tengo estas etiquetas desmarcadas en el documento de etiquetado (filtro de datos de Excel) para que los usuarios no las vean
-   * Márquelas como el nombre de eVar en la interfaz para que los usuarios no las encuentren en una búsqueda (como &quot;(v6)&quot;) y elimine la descripción
+  * Si la dimensión tiene valores no deseados en los últimos 90 días, está &quot;en proceso de eliminación&quot;
+  * Si la dimensión está libre y limpia durante al menos los últimos 90 días, está &quot;libre&quot;
+  * Márquelas como tal en &quot;Nombre&quot;, en el documento de etiquetado, para que pueda filtrarlas fácilmente. Yo tengo estas etiquetas desmarcadas en el documento de etiquetado (filtro de datos de Excel) para que los usuarios no las vean
+  * Márquelas como el nombre de eVar en la interfaz para que los usuarios no las encuentren en una búsqueda (como &quot;(v6)&quot;) y elimine la descripción
 * Al hacer esto, cuando se necesita una nueva dimensión, se puede filtrar fácilmente por &quot;libre&quot; en la columna Nombre para encontrar una limpia que utilizar
 * Para las dimensiones y eventos &quot;en proceso de eliminación&quot;, recomiendo que realice un seguimiento de estos eventos mediante Workspace:
-   * Cree un proyecto visible para los administradores solo con 3 tablas: eVars, props y eventos. Utilizo &quot;instancias&quot; para eVars específicos y, para las props, creo segmentos VISITA con &quot;prop5 existe&quot;, por ejemplo.
-   * Establecer fecha en Últimos 90 días
-   * Utilice lo anterior como filas en las 3 tablas, junto con ocurrencias
-   * Tan pronto como algo llega a &quot;0&quot;, lo marco como &quot;libre&quot; en el documento de etiquetado y lo elimino del proyecto de Workspace
+  * Cree un proyecto visible para los administradores solo con 3 tablas: eVars, props y eventos. Utilizo &quot;instancias&quot; para eVars específicos y, para las props, creo segmentos VISITA con &quot;prop5 existe&quot;, por ejemplo.
+  * Establecer fecha en Últimos 90 días
+  * Utilice lo anterior como filas en las 3 tablas, junto con ocurrencias
+  * Tan pronto como algo llega a &quot;0&quot;, lo marco como &quot;libre&quot; en el documento de etiquetado y lo elimino del proyecto de Workspace
 
 De este modo, los datos siempre están limpios y tiene una idea clara de qué es basura.
 
@@ -105,7 +105,7 @@ Se recomienda mantener este documento lo más simple posible y no saturarlo con 
 >
 >Cree una dimensión de nombre/propiedad de sitio en [!DNL Adobe Analytics]. Tener una dimensión específica (normalmente un eVar) en [!DNL Adobe Analytics] que identifique el nombre del sitio o la aplicación permitirá la segmentación, la resolución de problemas, la creación de grupos de informes virtuales, etc. Las ventajas son infinitas, especialmente cuando se combinan varios sitios en un grupo de informes (global). La clave es garantizar que los equipos de desarrollo siempre fijen este valor en la dimensión de propiedades, incluidas todas las cargas de página (llamadas s.t/trackState) y todos los eventos personalizados (llamadas s.tl/trackAction). Las reglas de procesamiento pueden ser una herramienta útil para configurar estos valores de forma correcta y coherente.
 
-[Vea este vídeo de Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=es){target="_blank"} para obtener más información sobre cómo rellenar el manual de implementación.
+[Vea este vídeo de Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html){target="_blank"} para obtener más información sobre cómo rellenar el manual de implementación.
 
 ## Autores
 
