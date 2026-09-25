@@ -11,16 +11,14 @@ kt: KT-13087
 exl-id: 2bd7a828-5bb0-43bf-8802-310edd444d62
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '936'
 ht-degree: 0%
-
 ---
-
 # 7 Sugerencias y trucos con el botón derecho para flujos de trabajo más eficientes
 
 A continuación, se ofrecen siete sugerencias con el botón derecho que puede utilizar en Analysis Workspace para aumentar la eficacia de sus flujos de trabajo. Puede leerlos en el texto de abajo o ver el vídeo para verlos demostrados.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422277/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3417736/?quality=12&learn=on)
 
 A continuación, se ofrecen siete sugerencias con el botón derecho que puede utilizar en Analysis Workspace para aumentar la eficacia de sus flujos de trabajo:
 
@@ -34,7 +32,7 @@ Esta anotación se mostrará en las visualizaciones y tablas con toda la informa
 
 ## Sugerencia #2: Datos de tendencias para canales e informes de flujo
 
-Los informes de canal (Visitas en el orden previsto) son ideales para mostrar a los usuarios pasando por varias páginas o eventos. Pero también puede analizar la tendencia de esa sucesión de eventos a lo largo del tiempo. Puede hacerlo fácilmente haciendo clic con el botón derecho en cualquier nivel del embudo y marcando la tendencia de todos los puntos de contacto o de un punto de contacto específico en un gráfico de líneas. Puede hacerlo en % o según el número sin procesar de visitas o visitantes.
+Los informes de funnel (Visitas en el orden previsto) son ideales para mostrar a los usuarios pasando por varias páginas o eventos. Pero también puede analizar la tendencia de esa sucesión de eventos a lo largo del tiempo. Puede hacerlo fácilmente haciendo clic con el botón derecho en cualquier nivel de funnel y marcando la tendencia de todos los puntos de contacto o de un punto de contacto específico en un gráfico de líneas. Puede hacerlo en % o según el número sin procesar de visitas o visitantes.
 
 También puede hacerlo en los informes de flujo haciendo clic con el botón derecho en una ruta específica y seleccionando &quot;Tendencia&quot;.
 
