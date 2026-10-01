@@ -66,4 +66,4 @@ Campeona de Adobe Analytics
 
 ## Descargar
 
-[![Descarga rápida de segmentos](assets/quick-segments-download-small.jpg)](recursos/ Adobe_Analytics_Segments_Vs_Segment_Builder_Reference_Guide.pdf)
+[![Descarga rápida de segmentos](assets/quick-segments-download-small.jpg)] (recursos/ Adobe_Analytics_Segments_Vs_Segment_Builder_Reference_Guide.pdf)
