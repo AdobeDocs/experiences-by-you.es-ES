@@ -1,18 +1,16 @@
 ---
 title: Experiencias de su parte
-description: Obtenga información de otros clientes de Adobe sobre cómo utilizan las aplicaciones y funciones de Experience Cloud.
+description: Conozca cómo utilizan las aplicaciones y funciones de Experience Cloud otros clientes de Adobe.
 role: User, Developer, Admin
 level: Beginner
 doc-type: overview
-solution: Experience Cloud
+solution: CX Enterprise
 exl-id: a3e976a1-8bf1-4c18-b5b5-831367a7e8a0
-source-git-commit: 81b3c04ef2daedb5ddb796c5cf74da6dca85dd21
+source-git-commit: 9589a00f530e3a2d2897c9e2bd4efc0baf0ff125
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 12%
-
 ---
-
 # Experiencias por usted: Recursos por usuarios, para usuarios.
 
 ¿Lo más potente de las soluciones de experiencia digital (DX) de [!DNL Adobe]? Tú. Los usuarios que toman los productos, profundizan en ellos y los aplican de formas increíbles e innovadoras para crear experiencias y resultados significativos. _Experiencias de You_ incluye contenido creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con sus soluciones DX [!DNL Adobe]. Este conocimiento entre usuarios fomenta la colaboración y el descubrimiento, lo que le permite a usted y a cualquier otro usuario encontrar la inspiración necesaria para aumentar su experiencia con los productos.
@@ -32,7 +30,7 @@ ht-degree: 12%
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Pestaña Sugerencias y trucos" src="https://video.tv.adobe.com/v/3422277?captions=spa&format=jpeg" />
+      <img alt="[!DNL Adobe Analytics] Pestaña Sugerencias y trucos" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -45,7 +43,7 @@ ht-degree: 12%
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="[!DNL Marketo Engage] Programas de correo electrónico" src="https://video.tv.adobe.com/v/3453370?captions=spa&format=jpeg" />
+      <img alt="[!DNL Marketo Engage] Programas de correo electrónico" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/programs/email-programs.md">
@@ -78,5 +76,5 @@ ht-degree: 12%
 * [Comunidades Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es)
 * [Documentación de Experience Cloud](https://experienceleague.adobe.com/docs/?lang=es)
 * [Tutoriales de Experience Cloud](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=es)
-* [business.adobe.com](https://business.adobe.com/es)
+* [business.adobe.com](https://business.adobe.com)
 
