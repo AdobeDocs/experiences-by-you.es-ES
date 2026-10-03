@@ -13,11 +13,9 @@ kt: 10531
 exl-id: 79cec21e-2b52-4e7b-88ad-db137a8cef4e
 source-git-commit: c568ed0a06551d910b6f533698ec47c15adecf6c
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 0%
-
 ---
-
 # Crear convenciones de nomenclatura estandarizada
 
 **QUÉ:** Las convenciones de nomenclatura estandarizada se aplican al propio nombre de la variable cuando se habilita en la interfaz de usuario de administración de [!DNL Adobe Analytics] (AA) y a los valores pasados a la dimensión. (es decir, los nombres de página serían &quot;nombre de página (v1)&quot; como nombre de variable y los valores de nombre de página pasados deberían ser uniformes y seguir una estructura o jerarquía específica como &quot;nombre de sitio|página principal&quot; o &quot;nombre de sitio|búsqueda|resultados de búsqueda&quot;).
