@@ -1,6 +1,6 @@
 ---
 title: Creación de plantillas de código estandarizadas
-description: Para una implementación de línea de base (es decir, lo que su empresa considera como los KPI que debe tener para todos los  [!DNL Adobe Analytics] sitios), su organización debe tener un único método de implementación, siempre que sea posible.
+description: Para una implementación de línea de base (es decir, lo que su empresa considera como los KPI que debe tener para todos los [!DNL Adobe Analytics] sitios), su organización debe tener un único método de implementación, siempre que sea posible.
 solution: Analytics
 feature-set: Analytics
 feature: Implementation Basics
@@ -13,11 +13,9 @@ kt: 10532
 exl-id: edd3df73-6d1a-4a26-a984-810cc7dd382f
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '358'
 ht-degree: 0%
-
 ---
-
 # Creación de plantillas de código estandarizadas
 
 **QUÉ:** Para una implementación de &quot;línea de base&quot; (es decir, lo que su compañía considera como los KPI que debe tener para todos los sitios de [!DNL Adobe Analytics]), su organización debe tener un único método de implementación, siempre que sea posible. Por ejemplo, utilice la misma estructura de capa de datos en todos los sitios y aproveche la misma regla/código personalizado de administrador de etiquetas para capturar cosas como búsquedas internas o información del perfil del visitante.
@@ -30,7 +28,7 @@ ht-degree: 0%
 
 | Variable de AA | Descripción | Cuándo/dónde se establece | Cómo se establece |
 |--- |--- |--- |--- |
-| EVAR 8 | Palabras clave de búsqueda interna | Al aterrizar en la página de resultados de búsqueda interna | capa de datos |
+| EVAR8 | Palabras clave de búsqueda interna | Al aterrizar en la página de resultados de búsqueda interna | capa de datos |
 | event8 | Recuento de búsquedas internas | Al aterrizar en la página de resultados de búsqueda interna | Regla de Launch |
 
 * Detalles sobre cómo se establece. Aquí es donde especificaría los objetos de capa de datos necesarios y su sintaxis, así como las reglas del sistema de administración de etiquetas que se deban configurar y los detalles de la configuración de reglas.
