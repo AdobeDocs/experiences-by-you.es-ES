@@ -71,7 +71,7 @@ ht-degree: 22%
   </td>
   <td>
     <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-      <img alt="Crear convenciones de nomenclatura estandarizada" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg" />
+      <img alt="Crear convenciones de nomenclatura estandarizada" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg?lang=es" />
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
@@ -92,4 +92,4 @@ ht-degree: 22%
 * [Comunidad de Experience League Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
 * [Documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=es)
 * [Tutoriales de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=es)
-* [Información del producto de Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html)
+* [Información del producto de Adobe Analytics](https://business.adobe.com/es/products/analytics/adobe-analytics.html)
