@@ -32,7 +32,7 @@ ht-degree: 16%
 
 Siga este tutorial paso a paso para crear su primer programa de participación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419374/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3452682/?captions=spa&learn=on){transcript=true}
 
 ## Recursos adicionales:
 
