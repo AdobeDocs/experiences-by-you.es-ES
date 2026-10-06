@@ -6,17 +6,36 @@ role: User
 level: Experienced
 doc-type: Article
 duration: 36000
-last-substantial-update: 2024-03-25T00:00:00Z
+last-substantial-update: 2024-03-25T00:00:00.000Z
 jira: KT-15200
 thumbnail: KT-15200.jpeg
 exl-id: 1da85e88-64b3-49e5-9bf6-76126ac9f6ad
-source-git-commit: 69fa16c1bf38604e4dabc553baee71598be83db3
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ed6be6bb-75bb-4ea9-9a42-3bcaa65e1bcc
+    internal-label: Personalization
+subfeature_v2:
+  - id: a1d50dda-6d94-4e16-8c30-5eb7181c4650
+    internal-label: Segmentation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '4166'
 ht-degree: 1%
-
 ---
-
 # La magia detrás de la cortina: Segmentos complejos: exclusiones, contenedores y atribución
 
 _Descubra las complejidades de la segmentación de datos compleja y explore las exclusiones, los contenedores y los modelos de atribución. Al igual que el juego de manos de un mago, el dominio de estas técnicas permite a los analistas realizar magia de datos, transformando las perspectivas con precisión y delicadeza._
@@ -60,33 +79,33 @@ A primera vista, ambos suenan igual... y en los contenedores/segmentos de nivel 
 
 ![Figura2-DnceVsExclude-Visit](assets/figure2-dnce-vs-exclude-visit.png)
 
-*Como en el caso anterior, cada visita individual dentro de la **visita**&#x200B;se evaluará con el mismo valor verdadero/falso. Sin embargo, el conjunto de datos devuelto es el de toda la visita.*
+*Como en el caso anterior, cada visita individual dentro de la **visita**se evaluará con el mismo valor verdadero/falso. Sin embargo, el conjunto de datos devuelto es el de toda la visita.*
 
 - En cada visita individual, &quot;Value&quot; no contiene &quot;Example&quot; (sí), por lo que devuelve el valor &quot;True&quot;; del mismo modo, no contiene &quot;Example&quot; (no, lo contiene), por lo que devuelve el valor &quot;False&quot;.
-   - Si la visita de **any** en la visita devuelve **true**, entonces se devuelve **toda la visita**.*
-   - Si la visita estaba compuesta totalmente por visitas que contenían &quot;Ejemplo&quot;, entonces ninguna visita devolverá un valor verdadero y, por lo tanto, esa visita **no se devolverá** en su conjunto de datos.
+  - Si la visita de **any** en la visita devuelve **true**, entonces se devuelve **toda la visita**.*
+  - Si la visita estaba compuesta totalmente por visitas que contenían &quot;Ejemplo&quot;, entonces ninguna visita devolverá un valor verdadero y, por lo tanto, esa visita **no se devolverá** en su conjunto de datos.
 - De nuevo, en cada visita individual el &quot;Ejemplo&quot; contiene &quot;Ejemplo&quot; (sí), por lo que devuelve el valor &quot;True&quot;
-   - Si **cualquier visita** devuelve **true**, toda la visita se **excluirá**
-   - Si **todas las visitas** de la visita devuelven **falso**, se devolverá esa visita en el conjunto de datos
+  - Si **cualquier visita** devuelve **true**, toda la visita se **excluirá**
+  - Si **todas las visitas** de la visita devuelven **falso**, se devolverá esa visita en el conjunto de datos
 - Ahora pueden ver dónde esta lógica empieza a divergir. En el ejemplo anterior hay tres visitas distintas:
-   - Si se usa &quot;No contiene/es igual que&quot; **se devolverán dos de las tres** visitas.
-   - Al usar &quot;Excluir contiene / es igual que&quot; **solo se devolverá una** de esas visitas
+  - Si se usa &quot;No contiene/es igual que&quot; **se devolverán dos de las tres** visitas.
+  - Al usar &quot;Excluir contiene / es igual que&quot; **solo se devolverá una** de esas visitas
 
 **Figura 3: No contiene / no es igual a - Ámbito de la visita**
 
 ![Figura3-DnceVsExclude-Visitor](assets/figure3-dnce-vs-exclude-visitor.png)
 
-*Al igual que arriba, cada visita realizada por el **visitante**&#x200B;se evaluará con la misma lógica verdadero/falso. Pero ahora estamos viendo todas las visitas que este visitante ha realizado, en todas las visitas (dentro del intervalo de fechas seleccionado).*
+*Al igual que arriba, cada visita realizada por el **visitante**se evaluará con la misma lógica verdadero/falso. Pero ahora estamos viendo todas las visitas que este visitante ha realizado, en todas las visitas (dentro del intervalo de fechas seleccionado).*
 
 - En cada visita individual, &quot;Value&quot; no contiene &quot;Example&quot; (sí), por lo que devuelve el valor &quot;True&quot;; del mismo modo, no contiene &quot;Example&quot; (no, lo contiene), por lo que devuelve el valor &quot;False&quot;.
-   - Si **cualquier** visita realizada por el visitante devuelve **verdadero**, entonces se devuelve **toda la visita**.
-   - Si el visitante nunca realizó ninguna visita que contuviera &quot;Ejemplo&quot;, entonces ninguna visita devolvería el valor &quot;True&quot; y, por lo tanto, ese visitante **no sería devuelto** en su conjunto de datos.
+  - Si **cualquier** visita realizada por el visitante devuelve **verdadero**, entonces se devuelve **toda la visita**.
+  - Si el visitante nunca realizó ninguna visita que contuviera &quot;Ejemplo&quot;, entonces ninguna visita devolvería el valor &quot;True&quot; y, por lo tanto, ese visitante **no sería devuelto** en su conjunto de datos.
 - De nuevo, en cada visita individual el &quot;Ejemplo&quot; contiene &quot;Ejemplo&quot; (sí), por lo que devuelve el valor &quot;True&quot;.
-   - Si **cualquier visita** devuelve **true**, se **excluirá a todo el visitante (y posteriormente a todas sus visitas).**
-   - Si **todas las visitas** de la visita devuelven **falso**, se devolverá ese visitante en el conjunto de datos y, por lo tanto, se devolverá con éxito a los visitantes que no hicieron &quot;X&quot;.
+  - Si **cualquier visita** devuelve **true**, se **excluirá a todo el visitante (y posteriormente a todas sus visitas).**
+  - Si **todas las visitas** de la visita devuelven **falso**, se devolverá ese visitante en el conjunto de datos y, por lo tanto, se devolverá con éxito a los visitantes que no hicieron &quot;X&quot;.
 - Esta es una extensión de la lógica de visita, donde hay incluso más consideraciones. En el ejemplo anterior hay dos visitantes diferentes, con 3 visitas cada uno:
-   - Si se usa &quot;No contiene/es igual que&quot;, se devolverán **ambos** visitantes, al igual que las **tres** visitas (que representan 2 visitantes y 6 visitas totales en los informes)
-   - Al usar &quot;Excluir contiene / es igual a&quot; **solo se devolverá uno** de esos visitantes, y solo se incluirán las tres visitas asociadas a ese visitante (que representan 1 visitante y 3 visitas totales en sus informes)
+  - Si se usa &quot;No contiene/es igual que&quot;, se devolverán **ambos** visitantes, al igual que las **tres** visitas (que representan 2 visitantes y 6 visitas totales en los informes)
+  - Al usar &quot;Excluir contiene / es igual a&quot; **solo se devolverá uno** de esos visitantes, y solo se incluirán las tres visitas asociadas a ese visitante (que representan 1 visitante y 3 visitas totales en sus informes)
 
 >[!TIP]
 >
@@ -260,31 +279,31 @@ Supongamos que tenemos dos eVars, una de ellas está configurada para visitar la
 **Visita 1**
 
 - Página A
-   - **eVar1** no está establecido
-   - **eVar2** no está establecido
+  - **eVar1** no está establecido
+  - **eVar2** no está establecido
 - Haga clic en el banner de promoción con ?icid=promo-banner en la URL.
 - Página B
-   - **eVar1** y **eVar2** se han configurado como &quot;promo-banner&quot;
-   - Se ha activado la **instancia de eVar1**
-   - Se ha activado la **instancia de eVar2**
+  - **eVar1** y **eVar2** se han configurado como &quot;promo-banner&quot;
+  - Se ha activado la **instancia de eVar1**
+  - Se ha activado la **instancia de eVar2**
 - Página C
-   - Tanto **eVar1** como **eVar2** mantienen el valor &quot;promo-banner&quot;
-   - Ninguna de las métricas de instancia de las eVars se activa, ya que ambas eVars utilizan valores persistentes
+  - Tanto **eVar1** como **eVar2** mantienen el valor &quot;promo-banner&quot;
+  - Ninguna de las métricas de instancia de las eVars se activa, ya que ambas eVars utilizan valores persistentes
 
 **Visita 2**
 
 - Página D
-   - **eVar1** no se ha establecido en ningún valor y no se ha activado **instancia de eVar1**
-   - **eVar2** mantiene el valor &quot;promo-banner&quot; debido a la caducidad de 30 días
-   - **La instancia de eVar2** no se ha activado porque el valor es persistente y no se ha establecido
+  - **eVar1** no se ha establecido en ningún valor y no se ha activado **instancia de eVar1**
+  - **eVar2** mantiene el valor &quot;promo-banner&quot; debido a la caducidad de 30 días
+  - **La instancia de eVar2** no se ha activado porque el valor es persistente y no se ha establecido
 - Haga clic en Promoción de carril lateral con ?icid=promo-side-rail en la URL
 - Página E
-   - **eVar1** y **eVar2** están configurados en &quot;promo-side-rail&quot;
-   - Se ha activado la **instancia de eVar1**
-   - Se ha activado la **instancia de eVar2**
+  - **eVar1** y **eVar2** están configurados en &quot;promo-side-rail&quot;
+  - Se ha activado la **instancia de eVar1**
+  - Se ha activado la **instancia de eVar2**
 - Página F
-   - Tanto **eVar1** como **eVar2** mantienen el valor &quot;promo-side-rail&quot;
-   - Ninguna de las métricas de instancia de las eVars se activa, ya que ambas eVars utilizan valores persistentes
+  - Tanto **eVar1** como **eVar2** mantienen el valor &quot;promo-side-rail&quot;
+  - Ninguna de las métricas de instancia de las eVars se activa, ya que ambas eVars utilizan valores persistentes
 
 Actualmente, aquí está el resultado esperado de estas dos visitas:
 

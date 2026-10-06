@@ -1,6 +1,6 @@
 ---
 title: Creación de paneles operativos en Analysis Workspace
-description: Explore cómo los paneles operativos de  [!DNL Adobe Analytics] Workspace revolucionan la comunicación y la eficacia.
+description: Explore cómo los paneles operativos de [!DNL Adobe Analytics] Workspace revolucionan la comunicación y la eficacia.
 solution: Analytics
 feature-set: Analytics
 feature: Curate and Share
@@ -8,17 +8,30 @@ topic: Administration
 role: User
 level: Experienced
 doc-type: Article
-last-substantial-update: 2023-08-18T00:00:00Z
+last-substantial-update: 2023-08-18T00:00:00.000Z
 jira: KT-13829
 thumbnail: KT-13829.jpeg
 exl-id: 8df9e88f-e564-4a8e-b624-026c873d3f19
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # Creación de paneles operativos en Analysis Workspace
 
 _Explore cómo los paneles operativos de [!DNL Adobe Analytics] Workspace revolucionan la comunicación y la eficacia. Descubra cómo crear preguntas frecuentes, noticias y anuncios, y tableros de errores y características para obtener información optimizada, experiencia de usuario mejorada y participación mejorada._
@@ -28,7 +41,7 @@ Como muchos administradores, ejecuto un centro de información interno (Confluen
 
 Observé que los usuarios a menudo ignoraban mis referencias al sitio de Confluencia, con razones como &quot;Mi VPN está desactivada&quot;, o &quot;No puedo leerla ahora&quot;, etc. Básicamente, &quot;leeré ese documento más tarde&quot; significa que nunca se leerá, y la misma pregunta se volverá a hacer la semana que viene.
 
-***El éxito de realización:**&#x200B;La versatilidad de Workspace podría cambiar las reglas del juego. Los usuarios prefieren respuestas rápidas y directas dentro de Workspace, así que mantengámoslas allí para evitar pasos adicionales.*
+***El éxito de realización:**La versatilidad de Workspace podría cambiar las reglas del juego. Los usuarios prefieren respuestas rápidas y directas dentro de Workspace, así que mantengámoslas allí para evitar pasos adicionales.*
 
 Seguí adelante y creé paneles operativos para compartir toda la compañía. Hasta ahora, han mantenido a los usuarios informados, han centralizado la información y han reducido la frustración. Este ha sido un proceso fácil y cambiante que aumenta la eficiencia con el tiempo.
 
@@ -49,7 +62,7 @@ Permítanme guiarles a través de los tres paneles operativos que creé para mi 
 
 ¿Cansado del bucle interminable de respuestas repetidas? ¡Detente! Ahorre tiempo creando un panel de preguntas frecuentes. Los usuarios pueden consultarlo antes de preguntar o puede vincularlo rápidamente en sus respuestas.
 
-Basta con crear [visualizaciones de texto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=es) con preguntas formateadas como títulos y respuestas/explicaciones como contenido, todo contraído para mostrar únicamente la pregunta. Agrúpelas por relevancia (p. ej., páginas o productos) o utilice paneles. Simplifique y priorice las consultas comunes en la parte superior.
+Basta con crear [visualizaciones de texto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html) con preguntas formateadas como títulos y respuestas/explicaciones como contenido, todo contraído para mostrar únicamente la pregunta. Agrúpelas por relevancia (p. ej., páginas o productos) o utilice paneles. Simplifique y priorice las consultas comunes en la parte superior.
 
 En lugar de escribir correos electrónicos largos o redescubrir explicaciones antiguas, actualice el panel de preguntas frecuentes. Empiece ahora y amplíe con el tiempo. Use hipervínculos para hacer referencia a otros tableros o preguntas más frecuentes relacionadas dentro de los informes. Proporcione un contexto complejo cuando sea necesario vinculando desde otros paneles a las preguntas frecuentes.
 

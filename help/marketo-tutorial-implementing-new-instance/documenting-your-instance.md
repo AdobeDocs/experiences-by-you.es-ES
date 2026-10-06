@@ -6,24 +6,31 @@ level: Beginner
 doc-type: Article
 solution: Marketo Engage
 duration: 0
-last-substantial-update: 2024-05-08T00:00:00Z
+last-substantial-update: 2024-05-08T00:00:00.000Z
 jira: KT-14815
 thumbnail: KT-14815.jpeg
 exl-id: b3dd05e1-c522-4631-a6b4-c0c6309f25d3
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 0%
-
+ht-degree: 1%
 ---
-
 # Introducción a la gobernanza de instancias y documentación
 
 Una buena documentación puede ser casi tan importante como la propia implementación de la instancia. Una guía de gobernanza es un recurso crucial que describe los detalles de configuración de la instancia de Marketo Engage, y abarca temas como estructuras de programas/carpetas, límites de comunicación y más. Este documento es una referencia para el administrador de Marketo Engage o los usuarios avanzados, y muestra prácticas recomendadas específicas y estándares de administración adaptados a su instancia y organización de Marketo Engage.
 
 Pero no se detiene ahí. Su equipo puede requerir documentos de habilitación o materiales de formación suplementarios para mejorar su competencia con Marketo Engage. Estos recursos pueden incluir ejercicios interactivos, pruebas de acceso o directrices sobre las acciones permitidas en Marketo Engage, lo que beneficia a todos los usuarios de Marketo Engage de su organización. Tanto si crea una guía de gobernanza completa como si documenta inicialmente los aspectos clave de la configuración, el registro de las decisiones tomadas durante la incorporación es clave para garantizar el éxito con Marketo Engage para su equipo actual y las generaciones futuras de nuevas contrataciones.
 
-Al comprender la importancia de la documentación y el control, este tutorial profundiza en las prácticas recomendadas obtenidas de compañeros expertos [Introducción a la documentación de formación y control de Marketo Engage](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target=_blank} y [Cómo documenta su instancia?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target=_blank} para ayudarle a poner en marcha un proceso y mantener la documentación relevante para los usuarios internos.
+Al comprender la importancia de la documentación y el control, este tutorial profundiza en las prácticas recomendadas obtenidas de compañeros expertos [Introducción a la documentación de formación y control de Marketo Engage](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target=&quot;_blank} y [Cómo documenta su instancia?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target=&quot;_blank} para ayudarle a poner en marcha un proceso y mantener la documentación relevante para los usuarios internos.
 
 ## Por qué es esencial documentar los cambios y las decisiones durante la implementación de instancias
 
@@ -68,7 +75,7 @@ Guíe su plan de gobernanza y documentación empezando con la descripción de ej
    * Ciclo de persona
    * Administración de datos
 1. Creación De Una Instancia De Marketo Engage
-   * [Centro de excelencia (COE)](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target=_blank}
+   * [Centro de excelencia (COE)](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target=&quot;_blank}
    * Estructura de carpetas
    * Convenciones de nomenclatura
    * Organización del programa

@@ -1,6 +1,6 @@
 ---
 title: Contar historias impactantes con datos
-description: La narración de datos es el lugar en el que el arte y la ciencia se juntan usando datos, visualización y narrativa.  Al aprovechar estos componentes, hay tres cosas clave para crear una historia de datos impactante. Al contar una historia con datos de manera efectiva, [!DNL Analytics] puede llegar a ser más accesible para una audiencia más amplia y puede aumentar el valor que aporta a su organización mediante la toma de decisiones basada en datos.
+description: La narración de datos es el lugar en el que el arte y la ciencia se juntan usando datos, visualización y narrativa.  Al aprovechar estos componentes, hay tres cosas clave para crear una historia de datos impactante. Al contar una historia con datos de forma eficaz, [!DNL Analytics] puede llegar a ser más accesible para una audiencia más amplia y puede aumentar el valor que aporta a su organización mediante la toma de decisiones basada en datos.
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -10,13 +10,23 @@ level: Experienced
 thumbnail: impactful-stories.jpg
 kt: 10157
 exl-id: bbbe8514-95d2-4e18-aaa2-6c3bd94816a1
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 6%
-
 ---
-
 # Contar historias impactantes con datos
 
 La narración de datos es el lugar en el que el arte y la ciencia se juntan usando datos, visualización y narrativa.  Al aprovechar estos componentes, hay tres cosas clave para crear una historia de datos impactante. Al contar una historia con datos de forma eficaz, [!DNL Analytics] puede llegar a ser más accesible para una audiencia más amplia y puede aumentar el valor que aporta a su organización mediante la toma de decisiones basada en datos.

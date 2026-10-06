@@ -6,11 +6,20 @@ level: Beginner
 doc-type: Article
 solution: Marketo Engage
 duration: 0
-last-substantial-update: 2024-03-01
+last-substantial-update: 2024-03-01T00:00:00.000Z
 jira: KT-14809
 thumbnail: KT-14809.jpeg
 exl-id: bd5d102b-0810-43e1-baac-fbef43817d50
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -19,7 +28,7 @@ ht-degree: 0%
 
 A medida que ponga en marcha una nueva instancia de [!DNL Marketo Engage], es hora de poner al día a los equipos relevantes para que aprovechen [!DNL Marketo Engage] en sus trabajos.
 
-Estas prácticas recomendadas de incorporación y formación internas fueron proporcionadas por Naomi Liu, una cliente de Adobe Marketo Engage, que comparte la [incorporación interna](https://nation.marketo.com/t5/employee-blogs/peer-perspective-orchestrating-onboarding-across-global-teams/ba-p/244931){target=_blank} y las [prácticas recomendadas de formación](https://nation.marketo.com/t5/employee-blogs/peer-perspective-how-to-train-internal-users-on-marketo-engage/ba-p/245237){target=_blank} derivadas de su experiencia en la implementación de una nueva instancia para los equipos globales de Electronics for Imaging. Siga sus ideas para diseñar un plan de formación eficaz para sus equipos internos.
+Estas prácticas recomendadas de incorporación y formación internas fueron proporcionadas por Naomi Liu, una cliente de Adobe Marketo Engage, que comparte la [incorporación interna](https://nation.marketo.com/t5/employee-blogs/peer-perspective-orchestrating-onboarding-across-global-teams/ba-p/244931){target=&quot;_blank} y las [prácticas recomendadas de formación](https://nation.marketo.com/t5/employee-blogs/peer-perspective-how-to-train-internal-users-on-marketo-engage/ba-p/245237){target=&quot;_blank} derivadas de su experiencia en la implementación de una nueva instancia para los equipos globales de Electronics for Imaging. Siga sus ideas para diseñar un plan de formación eficaz para sus equipos internos.
 
 ## ¿Por qué desarrollar un plan de incorporación interno al implementar la nueva instancia?
 

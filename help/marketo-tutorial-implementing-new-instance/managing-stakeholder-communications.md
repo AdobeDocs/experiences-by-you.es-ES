@@ -6,17 +6,24 @@ level: Beginner
 doc-type: Article
 solution: Marketo Engage
 duration: 0
-last-substantial-update: 2024-05-03T00:00:00Z
+last-substantial-update: 2024-05-03T00:00:00.000Z
 jira: KT-13284
 thumbnail: KT-13284.jpeg
 exl-id: b5b8a5b6-83d4-48ae-ae83-32c9fbf64df8
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '1838'
 ht-degree: 0%
-
 ---
-
 # Administrar partes interesadas para implementar Marketo Engage
 
 La implementación de Marketo Engage es un momento crítico para aumentar su pila de MarTech. Podría incluir a varias partes interesadas que debe llevar desde el marketing hasta las ventas y la TI. Obtenga información sobre cómo obtener asistencia de su organización para la nueva instancia de Marketo Engage haciendo las preguntas correctas y comunicando las actualizaciones y la asistencia necesarias regularmente. Utilice el tutorial y las plantillas (con versiones descargables) para guiar las comunicaciones internas a través de la implementación y la incorporación del usuario.
@@ -30,10 +37,10 @@ Inicie la implementación alineándose con los líderes y las prioridades de las
 | **Preguntas** | **Ejemplos** | **Recursos útiles** |
 | --- | --- | --- |
 | ¿En qué parte interesada debe centrarse? | <ul><li>Ejecutivo de ventas</li><li>CMO</li><li>CEO</li> |  |
-| ¿Cuáles son sus objetivos principales (marketing/ventas/negocios)? | <ol><li>Aumentar la participación con nuestros clientes y clientes potenciales</li><li>Escalar nuestras operaciones.</li> | <ul><li>[Obtenga información acerca del desarrollo de estrategias y objetivos de marketing](https://experienceleague.adobe.com/es/docs/marketo-learn/tutorials/fundamentals/goals-and-strategy-learn){target=_blank}</li><ul> |
-| ¿Cómo le ayudará Marketo Engage a lograr estos objetivos? | <ol><li>Podemos crear programas personalizados con tokens, contenido dinámico, etc</li><li> Podemos producir programas de nutrición que nos permitan mantener la participación a largo plazo con los clientes y los posibles clientes</li><li>Podemos automatizar nuestros programas de marketing para llegar a más personas con menos horas de trabajo invertido en cada programa.</li></ol> | <ul><li>[Por qué la automatización es esencial para cualquier estrategia de marketing](https://business.adobe.com/blog/basics/5-benefits-marketing-automation){target=_blank}</li><li>[Sugerencias para crear una hoja de ruta de automatización de mercadotecnia](https://nation.marketo.com/t5/champion-program-blogs/tips-for-building-a-marketing-automation-roadmap/ba-p/325345){target=_blank}</li></ul> |
-| ¿Qué posibles obstáculos durante la incorporación y la implementación prevé que deba tener en cuenta el equipo/accionista de la operación de marketing? | <ol><li>Muchos objetos personalizados en nuestro CRM</li><li>No hay una estrategia de puntuación del posible cliente/persona claramente definida</li><li>Datos sucios</li><li>Plazos poco realistas y/o expectativas de la administración</li><li>Proyectos que compiten y toman recursos</li></ul> | <ul><li>[Nuevos consejos de implementación de Marketo Engage](https://nation.marketo.com/t5/product-discussions/5-marketo-engage-new-implementation-tips/td-p/307788){target=_blank}</li><li>[Sugerencias para los novatos que implementan y administran Marketo por primera vez](https://nation.marketo.com/t5/product-discussions/tips-for-newbie-implementing-and-managing-marketo-for-the-first/m-p/174146#M124169){target=_blank}</li><li>[10 consejos principales de compañeros para la incorporación a Adobe Marketo Engage](https://nation.marketo.com/t5/employee-blogs/top-10-tips-from-peers-for-onboarding-adobe-marketo-engage/ba-p/245098){target=_blank}</li></ul> |
-| ¿Qué recurso/apoyo necesitará y de quién/qué parte de la organización? | <ol><li>Cooperación con el administrador de CRM</li><li>Comunicaciones regulares con los líderes de ventas para determinar la estrategia de puntuación del posible cliente/persona</li><li>Asistencia de y Reuniones regulares con su gerente/ejecutivos</li><li>Orientación sobre prioridades y estrategias de sus ejecutivos</li><li>Soporte de TI, SOP (procedimientos operativos estándar), finanzas, etc.</li></ul> | <ul><li>[Clave universal para el éxito de Marketo: gobernanza y formación continua](https://nation.marketo.com/t5/employee-blogs/universal-key-to-marketo-success-governance-and-ongoing-training/ba-p/298360){target=_blank}</li></ul> |
+| ¿Cuáles son sus objetivos principales (marketing/ventas/negocios)? | <ol><li>Aumentar la participación con nuestros clientes y clientes potenciales</li><li>Escalar nuestras operaciones.</li> | <ul><li>[Obtenga información acerca del desarrollo de estrategias y objetivos de marketing](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/fundamentals/goals-and-strategy-learn){target=&quot;_blank}</li><ul> |
+| ¿Cómo le ayudará Marketo Engage a lograr estos objetivos? | <ol><li>Podemos crear programas personalizados con tokens, contenido dinámico, etc</li><li> Podemos producir programas de nutrición que nos permitan mantener la participación a largo plazo con los clientes y los posibles clientes</li><li>Podemos automatizar nuestros programas de marketing para llegar a más personas con menos horas de trabajo invertido en cada programa.</li></ol> | <ul><li>[Por qué la automatización es esencial para cualquier estrategia de marketing](https://business.adobe.com/blog/basics/5-benefits-marketing-automation){target=&quot;_blank}</li><li>[Sugerencias para crear una hoja de ruta de automatización de mercadotecnia](https://nation.marketo.com/t5/champion-program-blogs/tips-for-building-a-marketing-automation-roadmap/ba-p/325345){target=&quot;_blank}</li></ul> |
+| ¿Qué posibles obstáculos durante la incorporación y la implementación prevé que deba tener en cuenta el equipo/accionista de la operación de marketing? | <ol><li>Muchos objetos personalizados en nuestro CRM</li><li>No hay una estrategia de puntuación del posible cliente/persona claramente definida</li><li>Datos sucios</li><li>Plazos poco realistas y/o expectativas de la administración</li><li>Proyectos que compiten y toman recursos</li></ul> | <ul><li>[Nuevos consejos de implementación de Marketo Engage](https://nation.marketo.com/t5/product-discussions/5-marketo-engage-new-implementation-tips/td-p/307788){target=&quot;_blank}</li><li>[Sugerencias para los novatos que implementan y administran Marketo por primera vez](https://nation.marketo.com/t5/product-discussions/tips-for-newbie-implementing-and-managing-marketo-for-the-first/m-p/174146#M124169){target=&quot;_blank}</li><li>[10 consejos principales de compañeros para la incorporación a Adobe Marketo Engage](https://nation.marketo.com/t5/employee-blogs/top-10-tips-from-peers-for-onboarding-adobe-marketo-engage/ba-p/245098){target=&quot;_blank}</li></ul> |
+| ¿Qué recurso/apoyo necesitará y de quién/qué parte de la organización? | <ol><li>Cooperación con el administrador de CRM</li><li>Comunicaciones regulares con los líderes de ventas para determinar la estrategia de puntuación del posible cliente/persona</li><li>Asistencia de y Reuniones regulares con su gerente/ejecutivos</li><li>Orientación sobre prioridades y estrategias de sus ejecutivos</li><li>Soporte de TI, SOP (procedimientos operativos estándar), finanzas, etc.</li></ul> | <ul><li>[Clave universal para el éxito de Marketo: gobernanza y formación continua](https://nation.marketo.com/t5/employee-blogs/universal-key-to-marketo-success-governance-and-ongoing-training/ba-p/298360){target=&quot;_blank}</li></ul> |
 
 ### Acción 2: proporcionar comunicaciones dirigidas a sus accionistas
 
@@ -182,7 +189,7 @@ Al seguir estas sugerencias procesables y hacer referencia a las plantillas, est
 
 ## ¿Cuál es el siguiente paso?
 
-Descargue y use la [Plantilla y guía de comunicaciones internas de incorporación](/help/marketo-tutorial-implementing-new-instance/assets/marketo-engage-new-instance-onboarding-internal-communications-guide-template.xlsx){target=_blank} para crear actualizaciones regulares e informar sobre el progreso a las partes interesadas. Incluya métricas clave, logros y próximos hitos para mantenerlos informados y comprometidos.
+Descargue y use la [Plantilla y guía de comunicaciones internas de incorporación](/help/marketo-tutorial-implementing-new-instance/assets/marketo-engage-new-instance-onboarding-internal-communications-guide-template.xlsx){target=&quot;_blank} para crear actualizaciones regulares e informar sobre el progreso a las partes interesadas. Incluya métricas clave, logros y próximos hitos para mantenerlos informados y comprometidos.
 
 ### Autor
 

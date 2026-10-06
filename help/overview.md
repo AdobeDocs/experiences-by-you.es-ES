@@ -6,7 +6,17 @@ level: Beginner
 doc-type: overview
 solution: CX Enterprise
 exl-id: a3e976a1-8bf1-4c18-b5b5-831367a7e8a0
-source-git-commit: 9589a00f530e3a2d2897c9e2bd4efc0baf0ff125
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 12%
@@ -30,7 +40,7 @@ ht-degree: 12%
 <tr>
   <td>
     <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-      <img alt="[!DNL Adobe Analytics] Pestaña Sugerencias y trucos" src="https://video.tv.adobe.com/v/3422277?captions=spa&format=jpeg" />
+      <img alt="[!DNL Adobe Analytics] Pestaña Sugerencias y trucos" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
@@ -43,7 +53,7 @@ ht-degree: 12%
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="[!DNL Marketo Engage] Programas de correo electrónico" src="https://video.tv.adobe.com/v/3453370?captions=spa&format=jpeg" />
+      <img alt="[!DNL Marketo Engage] Programas de correo electrónico" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/programs/email-programs.md">
@@ -76,5 +86,5 @@ ht-degree: 12%
 * [Comunidades Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es)
 * [Documentación de Experience Cloud](https://experienceleague.adobe.com/docs/?lang=es)
 * [Tutoriales de Experience Cloud](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=es)
-* [business.adobe.com](https://business.adobe.com/es)
+* [business.adobe.com](https://business.adobe.com)
 

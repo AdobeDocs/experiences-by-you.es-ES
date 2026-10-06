@@ -1,22 +1,40 @@
 ---
 title: Desarrollo de una guía de administración de instancias con documentación
-description: Aprenda a establecer un procedimiento sólido para crear y mantener la documentación y el registro de cambios de su instancia de  [!DNL Marketo Engage] .
+description: Aprenda a establecer un procedimiento sólido para crear y mantener la documentación y el registro de cambios de la instancia de [!DNL Marketo Engage].
 feature-set: Marketo Engage
 feature: Administration
 role: Admin
 level: Intermediate, Experienced
 doc-type: Tutorial
-last-substantial-update: 2023-10-16T00:00:00Z
+last-substantial-update: 2023-10-16T00:00:00.000Z
 jira: KT-14103
 thumbnail: KT-14103.jpeg
 exl-id: e127b84d-ef92-4527-a0e6-a36af35b7ee0
-source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d1d0a9cd-295d-4976-8c39-ddae266f240e
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '937'
 ht-degree: 1%
-
 ---
-
 # Desarrollar una guía de gobernanza de instancias con documentación
 
 A medida que avanza hacia una instancia heredada de [!DNL Marketo Engage], a menudo se presenta con el desafío de carecer de documentación funcional y técnica actualizada. Como administrador, establecer directrices para garantizar un control adecuado de las instancias es una responsabilidad central que no se puede pasar por alto. Es una de las estrategias críticas para [aumentar la eficiencia mientras trabajas en una [!DNL Marketo Engage] instancia](https://nation.marketo.com/t5/champion-program-blogs/3-tips-to-increase-your-efficiency-in-an-inherited-instance/ba-p/247582) establecida.
@@ -29,7 +47,7 @@ La documentación detallada y un [!UICONTROL Changelog] son vitales para una adm
 
 1. Capacite a los usuarios internos de forma más sencilla y escalable.
 2. Genere de manera más eficiente en [!DNL Marketo Engage] a largo plazo.
-3. Mantenga el estado y la higiene de su instancia en adelante para evitar que dedique horas a explorar correos electrónicos, [pista de auditoría](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html?lang=es) y [registro de actividad](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html?lang=es) para obtener contexto.
+3. Mantenga el estado y la higiene de su instancia en adelante para evitar que dedique horas a explorar correos electrónicos, [pista de auditoría](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html) y [registro de actividad](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html) para obtener contexto.
 4. Ahorre tiempo al transferir conocimientos de [!DNL Marketo Engage] a un nuevo administrador de [!DNL Marketo Engage] si su equipo experimenta algún cambio.
 
 ## [!DNL Marketo Engage] guía de gobernanza 101
@@ -54,22 +72,22 @@ Una guía de gobernanza sirve como fuente fiable para la configuración de la in
 El formato varía de una plataforma basada en la nube a un documento compartido. Puede diseñar el formato que se adapte a las necesidades de su organización. [Aquí tiene una sencilla documentación y una sencilla plantilla de excel changelog](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx) que cubre los elementos importantes con los que puede empezar. Se incluyen:
 
 * Documentación
-   * Nombre de plantilla de programa
-   * Canal
-   * Fecha de creación
-   * Creado por
-   * Finalidad del programa
-   * Estado
-   * Vínculo a plantilla de programa
-   * Nota
+  * Nombre de plantilla de programa
+  * Canal
+  * Fecha de creación
+  * Creado por
+  * Finalidad del programa
+  * Estado
+  * Vínculo a plantilla de programa
+  * Nota
 * Changelog
-   * Nombre de plantilla de programa
-   * Fecha del cambio
-   * Actualizado por
-   * Propósito de la actualización
-   * Experiencia antes del cambio (incluir vínculos/capturas de pantalla)
-   * Experiencia tras el cambio (incluir vínculos/capturas de pantalla)
-   * URL del programa
+  * Nombre de plantilla de programa
+  * Fecha del cambio
+  * Actualizado por
+  * Propósito de la actualización
+  * Experiencia antes del cambio (incluir vínculos/capturas de pantalla)
+  * Experiencia tras el cambio (incluir vínculos/capturas de pantalla)
+  * URL del programa
 
 ### Paso 3: Identificar y documentar el estado actual de los programas operativos primarios
 

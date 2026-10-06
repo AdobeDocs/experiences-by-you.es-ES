@@ -1,5 +1,5 @@
 ---
-title: Guía completa para la transición a  [!DNL Adobe Analytics] desde Google [!DNL Analytics]
+title: Guía completa para la transición a [!DNL Adobe Analytics] desde Google [!DNL Analytics]
 description: Obtenga información acerca de la ubicación de funcionalidades equivalentes y cómo utilizarlas de manera eficiente al pasar de Google [!DNL Analytics] a [!DNL Adobe Analytics]
 solution: Analytics
 feature: Third-party Integration
@@ -8,13 +8,26 @@ level: Beginner
 kt: 9830
 thumbnail: 34749.jpg
 exl-id: 646bdc8f-c95e-40be-b2f7-8e4ba5653d91
-source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+subfeature_v2:
+  - id: 518ed3bf-6fcd-5452-90d0-bba80603b0d5
+    internal-label: Third-party Integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '3362'
+source-wordcount: '3364'
 ht-degree: 1%
-
 ---
-
 # Guía completa para la transición a [!DNL Adobe Analytics] desde Google [!DNL Analytics]{#comprehensive-guide-for-transitioning-to-adobe-analytics}
 
 ## &#x200B;1. Introducción
@@ -94,22 +107,23 @@ Los usuarios tienen a su disposición una gran variedad de visualizaciones:
 * Visita en orden previsto
 * Flujo
 * Gráficos
-   * Área (apilada y sin apilar)
-   * Línea
-   * Dispersión
-   * Barra (apilada y sin apilar)
-   * Viñeta
-   * Anillo
-   * Histograma
-   * Barras horizontales (apiladas y sin apilar)
+  * Área (apilada y sin apilar)
+  * Línea
+  * Dispersión
+  * Barra (apilada y sin apilar)
+  * Viñeta
+  * Anillo
+  * Histograma
+  * Barras horizontales (apiladas y sin apilar)
 * Mapa
 * Bloques de resumen
-   * Cambio de resumen
-   * Texto de resumen
-   * Texto (campo de texto libre para introducir información adicional que proporcione contexto)
+  * Cambio de resumen
+  * Texto de resumen
+  * Texto (campo de texto libre para introducir información adicional que proporcione contexto)
 * Venn
 
-Cada panel y visualización puede tener título y se le puede aplicar una descripción para ayudar a contextualizar lo que muestra la información.En [!DNL Adobe], los segmentos (sobre todo los filtros de datos) se aplican de forma retroactiva, y se pueden extraer en columnas de tablas de forma libre para comparar los datos en paralelo. Por ejemplo, si un usuario quisiera comparar dos categorías en el sitio para el tráfico, podría crear un segmento para la categoría A y otro para la B.
+Cada panel y visualización puede tener título y se le puede aplicar una descripción para ayudar a contextualizar lo que muestra la información.
+En [!DNL Adobe], los segmentos (sobre todo los filtros de datos) se aplican de forma retroactiva, y se pueden extraer en columnas de tablas de forma libre para comparar los datos en paralelo. Por ejemplo, si un usuario quisiera comparar dos categorías en el sitio para el tráfico, podría crear un segmento para la categoría A y otro para la B.
 
 ![analytics-page-views-report](assets/ga-to-aa_3.png)
 
@@ -137,7 +151,7 @@ Otra funcionalidad potente de los espacios de trabajo es la capacidad de aplicar
 
 >[!IMPORTANT]
 >
->Para obtener más información acerca del uso de desplegables y desgloses de forma libre, consulte <https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-power-of-dropdown-filters-and-dimension-breakdowns-in-adobe/td-p/434680?profile.language=es>
+>Para obtener más información acerca del uso de desplegables y desgloses de forma libre, consulte <https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-power-of-dropdown-filters-and-dimension-breakdowns-in-adobe/td-p/434680>
 
 ##### 2.1.2.2. Google [!DNL Analytics]: paneles e informes personalizados y guardados
 
@@ -267,7 +281,7 @@ Sin embargo, subrayaré que recomendaría utilizar tanto [!DNL Adobe Analytics] 
 
 Hay muchos recursos disponibles más allá de esta guía que pueden ayudar a mejorar su estrategia:
 
-* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/es?lang=es#home): contiene tutoriales, vídeos, documentación y foros de la comunidad
+* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/?lang=es#home): contiene tutoriales, vídeos, documentación y foros de la comunidad
 * [[!DNL Adobe] Grupos de usuarios](https://analytics-augs.adobe.com/): un centro de eventos de la comunidad para ayudar a los usuarios a conectar entre sí y mejorar sus implementaciones.
 * [[!DNL Adobe Analytics] Canal de YouTube de grupos de usuarios](https://www.youtube.com/channel/UCQOHnCs7KZgsuFHVzwboQuA) - ¿No pudo asistir a una sesión de grupo de usuarios de [!DNL Adobe Analytics]? Vuelva a ver las sesiones de grupos de usuarios anteriores en todo el mundo para obtener más información acerca de cómo utilizan la herramienta sus colegas.
 * [Canal de Slack de chat de Measure](https://www.measure.chat/): conéctese con usuarios de [!DNL Adobe Analytics] de todo el mundo y comparta las lecciones aprendidas en la industria, haga preguntas de sus colegas y únase a grupos de interés centrados en la medición.

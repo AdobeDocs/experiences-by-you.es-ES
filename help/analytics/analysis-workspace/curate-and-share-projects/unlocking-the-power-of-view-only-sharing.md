@@ -6,17 +6,30 @@ feature: Curate and Share
 role: User
 level: Experienced
 doc-type: Article
-last-substantial-update: 2023-05-02T00:00:00Z
+last-substantial-update: 2023-05-02T00:00:00.000Z
 jira: KT-13179
 thumbnail: KT-13179.jpeg
 exl-id: 99729c18-9f0d-4bbb-be99-01ddd0d2dcb0
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
-
 ---
-
 # Desbloquear el poder del uso compartido de solo lectura en Analysis Workspace
 
 Descubra cómo compartir [!DNL Adobe] proyectos de Analysis Workspace como &quot;solo lectura&quot; puede crear informes de tablero preparados para ejecutivos con una interfaz de usuario limpia y opciones de filtrado predefinidas, así como cómo el &quot;cuadro de resultados móvil&quot; puede simplificar el uso compartido de KPI de experiencias digitales con ejecutivos en sus desplazamientos.
@@ -39,7 +52,8 @@ Aparte del uso compartido de proyectos de solo lectura, el panel [!DNL Analytics
 
 Un buen tablero ejecutivo debe ser sencillo y tener en cuenta puntos clave. Agregando solo KPI a la primera pantalla de un panel de [!DNL Analytics], con un desglose de un nivel opcional para desglosar un KPI en una dimensión a partir de un conjunto predefinido de opciones. El panel [!DNL Analytics] nos permite contar una historia que queremos contar a los ejecutivos.
 
-Incluso si sus jefes no están usando el panel de [!DNL Analytics] directamente, prepare esos KPI en el panel de [!DNL Analytics] y obtenga la respuesta correcta cuando se le pregunte, simplemente se verá bien y bien preparado.Al adoptar [!DNL Adobe Analytics] dentro de una organización, probablemente queramos habilitar a todos los usuarios con todas las capacidades para crear o modificar proyectos de Workspace para su análisis. Sin embargo, hay usuarios con diferentes aptitudes y enfoques, algunos de los cuales solo necesitan consumir datos en algunos proyectos predefinidos de Workspace y no van a realizar ningún análisis más con poca experiencia en [!DNL Adobe Analytics]. El proyecto de solo lectura o el panel de análisis proporcionan una interfaz sencilla con experiencias predefinidas para que accedan a los datos.
+Incluso si sus jefes no están usando el panel de [!DNL Analytics] directamente, prepare esos KPI en el panel de [!DNL Analytics] y obtenga la respuesta correcta cuando se le pregunte, simplemente se verá bien y bien preparado.
+Al adoptar [!DNL Adobe Analytics] dentro de una organización, probablemente queramos habilitar a todos los usuarios con todas las capacidades para crear o modificar proyectos de Workspace para su análisis. Sin embargo, hay usuarios con diferentes aptitudes y enfoques, algunos de los cuales solo necesitan consumir datos en algunos proyectos predefinidos de Workspace y no van a realizar ningún análisis más con poca experiencia en [!DNL Adobe Analytics]. El proyecto de solo lectura o el panel de análisis proporcionan una interfaz sencilla con experiencias predefinidas para que accedan a los datos.
 
 ## Autor
 

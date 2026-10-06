@@ -6,17 +6,35 @@ feature: Administration
 role: Admin
 level: Intermediate, Experienced
 doc-type: Tutorial
-last-substantial-update: 2023-10-16T00:00:00Z
+last-substantial-update: 2023-10-16T00:00:00.000Z
 jira: KT-13877
 thumbnail: KT-13877.jpeg
 exl-id: 088bdcf1-4e49-44a7-ac78-a03742ff680b
-source-git-commit: d78210c6d6f5ec22430770c752495959303a9519
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: d1d0a9cd-295d-4976-8c39-ddae266f240e
+    internal-label: Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '627'
 ht-degree: 1%
-
 ---
-
 # Cree un diagrama de flujo de datos para comprender su pila de tecnología de marketing
 
 Como administrador que se hace cargo de una instancia de [!DNL Marketo Engage] que ha estado activa durante años, es como una misión imposible de auditar y ordenar la instancia de manera eficiente. Cuando [!DNL Adobe] [!DNL Marketo Champion] (2019), Kelly Jo Horton, entró a una instancia establecida hace mucho tiempo, abordó este desafío [creando un diagrama de &quot;Posibles clientes y fuentes de datos&quot;](https://nation.marketo.com/t5/employee-blogs/understand-your-marketing-technology-and-data-create-this/ba-p/296774){target="_blank"} para familiarizarse con el universo de datos. En este tutorial, aprenderá a crear su propio diagrama de flujo de datos basándose en los ejemplos compartidos por Kelly Jo Horton. ¡Conozcamos el ecosistema de MarTech!
@@ -25,7 +43,7 @@ Como administrador que se hace cargo de una instancia de [!DNL Marketo Engage] q
 
 1. **Familiarícese con la pila de tecnología de marketing que heredó de una instancia activa.** Se recomienda a todos los responsables de operaciones de marketing/administradores de operaciones de plataforma que realicen este ejercicio al empezar en una empresa nueva. Este proceso de creación permite a los usuarios administradores ver una imagen completa de los datos y las actividades enviados desde integraciones externas a [!DNL Marketo Engage] y solucionar fácilmente los errores de la API.
 2. **Familiarícese con las partes interesadas clave que administran las integraciones externas.** Una sugerencia que Kelly Jo Horton utiliza para identificar rápidamente a las partes interesadas es hacer referencia a la lista de usuarios de API.
-   1. **Vaya a la ficha &#39;Integración>LaunchPoint&#39; en la sección &#39;Administración&#39;.** Obtenga más información acerca de cómo ir a la ficha &quot;LaunchPoint&quot;: [Crear un servicio personalizado para utilizarlo con la API de REST](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api.html?lang=es){target="_blank"}.
+   1. **Vaya a la ficha &#39;Integración>LaunchPoint&#39; en la sección &#39;Administración&#39;.** Obtenga más información acerca de cómo ir a la ficha &quot;LaunchPoint&quot;: [Crear un servicio personalizado para utilizarlo con la API de REST](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api.html){target="_blank"}.
    2. Busque estadísticas de uso de API por usuario de API en la pestaña Integración > Servicios web de la sección Información de llamada de API. Al hacer clic en el número de llamada de la API, puede ver las llamadas individuales específicas realizadas por cada usuario.
 
 ## Cómo realizar este ejercicio de diagrama de flujo de datos visuales

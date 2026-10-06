@@ -1,5 +1,5 @@
 ---
-title: 'Descargar el libro de estrategias de implementación  [!DNL Adobe Analytics] '
+title: Descargar el manual de implementación de [!DNL Adobe Analytics]
 description: Un Documento de requisitos empresariales (denominado comúnmente BRD) es una documentación muy importante en la que los principales actores, los usuarios empresariales y los usuarios tecnológicos querrán colaborar. Es un sitio para documentar todos los KPI deseados, los requisitos de creación de informes y cualquier punto de datos que desee ver cuando se complete la implementación de AA.
 solution: Analytics
 feature-set: Analytics
@@ -11,13 +11,26 @@ doc-type: article
 thumbnail: 10530.jpg
 kt: 10530
 exl-id: 42679c86-e08f-4dda-8e47-f9880409bad6
-source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1800'
 ht-degree: 0%
-
 ---
-
 # Descargar el manual de implementación de [!DNL Adobe Analytics]
 
 Antes de comenzar, [descargue el manual](assets/aa-implementation-playbook.xlsx).
@@ -105,7 +118,7 @@ Se recomienda mantener este documento lo más simple posible y no saturarlo con 
 >
 >Cree una dimensión de nombre/propiedad de sitio en [!DNL Adobe Analytics]. Tener una dimensión específica (normalmente un eVar) en [!DNL Adobe Analytics] que identifique el nombre del sitio o la aplicación permitirá la segmentación, la resolución de problemas, la creación de grupos de informes virtuales, etc. Las ventajas son infinitas, especialmente cuando se combinan varios sitios en un grupo de informes (global). La clave es garantizar que los equipos de desarrollo siempre fijen este valor en la dimensión de propiedades, incluidas todas las cargas de página (llamadas s.t/trackState) y todos los eventos personalizados (llamadas s.tl/trackAction). Las reglas de procesamiento pueden ser una herramienta útil para configurar estos valores de forma correcta y coherente.
 
-[Vea este vídeo de Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=es){target="_blank"} para obtener más información sobre cómo rellenar el manual de implementación.
+[Vea este vídeo de Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html){target="_blank"} para obtener más información sobre cómo rellenar el manual de implementación.
 
 ## Autores
 
