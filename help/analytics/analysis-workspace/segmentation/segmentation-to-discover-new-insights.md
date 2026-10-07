@@ -1,27 +1,46 @@
 ---
 title: Espere un segmento... Utilice la segmentación para descubrir nuevas perspectivas en Analysis Workspace
-description: Aprenda a utilizar segmentos en  [!DNL Adobe Analytics]  para descubrir nuevas perspectivas de sus visualizaciones de Analysis Workspace y tablas de forma libre.
+description: Aprenda a utilizar segmentos en [!DNL Adobe Analytics] para descubrir nuevas perspectivas de sus visualizaciones de Analysis Workspace y tablas de forma libre.
 feature-set: Analytics
 feature: Segmentation
 role: User
 level: Beginner
 doc-type: Article
-last-substantial-update: 2023-05-16T00:00:00Z
+last-substantial-update: 2023-05-16T00:00:00.000Z
 jira: KT-13268
 thumbnail: KT-13268.jpeg
 exl-id: 3496b6ff-f8d6-48a1-92f4-442a792663e7
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ed6be6bb-75bb-4ea9-9a42-3bcaa65e1bcc
+    internal-label: Personalization
+subfeature_v2:
+  - id: a1d50dda-6d94-4e16-8c30-5eb7181c4650
+    internal-label: Segmentation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 0%
-
+source-wordcount: '866'
+ht-degree: 2%
 ---
-
 # Espere un segmento... Use segmentos para descubrir nuevas perspectivas en Analysis Workspace
 
 Tanto si es un usuario nuevo de [!DNL Adobe Analytics] como si es un profesional experimentado, aprovechará los segmentos bastante en sus proyectos de Analysis Workspace. Como describe [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=es), &quot;los segmentos le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web&quot;. Aunque el resultado básico de esta función es aislar grupos de usuarios, visitas o visitas individuales a su sitio, un analista agudo como usted puede ser creativo con esta herramienta y encontrar nuevas formas de obtener información sobre la actividad del sitio. La lista de opciones posibles es amplia, así que no dude en crear la suya propia y compartirla con otros de su organización o en línea en comunidades como la [[!DNL Adobe Analytics] Comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es) en Experience League o la comunidad [#Measure Slack](https://www.measure.chat/).
 
-Si necesita un repaso rápido sobre cómo crear un segmento, consulte la documentación del Experience League sobre el uso de [Generador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) en Analysis Workspace.
+Si necesita un repaso rápido sobre cómo crear un segmento, consulte la documentación de Experience League sobre el uso de [Generador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) en Analysis Workspace.
 
 ## Comparación y contraste de segmentos
 
@@ -31,7 +50,7 @@ En Analysis Workspace puede comparar dos segmentos usando &quot;[Comparación de
 
 Sin embargo, a veces no necesita un panel de comparación completo para ofrecer perspectivas clave a los usuarios finales. Afortunadamente, algunas funciones también se pueden comparar en un panel estándar.
 
-La [visualización de diagrama de Venn](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=es) puede ayudar a crear una comparación rápida, permitiéndole pasar el ratón por encima y ver las sesiones, pedidos, usuarios, etc. que se superponen. entre 2 y 3 segmentos personalizados. También puede generar segmentos rápidamente haciendo clic con el botón derecho en cualquiera de las secciones superpuestas:
+La [visualización de diagrama de Venn](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=es) puede ayudar a crear una comparación rápida, permitiéndole pasar el ratón por encima y ver las sesiones, pedidos, usuarios, etc. superpuestos entre 2 y 3 segmentos personalizados. También puede generar segmentos rápidamente haciendo clic con el botón derecho en cualquiera de las secciones superpuestas:
 
 ![Segs. 02](assets/s02.png)
 

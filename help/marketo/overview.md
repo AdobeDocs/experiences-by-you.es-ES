@@ -6,13 +6,26 @@ level: Beginner
 doc-type: overview
 solution: Marketo Engage
 exl-id: 5145c189-cc92-4472-bf99-981b43c2c5ba
-source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 16%
-
+source-wordcount: '259'
+ht-degree: 14%
 ---
-
 # Marketo by You: Recursos de los usuarios, para los usuarios.
 
 ¿Lo más potente de [!DNL Adobe] soluciones de Experience Cloud? Tú. Los usuarios que toman los productos, profundizan en ellos y los aplican de formas increíbles e innovadoras para crear experiencias y resultados significativos. Experiencias por usted incluye contenido creado por usuarios comunes que han alcanzado un nivel de experiencia e influencia con sus soluciones de [!DNL Adobe] Experience Cloud. Este conocimiento entre usuarios fomenta la colaboración y el descubrimiento, lo que le permite a usted y a cualquier otro usuario encontrar la inspiración necesaria para aumentar su experiencia con los productos.

@@ -1,22 +1,35 @@
 ---
-title: Desbloquear perspectivas con histogramas; más allá de los promedios en  [!DNL Analytics]
+title: Desbloquear perspectivas con histogramas; más allá de los promedios en [!DNL Analytics]
 description: Descubra el impacto de los histogramas en Analytics para obtener información más allá de los promedios.
 feature-set: Analytics
 feature: Visualizations
 role: User
 level: Experienced
 doc-type: Article
-last-substantial-update: 2023-08-18T00:00:00Z
+last-substantial-update: 2023-08-18T00:00:00.000Z
 jira: KT-13833
 thumbnail: KT-13833.jpeg
 exl-id: 46a9dab2-17f8-435e-949c-45d4a60343f0
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c68cd75e-5bca-4bc3-a60e-9e183f816441
+    internal-label: Experience Manager Cloud Manager
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 1%
-
 ---
-
 # Desbloquear perspectivas con histogramas: más allá de los promedios en [!DNL Analytics]
 
 _Descubra el impacto de los histogramas en Analytics para obtener perspectivas que superan los promedios. Los histogramas revelan patrones de datos en el comportamiento de los clientes, la participación del visitante, el rendimiento técnico y los errores de formulario, lo que permite obtener perspectivas más profundas y tomar decisiones informadas en [!DNL Adobe] Workspace._

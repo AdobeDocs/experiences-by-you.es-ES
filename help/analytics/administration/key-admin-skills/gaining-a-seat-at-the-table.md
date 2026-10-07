@@ -1,6 +1,6 @@
 ---
 title: Conseguir un asiento en la mesa
-description: Consiguiendo un asiento en la mesa. Esta frase popular ha sido un tema candente en el mundo de los negocios desde hace años. Pero, ¿qué significa? Conseguir un asiento en la mesa significa que usted está incluido en las conversiones de alto nivel en cuanto a toma de decisiones. No solo está invitado, sino que su aportación es valorada y apreciada. Voy a mostrarle cómo conseguir un asiento en la mesa ayudará a su empresa y a su carrera como administrador de  [!DNL Adobe Analytics] Workfront.
+description: Consiguiendo un asiento en la mesa. Esta frase popular ha sido un tema candente en el mundo de los negocios desde hace años. Pero, ¿qué significa? Conseguir un asiento en la mesa significa que usted está incluido en las conversiones de alto nivel en cuanto a toma de decisiones. No solo está invitado, sino que su aportación es valorada y apreciada. Voy a mostrarle cómo conseguir un asiento en la mesa ayudará a su empresa y a su carrera como administrador de [!DNL Adobe Analytics].
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -10,16 +10,26 @@ level: Experienced
 thumbnail: 342070.jpg
 kt: 10132
 exl-id: fa3190e3-836e-4391-9de6-0b733d55825f
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1306'
 ht-degree: 0%
-
 ---
-
 # Conseguir un asiento en la mesa
 
->[!VIDEO](https://video.tv.adobe.com/v/345310/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/345310/?captions=spa&quality=12&learn=on)
 
 &quot;Consiguiendo un asiento en la mesa&quot;. Esta frase popular ha sido un tema candente en el mundo de los negocios desde hace años. Pero, ¿qué significa? Conseguir un asiento en la mesa significa que usted está incluido en las conversiones de alto nivel en cuanto a toma de decisiones. No solo está invitado, sino que su aportación es valorada y apreciada. Voy a mostrarle cómo conseguir un asiento en la mesa ayudará a su empresa y a su carrera como usuario avanzado de [!DNL Adobe Analytics], ya sea que su función oficial sea la de administrador, analista de datos o cualquier otra cosa que indique su tarjeta de presentación.
 
@@ -29,7 +39,7 @@ Primero, vamos a quitar algo de en medio. El papel de los profesionales de los d
 
 Estas son tres razones por las que necesitas estar ahí.
 
-1. **Proporcionas una perspectiva única.**: las mejores decisiones se toman cuando se incluye un conjunto diverso de participantes en el proceso. Cada persona necesita traer una nueva perspectiva. Como experto en el tema de datos de análisis digital, es poco probable que alguien más posea su experiencia única. El liderazgo sería difícil de encontrar en otra persona que pueda proporcionar el mismo valor incremental que usted.
+1. **Proporcionas una perspectiva única.** Las mejores decisiones se toman cuando se incluye un conjunto diverso de participantes en el proceso. Cada persona necesita traer una nueva perspectiva. Como experto en el tema de datos de análisis digital, es poco probable que alguien más posea su experiencia única. El liderazgo sería difícil de encontrar en otra persona que pueda proporcionar el mismo valor incremental que usted.
 1. **Puede ayudar a evitar malinterpretaciones de los datos.** El trabajo que hace es complejo y tiene matices. Es imposible comunicar esos matices con definiciones de métricas y exenciones de responsabilidad de datos. Alguien en la mesa debe tener una comprensión profunda de los datos; de lo contrario, es casi seguro que haya malinterpretaciones. Por lo general, el impacto de esa mala interpretación es menor, pero tal vez no siempre sea el caso. Debe estar en la mesa para evitar malas decisiones basadas en una interpretación errónea de los datos.
 1. **Puede mejorar la comunicación.** Cuando un ejecutivo tiene una pregunta que usted puede responder, es mucho más eficiente que le pregunten a usted directamente. Las preguntas a menudo pierden su contexto y urgencia cuando se redirigen a través de managers de nivel medio. La desconexión también dificulta pedir aclaraciones. Este problema se resuelve si ya está en la reunión. La comunicación directa mejora la velocidad y el valor de su análisis.
 
@@ -52,7 +62,7 @@ Muestre a esta persona que comprende lo que es importante para ellos y que puede
 
 **Paso 3: Sea excelente -** Ahora que ha identificado a sus partes interesadas objetivo y ha determinado cómo ser útil, debe seguir adelante con un excelente trabajo. Cada uno tiene su propia idea de cómo es la excelencia. Puede ser muy diferente para ti que para mí. La clave aquí es ir más allá de lo que normalmente haría usted por cualquier otra persona o cualquier otra solicitud. Aquí hay un par de consejos que me han ayudado a producir un excelente trabajo.
 
-* **Sugerencia 1: Céntrese en el diseño.** Una sugerencia simple que se ignora con demasiada frecuencia es centrarse en el diseño. Tenga cuidado al presentar su trabajo y siga las prácticas recomendadas para el diseño de la información. Esto le ayudará a asegurarse de que su mensaje sea fácil de entender. Cuando entrega un trabajo demasiado complejo sin un mensaje claro, la audiencia se queda con la idea de que no saben nada. A nadie le gusta sentirse estúpido. Y no quieren trabajar con alguien que los haga sentirse estúpidos.
-* **Sugerencia 2: Haga lo imposible.** ¿Alguna vez recibió una solicitud que le pareció imposible? Por lo general, las piden personas que no entienden cómo funcionan los datos. Es fácil reaccionar con diversión (&quot;ja, claramente no tienen idea de lo que están hablando&quot;) o incluso rabia (&quot;¡no puedo creer que quieran que haga eso! ¡Eso es imposible!&quot;). He tenido ambas reacciones más veces de las que puedo contar. Pero cuando doy un paso atrás y abordo el problema con una mente abierta casi siempre me asombra lo que se me ocurre. Si te quedas con un problema el tiempo suficiente, algo bueno suele salir de él. Esto se debe a que cuando algo parece imposible, hay que pensar con creatividad para encontrar una solución. Y pensar fuera de lo común suele llevar a un excelente trabajo.
+* **Sugerencia 1: Céntrese en el diseño.** Una sugerencia sencilla que se ignora con demasiada frecuencia es centrarse en el diseño. Tenga cuidado al presentar su trabajo y siga las prácticas recomendadas para el diseño de la información. Esto le ayudará a asegurarse de que su mensaje sea fácil de entender. Cuando entrega un trabajo demasiado complejo sin un mensaje claro, la audiencia se queda con la idea de que no saben nada. A nadie le gusta sentirse estúpido. Y no quieren trabajar con alguien que los haga sentirse estúpidos.
+* **Sugerencia 2: Haga lo imposible.** ¿Alguna vez ha recibido una solicitud que le pareció imposible? Por lo general, las piden personas que no entienden cómo funcionan los datos. Es fácil reaccionar con diversión (&quot;ja, claramente no tienen idea de lo que están hablando&quot;) o incluso rabia (&quot;¡no puedo creer que quieran que haga eso! ¡Eso es imposible!&quot;). He tenido ambas reacciones más veces de las que puedo contar. Pero cuando doy un paso atrás y abordo el problema con una mente abierta casi siempre me asombra lo que se me ocurre. Si te quedas con un problema el tiempo suficiente, algo bueno suele salir de él. Esto se debe a que cuando algo parece imposible, hay que pensar con creatividad para encontrar una solución. Y pensar fuera de lo común suele llevar a un excelente trabajo.
 
 Espero que este artículo le haya ayudado a darse cuenta de que necesita estar en la mesa. Es probable que le lleve tiempo y tenga que esforzarse. Pero si se adhiere a él y sigue los pasos anteriores, se encontrará en una posición con más autonomía e influencia en su organización. En última instancia, esto le llevará a tener más éxito en su cargo y a disfrutar de una carrera profesional más satisfactoria.

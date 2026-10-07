@@ -6,17 +6,24 @@ level: Beginner
 doc-type: Article
 solution: Marketo Engage
 duration: 0
-last-substantial-update: 2024-05-04T00:00:00Z
+last-substantial-update: 2024-05-04T00:00:00.000Z
 jira: KT-14811
 thumbnail: KT-14811.jpeg
 exl-id: 42b7ca3d-e445-4c11-ad3d-d4e70c101c8e
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
 source-wordcount: '2235'
 ht-degree: 0%
-
 ---
-
 # Sincronizar campos para los conectores nativos de CRM
 
 ¿Utiliza Salesforce o Microsoft Dynamics dentro de su organización? Si es así, con los conectores nativos de CRM de Marketo Engage (es decir, Salesforce, Microsoft Dynamics y Veeva), puede coordinar las actividades de marketing y ventas compartiendo sin problemas información relevante entre Marketo Engage y CRM. Antes de configurar la sincronización inicial de CRM, asegúrese de identificar los campos que desea sincronizar entre los dos sistemas para mantener limpia la base de datos de Marketo Engage.

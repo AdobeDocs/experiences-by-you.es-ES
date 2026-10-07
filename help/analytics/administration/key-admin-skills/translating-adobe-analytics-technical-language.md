@@ -1,6 +1,6 @@
 ---
-title: Traducir  [!DNL Adobe Analytics] idioma técnico de forma no técnica
-description: Con cada vez más ojos puestos en el mundo digital que nunca, existe una creciente necesidad de entender, analizar y actuar con los datos enriquecidos disponibles en su configuración de  [!DNL Adobe Analytics] s. Esta mayor atención puede surgir en un conjunto de partes interesadas que son completamente nuevas en el mundo de las props y las eVars. Como experto de  [!DNL Adobe Analytics] su organización, usted es clave para ayudar a las partes interesadas a comprender los detalles técnicos y sacar el máximo provecho de su inversión en  [!DNL Adobe Analytics] Mapa de la página web.
+title: Traducir [!DNL Adobe Analytics] idioma técnico de forma no técnica
+description: Con cada vez más ojos puestos en el mundo digital que nunca, existe una creciente necesidad de entender, analizar y actuar con los datos enriquecidos disponibles en su configuración de [!DNL Adobe Analytics]. Esta mayor atención puede surgir en un conjunto de partes interesadas que son completamente nuevas en el mundo de las props y las eVars. Como experto en [!DNL Adobe Analytics] de su organización, es fundamental para ayudar a los interesados a comprender los detalles técnicos y sacar el máximo partido de su inversión en [!DNL Adobe Analytics].
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -10,13 +10,23 @@ level: Experienced
 thumbnail: 342066.jpg
 kt: 10128
 exl-id: b26f8b1e-e57d-4684-86c2-7a13f67521e6
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1009'
 ht-degree: 0%
-
 ---
-
 # Traducir [!DNL Adobe Analytics] idioma técnico de forma no técnica
 
 >[!VIDEO](https://video.tv.adobe.com/v/345322/?captions=spa&quality=12&learn=on)
@@ -35,7 +45,8 @@ Por ejemplo, esta es mi forma favorita de explicar las eVars y los métodos de a
 
 >[!TIP]
 >
->**Asigne claramente un nombre a los componentes (es decir, dimensiones, segmentos y métricas) con descripcionesCompartir el diccionario de datos de eVars y props siempre es un buen paso para democratizar los datos de su organización, pero no espere que un usuario casual memorice todas las variables personalizadas y su uso previsto por índice/número. En lugar de ello, en [!DNL Adobe] Workspace, asegúrese de que los nombres de los componentes sean descriptivos y que incluyan descripciones y etiquetas significativas. Esto ayudará a los usuarios a encontrar rápidamente la métrica correcta entre sus cientos de eVars y sus infinitas métricas/segmentos.
+>**Asigne claramente un nombre a los componentes (es decir, dimensiones, segmentos y métricas) con descripciones**
+>Compartir el diccionario de datos de eVars y props siempre es un buen paso para democratizar los datos de su organización, pero no espere que un usuario casual memorice todas las variables personalizadas y su uso previsto por índice/número. En lugar de ello, en [!DNL Adobe] Workspace, asegúrese de que los nombres de los componentes sean descriptivos y que incluyan descripciones y etiquetas significativas. Esto ayudará a los usuarios a encontrar rápidamente la métrica correcta entre sus cientos de eVars y sus infinitas métricas/segmentos.
 
 ## Sugerencia #2: Encuentre un idioma común
 
@@ -45,7 +56,8 @@ En [!DNL The Home Depot], es posible que un comerciante o gerente de tienda no e
 
 >[!TIP]
 >
->**Haga que su implementación refleje ese idioma comúnCasi todo lo que hay en la interfaz de usuario de [!DNL Adobe Analytics] se puede personalizar. Si su organización se refiere a los carros de compras como bolsas de compras, puede cambiar el nombre del evento del carro de compras por bolsa de compras.
+>**Haga que su implementación refleje ese idioma común**
+>Casi todo lo que hay en la interfaz de usuario de [!DNL Adobe Analytics] se puede personalizar. Si su organización se refiere a los carros de compras como bolsas de compras, puede cambiar el nombre del evento del carro de compras por bolsa de compras.
 >
 >Considere la posibilidad de crear su propio vocabulario controlado para su organización si encuentra varios términos sinónimos por ahí o si hay términos que a los usuarios no les suele gustar. Tome la iniciativa de estandarizar la terminología preferida. Y revise los términos confusos más comunes en sus sesiones de incorporación y habilitación para ayudar a los usuarios a aclimatarse.
 
@@ -57,7 +69,8 @@ En [!DNL The Home Depot], pusimos un desafío de [!DNL Adobe Analytics] en el qu
 
 >[!TIP]
 >
->**Crear plantillas y guías de área de trabajo anotadas específicas para solucionesAproveche los informes empresariales (plantillas) y las visualizaciones de texto de Analysis Workspace para crear guías contextuales que ayuden a sus estrellas de rock a seguir el camino correcto.
+>**Crear plantillas y guías de área de trabajo anotadas específicas para soluciones**
+>Aproveche los informes empresariales (plantillas) y las visualizaciones de texto de Analysis Workspace para crear guías contextuales que ayuden a sus estrellas de rock a seguir el camino correcto.
 >
 >La flexibilidad de Analysis Workspace le permite crear plantillas para realizar análisis más rápidos, así como habilitar el autoservicio y la autohabilitación. Al combinar las capacidades de las características como plantillas revisadas, anotaciones y vinculación en cuanto al espacio de trabajo, puede crear directrices eficientes, accesibles y fáciles de difundir entre los usuarios no técnicos en el contexto de [!DNL Adobe Analytics].
 

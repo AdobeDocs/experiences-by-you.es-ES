@@ -1,28 +1,38 @@
 ---
-title: Informes y análisis
-description: Aprenda a navegar por las secciones  [!DNL Analytics]  y Base de datos para extraer diferentes informes predeterminados en  [!DNL Marketo Engage].
+title: Creación de informes y análisis
+description: Obtenga información sobre cómo navegar por las secciones [!DNL Analytics] y Base de datos para extraer diferentes informes predeterminados en [!DNL Marketo Engage].
 role: User
 level: Beginner
 solution: Marketo Engage
 doc-type: Feature Video
-last-substantial-update: 2023-05-11T00:00:00Z
+last-substantial-update: 2023-05-11T00:00:00.000Z
 jira: KT-13219
 thumbnail: 3419295.jpeg
 feature-set: Marketo Engage
 feature: Reporting
 exl-id: d45b2757-bc7f-4085-b374-ea8c1caf1774
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+feature_v2:
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+    internal-label: Reporting
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 749b293ab38b8ea5a5f72517bd5c3455399137c2
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 2%
-
+source-wordcount: '105'
+ht-degree: 4%
 ---
-
 # Informes y análisis
 
 Obtenga información sobre cómo navegar por las secciones [!DNL Analytics] y Base de datos para extraer diferentes informes predeterminados en [!DNL Marketo Engage].
 
->[!VIDEO](https://video.tv.adobe.com/v/3446423/?learn=on&captions=spa){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3446423/?captions=spa&learn=on){transcript=true}
 
 ## Recursos adicionales
 
