@@ -4,23 +4,21 @@ description: Se han reutilizado notas y elementos visuales para anotar una funci
 source-git-commit: 80fc3ded085ce416e9a26aec96f1293701f7d268
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 0%
-
+ht-degree: 1%
 ---
-
 # Fragmentos
 
 ## Amy Chiu {#amy-chiu}
 
 ![Amy Chiu](/help/marketo-tutorial-implementing-new-instance/assets/amy-chiu.png){width="150"}
 
-**Amy Chiu**, directora de marketing de adopción y retención, Adobe
+**Amy Chiu**, directora de marketing de adopción y retención de Adobe
 
 ## Naomi Liu {#naomi-liu}
 
 ![Naomi Liu](/help/marketo-tutorial-implementing-new-instance/assets/naomi-liu.png){width="150"}
 
-**Naomi Liu**, Director, Operaciones de marketing global, Electrónica para imágenes (EFI)
+**Naomi Liu**, Directora de Operaciones de Marketing Global de Electrónica para Imágenes (EFI)
 
 ## Natalie Kremer {#natalie-kremer}
 
@@ -54,7 +52,7 @@ Campeón de Adobe Marketo Engage (2015)
 
 ![Peter Livadas](/help/marketo-tutorial-implementing-new-instance/assets/peter_livadas.png){width="150"}
 
-**Peter Livadas**, Marketo Engage consultor técnico sénior en el Adobe
+**Peter Livadas**, consultor técnico sénior de Marketo Engage en Adobe
 
 ## Sara Barriuso {#sara-barriuso}
 
