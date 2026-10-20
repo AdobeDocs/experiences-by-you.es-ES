@@ -83,7 +83,7 @@ ht-degree: 12%
 
 ## Recursos adicionales
 
-* [Comunidades Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es)
+* [Comunidades Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es&lang=es)
 * [Documentación de Experience Cloud](https://experienceleague.adobe.com/docs/?lang=es)
 * [Tutoriales de Experience Cloud](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=es)
 * [business.adobe.com](https://business.adobe.com/es)
