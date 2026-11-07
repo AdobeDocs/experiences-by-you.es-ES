@@ -48,7 +48,7 @@ El manual de incorporación le ayudará a asumir el cargo de nuevo administrador
 
 Eche un vistazo a estos consejos de su compañero técnico, Rakesh Pasupuleti. Rakesh es un [!DNL Adobe] campeón de Experience Manager, y comparte ideas acerca de cómo usar el manual de incorporación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419299?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3506880?captions=spa&quality=12&learn=on)
 
 ## Recursos adicionales {#additional-resources}
 

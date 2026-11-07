@@ -66,7 +66,7 @@ ht-degree: 12%
   </td>
   <td>
     <a href="/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md">
-      <img alt="Libro de estrategias de AEM as a Cloud Service Onboarding" src="https://video.tv.adobe.com/v/3419299?format=jpeg" />
+      <img alt="Libro de estrategias de AEM as a Cloud Service Onboarding" src="https://video.tv.adobe.com/v/3506880?captions=spa&format=jpeg" />
     </a>
     <div>
       <a href="/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md">
